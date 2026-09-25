@@ -1,0 +1,85 @@
+{
+  "source": "kanoon",
+  "source_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "source_year": 1401,
+  "exam_group": "experimental",
+  "extraction_method": "browser-use-adaptive-rank-sweep",
+  "qa_status": "PASS",
+  "source_recheck_passed": true,
+  "unresolved_source_gaps": false,
+  "regions": {
+    "region-1": {
+      "records": 1972,
+      "min_quota_rank": 1,
+      "max_quota_rank": 52464,
+      "jsonl_sha256": "afa061a0b3602c8e51b26c43ece7d488dde5152056b25147cba306301f1a7697",
+      "source_tsv_sha256": "cb91aac917260da38ecbdac9d4e9d59dae3a0b37e5e1c9c9ac92b93fe809f791",
+      "known_empty_bands": []
+    },
+    "region-2": {
+      "records": 6430,
+      "min_quota_rank": 2,
+      "max_quota_rank": 131596,
+      "jsonl_sha256": "ff78a71b97d57d41d9649791af8b57c6ca09fd160da759ea5e7a67f1fa51d250",
+      "source_tsv_sha256": "3a15ab0a71338bf970f1edc002b7944b34f53adb6e3fef57bbe92d5be6e8dace",
+      "known_empty_bands": []
+    },
+    "region-3": {
+      "records": 5292,
+      "min_quota_rank": 2,
+      "max_quota_rank": 129559,
+      "jsonl_sha256": "54912f4e6cdf68b665a90b6a4912cf81223ae6fe5b74ad2bca80f460f89f2d2b",
+      "source_tsv_sha256": "015fce615281b7abed93626f5e6e51b5eaf7ca1cb81dc1364a3dd19c740ff0a6",
+      "known_empty_bands": []
+    }
+  },
+  "known_empty_bands": {},
+  "tail_probes": {
+    "region-1": {
+      "last_nonzero_query_rank": 56661,
+      "last_nonzero_interval": [
+        51542,
+        52464
+      ],
+      "zero_result_query_ranks": [
+        65161,
+        81452
+      ]
+    },
+    "region-2": {
+      "last_nonzero_query_rank": 140807,
+      "last_nonzero_interval": [
+        131596,
+        131596
+      ],
+      "zero_result_query_ranks": [
+        161929,
+        202412
+      ]
+    },
+    "region-3": {
+      "last_nonzero_query_rank": 138628,
+      "last_nonzero_interval": [
+        125673,
+        129559
+      ],
+      "zero_result_query_ranks": [
+        159423,
+        199279
+      ]
+    }
+  },
+  "sort_order": [
+    "quota_rank asc",
+    "national_rank asc",
+    "accepted_raw asc",
+    "city asc",
+    "gender asc",
+    "kanoon_score asc"
+  ],
+  "hash_definitions": {
+    "source_row_hash": "SHA-256 of the original TSV data fields joined by tab in source column order.",
+    "fingerprint": "SHA-256 of compact UTF-8 canonical JSON containing source metadata and all source fields, with sorted keys."
+  },
+  "total_records": 13694
+}
