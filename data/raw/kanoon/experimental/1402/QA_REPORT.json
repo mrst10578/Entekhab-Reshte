@@ -1,0 +1,111 @@
+{
+  "source": "kanoon",
+  "source_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "source_year": 1402,
+  "exam_group": "experimental",
+  "qa_status": "PASS_WITH_FORMATTING_NOTE",
+  "source_recheck_passed": true,
+  "combined_unique_records": 3381,
+  "regions": {
+    "region-1": {
+      "records": 620,
+      "min_quota_rank": 1,
+      "max_quota_rank": 28976,
+      "jsonl_sha256": "6dbdf0f3a5997c7b2cd1d5500bc5f65ec0edc7188da52bf82ade4e4f82011bd1",
+      "source_tsv_sha256": "a2efc98221ad5aa1a5304563933c86f410c045e876333a21f87c84404840cde0",
+      "known_empty_bands": []
+    },
+    "region-2": {
+      "records": 1598,
+      "min_quota_rank": 3,
+      "max_quota_rank": 78608,
+      "jsonl_sha256": "ec87e54fe01f45d7bc1f915541fe3d5bbf5a99108d60070797a294566ea26bb2",
+      "source_tsv_sha256": "e8d6db5b444cbb6abc2e99732305afc724ab8c668e837116a474edd0771a9f88",
+      "known_empty_bands": [
+        [
+          62406,
+          76213
+        ]
+      ]
+    },
+    "region-3": {
+      "records": 1163,
+      "min_quota_rank": 1,
+      "max_quota_rank": 83482,
+      "jsonl_sha256": "5cb7e8e06f266e7cc81f8677a15a7814dc24315e1b76641c690aaacf5dfab628",
+      "source_tsv_sha256": "e551782e96a80dacc99ff814b5bd48ec4aa58e233a83bd01a26d41f87c22d9e5",
+      "known_empty_bands": [
+        [
+          57611,
+          76069
+        ]
+      ]
+    }
+  },
+  "known_empty_bands": {
+    "region-2": [
+      [
+        62406,
+        76213
+      ]
+    ],
+    "region-3": [
+      [
+        57611,
+        76069
+      ]
+    ]
+  },
+  "tail_probes": {
+    "region-1": {
+      "last_nonzero_query_rank": 31004,
+      "last_nonzero_interval": [
+        28976,
+        28976
+      ],
+      "zero_result_query_ranks": [
+        35655,
+        44569
+      ]
+    },
+    "region-2": {
+      "last_nonzero_query_rank": 85000,
+      "last_nonzero_interval": [
+        78608,
+        78608
+      ],
+      "zero_result_query_ranks": [
+        90000,
+        95000
+      ]
+    },
+    "region-3": {
+      "last_nonzero_query_rank": 90000,
+      "last_nonzero_interval": [
+        83482,
+        83482
+      ],
+      "zero_result_query_ranks": [
+        100000,
+        110000
+      ]
+    }
+  },
+  "findings": {
+    "missing_rows": 0,
+    "unexpected_extra_rows": 0,
+    "duplicate_problems": 0,
+    "wrong_region_rows": 0,
+    "unresolved_source_gaps": 0,
+    "blocking_issues": 0
+  },
+  "formatting_only_note": {
+    "field": "accepted_raw",
+    "quota_ranks": [
+      20029,
+      20557,
+      52170
+    ],
+    "description": "Public HTML rendered one extra space; TSV text uses the same visible value with a single space."
+  }
+}

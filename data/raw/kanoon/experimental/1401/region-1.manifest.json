@@ -1,0 +1,26 @@
+{
+  "source": "kanoon",
+  "source_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "source_year": 1401,
+  "exam_group": "experimental",
+  "quota_region": "منطقه 1",
+  "records": 1972,
+  "min_quota_rank": 1,
+  "max_quota_rank": 52464,
+  "sha256": "afa061a0b3602c8e51b26c43ece7d488dde5152056b25147cba306301f1a7697",
+  "extraction_method": "browser-use-adaptive-rank-sweep",
+  "source_recheck_passed": true,
+  "qa_status": "PASS",
+  "known_empty_bands": [],
+  "unresolved_source_gaps": false,
+  "source_tsv": "outputs/experimental-1401-region-1.tsv",
+  "source_tsv_sha256": "cb91aac917260da38ecbdac9d4e9d59dae3a0b37e5e1c9c9ac92b93fe809f791",
+  "sort_order": [
+    "quota_rank asc",
+    "national_rank asc",
+    "accepted_raw asc",
+    "city asc",
+    "gender asc",
+    "kanoon_score asc"
+  ]
+}
