@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "dataset": "kanoon-admissions",
+  "year": 1404,
+  "group": "experimental",
+  "source_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "endpoint_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+  "source_parameters": {
+    "year": "104",
+    "group": "2",
+    "report_type": "3"
+  },
+  "fields": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "extraction": {
+    "method": "public page POST flow",
+    "adaptive_overlap": {
+      "adaptive": "next query is previous returned max quota rank when that advances; if endpoint repeats a window behind the query, advance by the returned window width to escape the repetition",
+      "overlap": "returned windows are checked for overlap; normal progression queries the prior interval upper endpoint",
+      "dedupe": "exact JSON tuple of seven requested fields",
+      "empty_band_probes": "after an apparent empty band, probe q+1, q+100, q+1000, q+10000 and q+100000 unless a non-empty result resumes the sweep",
+      "tail_confirmation": "two higher query ranks returning zero after the last non-empty window"
+    },
+    "captcha_or_antibot_bypass": false,
+    "blocked": false
+  },
+  "regions": {
+    "1": {
+      "row_count": 853,
+      "quota_rank_range": [
+        2,
+        46149
+      ],
+      "national_rank_range": [
+        3,
+        219149
+      ],
+      "kanoon_score_range": [
+        4022,
+        8059
+      ],
+      "sha256": "16701b961bb9c4cd1157a302eeffbb75a47bd531b63bb614f866c74592a62863",
+      "query_count": 77,
+      "adaptive_sweep_query_count": 69,
+      "supplemental_probe_count": 8,
+      "tail_confirmed": true,
+      "tail_zero_query_ranks": [
+        51377,
+        51476,
+        52376,
+        61376,
+        151376
+      ],
+      "empty_band": {
+        "band": [
+          46150,
+          51376
+        ],
+        "evidence": "Queries 46150, 47000, 48000, 49000, 50000 and 51000 returned only records at or below quota rank 46149; queries 51377, 51476 and 52376 returned zero."
+      },
+      "blocked": false
+    },
+    "2": {
+      "row_count": 1861,
+      "quota_rank_range": [
+        1,
+        90983
+      ],
+      "national_rank_range": [
+        2,
+        226931
+      ],
+      "kanoon_score_range": [
+        4012,
+        8069
+      ],
+      "sha256": "025c4b992295553c34da7cb57a8374737ef5dc6566fb968eced69c1628ee7ddf",
+      "query_count": 270,
+      "adaptive_sweep_query_count": 254,
+      "supplemental_probe_count": 16,
+      "tail_confirmed": true,
+      "tail_zero_query_ranks": [
+        101184,
+        101283,
+        102183,
+        111183,
+        201183
+      ],
+      "empty_band": {
+        "band": [
+          70525,
+          90982
+        ],
+        "evidence": "Queries 70525 and 75000 returned only the prior rank 70524; queries 78525 and 80000 returned zero; the next returned record was rank 90983 at queries 85000 and 90000."
+      },
+      "blocked": false
+    },
+    "3": {
+      "row_count": 1556,
+      "quota_rank_range": [
+        1,
+        89774
+      ],
+      "national_rank_range": [
+        5,
+        229529
+      ],
+      "kanoon_score_range": [
+        4018,
+        8542
+      ],
+      "sha256": "61ecdadea6ebb0db97eff004e4e77b67eb2200038316b5a5d4b78b69d797cd2b",
+      "query_count": 198,
+      "adaptive_sweep_query_count": 182,
+      "supplemental_probe_count": 16,
+      "tail_confirmed": true,
+      "tail_zero_query_ranks": [
+        99875,
+        99974,
+        100874,
+        109874,
+        199874
+      ],
+      "empty_band": {
+        "band": [
+          65430,
+          89773
+        ],
+        "evidence": "Queries 65430 and 70000 returned only records at or below rank 65429; queries 72789, 75000 and 80000 returned zero; the next returned record was rank 89774 at query 85000."
+      },
+      "blocked": false
+    }
+  },
+  "combined_row_count": 4270,
+  "exact_dedupe": true,
+  "qa_report": "QA_REPORT.json",
+  "generated_files": [
+    "data/raw/kanoon/experimental/1404/region-1.jsonl",
+    "data/raw/kanoon/experimental/1404/region-1.manifest.json",
+    "data/raw/kanoon/experimental/1404/region-2.jsonl",
+    "data/raw/kanoon/experimental/1404/region-2.manifest.json",
+    "data/raw/kanoon/experimental/1404/region-3.jsonl",
+    "data/raw/kanoon/experimental/1404/region-3.manifest.json",
+    "stage-summary.json",
+    "QA_REPORT.json",
+    "reports/data-system/EXPERIMENTAL_1404_COMPLETION_REPORT.md"
+  ]
+}
