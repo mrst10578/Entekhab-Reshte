@@ -1,0 +1,97 @@
+{
+  "schema": "loprax.ranklab.raw.v1",
+  "dataset": "kanoon.math.1403",
+  "region": 3,
+  "source": {
+    "rendered_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+    "parameters": {
+      "dept": "1",
+      "year": "103",
+      "type": "3",
+      "sahmieh": "1|2|3",
+      "rank": "adaptive"
+    },
+    "access": "public rendered page and same-origin POST behavior; no CAPTCHA, anti-bot, or access-control bypass"
+  },
+  "fields": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "encoding": "UTF-8",
+  "format": "JSONL",
+  "ordering": [
+    "national_rank",
+    "quota_rank",
+    "kanoon_score",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "exact_dedupe_key": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "row_count": 516,
+  "raw_rows_returned": 2329,
+  "national_rank_range": [
+    4,
+    98961
+  ],
+  "quota_rank_range": [
+    1,
+    24055
+  ],
+  "jsonl_bytes": 113985,
+  "jsonl_sha256": "8de1e5f81e9ea5e4c9068c90cf0e6d8726ea3ba9cc99f4168eb2ca979a84b35a",
+  "row_fingerprint_sha256": "4226dbd98d147a05d1eeaf7d2b4d394493f48d4164cefc8378d8d96d9f208dec",
+  "row_key_fingerprint_sha256": "b54639390cc6da67145d740cd9fff463c83d11f0de3dbfc42fd6de11b4a27685",
+  "query_log_fingerprint_sha256": "7440eb3c266c7e9a369b8b92b4de55d7a33ac40c29a9139dece51ce347520b7c",
+  "extraction": {
+    "query_count": 149,
+    "nonempty_query_count": 128,
+    "empty_query_count": 21,
+    "raw_rows_returned": 2329,
+    "query_rank_range": [
+      1,
+      58002
+    ],
+    "empty_query_ranks": [
+      26800,
+      27200,
+      27600,
+      27896,
+      27896,
+      29291,
+      29291,
+      30756,
+      32294,
+      33909,
+      35605,
+      37386,
+      39256,
+      41219,
+      43280,
+      45444,
+      47717,
+      50103,
+      52609,
+      55240,
+      58002
+    ],
+    "http_statuses": [
+      200
+    ],
+    "errors": []
+  }
+}

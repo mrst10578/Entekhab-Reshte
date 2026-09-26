@@ -1,0 +1,79 @@
+{
+  "schema": "loprax.ranklab.stage-summary.v1",
+  "dataset": "kanoon.math.1403",
+  "source": {
+    "rendered_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+    "parameters": {
+      "dept": "1",
+      "year": "103",
+      "type": "3",
+      "sahmieh": "1|2|3",
+      "rank": "adaptive"
+    },
+    "access": "public rendered page and same-origin POST behavior; no CAPTCHA, anti-bot, or access-control bypass"
+  },
+  "combined_total": 1811,
+  "regions": [
+    {
+      "region": 1,
+      "row_count": 406,
+      "jsonl_path": "data/raw/kanoon/math/1403/region-1.jsonl",
+      "manifest_path": "data/raw/kanoon/math/1403/region-1.manifest.json",
+      "jsonl_sha256": "be43791a2a9d82b64a473c6f9b9a5225abdba2a32efa613fe48f9524501c0a08"
+    },
+    {
+      "region": 2,
+      "row_count": 889,
+      "jsonl_path": "data/raw/kanoon/math/1403/region-2.jsonl",
+      "manifest_path": "data/raw/kanoon/math/1403/region-2.manifest.json",
+      "jsonl_sha256": "3ce546a2d0fc43d7fe97575ebca7bc0e7c078b75c5914c369a0123f8e64eafbe"
+    },
+    {
+      "region": 3,
+      "row_count": 516,
+      "jsonl_path": "data/raw/kanoon/math/1403/region-3.jsonl",
+      "manifest_path": "data/raw/kanoon/math/1403/region-3.manifest.json",
+      "jsonl_sha256": "8de1e5f81e9ea5e4c9068c90cf0e6d8726ea3ba9cc99f4168eb2ca979a84b35a"
+    }
+  ],
+  "artifacts": [
+    "data/raw/kanoon/math/1403/region-1.jsonl",
+    "data/raw/kanoon/math/1403/region-1.manifest.json",
+    "data/raw/kanoon/math/1403/region-2.jsonl",
+    "data/raw/kanoon/math/1403/region-2.manifest.json",
+    "data/raw/kanoon/math/1403/region-3.jsonl",
+    "data/raw/kanoon/math/1403/region-3.manifest.json",
+    "data/raw/kanoon/math/1403/QA_REPORT.json",
+    "reports/data-system/MATH_1403_COMPLETION_REPORT.md"
+  ],
+  "validation": {
+    "regions": {
+      "1": {
+        "parses_jsonl": true,
+        "row_count_matches_manifest": true,
+        "exact_dedupe_holds": true,
+        "sort_order_holds": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches_manifest": true
+      },
+      "2": {
+        "parses_jsonl": true,
+        "row_count_matches_manifest": true,
+        "exact_dedupe_holds": true,
+        "sort_order_holds": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches_manifest": true
+      },
+      "3": {
+        "parses_jsonl": true,
+        "row_count_matches_manifest": true,
+        "exact_dedupe_holds": true,
+        "sort_order_holds": true,
+        "sha256_matches_manifest": true,
+        "byte_count_matches_manifest": true
+      }
+    },
+    "all_pass": true
+  }
+}

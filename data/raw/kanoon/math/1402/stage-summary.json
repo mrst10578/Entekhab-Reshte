@@ -1,0 +1,320 @@
+{
+  "schema_version": "loprax-ranklab/1",
+  "dataset_id": "kanoon-math-1402",
+  "stage": "raw-source-extraction-and-validation",
+  "retrieved_at_utc": "2026-09-26T08:39:16Z",
+  "source_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "post_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+  "regions": {
+    "1": {
+      "region": 1,
+      "row_count": 408,
+      "quota_rank_range": {
+        "min": 1,
+        "max": 28341
+      },
+      "national_rank_range": {
+        "min": 1,
+        "max": 76867
+      },
+      "distinct_quota_rank_count": 380,
+      "query_count": 372,
+      "nonempty_query_count": 370,
+      "source_empty_query_count": 2,
+      "extraction_gap_count": 0,
+      "max_query_step": 150,
+      "tail_zero_probes": [
+        {
+          "query_rank": 31601,
+          "status": 200,
+          "response_bytes": 1347,
+          "row_count": 0,
+          "lower_window_bound_estimate": 28440.9,
+          "confirmed_above_max_quota_rank": true
+        },
+        {
+          "query_rank": 31676,
+          "status": 200,
+          "response_bytes": 1347,
+          "row_count": 0,
+          "lower_window_bound_estimate": 28508.4,
+          "confirmed_above_max_quota_rank": true
+        }
+      ],
+      "input_query_fingerprint": "7b3bfc15731e3bacaf59d4ca0331dbe38b33ac5057f7c79fafb8cc3215f05ed0",
+      "coverage_assertions": {
+        "starts_at_rank_1": true,
+        "maximum_query_step_le_150": true,
+        "public_window_overlap_preserved": true,
+        "tail_two_zero_rule_satisfied": true
+      },
+      "raw_input_row_count": 408,
+      "exact_dedupe_count": 408
+    },
+    "2": {
+      "region": 2,
+      "row_count": 721,
+      "quota_rank_range": {
+        "min": 1,
+        "max": 33211
+      },
+      "national_rank_range": {
+        "min": 2,
+        "max": 84201
+      },
+      "distinct_quota_rank_count": 673,
+      "query_count": 394,
+      "nonempty_query_count": 392,
+      "source_empty_query_count": 2,
+      "extraction_gap_count": 0,
+      "max_query_step": 150,
+      "tail_zero_probes": [
+        {
+          "query_rank": 37026,
+          "status": 200,
+          "response_bytes": 1347,
+          "row_count": 0,
+          "lower_window_bound_estimate": 33323.4,
+          "confirmed_above_max_quota_rank": true
+        },
+        {
+          "query_rank": 37101,
+          "status": 200,
+          "response_bytes": 1347,
+          "row_count": 0,
+          "lower_window_bound_estimate": 33390.9,
+          "confirmed_above_max_quota_rank": true
+        }
+      ],
+      "input_query_fingerprint": "0bf33da2a41fa3933a327b91a6a2a061efe138bcf7caa49b958afe5287baa1e3",
+      "coverage_assertions": {
+        "starts_at_rank_1": true,
+        "maximum_query_step_le_150": true,
+        "public_window_overlap_preserved": true,
+        "tail_two_zero_rule_satisfied": true
+      },
+      "raw_input_row_count": 721,
+      "exact_dedupe_count": 721
+    },
+    "3": {
+      "region": 3,
+      "row_count": 409,
+      "quota_rank_range": {
+        "min": 1,
+        "max": 29279
+      },
+      "national_rank_range": {
+        "min": 5,
+        "max": 449959
+      },
+      "distinct_quota_rank_count": 389,
+      "query_count": 381,
+      "nonempty_query_count": 379,
+      "source_empty_query_count": 2,
+      "extraction_gap_count": 0,
+      "max_query_step": 150,
+      "tail_zero_probes": [
+        {
+          "query_rank": 32626,
+          "status": 200,
+          "response_bytes": 1347,
+          "row_count": 0,
+          "lower_window_bound_estimate": 29363.4,
+          "confirmed_above_max_quota_rank": true
+        },
+        {
+          "query_rank": 32701,
+          "status": 200,
+          "response_bytes": 1347,
+          "row_count": 0,
+          "lower_window_bound_estimate": 29430.9,
+          "confirmed_above_max_quota_rank": true
+        }
+      ],
+      "input_query_fingerprint": "991395bd7624a18172a84825393d0a0276ffda9b5e72974a8e405519fe6ddcd3",
+      "coverage_assertions": {
+        "starts_at_rank_1": true,
+        "maximum_query_step_le_150": true,
+        "public_window_overlap_preserved": true,
+        "tail_two_zero_rule_satisfied": true
+      },
+      "raw_input_row_count": 409,
+      "exact_dedupe_count": 409
+    }
+  },
+  "combined_exact_deduped_total": 1538,
+  "confirmed_source_empty_bands": {
+    "1": [
+      {
+        "from_quota_rank": 23463,
+        "to_quota_rank": 28341,
+        "missing_rank_count": 4877,
+        "width": 4877,
+        "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+        "probe_count": 3,
+        "probe_ranks": [
+          24500,
+          26000,
+          27500
+        ],
+        "probe_inside_band_row_counts": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "from_quota_rank": 19154,
+        "to_quota_rank": 21411,
+        "missing_rank_count": 2256,
+        "width": 2256,
+        "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+        "probe_count": 3,
+        "probe_ranks": [
+          19500,
+          20250,
+          21000
+        ],
+        "probe_inside_band_row_counts": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "from_quota_rank": 13653,
+        "to_quota_rank": 15720,
+        "missing_rank_count": 2066,
+        "width": 2066,
+        "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+        "probe_count": 3,
+        "probe_ranks": [
+          13800,
+          14650,
+          15550
+        ],
+        "probe_inside_band_row_counts": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "2": [
+      {
+        "from_quota_rank": 26790,
+        "to_quota_rank": 30478,
+        "missing_rank_count": 3687,
+        "width": 3687,
+        "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+        "probe_count": 3,
+        "probe_ranks": [
+          27000,
+          28600,
+          30200
+        ],
+        "probe_inside_band_row_counts": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "from_quota_rank": 12752,
+        "to_quota_rank": 14407,
+        "missing_rank_count": 1654,
+        "width": 1654,
+        "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+        "probe_count": 3,
+        "probe_ranks": [
+          12900,
+          13550,
+          14250
+        ],
+        "probe_inside_band_row_counts": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "from_quota_rank": 16413,
+        "to_quota_rank": 17989,
+        "missing_rank_count": 1575,
+        "width": 1575,
+        "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+        "probe_count": 3,
+        "probe_ranks": [
+          16550,
+          17200,
+          17850
+        ],
+        "probe_inside_band_row_counts": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "3": [
+      {
+        "from_quota_rank": 24232,
+        "to_quota_rank": 29279,
+        "missing_rank_count": 5046,
+        "width": 5046,
+        "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+        "probe_count": 3,
+        "probe_ranks": [
+          24500,
+          26600,
+          29100
+        ],
+        "probe_inside_band_row_counts": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "from_quota_rank": 19360,
+        "to_quota_rank": 21770,
+        "missing_rank_count": 2409,
+        "width": 2409,
+        "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+        "probe_count": 3,
+        "probe_ranks": [
+          19500,
+          20550,
+          21600
+        ],
+        "probe_inside_band_row_counts": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "from_quota_rank": 16815,
+        "to_quota_rank": 18880,
+        "missing_rank_count": 2064,
+        "width": 2064,
+        "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+        "probe_count": 3,
+        "probe_ranks": [
+          17000,
+          17850,
+          18750
+        ],
+        "probe_inside_band_row_counts": [
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "errors": [],
+    "pass": true
+  }
+}

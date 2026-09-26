@@ -1,0 +1,40 @@
+{
+  "schema_version": "ranklab.kanoon.stage-summary.v1",
+  "dataset": "kanoon_math_1404",
+  "source_urls": [
+    "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors"
+  ],
+  "regions": {
+    "1": {
+      "rows": 497,
+      "jsonl": {
+        "path": "data/raw/kanoon/math/1404/region-1.jsonl",
+        "bytes": 103833,
+        "sha256": "493e5a486a03560f4cb0e859f9abc3d1cf3de493273c0b7edc9b9e21880c17d2"
+      },
+      "manifest": "data/raw/kanoon/math/1404/region-1.manifest.json"
+    },
+    "2": {
+      "rows": 793,
+      "jsonl": {
+        "path": "data/raw/kanoon/math/1404/region-2.jsonl",
+        "bytes": 164832,
+        "sha256": "9ca11b039959b1b759cab00dbbd96bc4f83033f7618c11ad6a0d1aa4176645cc"
+      },
+      "manifest": "data/raw/kanoon/math/1404/region-2.manifest.json"
+    },
+    "3": {
+      "rows": 603,
+      "jsonl": {
+        "path": "data/raw/kanoon/math/1404/region-3.jsonl",
+        "bytes": 127403,
+        "sha256": "85a6b220686ec5dfe2f2d05b600250f0a6680071a5c6940c42a58d45ffc8489d"
+      },
+      "manifest": "data/raw/kanoon/math/1404/region-3.manifest.json"
+    }
+  },
+  "combined_exact_deduplicated_rows": 1893,
+  "qa_report": "data/raw/kanoon/math/1404/QA_REPORT.json",
+  "completion_report": "reports/data-system/MATH_1404_COMPLETION_REPORT.md"
+}

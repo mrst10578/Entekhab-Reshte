@@ -1,0 +1,514 @@
+{
+  "schema_version": "ranklab.kanoon.raw.v1",
+  "dataset": "kanoon_math_1404",
+  "exam_group": {
+    "id": 1,
+    "en": "mathematics",
+    "fa": "ریاضی"
+  },
+  "year": 1404,
+  "year_code": 104,
+  "quota_region": 1,
+  "canonical_fields": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "sort_order": [
+    "quota_rank",
+    "national_rank",
+    "kanoon_score",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "source": {
+    "page_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+    "request": {
+      "dept": "1",
+      "sahmieh": "1",
+      "year": "104",
+      "type": "3"
+    }
+  },
+  "workflow": {
+    "name": "LoPRax RankLab",
+    "access": "Public rendered page and public POST endpoint only; no CAPTCHA, anti-bot, or access-control bypass",
+    "sweep": "Conservative 100-target stride plus adaptive max(100, floor(max(100, 10% of target))) stride with overlapping windows",
+    "endpoint_window": "Empirically max(100, approximately 10% of target) on each side",
+    "tail_rule": "Two higher target ranks returning zero rows"
+  },
+  "extraction": {
+    "source_generated_at_utc": "2026-09-26T08:33:42.140Z",
+    "adaptive_trace_generated_at_utc": "2026-09-26T08:36:05.352Z",
+    "fixed_query_count": 397,
+    "adaptive_query_count": 50,
+    "total_query_count": 447,
+    "raw_rows_returned_all_queries": 6652,
+    "exact_duplicate_rows_removed": 6155,
+    "parse_error_count": 0,
+    "fixed_scan": {
+      "last_target": 36801,
+      "nonempty_queries": 367,
+      "zero_queries": 2,
+      "tail_zero_targets": [
+        36701,
+        36801
+      ],
+      "raw_rows": 5118,
+      "unique_rows": 497,
+      "max_quota_rank": 32978,
+      "quota_rank_gaps": [
+        {
+          "from": 4291,
+          "to": 4571,
+          "prev": 4290,
+          "next": 4572,
+          "width": 281
+        },
+        {
+          "from": 5293,
+          "to": 5527,
+          "prev": 5292,
+          "next": 5528,
+          "width": 235
+        },
+        {
+          "from": 6680,
+          "to": 6927,
+          "prev": 6679,
+          "next": 6928,
+          "width": 248
+        },
+        {
+          "from": 7765,
+          "to": 8163,
+          "prev": 7764,
+          "next": 8164,
+          "width": 399
+        },
+        {
+          "from": 8425,
+          "to": 8722,
+          "prev": 8424,
+          "next": 8723,
+          "width": 298
+        },
+        {
+          "from": 9069,
+          "to": 9456,
+          "prev": 9068,
+          "next": 9457,
+          "width": 388
+        },
+        {
+          "from": 9599,
+          "to": 10064,
+          "prev": 9598,
+          "next": 10065,
+          "width": 466
+        },
+        {
+          "from": 10696,
+          "to": 11053,
+          "prev": 10695,
+          "next": 11054,
+          "width": 358
+        },
+        {
+          "from": 11126,
+          "to": 11587,
+          "prev": 11125,
+          "next": 11588,
+          "width": 462
+        },
+        {
+          "from": 11604,
+          "to": 11833,
+          "prev": 11603,
+          "next": 11834,
+          "width": 230
+        },
+        {
+          "from": 12554,
+          "to": 12869,
+          "prev": 12553,
+          "next": 12870,
+          "width": 316
+        },
+        {
+          "from": 12871,
+          "to": 13081,
+          "prev": 12870,
+          "next": 13082,
+          "width": 211
+        },
+        {
+          "from": 13159,
+          "to": 13364,
+          "prev": 13158,
+          "next": 13365,
+          "width": 206
+        },
+        {
+          "from": 13580,
+          "to": 14177,
+          "prev": 13579,
+          "next": 14178,
+          "width": 598
+        },
+        {
+          "from": 14360,
+          "to": 14625,
+          "prev": 14359,
+          "next": 14626,
+          "width": 266
+        },
+        {
+          "from": 14985,
+          "to": 15385,
+          "prev": 14984,
+          "next": 15386,
+          "width": 401
+        },
+        {
+          "from": 15409,
+          "to": 15657,
+          "prev": 15408,
+          "next": 15658,
+          "width": 249
+        },
+        {
+          "from": 16231,
+          "to": 16455,
+          "prev": 16230,
+          "next": 16456,
+          "width": 225
+        },
+        {
+          "from": 16745,
+          "to": 16985,
+          "prev": 16744,
+          "next": 16986,
+          "width": 241
+        },
+        {
+          "from": 17356,
+          "to": 17736,
+          "prev": 17355,
+          "next": 17737,
+          "width": 381
+        },
+        {
+          "from": 17773,
+          "to": 18023,
+          "prev": 17772,
+          "next": 18024,
+          "width": 251
+        },
+        {
+          "from": 18025,
+          "to": 18289,
+          "prev": 18024,
+          "next": 18290,
+          "width": 265
+        },
+        {
+          "from": 19184,
+          "to": 19497,
+          "prev": 19183,
+          "next": 19498,
+          "width": 314
+        },
+        {
+          "from": 19499,
+          "to": 20016,
+          "prev": 19498,
+          "next": 20017,
+          "width": 518
+        },
+        {
+          "from": 20091,
+          "to": 20398,
+          "prev": 20090,
+          "next": 20399,
+          "width": 308
+        },
+        {
+          "from": 20400,
+          "to": 20970,
+          "prev": 20399,
+          "next": 20971,
+          "width": 571
+        },
+        {
+          "from": 20972,
+          "to": 21647,
+          "prev": 20971,
+          "next": 21648,
+          "width": 676
+        },
+        {
+          "from": 21732,
+          "to": 22069,
+          "prev": 21731,
+          "next": 22070,
+          "width": 338
+        },
+        {
+          "from": 22071,
+          "to": 22363,
+          "prev": 22070,
+          "next": 22364,
+          "width": 293
+        },
+        {
+          "from": 22365,
+          "to": 23334,
+          "prev": 22364,
+          "next": 23335,
+          "width": 970
+        },
+        {
+          "from": 23336,
+          "to": 24002,
+          "prev": 23335,
+          "next": 24003,
+          "width": 667
+        },
+        {
+          "from": 24004,
+          "to": 24270,
+          "prev": 24003,
+          "next": 24271,
+          "width": 267
+        },
+        {
+          "from": 24272,
+          "to": 25106,
+          "prev": 24271,
+          "next": 25107,
+          "width": 835
+        },
+        {
+          "from": 25108,
+          "to": 26043,
+          "prev": 25107,
+          "next": 26044,
+          "width": 936
+        },
+        {
+          "from": 26045,
+          "to": 26883,
+          "prev": 26044,
+          "next": 26884,
+          "width": 839
+        },
+        {
+          "from": 26885,
+          "to": 27108,
+          "prev": 26884,
+          "next": 27109,
+          "width": 224
+        },
+        {
+          "from": 27110,
+          "to": 27532,
+          "prev": 27109,
+          "next": 27533,
+          "width": 423
+        },
+        {
+          "from": 27714,
+          "to": 28234,
+          "prev": 27713,
+          "next": 28235,
+          "width": 521
+        },
+        {
+          "from": 28236,
+          "to": 30419,
+          "prev": 28235,
+          "next": 30420,
+          "width": 2184
+        },
+        {
+          "from": 30421,
+          "to": 32877,
+          "prev": 30420,
+          "next": 32878,
+          "width": 2457
+        }
+      ]
+    },
+    "adaptive_scan": {
+      "query_count": 50,
+      "nonempty_queries": 48,
+      "zero_queries": 2,
+      "tail_zero_targets": [
+        37321,
+        41053
+      ],
+      "targets": [
+        1,
+        101,
+        201,
+        301,
+        401,
+        501,
+        601,
+        701,
+        801,
+        901,
+        1001,
+        1101,
+        1211,
+        1332,
+        1465,
+        1611,
+        1772,
+        1949,
+        2143,
+        2357,
+        2592,
+        2851,
+        3136,
+        3449,
+        3793,
+        4172,
+        4589,
+        5047,
+        5551,
+        6106,
+        6716,
+        7387,
+        8125,
+        8937,
+        9830,
+        10813,
+        11894,
+        13083,
+        14391,
+        15830,
+        17413,
+        19154,
+        21069,
+        23175,
+        25492,
+        28041,
+        30845,
+        33929,
+        37321,
+        41053
+      ]
+    }
+  },
+  "ranks": {
+    "national_rank": {
+      "min": 1,
+      "max": 88307
+    },
+    "quota_rank": {
+      "min": 1,
+      "max": 32978
+    }
+  },
+  "counts": {
+    "returned_rows": 6652,
+    "exact_deduplicated_rows": 497,
+    "exact_duplicates_removed": 6155
+  },
+  "empty_band_assessment": {
+    "confirmed_source_empty_bands": [
+      {
+        "from_quota_rank": 33031,
+        "to_quota_rank": 45158,
+        "probe_targets": [
+          36701,
+          36801,
+          37321,
+          40000,
+          41053
+        ],
+        "probe_kinds": [
+          "adaptive_queries",
+          "far_empty_probes",
+          "sweep_queries"
+        ],
+        "evidence": "zero returned rows for every listed target; interval inferred from the observed max(100, floor(10% of target)) window rule"
+      }
+    ],
+    "observed_internal_quota_gaps_count": 437,
+    "observed_internal_quota_gaps_not_directly_confirmed_empty": 437,
+    "note": "Internal gaps are extraction-window gaps unless a zero response window fully covers them; none are treated as source-empty merely because adjacent returned rows are far apart."
+  },
+  "tail_zero_probes": [
+    37321,
+    41053
+  ],
+  "qa": [
+    {
+      "label": "low",
+      "query_rank": 1,
+      "returned_rows": 64,
+      "unique_rows_in_query": 64,
+      "all_unique_query_rows_in_aggregate": true,
+      "sampling_qa_only": true,
+      "note": "Representative query check, not a full independent audit."
+    },
+    {
+      "label": "low-mid",
+      "query_rank": 3449,
+      "returned_rows": 18,
+      "unique_rows_in_query": 18,
+      "all_unique_query_rows_in_aggregate": true,
+      "sampling_qa_only": true,
+      "note": "Representative query check, not a full independent audit."
+    },
+    {
+      "label": "mid",
+      "query_rank": 13083,
+      "returned_rows": 17,
+      "unique_rows_in_query": 17,
+      "all_unique_query_rows_in_aggregate": true,
+      "sampling_qa_only": true,
+      "note": "Representative query check, not a full independent audit."
+    },
+    {
+      "label": "high",
+      "query_rank": 25492,
+      "returned_rows": 10,
+      "unique_rows_in_query": 10,
+      "all_unique_query_rows_in_aggregate": true,
+      "sampling_qa_only": true,
+      "note": "Representative query check, not a full independent audit."
+    },
+    {
+      "label": "near-tail",
+      "query_rank": 33929,
+      "returned_rows": 2,
+      "unique_rows_in_query": 2,
+      "all_unique_query_rows_in_aggregate": true,
+      "sampling_qa_only": true,
+      "note": "Representative query check, not a full independent audit."
+    }
+  ],
+  "parse_errors": [],
+  "files": {
+    "jsonl": {
+      "path": "data/raw/kanoon/math/1404/region-1.jsonl",
+      "bytes": 103833,
+      "sha256": "493e5a486a03560f4cb0e859f9abc3d1cf3de493273c0b7edc9b9e21880c17d2"
+    },
+    "tsv": {
+      "path": "math-1404-region-1.tsv",
+      "bytes": 55203,
+      "sha256": "1596ee15b4b7761ae016a5a206be60ee45bfff8671b76652e148add9ad70e0af"
+    }
+  }
+}

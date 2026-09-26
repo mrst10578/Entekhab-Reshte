@@ -1,0 +1,86 @@
+{
+  "schema": "loprax.ranklab.raw.v1",
+  "dataset": "kanoon.math.1403",
+  "region": 2,
+  "source": {
+    "rendered_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+    "parameters": {
+      "dept": "1",
+      "year": "103",
+      "type": "3",
+      "sahmieh": "1|2|3",
+      "rank": "adaptive"
+    },
+    "access": "public rendered page and same-origin POST behavior; no CAPTCHA, anti-bot, or access-control bypass"
+  },
+  "fields": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "encoding": "UTF-8",
+  "format": "JSONL",
+  "ordering": [
+    "national_rank",
+    "quota_rank",
+    "kanoon_score",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "exact_dedupe_key": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "row_count": 889,
+  "raw_rows_returned": 3831,
+  "national_rank_range": [
+    5,
+    99168
+  ],
+  "quota_rank_range": [
+    1,
+    39994
+  ],
+  "jsonl_bytes": 193851,
+  "jsonl_sha256": "3ce546a2d0fc43d7fe97575ebca7bc0e7c078b75c5914c369a0123f8e64eafbe",
+  "row_fingerprint_sha256": "08bd1de45d02607bb42c0116e3908bb1777352913962cbb5eb083d163f83f064",
+  "row_key_fingerprint_sha256": "4869dcf370acdf4bd76d3f97317ad6ce290036801e9922635e6d50f80afe2d31",
+  "query_log_fingerprint_sha256": "96f98db9b1bf873949ce146fb6ffd27fbd6497b6b05fa29eb7ef5363f5796847",
+  "extraction": {
+    "query_count": 149,
+    "nonempty_query_count": 139,
+    "empty_query_count": 10,
+    "raw_rows_returned": 3831,
+    "query_rank_range": [
+      1,
+      58002
+    ],
+    "empty_query_ranks": [
+      44500,
+      45000,
+      45444,
+      45444,
+      47717,
+      47717,
+      50103,
+      52609,
+      55240,
+      58002
+    ],
+    "http_statuses": [
+      200
+    ],
+    "errors": []
+  }
+}
