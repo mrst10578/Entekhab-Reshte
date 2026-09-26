@@ -1,7 +1,8 @@
 name: Import Kanoon math 1401-1404
 on:
   push:
-    branches: [data/kanoon-math-1401-1404-final-2]
+    branches:
+      - data/kanoon-math-1401-1404-final-2
 permissions:
   contents: write
 jobs:
@@ -17,77 +18,77 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p 'data/raw/kanoon/math/1401'
-          curl -fL --retry 2 'https://uc950304920d1238cb933e2b4a9d.dl.dropboxusercontent.com/cd/0/get/DI0A2g3e6Won-HfvBkfxq-CWZ2fcFBZWw6j1-oZS8qtG9gKCFlKswakLw34nqeQMoJFiPdOnohtFr_GTR9qxlT2W5S9oBuQtEX16qZPUxyThsjp-Y0c3iXwW-O-mrs8_5eaHSJ1LHadvAEkifpXPjigC68fLI99jrm8aTrcdPoMnMg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-1.jsonl'
+          curl -fL --retry 2 'https://uc9d4e3c84840ec8606f620ea55b.dl.dropboxusercontent.com/cd/0/get/DI2TncD68bpB7hnTq7u4PFmnJxlgPUFeKgG6xmfbALeQx7YjY80wTjL8Ws3LBAVY81MyFEFTwzG8CyImPMh1GS1q5-uqo7WhUVe1b12wUE4-5Im1QsjxCOv9lnp-DUfly9OsQi35musIoSCdstbJZZ-ewxnKjxPCD18MIQSVkK-fBw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-1.jsonl'
           mkdir -p 'data/raw/kanoon/math/1401'
-          curl -fL --retry 2 'https://uc969704c040a9c1891919f20db5.dl.dropboxusercontent.com/cd/0/get/DI0Rwxfb47MrA8N25hr7Jmv3j7qLja9yd0pbLdX9y1wTrKq9UlCHpXMuFHAvTPJ3mQu7_nt9PfS_qMowxt8A4jZ9XVUIiCGb_ie1o2H_6cKa2zEawKz1UWsoY8T1dV1p-shK8tgEHneulCKMiMEBuFcDa3fpi-2-iRaY1k-F1L_fpA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-1.manifest.json'
+          curl -fL --retry 2 'https://uc13d8027895355f0ea8da9b4f54.dl.dropboxusercontent.com/cd/0/get/DI2RbcDBejhNo_2rojYjy_FX-N2gSUuVEpfRkCVB0Lf5mExpmsxWHdz6KmoYa2ZBWbXIqDqPdLFRz-0G8kUr9TWiA6ZEQCZrMonmCZe8t-jfFpf1WxXzpu-J8KTCnCuxtxTKBcR55wGSC2WoydTFsA3dJ1tvH2eBBNUIv8ENbdHpAQ/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-1.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1401'
-          curl -fL --retry 2 'https://uc4cb9af88134d4facba4255968f.dl.dropboxusercontent.com/cd/0/get/DI1YyGKrXVQasis7XA9YTtCnlcCKdmJlNyUJzLNkhCj4_gEbmWFhaFzdZfDydfJMG_FynLs0WppjO7cX56WaXh7TPeiy-SFHh_I0ZncSbR5rcbUqvSIACKV_CCG60146beCnCtzz86MTKIHRW6d12A45LHM2xAfrrQglc4bgzLWAwg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-2.jsonl'
+          curl -fL --retry 2 'https://uca75add3e2166e9447cb30b437a.dl.dropboxusercontent.com/cd/0/get/DI1UyxWwYw4m80Xd29Xq2yFobo4CYJd_m6E7zWBe0ISiknwCn7HBE-6shFLcz8NV3p3IyVQjgMAGL14OtIBtoknIoBKp73jczRhLsAiy0lH3UsWdndOus-pWw2dnqcjxQQwFLKshKG9FFzpBudhQDRR3Qr173b49R4RQr042iYk0cA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-2.jsonl'
           mkdir -p 'data/raw/kanoon/math/1401'
-          curl -fL --retry 2 'https://ucacb4b2c9db19252af0d3bee710.dl.dropboxusercontent.com/cd/0/get/DI2lztywQ8ARgLwLXenZLDJwjG306LHzjNJwZfroJEAZYWA3v-SdbzigUz4HPM-DTdRVRv354QfvQ6FdcemFehvgOFOFEcZjA3g_Cey_AP8zI1NExBg_HFLC0STUwyoF-SG9veh_fuCjZ_RgyZLEBy-DWGpSAz0QiTXoQQ81xhRmWg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-2.manifest.json'
+          curl -fL --retry 2 'https://ucb214bfafb68de7d9b73f594254.dl.dropboxusercontent.com/cd/0/get/DI3IScDUDPzQJgVvPwUjRzO2p4JyULPtHbewMXa89XskwClz7A8Z6AQnPQa7cnz6N4dw0X7CDTgAQ2u5N54FXTAtyWhoK8yBIyarBLe5MQhEpp9O05LSTxDusIYOvrcHEMxbfh_KmO7h-Nl8zizmW7XqTjAbTGcj5cdyYE2xExsU9g/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-2.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1401'
-          curl -fL --retry 2 'https://ucd1c15a383c5d8c328c2de89426.dl.dropboxusercontent.com/cd/0/get/DI0p8WsMS5YLtrXlHOX8XA9vHTEdvKIcTGhSlhqCiBEIGUX8UgghsqKvSZkFtqVELVpfqMl1BjQub76NJSCJSvqHyxrZRijLvAT205y-2jfIwUbBjLN3GgSNIl9leLLnqhZDZLzptvzUsgx9l-zMWZEi2BSEDoY_I9eLVyKC00otwQ/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-3.jsonl'
+          curl -fL --retry 2 'https://uc4ef3069c937552f0c298250774.dl.dropboxusercontent.com/cd/0/get/DI3Bn-ZImEdM_hRKxVrkejLF142nxreI8xCUm0PuZNxnElEQdkvMQvJvSb8kMb44cVgfAJQaS25cLqfcaS6eUBUZOoiDe9BDygsc2RDhaKMh8P2mbRKoWDEf0Smn4Q6QNxi2JZam-A_VlLLi2Hawc6FVKxNAF10wZ_PaS79MAY9L1A/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-3.jsonl'
           mkdir -p 'data/raw/kanoon/math/1401'
-          curl -fL --retry 2 'https://uc0361089ad12bdca1d6556db002.dl.dropboxusercontent.com/cd/0/get/DI3kB7Sml-Vv04TusFQvf7R9m4Pj10KSiywHhe8llMxcPtQFVVkeZ3tWBEtOdQs2LPvMEu6bdc5aCIrubDbquYiA2EolKHiFLbZTyyiGiSBmJ9AcmAr_jGnT7S1iNay53hXjyIEkCqqBvHu19OzfE1U3JGxB7LMH-SzFXVFAoCSCxA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-3.manifest.json'
+          curl -fL --retry 2 'https://uca3a7e630d1b531d1c99a1babbb.dl.dropboxusercontent.com/cd/0/get/DI30uXoQnZ4mY2zo9UN0UVRFK2EhwIVICeMDGOv02DVH6E_IuvRj4RLfY4AdQN_92O9sub0_mdDbqrsey91bWEcNm0UtulqysljEe8cNxwZeQLOy-UhQrOmhSHjWUoJiEItAIVFhaIOWymWPHKOgclZ0sDow18EplhuFlDJDs0YVsQ/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/region-3.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1401'
-          curl -fL --retry 2 'https://uc297de0fe4c4dd598e6dffaca5d.dl.dropboxusercontent.com/cd/0/get/DI3iJ08wvldTR1Fw4Siuz0HsXwbmF6KouTABWwyDHveuxA44WJarc8rHvV701ZW_96ZIxGLgRDUP48aCw7IKVwxVKpzyxuFbPZR02BSImN5kXZDdER6Vu5xpg0w2jOgIJ6X1iwMGGL4IuKDJW7XtIMy7tX3nyo3eexGSVP8hKajDaw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/stage-summary.json'
+          curl -fL --retry 2 'https://ucd98a7f0bd8d77b91b61e7c4562.dl.dropboxusercontent.com/cd/0/get/DI2b1Q2PVE4y5gQE-xy4HsxLDQr7HpWAgcXsTyV_JRVzApob3RfQhQ69hcVIqqIIQH1ropysh2cpN_FBJ8ME10krD-ECMvm2pzSEtE5lifNxXmu_snkePMuRjnx37CzMsX0IHVuTjnx2tWXr7rba_QObdQG5u4_PjFCfXjUqzvwBFw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/stage-summary.json'
           mkdir -p 'data/raw/kanoon/math/1401'
-          curl -fL --retry 2 'https://uc5f786c592764f04641c7893399.dl.dropboxusercontent.com/cd/0/get/DI1AbxZ8ziaDxZRaNdEloIMexRHIS4T1zQlpii5oHHq5RJmhI1v9LbbKrZV7cOTlbGn5oqgu0_qdVZpd-aJb8hL3E_xlRwm8ServWJ5WTo1nR1RsdrAyNbnKCiemkTO-U4ckIpIAwEymR79K9b7tjMgeBm84DD5F36LX160QfXyaZw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/QA_REPORT.json'
+          curl -fL --retry 2 'https://ucf290cf1d029f9be37074b5ab64.dl.dropboxusercontent.com/cd/0/get/DI3fTjm7betpWPj4lAju19mlA2AYLcvkt9sljQTnpmccYPIkOG5kiPfFKkR4_0HjXdNbLPL8XKBFz5WOBetI-r3iwmoLddtB3LvxMZELBPvWu6-8HBwlH49J4L8zu6nJI0gQR3ul1s335fjr8hxKndLSk18Syp1oFevkm-_sux4DVw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1401/QA_REPORT.json'
           mkdir -p 'reports/data-system'
-          curl -fL --retry 2 'https://uc4a39fe1fffcdcc7a333f3d873f.dl.dropboxusercontent.com/cd/0/get/DI3VJIccLd-fRsqaFGlW0X0Sr8QBq4yLL9Wf0pB9kKCCRqjmT0X_Gharj2uuRp8DW15YHscv8DKVPZ-hDGVtp3Vf3zXosIYXr3e1-rbcfD6cW9vrqm-9HQGa_aapVwEe3kB7s76YrDZRshGs0Cr_CcybCX5140rzbBuM5XJEQkGmbw/file?c_luid=e2a8d15f' -o 'reports/data-system/MATH_1401_COMPLETION_REPORT.md'
+          curl -fL --retry 2 'https://uc25c4eb2b0c5dc4a2c47f0e506c.dl.dropboxusercontent.com/cd/0/get/DI03gDAtEPx6b9dZZq_hV0S4ee5Ro9jId1kmkPjOhTbi1IhZO8hpmO1HXoqeM30KUqZZETL3Q9_5ldQSRk-ytS4CsulU0Lus3A9o60_eY2OvN3A_bJcu9IE2DOD4ENmtFVPoXp7e0eSXSHnbDD2E1kOrj3vd4_B2z698kLxip3ugKg/file?c_luid=e2a8d15f' -o 'reports/data-system/MATH_1401_COMPLETION_REPORT.md'
           mkdir -p 'data/raw/kanoon/math/1402'
-          curl -fL --retry 2 'https://ucdd62e7c88be44a71673b20b397.dl.dropboxusercontent.com/cd/0/get/DI2YDWe-u9QmifnvcW3fp1P6RJDLiCDIOBbWu8HMsUeOtWn0SjU1zklNlJfKSx6VqA7fBugeyWD_hzJWtHsMJ4qmWBdMG6rqe1VAxZ3csGYbHURVtRPMRGcSmX9nrK1wLQgB8nVbDDKcZDdWKWpBQ6otdlHt7XAOjVOizo5r7LeIYw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-1.jsonl'
+          curl -fL --retry 2 'https://uc4037d1de50252483a26f7b1958.dl.dropboxusercontent.com/cd/0/get/DI2bGdDLhXzc50xAe7Krh7zB0sY-M1ejoo5gPzrpj0YDgqV72ddq9qYTQBRmhulrAzIVsR1eQ2XqTzuqljo53lUhH8obSBrVqc36vwdkBDecQN0PJAYa2XEuyvXaOeoqPSkEkA7UvQTIXd8yYEZiivDdD6w9adtp2D_-8eoFdY-TOA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-1.jsonl'
           mkdir -p 'data/raw/kanoon/math/1402'
-          curl -fL --retry 2 'https://uc7ff65a88f111cbedf41d8eb87e.dl.dropboxusercontent.com/cd/0/get/DI3T1Lng85nVms-o7HtH6dhi2YFLPVSWqy-IcvnH21c4CdMKxGjhe0WbpO-zvmoytp4bmyK0I_98gHk5ApQj4dsxTUoNHwELuY4sHtK3tXQnFwmCtd4hxqnHIW95UdZJoYxgAfg_59PAnL_d68JOipAKTTI7fEUoRfqSdoo4-LmrtA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-1.manifest.json'
+          curl -fL --retry 2 'https://uce6c1887f67f9d547134148df47.dl.dropboxusercontent.com/cd/0/get/DI1D9GBsdr_m2KxLQs6-BkI6qmUXEC8MSMgqCZzpH_FWUDc1PcwJGAj_xvgdeqyCqJDLIYbOcEsGpUpXRmp4FTrhDxvbXhGPYcib29KVbzILdyWG-xG_WAZRAquejGLrnWxcuF1uh8zZNy_wYHBDbET5Kfqr_VoNA_b73awJ0lqSLQ/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-1.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1402'
-          curl -fL --retry 2 'https://ucf43e8642e56dd1ce26e3b7c81c.dl.dropboxusercontent.com/cd/0/get/DI1nJ00H6aq2xqA84w-LhMKQzhz5laUa-JRl4e-u9reE5FRNCr5P7BB9bTGd5-5ijZVHwMz3ocMU4eSToMuIHpNr4IrrvXZ1WItMiVuCr5g_thbrqNrh-eSTM8eeDHy803DZls8t_DW9VVAv4NaImAqeUxwjnF9SsLjhKGOz3pnn0Q/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-2.jsonl'
+          curl -fL --retry 2 'https://uca1b0cdb67b855e4f516a9d8cdd.dl.dropboxusercontent.com/cd/0/get/DI1w49oZ4wtLms3Ay3gYOHJqloiqElaT5asFc-GdgWnCXzxBLe5vFjjWipm4GKeiidNQuXIWIX2xKeMKYsNXWdALZQeX2i7-VgdUFKGDacaa2PhbpfyzhNX435Pjcmoo_A5U5MCzNwXOMMIz3HLS7lxlXs3nSi1RSY1hrr_ca9b8Rg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-2.jsonl'
           mkdir -p 'data/raw/kanoon/math/1402'
-          curl -fL --retry 2 'https://uc82653c2e4bc6292ee2c98139b7.dl.dropboxusercontent.com/cd/0/get/DI12_Y8ktamL-ylDBasUuzH4-0XnbJNmr9OHbx9qXPTzZu1g0PNIgGn5AlS-X8ItGVh5bI_rEvfLGp0QHRyjHtIcrkep0FjvibBZmrG4jN7TLceVSSQltcD5Iw5t8cZbt0moAt41nsKNoO0RyYB_xvo0x3pfZ_6TlnsVlVS0bCLBnw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-2.manifest.json'
+          curl -fL --retry 2 'https://uc28a3dab800413197a6263d5a03.dl.dropboxusercontent.com/cd/0/get/DI0fYaTluI9PV6L5gSjNrHkwUejSAgro_o_MiuHblB0MOGdsDsj1upag5zWDAxeUKRwsFzmCvAsfGZTtfk4wom6XFsQC74hqrEaorfziKdkouVNYgXVRqqhPszbxepcAbeXMy7pv99Q9XXc42YQm1fq9jzRlevVwlhv2PzlePXCIjw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-2.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1402'
-          curl -fL --retry 2 'https://ucac9d1c432f113df8f14e0256d5.dl.dropboxusercontent.com/cd/0/get/DI1SSO3OuA8sR_V15sfMi-D2DUVoGjpNZIIc1NT9HWb_xjPHZNNz8Jk6qo_vCtNFymuTuSFfqbo3k_nqSzZrbLzmHSEV2tF9v8DbaR3DWsYj3F3BOsoONjuTexkpDlTVUpAXa5J-7Xtvtb5geHAUb1lI2PEQtm0h2Kd5ULjJh4YZgA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-3.jsonl'
+          curl -fL --retry 2 'https://uc5bdce40ca618c4fa83c9a9daf0.dl.dropboxusercontent.com/cd/0/get/DI1xbl4QqrVVQyJIW8osbre5SiGAALALkCyK1II2lMatp_EMQxOHcWZUJSVpwdrNFZpJVsTaYW_a9naVlufvnmniVFmABcOYAs4QgIsAru88yVrdoELcBE-8Z-rWKTLo7aPLe7i4TKE_dW80eC-b3gCoHQJO5vY-CsK0mg8x5suE3g/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-3.jsonl'
           mkdir -p 'data/raw/kanoon/math/1402'
-          curl -fL --retry 2 'https://uc0809d39c2d73ab8a965d860609.dl.dropboxusercontent.com/cd/0/get/DI3D2i5BrKFjwx-VFKaCgZHuFwNjeOgCJh75IRgbB2ULcJ94vV7I_o1Du9SfulTlArC4sUIOsAdKRgqffyJHLr-isKlWyWkvAowIqdGoBxNYtWou2MPwihgJu1b2on8lhPc3_7arQP3Qwve6LU7Hb22e00pCu31BzV_33rxmVSA0nQ/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-3.manifest.json'
+          curl -fL --retry 2 'https://uc21efd763440f8084e3cf536cae.dl.dropboxusercontent.com/cd/0/get/DI1cCPwC7sKkhzqTAj5okCgNG9Z46dLG0ytgR0qCdl4_2TuFQQl433cIzXDv8wUGc8J-NjhR6YCZ9EBafwbOU__zyCF2hnhTvSI3sn2EBgC3GzdFnNEyaiYwYO3jgEFpZLeSRBSz9Pa4OdAaogur76OQxZEEYskd0bRwI2OAb7vg1g/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/region-3.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1402'
-          curl -fL --retry 2 'https://uc965657fe62fdcb2774d3cf94c6.dl.dropboxusercontent.com/cd/0/get/DI1sdymDHVuSSW_dIk2wsq0HMnebvUjIOEuEdaLygJDM_ZCTVF_A3ZB3PYxqUEM2rjpBWpO5ebm23RJIzMfou7519hvv97UMaQW3OWH9EG9WxC48Cs5W07j3hXwGew286_ky4bIv8F3zxAvLVCScz0WFDhh8YoMFTtrWhl3nL-xmCg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/stage-summary.json'
+          curl -fL --retry 2 'https://uc33ddfb679de57d26b0d8350d10.dl.dropboxusercontent.com/cd/0/get/DI3Al02E_dPjM6PUqpip5pQ48OZwXY8-ZjEuqbNTwjkSkxCREETI1V5vpOpFxg3OO5iMsDgDC7vPft4Ne6NwDI3vcrcY7WWuWK5BVdPgiyM1vMdDoZ7H9vRouKVasOTOu0gj7tjVBCd3vm3xGKR460OU4RH3Y0GVyoKWwhgNSbFm1Q/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/stage-summary.json'
           mkdir -p 'data/raw/kanoon/math/1402'
-          curl -fL --retry 2 'https://uc7f5f1e2a5a8b81bcc6f5af843d.dl.dropboxusercontent.com/cd/0/get/DI01-ApvyB0ohm55_n6C06PyiAp3P8KuKRQxzGSHcXowkgZMJBgL5o5zU0sDDiZBP-Rf7AMERfRzoqo7Qbc6Yd1DqqGx33HNVhpr_zZPI9VyIJHjssVya72bEENmmSV_YIHIx-NkvS-l39YlxiQKooVucBhA3Za1Zlydgr5J5GCEww/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/QA_REPORT.json'
+          curl -fL --retry 2 'https://uc405ea81206f685ff4cfa968d2d.dl.dropboxusercontent.com/cd/0/get/DI0nsUh4S7YbO1JAggP0V_9l6w5j1ucAv4W6OfmfMREyyQjSeFCSgqkoVFAAKT8Y415swtjX2v62t2--p-tLWzuua80o06N4BVXxua6TicsDrSglW8hR4SZ2U4DXMpdppbiHFjymLN3CgsGQkBWltaubvazk-EbYoWzBHXT78nCcsw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1402/QA_REPORT.json'
           mkdir -p 'reports/data-system'
-          curl -fL --retry 2 'https://uce096c09144f8bcaee77e5ed218.dl.dropboxusercontent.com/cd/0/get/DI3MYhY0LtzGGxYakLIyj8MpKZ4rT7TYCG4bk1kM0TNXSNVs9jSyWX3aMX7VWRQZRu1oftZyZ-MKvZtFgsOO-QWRYDsL3zmB--inIQiuFZVuDkrLlx1M31ubCVBLQStfRJwyYa9UKA1OaMWH206usJ_rE4o0L4h3TU1w9RVQ3Xbvjg/file?c_luid=e2a8d15f' -o 'reports/data-system/MATH_1402_COMPLETION_REPORT.md'
+          curl -fL --retry 2 'https://uca3e499297e8698c93bd7f8223c.dl.dropboxusercontent.com/cd/0/get/DI32N4Waij8h525-aymmGcAV9_WtaCbdO1epTYkP9nwT4CejRNk6G5P-xpUDfalm0QdCLu9-6HB8RaBWmiNuR5iv-KPi9D6wjsuu0-UWDYo5ZClw-oaaEFboTlQiFi08zqmCihr2T3-rLGOZM0K4uJQ4szQ7eMRJgthvtWwy5k3zmw/file?c_luid=e2a8d15f' -o 'reports/data-system/MATH_1402_COMPLETION_REPORT.md'
           mkdir -p 'data/raw/kanoon/math/1403'
-          curl -fL --retry 2 'https://uc0430c1ac1747c883b582bc6afe.dl.dropboxusercontent.com/cd/0/get/DI1TX4g-UjdIIxk5ZmCvVP81isJXePb-o0X0MxQCCnFI73fz9xv5Bvf8-nNUgnhZ5bYgeF_mPhw5GhlFq5VD7WYdhDXQuR5we3pZVc7nP6m8hdo6pageKQXddkRfAykOMAdHi1oIk47XApdz-USnNqICmUqXYDYwJPXxz1U_1Z4g_g/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-1.jsonl'
+          curl -fL --retry 2 'https://uc4597b37b4dbcdfe0988b6f83a8.dl.dropboxusercontent.com/cd/0/get/DI1bBUadACNliEbnQM0PIwWrTD9g2SuuvxU6XcRaAMuea0tNvPIRCENgzPG0IQIk_A-YL-oy_CJrSDI4izT8nqT77r_Ftb6qR5eNVoLhDfT6bpi2p8RIbrmXJI87XhpYOv_iejIK2SsVOhdPu44wlvlWYt2gK8Mk_5ZsfP6M2av3Gg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-1.jsonl'
           mkdir -p 'data/raw/kanoon/math/1403'
-          curl -fL --retry 2 'https://ucb6d58399c28ed6a05cf07fbc2d.dl.dropboxusercontent.com/cd/0/get/DI0IHAdSFj6bCnajkOwl67Cr4G8YvqK0XC0JVuQE63UjYxrbRpGsXvwNfO6Lye4CuHSa4y5l_5T24a4vJMFG09kLjhMZZZ9sybGzgVd2iImNUTDPXlAvBVD41JH0wIrWE1l6rArDNFsjFGl6sr8_QaByqz4TEyYf3cVR_0AF9cPSdg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-1.manifest.json'
+          curl -fL --retry 2 'https://ucd396cae2e85c0f08a9c0de9712.dl.dropboxusercontent.com/cd/0/get/DI1XTh75pR-4yINSnjCFifhxZ9fxSDkk0-tqV1jvcGBCSKWf8_vpOLZM6Ctht9QANVgYyIVZdsgFGUuog649QU8cFc-v-TQWYEmEo4HBVNQ357yh13OD98nG0cyuXyWZjoknrFMTWncChFB3z9pzCDdJczq8IwqcBNq3j8qU_F1D4w/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-1.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1403'
-          curl -fL --retry 2 'https://uc593093812a88d18f60dd5c67ac.dl.dropboxusercontent.com/cd/0/get/DI2xMu33M8vU3jOjpxUa8IPAh62rCRvo2GLUG9ti7CUKs6suCFQJXPPkUFNDw0p3eJjdzPUCmmubz-L_-YisMEMam44hnyS-GwJtrTEO2fGO9IihypDL44ufjroanLOxrUwiEt3F2iG6TuQGSPcuJR3I4_QDIWO3QHITDYoGZqZFxg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-2.jsonl'
+          curl -fL --retry 2 'https://uc7cda65d3d78111862c68d968f6.dl.dropboxusercontent.com/cd/0/get/DI0bFnisG01UdT42WTLbf4SnWnK4f4-d-LhlMbzsTu2nRepNs24SsdlcPA8wwtnmTeg5I0qcZeuWxe3vpEuIuRuqowhXsQgKvHTAAk_pJVhRCRC0sWC_Mn7BZy86zSlPYX_eZLrNG0QSiQA4q9ChTLOpl0-VliJPujIUFwnjE7TlOw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-2.jsonl'
           mkdir -p 'data/raw/kanoon/math/1403'
-          curl -fL --retry 2 'https://uc4e51880dfd86985ec82503e265.dl.dropboxusercontent.com/cd/0/get/DI3F0nYqxZlP4sSuesh4WrSZ91PFKl23teox9_TPDATbjerSjPokQw9qVcpS0sxWgaiBv0TNaNAu9SsUPRh3iInsSqA9szoJQJ7G6VVEvmCmOf9lKnBizDVRY_zh7D_sJ8p2GDAbxVczwrPjdDmVNo3F1G_WHEr0qaPDlbqMKyrOPg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-2.manifest.json'
+          curl -fL --retry 2 'https://uca6be490fe42da235a2ac0cdb08.dl.dropboxusercontent.com/cd/0/get/DI0qJ7yzfXdMQLG_LJAX7dP4wbpB8xEA-b6hzr5FMis8AZgBHZ4iNVsARRjjJn-MnS_RJI9fZvcrL-5hjM3f3PLd45PNrgjqSCKoYP-yRzMHlMXMbYqHA-cHNQt9jA936kixn1MtZtmPx9DlCauWIb_dc2jVp2s48Rf8nPV9V4QjPg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-2.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1403'
-          curl -fL --retry 2 'https://uc450dcd8482455c015f391308f6.dl.dropboxusercontent.com/cd/0/get/DI32P_U9Ka5Rp091BaKssFF4wvWG41JePb3mNAiMbyeZAYG7GgEB-WM5pCTRhou-MAmymKOuLDaBzU4f67QREgN0oALRhGfGowB4O1_SNS7H_4GHeNVDS3wDVoCvPL2Pyni2_xIYcNDGC9uCRnJUOZIc6h-QD5G1PMRnFYREdWR5Yw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-3.jsonl'
+          curl -fL --retry 2 'https://uc5b5413fd524fa2fee6927054fd.dl.dropboxusercontent.com/cd/0/get/DI1A3zgROwIpphCuR6XemuiqTYBEk1wGta4WuD54cP653OYgpgVXd6MZ5P3NT18jcfF7nKl1rVgSRvWq2uo9O4nS32cJ1WvdY6J_QUEKRz_EHaIHSmHOLgVmy6RZBS7yl0cbsXPnR5tCQjYajUaOv3Ge5I96USSfiHcxfMO-0EsPvA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-3.jsonl'
           mkdir -p 'data/raw/kanoon/math/1403'
-          curl -fL --retry 2 'https://uc53b045322564fe79c0ecb35af7.dl.dropboxusercontent.com/cd/0/get/DI3Uw6F_iPutsK5BszfroDbtjQSr7FtaAXzkMejdvFMGU9wpUDE1rJrRfM2JYWMJdYtCspGSj212Scz1bGyaw_AFsUtl1Hlbvr0MZm9VMrPHpyywDp_oUKpRsiy0lgUANn7jQqeYhXq1CZv5gsGRJ-ui8VsOqcSZ0yCawcEVlOn5CA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-3.manifest.json'
+          curl -fL --retry 2 'https://uc65626323e1f120baf27333f654.dl.dropboxusercontent.com/cd/0/get/DI2LItW3nSgKJ7DCqqRvKhzH1ePf8vpqOCdhv89n2NCHR-2nVDJGrDBZTKP55EiJNoY2GQ1tOoRI0nGr3FFMW6K3hHLsKut4bjKlmlcP-l3DfLiiQ7--sjJJ6tYiNEovTltel_yC9H5qIYVOapP71fHIoqYlDvxY7z7hxmmgQuPZ6Q/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/region-3.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1403'
-          curl -fL --retry 2 'https://ucba5df13e571c7422d626a7fd75.dl.dropboxusercontent.com/cd/0/get/DI2-P1W-EHFyPERZ_J_CF5V_Id6XvwTL1JLAYauZfOJNeKc4MwPjoe-xREpfb1skRhRJYPSfVV_lz8WZnzpXMD4FWZCXa8np1-06Huj41UyZ5uNFDFL0UfnnfaXoAR5nXJAssElA25T38cPQfYd3ey1u8RJ80eOe6rfH6BAuuax5CA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/stage-summary.json'
+          curl -fL --retry 2 'https://ucc820b5c2e3bfe1bcc6083c8025.dl.dropboxusercontent.com/cd/0/get/DI0LcEblKh3qwU83O7m8TgxZuYAqBI7aB2rGD_wATtO1k1SZhbssZqjhB32wDhB3vzTujxd-yDRpeQEdN9xRm9evVmT1oBHATGDWttUQdSuLGVzaEd3iq-AeaLtwz46Rss9YgWPC6tbX-hIc-NUcOj2d42el1jdD5V11JRdDwfs17g/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/stage-summary.json'
           mkdir -p 'data/raw/kanoon/math/1403'
-          curl -fL --retry 2 'https://uc38a4af927847b93e1a78d15a15.dl.dropboxusercontent.com/cd/0/get/DI30DT_3LZkenPHeJiY6OOABatSlKCdELXM9Kfs-DMQbg2-dmq-TnOzU4MLyfX_lUDiitctIj67v0bzLH_2olkMNMBLkubCwnkk-Gsn36JyqNPQnOFKcOcGwhuGySr4ugrKYMmSxV2bxKB8ieF6W0EYdH-VsP7QerAQkJU7ZITKTTQ/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/QA_REPORT.json'
+          curl -fL --retry 2 'https://uce56e21f5d25e78fbd854fb4733.dl.dropboxusercontent.com/cd/0/get/DI12EQzH9ibCVXAxDx0-HjvL__c_4Mikz2ObyVS4ryBwmsH1PuvfYh9SSG13isnN1groHv-cPBx27HEXVQt1cFauzQvqHP8TmWbhR6oqkJr27cQlbmTryvIz4fGkKg0EyayMyGfh-3WBBAsL42UPoSheGhpTvlFpTSWpJ0jYLrRpjw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1403/QA_REPORT.json'
           mkdir -p 'reports/data-system'
-          curl -fL --retry 2 'https://ucad9f12b1b759bc7babfef54056.dl.dropboxusercontent.com/cd/0/get/DI0LszyTBT47qL2A4sHH34R0ZL32bcf21IimnU8v_EjX-2rOYSU94YL3hr8m-1Zpil6lZ8pnCJFMBP751kUsLoe1amN5us-OmpetyMSHQBk3AiWptlqd5bsoEkZpTO1Rt2ifNleIgaTzxhJgQRJzPPROIZ_qDqThtwYb-yPJpFztEg/file?c_luid=e2a8d15f' -o 'reports/data-system/MATH_1403_COMPLETION_REPORT.md'
+          curl -fL --retry 2 'https://uceb93113b7685117a9e2d11531f.dl.dropboxusercontent.com/cd/0/get/DI3KxQSBaBySsWgQSnwZNjBvDEPBmFPfLwnjqrH7b80wnMwWzIN1YBM3-ysaB8F3nJE1aCnK2ODOM6gaHU2DcTp3mEOfv3ZX2CfxiVgyBFqLhFeWEPtNIcaJPzam0lpBvZoraklFS12et0AMNU9G0oT1RzEHTovIaGpKtWhWVUKniA/file?c_luid=e2a8d15f' -o 'reports/data-system/MATH_1403_COMPLETION_REPORT.md'
           mkdir -p 'data/raw/kanoon/math/1404'
-          curl -fL --retry 2 'https://ucad13318200f1d0c4d6363d99e1.dl.dropboxusercontent.com/cd/0/get/DI2KMTsEgGf3SxPngfYz-ENNqepmlcu6J67_bIj8wZ9qqErWCBB6iuzAGNMMUTeNTPZ1dkRVTipRelHNi5X-urTU6dkt5bC_qdBpjSoD0YyfCu7lNuEkiN-6TKqgPRpln2wqLpuPN72y6ya3qFhsvTEoOwYDAoQQ4B7ikqAJ7GKs2w/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-1.jsonl'
+          curl -fL --retry 2 'https://uc364d0640762bfca3b2bf398a7f.dl.dropboxusercontent.com/cd/0/get/DI2ojoT1lWfUKtW3qWGrjASzpeLnWR-DjU3P9dEXVOAok3Rvl52lcM7udmCzL25omj2gGpZRAiQR3PHeQOQcK0_JGPHteSIcfT2v7xt61PliWpVP14d7GNSWnywpR56gHEDsHsAdIgQoH_gU50udp2XhWYZND6CxN7KReuHCnyWrhw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-1.jsonl'
           mkdir -p 'data/raw/kanoon/math/1404'
-          curl -fL --retry 2 'https://ucd4059d6e968691d33d37b69d30.dl.dropboxusercontent.com/cd/0/get/DI2CUCFKCnpg9CfpFoecDZzs4XPSCojWGEzG45NeTrUGzZ_gpIPswMhyVpGj1iLoNDPRBJs8hBzc-AGEntKG7GrtBSYWu9bAMg0A0-m7rAMX38J-xxkpRInlOXfw0xgR9NN-16q7WawKUPz2_328PglQs1yhO-NMCeICZpDdZO5XVA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-1.manifest.json'
+          curl -fL --retry 2 'https://uc31c1483d8652441d5361d40de0.dl.dropboxusercontent.com/cd/0/get/DI3V7OYT4r1Ng4qaRealWmzDyQzcLt-1_VKK9kwGHzvSXh_GjK5_4qmoEhfqEoTvuNfMgWGDbKQnTdwfAEyki-UVePwmxzjaVLL4y5jQWzP22VTAm1CEfFAInqMSSxVQ_iXeGXjqUhk3pxB0ebJjK0WAXNWxRWnK2UYIWXGjSLZ3Gg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-1.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1404'
-          curl -fL --retry 2 'https://uc12eeb3a84191955cde65f43d59.dl.dropboxusercontent.com/cd/0/get/DI3GbUNyC_T0M-ZqLMukVODAbsY_pN1owySvJgZ6CPB5a7yXUuQ2FuW84_yAjDQI3NMb9Y0QJbr3svO9xIviC3q_r5RsOQdOb0WZ48GulY_YxBWqx50f14tPruOMaksMPf5qjBxcQR3EsEat7yqGPZ4rYJ53HB6-p8SXKKsTiFw1EA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-2.jsonl'
+          curl -fL --retry 2 'https://uc08920cd929922f069de1bcc03e.dl.dropboxusercontent.com/cd/0/get/DI059KkxrezBhFY8kXaxwBDKkh5BryeKny_1y1TjyiY-vSpGNxNbTtQyZT1quNJDvj0oPoDFjQ0m0xZRiFyH6qEP8r3hd9vot0CMjKFKmjk8BoWjZzNqzFNDWiu02DNdaiOB1A2mPExVUfWndhir52NGQ-8CqOIfC1Fe8FlPPXzQCw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-2.jsonl'
           mkdir -p 'data/raw/kanoon/math/1404'
-          curl -fL --retry 2 'https://ucaaf542521f759c2775a51e36f0.dl.dropboxusercontent.com/cd/0/get/DI1DIu0TzctwuRGCtj2fs7XDW6yz0FYOI9BPW_s1WMRnDA76uLBJMUOaL4JZRHUzQs9JaVh7u0DeNhmozZqmvQX2FEzoudJIvwo6VOOjCOIvgKZ_1YP1XMkzZQkGPCMkJQUiuZhznpgxOrWXsgDMlqRFxuiRxpH0eqEPDZHiijOJBA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-2.manifest.json'
+          curl -fL --retry 2 'https://uc4db09313467f2bae61267efb94.dl.dropboxusercontent.com/cd/0/get/DI37OZsJ_ICm3LkB-WRBvwZRsWEvaCPXOJz_3R4lOu62ya0waK5oKIypuHVdUAF-vbeUa6p_DZEEEN7iO7vVaFDeh9UOmCqr4QR3OKvrsTturC67XNSo_dS2JmQ04GJE08rLrCCcu4T3-ii0rHG9biKok47lKIbAjsGwLzQgcoTOVQ/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-2.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1404'
-          curl -fL --retry 2 'https://uc324a069b9f9f0f2234b60e7d33.dl.dropboxusercontent.com/cd/0/get/DI0sVeR-njICK2Mx2cVbHUCL2DEeTYDiu7tvAnbvhoqIgOn31LYXhLq4Xd0glkzZFUWBMJsu5G_sduWeRnybRbT5HBBV9SJuFLKHur91l9zG--PF9u6_RNKOA5i8aLvwETCr_0ryAwLsIaRW46SNGxpUu-zIniHWkWmV1h5cKFaY2w/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-3.jsonl'
+          curl -fL --retry 2 'https://uc66a40f1526a980310dafc14b33.dl.dropboxusercontent.com/cd/0/get/DI0LNkg2Hn-6-l8NE0lgRmC_1smW6A_WU5cn3vlRaaaS44er8G_lV4Rl-79p5QmLRZaMUK0WApJYuBdQ_esu2TsiuqHkOOR0entZWw2l2TZl5mzwiXA8QIfirfeEar4Yj5w5r4OmDReO5TdB1CuSzkjlhCwG5H6oSq81Y-A81EOxuA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-3.jsonl'
           mkdir -p 'data/raw/kanoon/math/1404'
-          curl -fL --retry 2 'https://uc178d426154d1ba829d4a901ac5.dl.dropboxusercontent.com/cd/0/get/DI0MvVzoP4OOhFr3koy-XiRdAw33dbAg8auFt8lvthuGu8JpRpl_zT-3M4s3a9aoSp0JtJki6QP_uQnozu98WEt4AjGaSrCfBnkDcc0IcRmXUI3CpyXsEGlWWxkSOQsKsPGDXPbLrQOCqX4_PNtdH1RTIJ3uf_AAbm1wJsXJnvGX6A/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-3.manifest.json'
+          curl -fL --retry 2 'https://ucca83ec4390dd92aec1bda1acc8.dl.dropboxusercontent.com/cd/0/get/DI2CdozVk54oZgGbCgguGrAjZP26x5C3j6OiY_VCrf5sjTBnxLQexQfUkEDb4mcHO3lNGMvl3ij_y-bkmRBh7VQCR08kAFWo8vdVJ_Ex6NVHGouJNLfishe90bX6YpRgfZ-qaF5ZW04fg7y5lo5Kbe7F1S7Z0sygexo311CIq6dX4g/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/region-3.manifest.json'
           mkdir -p 'data/raw/kanoon/math/1404'
-          curl -fL --retry 2 'https://ucab96b8bd6da511095bf3529f1b.dl.dropboxusercontent.com/cd/0/get/DI1xmRWWZH10u-Bn1GTxVdlj24PRo2BBbfiuoVwI_NLXekxhwliWeyu_hVp7enYTp4oSGjUpT-Nex7rC13Eb8vKI7oZkMuuwzBpdtu4W9BnniBqdJgerkBZmyfYeuTx_SpAIn8-7DtWMY0bL-hfSpto18CzTyplOTTTb_-Nv_k_ZnA/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/stage-summary.json'
+          curl -fL --retry 2 'https://uc0487c1b39664d3c7641410b565.dl.dropboxusercontent.com/cd/0/get/DI2SDJdL3ef2XuTSdzKTKA2hgZ2KPIZDshkf01rogZe_vFDbkUXVllaOK58IfJGpY7KokW8H5PrymRZBWMUOt0_J7cUDENA8voIYOJCk8nOlk1KA7VWppZjyuQb4qlxYa_0Z85vxjsBUKgz0OQKtGGN8Ja9mx05HsEuICRWqat0BJg/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/stage-summary.json'
           mkdir -p 'data/raw/kanoon/math/1404'
-          curl -fL --retry 2 'https://ucb80546f76e145657c88037f81d.dl.dropboxusercontent.com/cd/0/get/DI1DK_qvKAUs15T_bN22il9aC8VzBOBfkNo-IWsv6KNOw07aQieWg2UPMHLHGZr8tcLPbcZqictbbUs-Qo_wyZYsb1zGYXgMJlEZGsGvwI7W8AXqNbLyVPwGh4F0Wf2ZdZVLoaa9FaNXRIZkIUZSkS-mzFidpWtW2NnW138KUjM-Kw/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/QA_REPORT.json'
+          curl -fL --retry 2 'https://ucabdab265d7c1acc1300d4e666e.dl.dropboxusercontent.com/cd/0/get/DI0INHd_Ke9fHDoXO5WtqyeG1y911sU4pEE4Vp2NSguugRxtaqKIOM5Zz63jtUtXL2Jl_hqUgvqM_nmpu3h88QLByCjFN9ltw5EKIYoWp4opDfobHCpQ_NAkS_6YSpYbr-8YJ-3HqCquJr4u-06AJ04c2Juhcylw9G7ZsOrmCRuSGQ/file?c_luid=e2a8d15f' -o 'data/raw/kanoon/math/1404/QA_REPORT.json'
           mkdir -p 'reports/data-system'
-          curl -fL --retry 2 'https://uc01c86d232efaca57fd7a4ec0c4.dl.dropboxusercontent.com/cd/0/get/DI0bmXGsnQUWtsjQV3Pd1qmjJXI2z1Kwx7FqrVKzcVJkd9iloOgigS7RKWb33ucgc9Agg6lrOUcBdCBMaw-_vPMlYfHuOpCVCuRhSW9zr7gM89RJAN2EeV0izzuRp45WZB_cBr-JMYHLfPG5LtxnSttbFHsaev0XzRq2KI1c0HJ94A/file?c_luid=e2a8d15f' -o 'reports/data-system/MATH_1404_COMPLETION_REPORT.md'
+          curl -fL --retry 2 'https://uc1c9de1838541fba70533d0aa2b.dl.dropboxusercontent.com/cd/0/get/DI1A9MJvVGdcurFclgxaozaHwXUlAG0XT0SLS1dEOetOCWd8atnBMPy4Z48IbYzBTomE7gv5Iq-oFesrHp9t252J-o_v_ztl4kgQ8gJpYXaYEsrmV__lGj5g4XZ2b8haCA2mX-NYqD-D0yrUloDXhvODqSp3dPBU8Ae3EVJHaHqP0Q/file?c_luid=e2a8d15f' -o 'reports/data-system/MATH_1404_COMPLETION_REPORT.md'
       - name: Validate imported files
         shell: bash
         run: |
@@ -95,58 +96,8 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          expected_sizes = {
-  "data/raw/kanoon/math/1401/region-1.jsonl": 324143,
-  "data/raw/kanoon/math/1401/region-1.manifest.json": 13100,
-  "data/raw/kanoon/math/1401/region-2.jsonl": 930055,
-  "data/raw/kanoon/math/1401/region-2.manifest.json": 12004,
-  "data/raw/kanoon/math/1401/region-3.jsonl": 578090,
-  "data/raw/kanoon/math/1401/region-3.manifest.json": 8227,
-  "data/raw/kanoon/math/1401/stage-summary.json": 35675,
-  "data/raw/kanoon/math/1401/QA_REPORT.json": 3722,
-  "reports/data-system/MATH_1401_COMPLETION_REPORT.md": 12418,
-  "data/raw/kanoon/math/1402/region-1.jsonl": 69874,
-  "data/raw/kanoon/math/1402/region-1.manifest.json": 4334,
-  "data/raw/kanoon/math/1402/region-2.jsonl": 124266,
-  "data/raw/kanoon/math/1402/region-2.manifest.json": 4335,
-  "data/raw/kanoon/math/1402/region-3.jsonl": 71145,
-  "data/raw/kanoon/math/1402/region-3.manifest.json": 4335,
-  "data/raw/kanoon/math/1402/stage-summary.json": 8232,
-  "data/raw/kanoon/math/1402/QA_REPORT.json": 5576,
-  "reports/data-system/MATH_1402_COMPLETION_REPORT.md": 5249,
-  "data/raw/kanoon/math/1403/region-1.jsonl": 88966,
-  "data/raw/kanoon/math/1403/region-1.manifest.json": 1975,
-  "data/raw/kanoon/math/1403/region-2.jsonl": 193851,
-  "data/raw/kanoon/math/1403/region-2.manifest.json": 1949,
-  "data/raw/kanoon/math/1403/region-3.jsonl": 113985,
-  "data/raw/kanoon/math/1403/region-3.manifest.json": 2092,
-  "data/raw/kanoon/math/1403/stage-summary.json": 2668,
-  "data/raw/kanoon/math/1403/QA_REPORT.json": 5971,
-  "reports/data-system/MATH_1403_COMPLETION_REPORT.md": 3150,
-  "data/raw/kanoon/math/1404/region-1.jsonl": 103833,
-  "data/raw/kanoon/math/1404/region-1.manifest.json": 11412,
-  "data/raw/kanoon/math/1404/region-2.jsonl": 164832,
-  "data/raw/kanoon/math/1404/region-2.manifest.json": 11726,
-  "data/raw/kanoon/math/1404/region-3.jsonl": 127403,
-  "data/raw/kanoon/math/1404/region-3.manifest.json": 8161,
-  "data/raw/kanoon/math/1404/stage-summary.json": 1349,
-  "data/raw/kanoon/math/1404/QA_REPORT.json": 10808,
-  "reports/data-system/MATH_1404_COMPLETION_REPORT.md": 4759
-}
-          expected_counts = {
-  "data/raw/kanoon/math/1401/region-1.jsonl": 1362,
-  "data/raw/kanoon/math/1401/region-2.jsonl": 3825,
-  "data/raw/kanoon/math/1401/region-3.jsonl": 2279,
-  "data/raw/kanoon/math/1402/region-1.jsonl": 408,
-  "data/raw/kanoon/math/1402/region-2.jsonl": 721,
-  "data/raw/kanoon/math/1402/region-3.jsonl": 409,
-  "data/raw/kanoon/math/1403/region-1.jsonl": 406,
-  "data/raw/kanoon/math/1403/region-2.jsonl": 889,
-  "data/raw/kanoon/math/1403/region-3.jsonl": 516,
-  "data/raw/kanoon/math/1404/region-1.jsonl": 497,
-  "data/raw/kanoon/math/1404/region-2.jsonl": 793,
-  "data/raw/kanoon/math/1404/region-3.jsonl": 603
-}
+          expected_sizes=json.loads(r'''{"data/raw/kanoon/math/1401/region-1.jsonl":324143,"data/raw/kanoon/math/1401/region-1.manifest.json":13100,"data/raw/kanoon/math/1401/region-2.jsonl":930055,"data/raw/kanoon/math/1401/region-2.manifest.json":12004,"data/raw/kanoon/math/1401/region-3.jsonl":578090,"data/raw/kanoon/math/1401/region-3.manifest.json":8227,"data/raw/kanoon/math/1401/stage-summary.json":35675,"data/raw/kanoon/math/1401/QA_REPORT.json":3722,"reports/data-system/MATH_1401_COMPLETION_REPORT.md":12418,"data/raw/kanoon/math/1402/region-1.jsonl":69874,"data/raw/kanoon/math/1402/region-1.manifest.json":4334,"data/raw/kanoon/math/1402/region-2.jsonl":124266,"data/raw/kanoon/math/1402/region-2.manifest.json":4335,"data/raw/kanoon/math/1402/region-3.jsonl":71145,"data/raw/kanoon/math/1402/region-3.manifest.json":4335,"data/raw/kanoon/math/1402/stage-summary.json":8232,"data/raw/kanoon/math/1402/QA_REPORT.json":5576,"reports/data-system/MATH_1402_COMPLETION_REPORT.md":5249,"data/raw/kanoon/math/1403/region-1.jsonl":88966,"data/raw/kanoon/math/1403/region-1.manifest.json":1975,"data/raw/kanoon/math/1403/region-2.jsonl":193851,"data/raw/kanoon/math/1403/region-2.manifest.json":1949,"data/raw/kanoon/math/1403/region-3.jsonl":113985,"data/raw/kanoon/math/1403/region-3.manifest.json":2092,"data/raw/kanoon/math/1403/stage-summary.json":2668,"data/raw/kanoon/math/1403/QA_REPORT.json":5971,"reports/data-system/MATH_1403_COMPLETION_REPORT.md":3150,"data/raw/kanoon/math/1404/region-1.jsonl":103833,"data/raw/kanoon/math/1404/region-1.manifest.json":11412,"data/raw/kanoon/math/1404/region-2.jsonl":164832,"data/raw/kanoon/math/1404/region-2.manifest.json":11726,"data/raw/kanoon/math/1404/region-3.jsonl":127403,"data/raw/kanoon/math/1404/region-3.manifest.json":8161,"data/raw/kanoon/math/1404/stage-summary.json":1349,"data/raw/kanoon/math/1404/QA_REPORT.json":10808,"reports/data-system/MATH_1404_COMPLETION_REPORT.md":4759}''')
+          expected_counts=json.loads(r'''{"data/raw/kanoon/math/1401/region-1.jsonl":1362,"data/raw/kanoon/math/1401/region-2.jsonl":3825,"data/raw/kanoon/math/1401/region-3.jsonl":2279,"data/raw/kanoon/math/1402/region-1.jsonl":408,"data/raw/kanoon/math/1402/region-2.jsonl":721,"data/raw/kanoon/math/1402/region-3.jsonl":409,"data/raw/kanoon/math/1403/region-1.jsonl":406,"data/raw/kanoon/math/1403/region-2.jsonl":889,"data/raw/kanoon/math/1403/region-3.jsonl":516,"data/raw/kanoon/math/1404/region-1.jsonl":497,"data/raw/kanoon/math/1404/region-2.jsonl":793,"data/raw/kanoon/math/1404/region-3.jsonl":603}''')
           for name,size in expected_sizes.items():
               p=Path(name)
               assert p.exists(), name
@@ -156,7 +107,8 @@ jobs:
               with open(name,encoding="utf-8") as f:
                   for line in f:
                       if line.strip():
-                          json.loads(line); rows += 1
+                          json.loads(line)
+                          rows += 1
               assert rows == count, (name,rows,count)
           for year in ("1401","1402","1403","1404"):
               for p in Path(f"data/raw/kanoon/math/{year}").glob("*.json"):
