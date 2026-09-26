@@ -1,0 +1,1677 @@
+{
+  "schema_version": "loprax-stage-summary-v1",
+  "dataset": "Kanoon MATHEMATICS / ریاضی admissions, year 1401",
+  "source_urls": {
+    "rendered_page": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_endpoint": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors"
+  },
+  "workflow": "LoPRax RankLab adaptive overlapping quota-rank sweep via the public rendered page POST behavior",
+  "combined_total": 7466,
+  "region_manifests": {
+    "1": "data/raw/kanoon/math/1401/region-1.manifest.json",
+    "2": "data/raw/kanoon/math/1401/region-2.manifest.json",
+    "3": "data/raw/kanoon/math/1401/region-3.manifest.json"
+  },
+  "regions": {
+    "1": {
+      "count": 1362,
+      "national_rank_range": {
+        "min": 1,
+        "max": 107843
+      },
+      "quota_rank_range": {
+        "min": 1,
+        "max": 36267
+      },
+      "sweep_query_count": 136,
+      "last_nonzero_query_rank": 40267,
+      "tail_zero_probes": [
+        40367,
+        40467
+      ],
+      "confirmed_source_empty_bands": [
+        {
+          "quota_rank_exclusive": [
+            7839,
+            7967
+          ],
+          "missing_quota_ranks": 127,
+          "probe_query_ranks": [
+            7871,
+            7903,
+            7935
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            9016,
+            9137
+          ],
+          "missing_quota_ranks": 120,
+          "probe_query_ranks": [
+            9047,
+            9077,
+            9107
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            14686,
+            14788
+          ],
+          "missing_quota_ranks": 101,
+          "probe_query_ranks": [
+            14712,
+            14737,
+            14763
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            15610,
+            15766
+          ],
+          "missing_quota_ranks": 155,
+          "probe_query_ranks": [
+            15649,
+            15688,
+            15727
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            15838,
+            15942
+          ],
+          "missing_quota_ranks": 103,
+          "probe_query_ranks": [
+            15864,
+            15890,
+            15916
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            16628,
+            16751
+          ],
+          "missing_quota_ranks": 122,
+          "probe_query_ranks": [
+            16659,
+            16690,
+            16721
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            17774,
+            17877
+          ],
+          "missing_quota_ranks": 102,
+          "probe_query_ranks": [
+            17800,
+            17826,
+            17852
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            18087,
+            18190
+          ],
+          "missing_quota_ranks": 102,
+          "probe_query_ranks": [
+            18113,
+            18139,
+            18165
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            18190,
+            18302
+          ],
+          "missing_quota_ranks": 111,
+          "probe_query_ranks": [
+            18218,
+            18246,
+            18274
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            18604,
+            18761
+          ],
+          "missing_quota_ranks": 156,
+          "probe_query_ranks": [
+            18644,
+            18683,
+            18722
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            18839,
+            18995
+          ],
+          "missing_quota_ranks": 155,
+          "probe_query_ranks": [
+            18878,
+            18917,
+            18956
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            19012,
+            19249
+          ],
+          "missing_quota_ranks": 236,
+          "probe_query_ranks": [
+            19072,
+            19131,
+            19190
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            19249,
+            19369
+          ],
+          "missing_quota_ranks": 119,
+          "probe_query_ranks": [
+            19279,
+            19309,
+            19339
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            19570,
+            19755
+          ],
+          "missing_quota_ranks": 184,
+          "probe_query_ranks": [
+            19617,
+            19663,
+            19709
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            19755,
+            20080
+          ],
+          "missing_quota_ranks": 324,
+          "probe_query_ranks": [
+            19837,
+            19918,
+            19999
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            20182,
+            20289
+          ],
+          "missing_quota_ranks": 106,
+          "probe_query_ranks": [
+            20209,
+            20236,
+            20263
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            20418,
+            20725
+          ],
+          "missing_quota_ranks": 306,
+          "probe_query_ranks": [
+            20495,
+            20572,
+            20649
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            21432,
+            21557
+          ],
+          "missing_quota_ranks": 124,
+          "probe_query_ranks": [
+            21464,
+            21495,
+            21526
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            21854,
+            21975
+          ],
+          "missing_quota_ranks": 120,
+          "probe_query_ranks": [
+            21885,
+            21915,
+            21945
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            22068,
+            22249
+          ],
+          "missing_quota_ranks": 180,
+          "probe_query_ranks": [
+            22114,
+            22159,
+            22204
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            22454,
+            22678
+          ],
+          "missing_quota_ranks": 223,
+          "probe_query_ranks": [
+            22510,
+            22566,
+            22622
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            22933,
+            23067
+          ],
+          "missing_quota_ranks": 133,
+          "probe_query_ranks": [
+            22967,
+            23000,
+            23034
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23067,
+            23201
+          ],
+          "missing_quota_ranks": 133,
+          "probe_query_ranks": [
+            23101,
+            23134,
+            23168
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23512,
+            23748
+          ],
+          "missing_quota_ranks": 235,
+          "probe_query_ranks": [
+            23571,
+            23630,
+            23689
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23785,
+            23991
+          ],
+          "missing_quota_ranks": 205,
+          "probe_query_ranks": [
+            23837,
+            23888,
+            23940
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23991,
+            24111
+          ],
+          "missing_quota_ranks": 119,
+          "probe_query_ranks": [
+            24021,
+            24051,
+            24081
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24122,
+            24239
+          ],
+          "missing_quota_ranks": 116,
+          "probe_query_ranks": [
+            24152,
+            24181,
+            24210
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24239,
+            24414
+          ],
+          "missing_quota_ranks": 174,
+          "probe_query_ranks": [
+            24283,
+            24327,
+            24371
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24437,
+            24556
+          ],
+          "missing_quota_ranks": 118,
+          "probe_query_ranks": [
+            24467,
+            24497,
+            24527
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24756,
+            24979
+          ],
+          "missing_quota_ranks": 222,
+          "probe_query_ranks": [
+            24812,
+            24868,
+            24924
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            25008,
+            25152
+          ],
+          "missing_quota_ranks": 143,
+          "probe_query_ranks": [
+            25044,
+            25080,
+            25116
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            25236,
+            25443
+          ],
+          "missing_quota_ranks": 206,
+          "probe_query_ranks": [
+            25288,
+            25340,
+            25392
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            25465,
+            25675
+          ],
+          "missing_quota_ranks": 209,
+          "probe_query_ranks": [
+            25518,
+            25570,
+            25623
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            25708,
+            25895
+          ],
+          "missing_quota_ranks": 186,
+          "probe_query_ranks": [
+            25755,
+            25802,
+            25849
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            25895,
+            26056
+          ],
+          "missing_quota_ranks": 160,
+          "probe_query_ranks": [
+            25936,
+            25976,
+            26016
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            26056,
+            26179
+          ],
+          "missing_quota_ranks": 122,
+          "probe_query_ranks": [
+            26087,
+            26118,
+            26149
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            26179,
+            26592
+          ],
+          "missing_quota_ranks": 412,
+          "probe_query_ranks": [
+            26283,
+            26386,
+            26489
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            26592,
+            26719
+          ],
+          "missing_quota_ranks": 126,
+          "probe_query_ranks": [
+            26624,
+            26656,
+            26688
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            26719,
+            27255
+          ],
+          "missing_quota_ranks": 535,
+          "probe_query_ranks": [
+            26853,
+            26987,
+            27121
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            27255,
+            27406
+          ],
+          "missing_quota_ranks": 150,
+          "probe_query_ranks": [
+            27293,
+            27331,
+            27369
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            27406,
+            27598
+          ],
+          "missing_quota_ranks": 191,
+          "probe_query_ranks": [
+            27454,
+            27502,
+            27550
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            27684,
+            28095
+          ],
+          "missing_quota_ranks": 410,
+          "probe_query_ranks": [
+            27787,
+            27890,
+            27993
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            28095,
+            28343
+          ],
+          "missing_quota_ranks": 247,
+          "probe_query_ranks": [
+            28157,
+            28219,
+            28281
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            28476,
+            29302
+          ],
+          "missing_quota_ranks": 825,
+          "probe_query_ranks": [
+            28683,
+            28889,
+            29096
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            29302,
+            29630
+          ],
+          "missing_quota_ranks": 327,
+          "probe_query_ranks": [
+            29384,
+            29466,
+            29548
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            29707,
+            29835
+          ],
+          "missing_quota_ranks": 127,
+          "probe_query_ranks": [
+            29739,
+            29771,
+            29803
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            29835,
+            30347
+          ],
+          "missing_quota_ranks": 511,
+          "probe_query_ranks": [
+            29963,
+            30091,
+            30219
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            30347,
+            31194
+          ],
+          "missing_quota_ranks": 846,
+          "probe_query_ranks": [
+            30559,
+            30771,
+            30983
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            31194,
+            31536
+          ],
+          "missing_quota_ranks": 341,
+          "probe_query_ranks": [
+            31280,
+            31365,
+            31451
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            31536,
+            36267
+          ],
+          "missing_quota_ranks": 4730,
+          "probe_query_ranks": [
+            32719,
+            33902,
+            35085
+          ],
+          "probe_count": 3
+        }
+      ],
+      "extraction_gap_bands": []
+    },
+    "2": {
+      "count": 3825,
+      "national_rank_range": {
+        "min": 3,
+        "max": 127544
+      },
+      "quota_rank_range": {
+        "min": 1,
+        "max": 49965
+      },
+      "sweep_query_count": 160,
+      "last_nonzero_query_rank": 55465,
+      "tail_zero_probes": [
+        55565,
+        55665
+      ],
+      "confirmed_source_empty_bands": [
+        {
+          "quota_rank_exclusive": [
+            20679,
+            20782
+          ],
+          "missing_quota_ranks": 102,
+          "probe_query_ranks": [
+            20705,
+            20731,
+            20757
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            20825,
+            20960
+          ],
+          "missing_quota_ranks": 134,
+          "probe_query_ranks": [
+            20859,
+            20893,
+            20927
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24276,
+            24396
+          ],
+          "missing_quota_ranks": 119,
+          "probe_query_ranks": [
+            24306,
+            24336,
+            24366
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24536,
+            24640
+          ],
+          "missing_quota_ranks": 103,
+          "probe_query_ranks": [
+            24562,
+            24588,
+            24614
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24792,
+            24955
+          ],
+          "missing_quota_ranks": 162,
+          "probe_query_ranks": [
+            24833,
+            24874,
+            24915
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            25529,
+            25648
+          ],
+          "missing_quota_ranks": 118,
+          "probe_query_ranks": [
+            25559,
+            25589,
+            25619
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            26234,
+            26345
+          ],
+          "missing_quota_ranks": 110,
+          "probe_query_ranks": [
+            26262,
+            26290,
+            26318
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            26345,
+            26454
+          ],
+          "missing_quota_ranks": 108,
+          "probe_query_ranks": [
+            26373,
+            26400,
+            26427
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            26454,
+            26613
+          ],
+          "missing_quota_ranks": 158,
+          "probe_query_ranks": [
+            26494,
+            26534,
+            26574
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            26613,
+            26806
+          ],
+          "missing_quota_ranks": 192,
+          "probe_query_ranks": [
+            26662,
+            26710,
+            26758
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            27752,
+            27911
+          ],
+          "missing_quota_ranks": 158,
+          "probe_query_ranks": [
+            27792,
+            27832,
+            27872
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            28830,
+            28931
+          ],
+          "missing_quota_ranks": 100,
+          "probe_query_ranks": [
+            28856,
+            28881,
+            28906
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            29050,
+            29166
+          ],
+          "missing_quota_ranks": 115,
+          "probe_query_ranks": [
+            29079,
+            29108,
+            29137
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            29477,
+            29596
+          ],
+          "missing_quota_ranks": 118,
+          "probe_query_ranks": [
+            29507,
+            29537,
+            29567
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            29827,
+            29945
+          ],
+          "missing_quota_ranks": 117,
+          "probe_query_ranks": [
+            29857,
+            29886,
+            29916
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            30028,
+            30192
+          ],
+          "missing_quota_ranks": 163,
+          "probe_query_ranks": [
+            30069,
+            30110,
+            30151
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            30474,
+            30579
+          ],
+          "missing_quota_ranks": 104,
+          "probe_query_ranks": [
+            30501,
+            30527,
+            30553
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            30766,
+            30930
+          ],
+          "missing_quota_ranks": 163,
+          "probe_query_ranks": [
+            30807,
+            30848,
+            30889
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            31130,
+            31254
+          ],
+          "missing_quota_ranks": 123,
+          "probe_query_ranks": [
+            31161,
+            31192,
+            31223
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            31254,
+            31380
+          ],
+          "missing_quota_ranks": 125,
+          "probe_query_ranks": [
+            31286,
+            31317,
+            31349
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            31589,
+            31744
+          ],
+          "missing_quota_ranks": 154,
+          "probe_query_ranks": [
+            31628,
+            31667,
+            31706
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            31913,
+            32098
+          ],
+          "missing_quota_ranks": 184,
+          "probe_query_ranks": [
+            31960,
+            32006,
+            32052
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            32197,
+            32378
+          ],
+          "missing_quota_ranks": 180,
+          "probe_query_ranks": [
+            32243,
+            32288,
+            32333
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            32378,
+            32567
+          ],
+          "missing_quota_ranks": 188,
+          "probe_query_ranks": [
+            32426,
+            32473,
+            32520
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            32801,
+            33071
+          ],
+          "missing_quota_ranks": 269,
+          "probe_query_ranks": [
+            32869,
+            32936,
+            33004
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            33124,
+            33303
+          ],
+          "missing_quota_ranks": 178,
+          "probe_query_ranks": [
+            33169,
+            33214,
+            33259
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            33303,
+            33492
+          ],
+          "missing_quota_ranks": 188,
+          "probe_query_ranks": [
+            33351,
+            33398,
+            33445
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            33517,
+            33659
+          ],
+          "missing_quota_ranks": 141,
+          "probe_query_ranks": [
+            33553,
+            33588,
+            33624
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            33659,
+            34412
+          ],
+          "missing_quota_ranks": 752,
+          "probe_query_ranks": [
+            33848,
+            34036,
+            34224
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            34412,
+            34552
+          ],
+          "missing_quota_ranks": 139,
+          "probe_query_ranks": [
+            34447,
+            34482,
+            34517
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            34968,
+            35292
+          ],
+          "missing_quota_ranks": 323,
+          "probe_query_ranks": [
+            35049,
+            35130,
+            35211
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            35437,
+            35558
+          ],
+          "missing_quota_ranks": 120,
+          "probe_query_ranks": [
+            35468,
+            35498,
+            35528
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            35558,
+            35865
+          ],
+          "missing_quota_ranks": 306,
+          "probe_query_ranks": [
+            35635,
+            35712,
+            35789
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            35865,
+            36017
+          ],
+          "missing_quota_ranks": 151,
+          "probe_query_ranks": [
+            35903,
+            35941,
+            35979
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            36017,
+            36556
+          ],
+          "missing_quota_ranks": 538,
+          "probe_query_ranks": [
+            36152,
+            36287,
+            36422
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            36593,
+            36731
+          ],
+          "missing_quota_ranks": 137,
+          "probe_query_ranks": [
+            36628,
+            36662,
+            36697
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            36731,
+            36865
+          ],
+          "missing_quota_ranks": 133,
+          "probe_query_ranks": [
+            36765,
+            36798,
+            36832
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            36914,
+            37143
+          ],
+          "missing_quota_ranks": 228,
+          "probe_query_ranks": [
+            36972,
+            37029,
+            37086
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            37143,
+            37257
+          ],
+          "missing_quota_ranks": 113,
+          "probe_query_ranks": [
+            37172,
+            37200,
+            37229
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            37257,
+            37764
+          ],
+          "missing_quota_ranks": 506,
+          "probe_query_ranks": [
+            37384,
+            37511,
+            37638
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            37764,
+            38283
+          ],
+          "missing_quota_ranks": 518,
+          "probe_query_ranks": [
+            37894,
+            38024,
+            38154
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            38362,
+            38605
+          ],
+          "missing_quota_ranks": 242,
+          "probe_query_ranks": [
+            38423,
+            38484,
+            38545
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            38605,
+            40168
+          ],
+          "missing_quota_ranks": 1562,
+          "probe_query_ranks": [
+            38996,
+            39387,
+            39778
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            40168,
+            43453
+          ],
+          "missing_quota_ranks": 3284,
+          "probe_query_ranks": [
+            40990,
+            41811,
+            42632
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            43453,
+            49965
+          ],
+          "missing_quota_ranks": 6511,
+          "probe_query_ranks": [
+            45081,
+            46709,
+            48337
+          ],
+          "probe_count": 3
+        }
+      ],
+      "extraction_gap_bands": []
+    },
+    "3": {
+      "count": 2279,
+      "national_rank_range": {
+        "min": 24,
+        "max": 113848
+      },
+      "quota_rank_range": {
+        "min": 1,
+        "max": 31275
+      },
+      "sweep_query_count": 127,
+      "last_nonzero_query_rank": 34775,
+      "tail_zero_probes": [
+        34875,
+        34975
+      ],
+      "confirmed_source_empty_bands": [
+        {
+          "quota_rank_exclusive": [
+            15971,
+            16082
+          ],
+          "missing_quota_ranks": 110,
+          "probe_query_ranks": [
+            15999,
+            16027,
+            16055
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            17871,
+            18005
+          ],
+          "missing_quota_ranks": 133,
+          "probe_query_ranks": [
+            17905,
+            17938,
+            17972
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            18019,
+            18146
+          ],
+          "missing_quota_ranks": 126,
+          "probe_query_ranks": [
+            18051,
+            18083,
+            18115
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            18722,
+            18875
+          ],
+          "missing_quota_ranks": 152,
+          "probe_query_ranks": [
+            18761,
+            18799,
+            18837
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            19704,
+            19856
+          ],
+          "missing_quota_ranks": 151,
+          "probe_query_ranks": [
+            19742,
+            19780,
+            19818
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            20379,
+            20509
+          ],
+          "missing_quota_ranks": 129,
+          "probe_query_ranks": [
+            20412,
+            20444,
+            20477
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            20564,
+            20667
+          ],
+          "missing_quota_ranks": 102,
+          "probe_query_ranks": [
+            20590,
+            20616,
+            20642
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            20811,
+            21484
+          ],
+          "missing_quota_ranks": 672,
+          "probe_query_ranks": [
+            20980,
+            21148,
+            21316
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            21521,
+            21645
+          ],
+          "missing_quota_ranks": 123,
+          "probe_query_ranks": [
+            21552,
+            21583,
+            21614
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            21773,
+            21937
+          ],
+          "missing_quota_ranks": 163,
+          "probe_query_ranks": [
+            21814,
+            21855,
+            21896
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            21937,
+            22072
+          ],
+          "missing_quota_ranks": 134,
+          "probe_query_ranks": [
+            21971,
+            22005,
+            22039
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            22225,
+            22343
+          ],
+          "missing_quota_ranks": 117,
+          "probe_query_ranks": [
+            22255,
+            22284,
+            22314
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            22418,
+            22665
+          ],
+          "missing_quota_ranks": 246,
+          "probe_query_ranks": [
+            22480,
+            22542,
+            22604
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            22665,
+            22892
+          ],
+          "missing_quota_ranks": 226,
+          "probe_query_ranks": [
+            22722,
+            22779,
+            22836
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23102,
+            23260
+          ],
+          "missing_quota_ranks": 157,
+          "probe_query_ranks": [
+            23142,
+            23181,
+            23221
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23260,
+            23494
+          ],
+          "missing_quota_ranks": 233,
+          "probe_query_ranks": [
+            23319,
+            23377,
+            23436
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23494,
+            23671
+          ],
+          "missing_quota_ranks": 176,
+          "probe_query_ranks": [
+            23539,
+            23583,
+            23627
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23671,
+            23774
+          ],
+          "missing_quota_ranks": 102,
+          "probe_query_ranks": [
+            23697,
+            23723,
+            23749
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23774,
+            23925
+          ],
+          "missing_quota_ranks": 150,
+          "probe_query_ranks": [
+            23812,
+            23850,
+            23888
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            23925,
+            24283
+          ],
+          "missing_quota_ranks": 357,
+          "probe_query_ranks": [
+            24015,
+            24104,
+            24194
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24283,
+            24467
+          ],
+          "missing_quota_ranks": 183,
+          "probe_query_ranks": [
+            24329,
+            24375,
+            24421
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24507,
+            24683
+          ],
+          "missing_quota_ranks": 175,
+          "probe_query_ranks": [
+            24551,
+            24595,
+            24639
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24692,
+            24867
+          ],
+          "missing_quota_ranks": 174,
+          "probe_query_ranks": [
+            24736,
+            24780,
+            24824
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            24916,
+            25057
+          ],
+          "missing_quota_ranks": 140,
+          "probe_query_ranks": [
+            24952,
+            24987,
+            25022
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            25148,
+            25271
+          ],
+          "missing_quota_ranks": 122,
+          "probe_query_ranks": [
+            25179,
+            25210,
+            25241
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            25271,
+            26190
+          ],
+          "missing_quota_ranks": 918,
+          "probe_query_ranks": [
+            25501,
+            25731,
+            25961
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            26190,
+            27075
+          ],
+          "missing_quota_ranks": 884,
+          "probe_query_ranks": [
+            26412,
+            26633,
+            26854
+          ],
+          "probe_count": 3
+        },
+        {
+          "quota_rank_exclusive": [
+            27075,
+            31275
+          ],
+          "missing_quota_ranks": 4199,
+          "probe_query_ranks": [
+            28125,
+            29175,
+            30225
+          ],
+          "probe_count": 3
+        }
+      ],
+      "extraction_gap_bands": []
+    }
+  },
+  "qa_report": "data/raw/kanoon/math/1401/QA_REPORT.json"
+}

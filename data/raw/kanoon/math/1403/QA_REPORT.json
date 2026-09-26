@@ -1,0 +1,289 @@
+{
+  "schema": "loprax.ranklab.qa.v1",
+  "dataset": "kanoon.math.1403",
+  "scope": "sampling QA, not a full independent audit",
+  "source": {
+    "rendered_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+    "parameters": {
+      "dept": "1",
+      "year": "103",
+      "type": "3",
+      "sahmieh": "1|2|3",
+      "rank": "adaptive"
+    },
+    "access": "public rendered page and same-origin POST behavior; no CAPTCHA, anti-bot, or access-control bypass"
+  },
+  "queries_per_region": 5,
+  "labels": [
+    "low",
+    "low-mid",
+    "mid",
+    "high",
+    "near-tail"
+  ],
+  "checks": [
+    "HTTP status",
+    "non-empty response shape",
+    "canonical row mapping",
+    "membership in final exact-deduped set"
+  ],
+  "results": [
+    {
+      "region": 1,
+      "query_rank": 1,
+      "label": "low",
+      "status": 200,
+      "returned_rows": 61,
+      "national_rank_range": [
+        1,
+        289
+      ],
+      "quota_rank_range": [
+        1,
+        196
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 1,
+      "query_rank": 500,
+      "label": "low-mid",
+      "status": 200,
+      "returned_rows": 36,
+      "national_rank_range": [
+        624,
+        977
+      ],
+      "quota_rank_range": [
+        400,
+        596
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 1,
+      "query_rank": 5000,
+      "label": "mid",
+      "status": 200,
+      "returned_rows": 10,
+      "national_rank_range": [
+        8246,
+        10062
+      ],
+      "quota_rank_range": [
+        4552,
+        5492
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 1,
+      "query_rank": 20000,
+      "label": "high",
+      "status": 200,
+      "returned_rows": 10,
+      "national_rank_range": [
+        41169,
+        52135
+      ],
+      "quota_rank_range": [
+        18129,
+        21735
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 1,
+      "query_rank": 40000,
+      "label": "near-tail",
+      "status": 200,
+      "returned_rows": 1,
+      "national_rank_range": [
+        107937,
+        107937
+      ],
+      "quota_rank_range": [
+        37207,
+        37207
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 2,
+      "query_rank": 1,
+      "label": "low",
+      "status": 200,
+      "returned_rows": 109,
+      "national_rank_range": [
+        5,
+        647
+      ],
+      "quota_rank_range": [
+        1,
+        200
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 2,
+      "query_rank": 500,
+      "label": "low-mid",
+      "status": 200,
+      "returned_rows": 64,
+      "national_rank_range": [
+        1255,
+        1847
+      ],
+      "quota_rank_range": [
+        400,
+        599
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 2,
+      "query_rank": 5000,
+      "label": "mid",
+      "status": 200,
+      "returned_rows": 28,
+      "national_rank_range": [
+        12446,
+        14833
+      ],
+      "quota_rank_range": [
+        4502,
+        5414
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 2,
+      "query_rank": 20000,
+      "label": "high",
+      "status": 200,
+      "returned_rows": 10,
+      "national_rank_range": [
+        45981,
+        52309
+      ],
+      "quota_rank_range": [
+        18149,
+        20816
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 2,
+      "query_rank": 43000,
+      "label": "near-tail",
+      "status": 200,
+      "returned_rows": 1,
+      "national_rank_range": [
+        99168,
+        99168
+      ],
+      "quota_rank_range": [
+        39994,
+        39994
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 3,
+      "query_rank": 1,
+      "label": "low",
+      "status": 200,
+      "returned_rows": 78,
+      "national_rank_range": [
+        4,
+        2733
+      ],
+      "quota_rank_range": [
+        1,
+        199
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 3,
+      "query_rank": 500,
+      "label": "low-mid",
+      "status": 200,
+      "returned_rows": 45,
+      "national_rank_range": [
+        4981,
+        6483
+      ],
+      "quota_rank_range": [
+        402,
+        594
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 3,
+      "query_rank": 5000,
+      "label": "mid",
+      "status": 200,
+      "returned_rows": 25,
+      "national_rank_range": [
+        30854,
+        35157
+      ],
+      "quota_rank_range": [
+        4542,
+        5484
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 3,
+      "query_rank": 15000,
+      "label": "high",
+      "status": 200,
+      "returned_rows": 12,
+      "national_rank_range": [
+        66800,
+        74717
+      ],
+      "quota_rank_range": [
+        13864,
+        16233
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    },
+    {
+      "region": 3,
+      "query_rank": 26000,
+      "label": "near-tail",
+      "status": 200,
+      "returned_rows": 1,
+      "national_rank_range": [
+        98961,
+        98961
+      ],
+      "quota_rank_range": [
+        24055,
+        24055
+      ],
+      "all_rows_present_in_final_deduped_set": true,
+      "source_empty": false
+    }
+  ],
+  "pass": true
+}

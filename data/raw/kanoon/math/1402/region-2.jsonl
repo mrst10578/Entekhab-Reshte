@@ -1,0 +1,721 @@
+{"kanoon_score":8165,"national_rank":2,"quota_rank":1,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7571,"national_rank":11,"quota_rank":3,"quota_region":"منطقه 2","gender":"دختر","city":"آمل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":8137,"national_rank":18,"quota_rank":4,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7829,"national_rank":19,"quota_rank":5,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7616,"national_rank":20,"quota_rank":6,"quota_region":"منطقه 2","gender":"پسر","city":"رفسنجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7680,"national_rank":25,"quota_rank":7,"quota_region":"منطقه 2","gender":"پسر","city":"گناباد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7882,"national_rank":29,"quota_rank":9,"quota_region":"منطقه 2","gender":"پسر","city":"اردبيل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":8096,"national_rank":36,"quota_rank":11,"quota_region":"منطقه 2","gender":"پسر","city":"ساري","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7374,"national_rank":46,"quota_rank":15,"quota_region":"منطقه 2","gender":"دختر","city":"اهواز","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7311,"national_rank":53,"quota_rank":16,"quota_region":"منطقه 2","gender":"پسر","city":"بيرجند","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7831,"national_rank":55,"quota_rank":17,"quota_region":"منطقه 2","gender":"دختر","city":"بيرجند","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7495,"national_rank":56,"quota_rank":18,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7615,"national_rank":59,"quota_rank":20,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7662,"national_rank":62,"quota_rank":21,"quota_region":"منطقه 2","gender":"پسر","city":"بندرعباس","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7808,"national_rank":67,"quota_rank":22,"quota_region":"منطقه 2","gender":"پسر","city":"كرمانشاه","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7309,"national_rank":68,"quota_rank":23,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7486,"national_rank":69,"quota_rank":24,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7851,"national_rank":74,"quota_rank":26,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7535,"national_rank":75,"quota_rank":27,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7411,"national_rank":79,"quota_rank":28,"quota_region":"منطقه 2","gender":"دختر","city":"كاشان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7241,"national_rank":84,"quota_rank":30,"quota_region":"منطقه 2","gender":"پسر","city":"لاهيجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6910,"national_rank":86,"quota_rank":31,"quota_region":"منطقه 2","gender":"دختر","city":"گناباد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7013,"national_rank":87,"quota_rank":32,"quota_region":"منطقه 2","gender":"پسر","city":"دليجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7519,"national_rank":89,"quota_rank":33,"quota_region":"منطقه 2","gender":"پسر","city":"رفسنجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7120,"national_rank":101,"quota_rank":34,"quota_region":"منطقه 2","gender":"دختر","city":"گرگان","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":7271,"national_rank":103,"quota_rank":35,"quota_region":"منطقه 2","gender":"دختر","city":"بندرعباس","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7016,"national_rank":108,"quota_rank":36,"quota_region":"منطقه 2","gender":"پسر","city":"آمل","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6773,"national_rank":110,"quota_rank":37,"quota_region":"منطقه 2","gender":"پسر","city":"آمل","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7631,"national_rank":115,"quota_rank":40,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7360,"national_rank":120,"quota_rank":41,"quota_region":"منطقه 2","gender":"پسر","city":"گرگان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7819,"national_rank":129,"quota_rank":42,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6673,"national_rank":131,"quota_rank":43,"quota_region":"منطقه 2","gender":"پسر","city":"بيرجند","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":7398,"national_rank":131,"quota_rank":43,"quota_region":"منطقه 2","gender":"دختر","city":"كرمان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7137,"national_rank":137,"quota_rank":45,"quota_region":"منطقه 2","gender":"دختر","city":"اهواز","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7304,"national_rank":141,"quota_rank":47,"quota_region":"منطقه 2","gender":"پسر","city":"مامونيه / زرنديه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7629,"national_rank":144,"quota_rank":49,"quota_region":"منطقه 2","gender":"پسر","city":"فيروزآباد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7115,"national_rank":146,"quota_rank":50,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7168,"national_rank":150,"quota_rank":52,"quota_region":"منطقه 2","gender":"پسر","city":"نوشهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7525,"national_rank":153,"quota_rank":53,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"اقتصاد"}
+{"kanoon_score":7054,"national_rank":168,"quota_rank":56,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6869,"national_rank":183,"quota_rank":61,"quota_region":"منطقه 2","gender":"پسر","city":"سبزوار","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":7132,"national_rank":188,"quota_rank":62,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":7626,"national_rank":190,"quota_rank":63,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":7106,"national_rank":198,"quota_rank":65,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7132,"national_rank":200,"quota_rank":66,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6752,"national_rank":205,"quota_rank":67,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7426,"national_rank":207,"quota_rank":68,"quota_region":"منطقه 2","gender":"پسر","city":"زنجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7250,"national_rank":209,"quota_rank":69,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7002,"national_rank":211,"quota_rank":70,"quota_region":"منطقه 2","gender":"دختر","city":"بندرعباس","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":7441,"national_rank":212,"quota_rank":71,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6316,"national_rank":214,"quota_rank":72,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6974,"national_rank":233,"quota_rank":77,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6628,"national_rank":234,"quota_rank":78,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":7219,"national_rank":244,"quota_rank":81,"quota_region":"منطقه 2","gender":"دختر","city":"بيرجند","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6872,"national_rank":246,"quota_rank":82,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7082,"national_rank":255,"quota_rank":84,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":8017,"national_rank":255,"quota_rank":84,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6780,"national_rank":272,"quota_rank":88,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6465,"national_rank":273,"quota_rank":89,"quota_region":"منطقه 2","gender":"پسر","city":"انديمشك","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6564,"national_rank":279,"quota_rank":90,"quota_region":"منطقه 2","gender":"پسر","city":"اردبيل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6775,"national_rank":289,"quota_rank":91,"quota_region":"منطقه 2","gender":"دختر","city":"بجنورد","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":7108,"national_rank":290,"quota_rank":92,"quota_region":"منطقه 2","gender":"پسر","city":"لنگرود","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6793,"national_rank":291,"quota_rank":93,"quota_region":"منطقه 2","gender":"دختر","city":"رفسنجان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6668,"national_rank":295,"quota_rank":95,"quota_region":"منطقه 2","gender":"پسر","city":"اروميه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6729,"national_rank":295,"quota_rank":95,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6614,"national_rank":297,"quota_rank":97,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6859,"national_rank":298,"quota_rank":98,"quota_region":"منطقه 2","gender":"پسر","city":"اروميه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7203,"national_rank":307,"quota_rank":103,"quota_region":"منطقه 2","gender":"پسر","city":"رودسر","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":6457,"national_rank":208,"quota_rank":104,"quota_region":"منطقه 2","gender":"دختر","city":"كرمان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6586,"national_rank":1652,"quota_rank":104,"quota_region":"منطقه 2","gender":"پسر","city":"شهرضا","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6429,"national_rank":313,"quota_rank":107,"quota_region":"منطقه 2","gender":"دختر","city":"رفسنجان","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6607,"national_rank":316,"quota_rank":108,"quota_region":"منطقه 2","gender":"دختر","city":"قم","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":7034,"national_rank":330,"quota_rank":112,"quota_region":"منطقه 2","gender":"پسر","city":"لاهيجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6757,"national_rank":339,"quota_rank":114,"quota_region":"منطقه 2","gender":"پسر","city":"شيرگاه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6823,"national_rank":343,"quota_rank":115,"quota_region":"منطقه 2","gender":"دختر","city":"يزد","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6647,"national_rank":346,"quota_rank":116,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6825,"national_rank":347,"quota_rank":117,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7202,"national_rank":351,"quota_rank":119,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6456,"national_rank":358,"quota_rank":120,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6702,"national_rank":362,"quota_rank":121,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":7169,"national_rank":363,"quota_rank":122,"quota_region":"منطقه 2","gender":"پسر","city":"بوشهر","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6944,"national_rank":369,"quota_rank":124,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6799,"national_rank":371,"quota_rank":126,"quota_region":"منطقه 2","gender":"دختر","city":"قزوين","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":7000,"national_rank":381,"quota_rank":129,"quota_region":"منطقه 2","gender":"پسر","city":"اروميه","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6764,"national_rank":394,"quota_rank":133,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6515,"national_rank":401,"quota_rank":136,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7307,"national_rank":420,"quota_rank":140,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":7095,"national_rank":422,"quota_rank":141,"quota_region":"منطقه 2","gender":"پسر","city":"بوشهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6778,"national_rank":444,"quota_rank":151,"quota_region":"منطقه 2","gender":"پسر","city":"ورامين","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6682,"national_rank":451,"quota_rank":153,"quota_region":"منطقه 2","gender":"پسر","city":"تهران","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6084,"national_rank":457,"quota_rank":154,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6616,"national_rank":462,"quota_rank":155,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6591,"national_rank":463,"quota_rank":156,"quota_region":"منطقه 2","gender":"دختر","city":"آباده","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6727,"national_rank":464,"quota_rank":157,"quota_region":"منطقه 2","gender":"پسر","city":"كاشمر","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6426,"national_rank":467,"quota_rank":158,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7407,"national_rank":469,"quota_rank":159,"quota_region":"منطقه 2","gender":"پسر","city":"بهشهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6245,"national_rank":471,"quota_rank":160,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6773,"national_rank":471,"quota_rank":160,"quota_region":"منطقه 2","gender":"پسر","city":"رفسنجان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6644,"national_rank":485,"quota_rank":164,"quota_region":"منطقه 2","gender":"دختر","city":"رفسنجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6588,"national_rank":486,"quota_rank":165,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6393,"national_rank":491,"quota_rank":166,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6515,"national_rank":503,"quota_rank":170,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6465,"national_rank":506,"quota_rank":172,"quota_region":"منطقه 2","gender":"دختر","city":"كاشان","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":6658,"national_rank":507,"quota_rank":173,"quota_region":"منطقه 2","gender":"دختر","city":"لنگرود","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6450,"national_rank":511,"quota_rank":175,"quota_region":"منطقه 2","gender":"دختر","city":"همدان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7386,"national_rank":517,"quota_rank":178,"quota_region":"منطقه 2","gender":"دختر","city":"يزد","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":6916,"national_rank":521,"quota_rank":180,"quota_region":"منطقه 2","gender":"پسر","city":"آباده","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":7106,"national_rank":523,"quota_rank":181,"quota_region":"منطقه 2","gender":"دختر","city":"يزد","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6392,"national_rank":525,"quota_rank":182,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6622,"national_rank":526,"quota_rank":183,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6329,"national_rank":531,"quota_rank":184,"quota_region":"منطقه 2","gender":"دختر","city":"زنجان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7527,"national_rank":532,"quota_rank":185,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6575,"national_rank":539,"quota_rank":187,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6730,"national_rank":541,"quota_rank":188,"quota_region":"منطقه 2","gender":"پسر","city":"محلات","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6452,"national_rank":547,"quota_rank":192,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6754,"national_rank":547,"quota_rank":192,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6379,"national_rank":554,"quota_rank":194,"quota_region":"منطقه 2","gender":"پسر","city":"آمل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6640,"national_rank":558,"quota_rank":195,"quota_region":"منطقه 2","gender":"دختر","city":"همدان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6675,"national_rank":562,"quota_rank":197,"quota_region":"منطقه 2","gender":"پسر","city":"كاشان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6297,"national_rank":567,"quota_rank":200,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":7100,"national_rank":573,"quota_rank":201,"quota_region":"منطقه 2","gender":"پسر","city":"ساري","accepted_raw":"مهندسي برق"}
+{"kanoon_score":7262,"national_rank":573,"quota_rank":201,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7038,"national_rank":576,"quota_rank":203,"quota_region":"منطقه 2","gender":"پسر","city":"كرمانشاه","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6444,"national_rank":577,"quota_rank":204,"quota_region":"منطقه 2","gender":"پسر","city":"زنجان","accepted_raw":"فيزيک"}
+{"kanoon_score":6731,"national_rank":579,"quota_rank":205,"quota_region":"منطقه 2","gender":"پسر","city":"تربت حيدريه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6420,"national_rank":586,"quota_rank":207,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6715,"national_rank":586,"quota_rank":207,"quota_region":"منطقه 2","gender":"دختر","city":"رفسنجان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6569,"national_rank":596,"quota_rank":209,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6952,"national_rank":605,"quota_rank":211,"quota_region":"منطقه 2","gender":"پسر","city":"قائم شهر","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6426,"national_rank":617,"quota_rank":214,"quota_region":"منطقه 2","gender":"پسر","city":"ورامين","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6329,"national_rank":620,"quota_rank":215,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6672,"national_rank":632,"quota_rank":217,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6881,"national_rank":635,"quota_rank":218,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6227,"national_rank":640,"quota_rank":219,"quota_region":"منطقه 2","gender":"پسر","city":"گلپايگان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6376,"national_rank":645,"quota_rank":220,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6878,"national_rank":651,"quota_rank":224,"quota_region":"منطقه 2","gender":"پسر","city":"رفسنجان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6372,"national_rank":655,"quota_rank":226,"quota_region":"منطقه 2","gender":"پسر","city":"اهواز","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6318,"national_rank":666,"quota_rank":230,"quota_region":"منطقه 2","gender":"پسر","city":"بيرجند","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6371,"national_rank":668,"quota_rank":232,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6615,"national_rank":672,"quota_rank":233,"quota_region":"منطقه 2","gender":"پسر","city":"اردبيل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7160,"national_rank":676,"quota_rank":234,"quota_region":"منطقه 2","gender":"پسر","city":"قائم شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":7055,"national_rank":686,"quota_rank":237,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6269,"national_rank":703,"quota_rank":240,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6781,"national_rank":712,"quota_rank":242,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6501,"national_rank":716,"quota_rank":244,"quota_region":"منطقه 2","gender":"پسر","city":"شاهين شهر","accepted_raw":"فيزيک"}
+{"kanoon_score":5899,"national_rank":719,"quota_rank":245,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5938,"national_rank":3242,"quota_rank":245,"quota_region":"منطقه 2","gender":"پسر","city":"لار","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6520,"national_rank":725,"quota_rank":248,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6499,"national_rank":730,"quota_rank":249,"quota_region":"منطقه 2","gender":"دختر","city":"ساري","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6293,"national_rank":733,"quota_rank":250,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6383,"national_rank":743,"quota_rank":256,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6924,"national_rank":747,"quota_rank":258,"quota_region":"منطقه 2","gender":"پسر","city":"اهواز","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":6023,"national_rank":751,"quota_rank":259,"quota_region":"منطقه 2","gender":"دختر","city":"كرمان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6134,"national_rank":754,"quota_rank":261,"quota_region":"منطقه 2","gender":"دختر","city":"بجنورد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6896,"national_rank":754,"quota_rank":261,"quota_region":"منطقه 2","gender":"دختر","city":"قم","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6459,"national_rank":758,"quota_rank":263,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6446,"national_rank":761,"quota_rank":265,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6519,"national_rank":761,"quota_rank":265,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6343,"national_rank":764,"quota_rank":267,"quota_region":"منطقه 2","gender":"دختر","city":"كرمان","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":6773,"national_rank":774,"quota_rank":270,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6464,"national_rank":778,"quota_rank":271,"quota_region":"منطقه 2","gender":"دختر","city":"سنندج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6809,"national_rank":817,"quota_rank":276,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6855,"national_rank":825,"quota_rank":278,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6416,"national_rank":828,"quota_rank":279,"quota_region":"منطقه 2","gender":"دختر","city":"ميبد","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":7021,"national_rank":833,"quota_rank":280,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6441,"national_rank":838,"quota_rank":282,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6565,"national_rank":840,"quota_rank":284,"quota_region":"منطقه 2","gender":"دختر","city":"كرمانشاه","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":7579,"national_rank":853,"quota_rank":287,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6558,"national_rank":865,"quota_rank":291,"quota_region":"منطقه 2","gender":"پسر","city":"سبزوار","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":7046,"national_rank":868,"quota_rank":292,"quota_region":"منطقه 2","gender":"پسر","city":"همدان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6833,"national_rank":889,"quota_rank":296,"quota_region":"منطقه 2","gender":"پسر","city":"بيرجند","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5974,"national_rank":892,"quota_rank":298,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6095,"national_rank":894,"quota_rank":300,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6144,"national_rank":904,"quota_rank":304,"quota_region":"منطقه 2","gender":"پسر","city":"تهران","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6089,"national_rank":910,"quota_rank":305,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5912,"national_rank":913,"quota_rank":306,"quota_region":"منطقه 2","gender":"دختر","city":"كرمان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6727,"national_rank":923,"quota_rank":308,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6041,"national_rank":932,"quota_rank":310,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6165,"national_rank":936,"quota_rank":311,"quota_region":"منطقه 2","gender":"پسر","city":"بجنورد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6584,"national_rank":953,"quota_rank":315,"quota_region":"منطقه 2","gender":"پسر","city":"تهران","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6123,"national_rank":966,"quota_rank":319,"quota_region":"منطقه 2","gender":"دختر","city":"رودسر","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6370,"national_rank":976,"quota_rank":321,"quota_region":"منطقه 2","gender":"پسر","city":"خميني شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6753,"national_rank":981,"quota_rank":323,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6325,"national_rank":984,"quota_rank":325,"quota_region":"منطقه 2","gender":"پسر","city":"بهبهان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6812,"national_rank":984,"quota_rank":325,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6638,"national_rank":989,"quota_rank":328,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5979,"national_rank":1008,"quota_rank":333,"quota_region":"منطقه 2","gender":"دختر","city":"قم","accepted_raw":"فيزيک"}
+{"kanoon_score":6895,"national_rank":1008,"quota_rank":333,"quota_region":"منطقه 2","gender":"پسر","city":"بهار","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6634,"national_rank":1017,"quota_rank":336,"quota_region":"منطقه 2","gender":"پسر","city":"بجنورد","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6182,"national_rank":1037,"quota_rank":339,"quota_region":"منطقه 2","gender":"دختر","city":"تهران","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6864,"national_rank":1048,"quota_rank":340,"quota_region":"منطقه 2","gender":"پسر","city":"قائم شهر","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":5989,"national_rank":1051,"quota_rank":342,"quota_region":"منطقه 2","gender":"پسر","city":"تهران","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6653,"national_rank":1061,"quota_rank":346,"quota_region":"منطقه 2","gender":"پسر","city":"ورامين","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":6256,"national_rank":1072,"quota_rank":350,"quota_region":"منطقه 2","gender":"پسر","city":"مهريز","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6298,"national_rank":1074,"quota_rank":351,"quota_region":"منطقه 2","gender":"پسر","city":"جويبار","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6299,"national_rank":1074,"quota_rank":351,"quota_region":"منطقه 2","gender":"پسر","city":"بروجرد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6869,"national_rank":1081,"quota_rank":354,"quota_region":"منطقه 2","gender":"پسر","city":"فريدون كنار","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6150,"national_rank":1086,"quota_rank":355,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5623,"national_rank":1105,"quota_rank":360,"quota_region":"منطقه 2","gender":"دختر","city":"بندرعباس","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6688,"national_rank":1105,"quota_rank":360,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5705,"national_rank":1114,"quota_rank":364,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6061,"national_rank":1114,"quota_rank":364,"quota_region":"منطقه 2","gender":"پسر","city":"سبزوار","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6442,"national_rank":1114,"quota_rank":364,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5741,"national_rank":1119,"quota_rank":367,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5760,"national_rank":1126,"quota_rank":369,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6668,"national_rank":1128,"quota_rank":370,"quota_region":"منطقه 2","gender":"دختر","city":"لاهيجان","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6117,"national_rank":1130,"quota_rank":371,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5666,"national_rank":1131,"quota_rank":372,"quota_region":"منطقه 2","gender":"دختر","city":"بابل","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5988,"national_rank":1138,"quota_rank":374,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5769,"national_rank":1140,"quota_rank":376,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":6874,"national_rank":1152,"quota_rank":377,"quota_region":"منطقه 2","gender":"پسر","city":"بندرعباس","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6301,"national_rank":1156,"quota_rank":379,"quota_region":"منطقه 2","gender":"دختر","city":"كاشمر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6137,"national_rank":1163,"quota_rank":380,"quota_region":"منطقه 2","gender":"پسر","city":"رفسنجان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6599,"national_rank":1167,"quota_rank":382,"quota_region":"منطقه 2","gender":"پسر","city":"شهركرد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6666,"national_rank":1167,"quota_rank":382,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5946,"national_rank":1175,"quota_rank":385,"quota_region":"منطقه 2","gender":"پسر","city":"ميبد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5747,"national_rank":1187,"quota_rank":386,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6368,"national_rank":1195,"quota_rank":390,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6041,"national_rank":1199,"quota_rank":392,"quota_region":"منطقه 2","gender":"پسر","city":"قوچان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6096,"national_rank":1199,"quota_rank":392,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6861,"national_rank":1199,"quota_rank":392,"quota_region":"منطقه 2","gender":"پسر","city":"اهواز","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6566,"national_rank":1204,"quota_rank":395,"quota_region":"منطقه 2","gender":"پسر","city":"بوشهر","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6513,"national_rank":1212,"quota_rank":398,"quota_region":"منطقه 2","gender":"پسر","city":"اروميه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6339,"national_rank":1230,"quota_rank":405,"quota_region":"منطقه 2","gender":"پسر","city":"سيرجان","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":6381,"national_rank":1251,"quota_rank":411,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5770,"national_rank":1253,"quota_rank":412,"quota_region":"منطقه 2","gender":"دختر","city":"كرمان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6285,"national_rank":1255,"quota_rank":413,"quota_region":"منطقه 2","gender":"دختر","city":"كاشان","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6374,"national_rank":1257,"quota_rank":414,"quota_region":"منطقه 2","gender":"پسر","city":"بروجن","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6207,"national_rank":1264,"quota_rank":416,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6889,"national_rank":1267,"quota_rank":418,"quota_region":"منطقه 2","gender":"پسر","city":"اردبيل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6196,"national_rank":1269,"quota_rank":419,"quota_region":"منطقه 2","gender":"پسر","city":"كاشان","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6340,"national_rank":1280,"quota_rank":423,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5653,"national_rank":1287,"quota_rank":425,"quota_region":"منطقه 2","gender":"دختر","city":"تهران","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6295,"national_rank":1319,"quota_rank":433,"quota_region":"منطقه 2","gender":"دختر","city":"نيشابور","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5913,"national_rank":1326,"quota_rank":435,"quota_region":"منطقه 2","gender":"دختر","city":"شهركرد","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6084,"national_rank":1346,"quota_rank":440,"quota_region":"منطقه 2","gender":"دختر","city":"ساوه","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6319,"national_rank":1349,"quota_rank":442,"quota_region":"منطقه 2","gender":"دختر","city":"بيرجند","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6081,"national_rank":1354,"quota_rank":444,"quota_region":"منطقه 2","gender":"دختر","city":"نيشابور","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6223,"national_rank":1361,"quota_rank":447,"quota_region":"منطقه 2","gender":"پسر","city":"خرم آباد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6138,"national_rank":1366,"quota_rank":449,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5902,"national_rank":1371,"quota_rank":450,"quota_region":"منطقه 2","gender":"پسر","city":"آمل","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6089,"national_rank":1377,"quota_rank":452,"quota_region":"منطقه 2","gender":"دختر","city":"اروميه","accepted_raw":"علوم مهندسي"}
+{"kanoon_score":5533,"national_rank":1385,"quota_rank":455,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5305,"national_rank":1392,"quota_rank":458,"quota_region":"منطقه 2","gender":"پسر","city":"دزفول","accepted_raw":"مهندسي انرژي"}
+{"kanoon_score":6444,"national_rank":1396,"quota_rank":459,"quota_region":"منطقه 2","gender":"پسر","city":"قوچان","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5293,"national_rank":1406,"quota_rank":461,"quota_region":"منطقه 2","gender":"پسر","city":"بابل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6312,"national_rank":1419,"quota_rank":464,"quota_region":"منطقه 2","gender":"پسر","city":"بابلسر","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6430,"national_rank":1425,"quota_rank":466,"quota_region":"منطقه 2","gender":"پسر","city":"بندرعباس","accepted_raw":"مهندسي پزشکي"}
+{"kanoon_score":6049,"national_rank":1428,"quota_rank":468,"quota_region":"منطقه 2","gender":"پسر","city":"اختيارآباد","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":6021,"national_rank":1432,"quota_rank":470,"quota_region":"منطقه 2","gender":"پسر","city":"ساري","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6562,"national_rank":1453,"quota_rank":476,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6117,"national_rank":1465,"quota_rank":481,"quota_region":"منطقه 2","gender":"پسر","city":"گلپايگان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6457,"national_rank":1469,"quota_rank":483,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6885,"national_rank":1474,"quota_rank":485,"quota_region":"منطقه 2","gender":"پسر","city":"ساري","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6081,"national_rank":1479,"quota_rank":488,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":6387,"national_rank":1515,"quota_rank":501,"quota_region":"منطقه 2","gender":"پسر","city":"شهر قدس","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5854,"national_rank":1523,"quota_rank":503,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5906,"national_rank":1530,"quota_rank":506,"quota_region":"منطقه 2","gender":"پسر","city":"كرمانشاه","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5703,"national_rank":1537,"quota_rank":508,"quota_region":"منطقه 2","gender":"دختر","city":"ساري","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6119,"national_rank":1541,"quota_rank":509,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5679,"national_rank":1559,"quota_rank":512,"quota_region":"منطقه 2","gender":"دختر","city":"كرمان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5942,"national_rank":1578,"quota_rank":518,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5576,"national_rank":1591,"quota_rank":519,"quota_region":"منطقه 2","gender":"پسر","city":"اهواز","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6719,"national_rank":1591,"quota_rank":519,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6344,"national_rank":1595,"quota_rank":521,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5779,"national_rank":1606,"quota_rank":524,"quota_region":"منطقه 2","gender":"پسر","city":"سبزوار","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6058,"national_rank":1629,"quota_rank":529,"quota_region":"منطقه 2","gender":"دختر","city":"تهران","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6085,"national_rank":1632,"quota_rank":531,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5811,"national_rank":1637,"quota_rank":533,"quota_region":"منطقه 2","gender":"پسر","city":"تهران","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6046,"national_rank":1671,"quota_rank":539,"quota_region":"منطقه 2","gender":"پسر","city":"دماوند","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5976,"national_rank":1678,"quota_rank":541,"quota_region":"منطقه 2","gender":"دختر","city":"قائم شهر","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5372,"national_rank":6132,"quota_rank":542,"quota_region":"منطقه 2","gender":"پسر","city":"پيشوا","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":6072,"national_rank":1688,"quota_rank":546,"quota_region":"منطقه 2","gender":"دختر","city":"بابل","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":6590,"national_rank":1700,"quota_rank":549,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5835,"national_rank":1713,"quota_rank":553,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"فيزيک"}
+{"kanoon_score":6643,"national_rank":1717,"quota_rank":556,"quota_region":"منطقه 2","gender":"پسر","city":"ساري","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6061,"national_rank":1746,"quota_rank":559,"quota_region":"منطقه 2","gender":"پسر","city":"اصفهان","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":5959,"national_rank":1752,"quota_rank":562,"quota_region":"منطقه 2","gender":"پسر","city":"ورامين","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5787,"national_rank":1766,"quota_rank":565,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6481,"national_rank":1771,"quota_rank":567,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5962,"national_rank":1787,"quota_rank":574,"quota_region":"منطقه 2","gender":"دختر","city":"اهواز","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6168,"national_rank":1803,"quota_rank":576,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5852,"national_rank":1810,"quota_rank":577,"quota_region":"منطقه 2","gender":"پسر","city":"خميني شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5825,"national_rank":1819,"quota_rank":580,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":6390,"national_rank":1819,"quota_rank":580,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6175,"national_rank":1854,"quota_rank":586,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6476,"national_rank":1859,"quota_rank":587,"quota_region":"منطقه 2","gender":"پسر","city":"بروجرد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6021,"national_rank":1863,"quota_rank":590,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5766,"national_rank":1875,"quota_rank":594,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5205,"national_rank":1879,"quota_rank":596,"quota_region":"منطقه 2","gender":"دختر","city":"خمين","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6307,"national_rank":1879,"quota_rank":596,"quota_region":"منطقه 2","gender":"پسر","city":"خرم آباد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5956,"national_rank":1881,"quota_rank":598,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5683,"national_rank":1886,"quota_rank":600,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5758,"national_rank":1926,"quota_rank":613,"quota_region":"منطقه 2","gender":"پسر","city":"كاشمر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6021,"national_rank":1946,"quota_rank":619,"quota_region":"منطقه 2","gender":"پسر","city":"بندرانزلي","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6156,"national_rank":1976,"quota_rank":625,"quota_region":"منطقه 2","gender":"پسر","city":"تهران","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5575,"national_rank":1983,"quota_rank":627,"quota_region":"منطقه 2","gender":"دختر","city":"رشت","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5442,"national_rank":1986,"quota_rank":629,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"فيزيک"}
+{"kanoon_score":5773,"national_rank":1991,"quota_rank":630,"quota_region":"منطقه 2","gender":"دختر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5821,"national_rank":1997,"quota_rank":631,"quota_region":"منطقه 2","gender":"پسر","city":"اروميه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6255,"national_rank":2001,"quota_rank":633,"quota_region":"منطقه 2","gender":"پسر","city":"گرمسار","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6326,"national_rank":2009,"quota_rank":635,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5538,"national_rank":2015,"quota_rank":636,"quota_region":"منطقه 2","gender":"پسر","city":"اردبيل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5665,"national_rank":2045,"quota_rank":645,"quota_region":"منطقه 2","gender":"دختر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5784,"national_rank":2049,"quota_rank":646,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":5837,"national_rank":2075,"quota_rank":652,"quota_region":"منطقه 2","gender":"دختر","city":"يزد","accepted_raw":"مهندسي پزشکي"}
+{"kanoon_score":6218,"national_rank":2095,"quota_rank":656,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6057,"national_rank":2099,"quota_rank":659,"quota_region":"منطقه 2","gender":"پسر","city":"كرمانشاه","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":5571,"national_rank":2118,"quota_rank":667,"quota_region":"منطقه 2","gender":"دختر","city":"قم","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6130,"national_rank":2124,"quota_rank":668,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6471,"national_rank":2133,"quota_rank":669,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي دريا"}
+{"kanoon_score":5372,"national_rank":2142,"quota_rank":672,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":5750,"national_rank":2142,"quota_rank":672,"quota_region":"منطقه 2","gender":"دختر","city":"يزد","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6100,"national_rank":2148,"quota_rank":675,"quota_region":"منطقه 2","gender":"دختر","city":"قزوين","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6341,"national_rank":2167,"quota_rank":684,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6581,"national_rank":2167,"quota_rank":684,"quota_region":"منطقه 2","gender":"پسر","city":"بيرجند","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6235,"national_rank":2178,"quota_rank":691,"quota_region":"منطقه 2","gender":"پسر","city":"خميني شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5454,"national_rank":2187,"quota_rank":694,"quota_region":"منطقه 2","gender":"پسر","city":"خميني شهر","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5818,"national_rank":2194,"quota_rank":695,"quota_region":"منطقه 2","gender":"دختر","city":"كلاچاي","accepted_raw":"فيزيک"}
+{"kanoon_score":5775,"national_rank":2198,"quota_rank":697,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي پزشکي"}
+{"kanoon_score":6393,"national_rank":2213,"quota_rank":704,"quota_region":"منطقه 2","gender":"پسر","city":"خميني شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4622,"national_rank":7443,"quota_rank":707,"quota_region":"منطقه 2","gender":"پسر","city":"تهران","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5599,"national_rank":2232,"quota_rank":709,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5831,"national_rank":2239,"quota_rank":712,"quota_region":"منطقه 2","gender":"دختر","city":"كرمانشاه","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5767,"national_rank":2241,"quota_rank":714,"quota_region":"منطقه 2","gender":"دختر","city":"بابل","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5414,"national_rank":2273,"quota_rank":726,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5715,"national_rank":2273,"quota_rank":726,"quota_region":"منطقه 2","gender":"پسر","city":"سبزوار","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":5457,"national_rank":2282,"quota_rank":729,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6898,"national_rank":2285,"quota_rank":731,"quota_region":"منطقه 2","gender":"دختر","city":"ملاير","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6313,"national_rank":2296,"quota_rank":734,"quota_region":"منطقه 2","gender":"پسر","city":"بروجن","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5760,"national_rank":2300,"quota_rank":735,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6040,"national_rank":2317,"quota_rank":738,"quota_region":"منطقه 2","gender":"پسر","city":"زنجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5765,"national_rank":2344,"quota_rank":751,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5716,"national_rank":2363,"quota_rank":757,"quota_region":"منطقه 2","gender":"دختر","city":"محمد شهر","accepted_raw":"فيزيک"}
+{"kanoon_score":5901,"national_rank":2363,"quota_rank":757,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5968,"national_rank":2385,"quota_rank":764,"quota_region":"منطقه 2","gender":"پسر","city":"زنجان","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":6081,"national_rank":2385,"quota_rank":764,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6094,"national_rank":2399,"quota_rank":771,"quota_region":"منطقه 2","gender":"دختر","city":"فرخ شهر","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5632,"national_rank":2409,"quota_rank":773,"quota_region":"منطقه 2","gender":"پسر","city":"سبزوار","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5416,"national_rank":2423,"quota_rank":779,"quota_region":"منطقه 2","gender":"دختر","city":"ساري","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5440,"national_rank":2423,"quota_rank":779,"quota_region":"منطقه 2","gender":"دختر","city":"اردبيل","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5742,"national_rank":2423,"quota_rank":779,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":6407,"national_rank":2427,"quota_rank":781,"quota_region":"منطقه 2","gender":"پسر","city":"لامرد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5975,"national_rank":2437,"quota_rank":785,"quota_region":"منطقه 2","gender":"دختر","city":"كيان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5829,"national_rank":2448,"quota_rank":787,"quota_region":"منطقه 2","gender":"دختر","city":"رفسنجان","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":6194,"national_rank":2459,"quota_rank":792,"quota_region":"منطقه 2","gender":"پسر","city":"بروجن","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6065,"national_rank":2464,"quota_rank":793,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5627,"national_rank":2469,"quota_rank":795,"quota_region":"منطقه 2","gender":"پسر","city":"زاهدان","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6135,"national_rank":2469,"quota_rank":795,"quota_region":"منطقه 2","gender":"دختر","city":"يزد","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5576,"national_rank":2481,"quota_rank":800,"quota_region":"منطقه 2","gender":"دختر","city":"قائم شهر","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6311,"national_rank":2486,"quota_rank":802,"quota_region":"منطقه 2","gender":"پسر","city":"كرمانشاه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5834,"national_rank":2495,"quota_rank":807,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5247,"national_rank":2499,"quota_rank":808,"quota_region":"منطقه 2","gender":"دختر","city":"زرين شهر","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5767,"national_rank":2504,"quota_rank":810,"quota_region":"منطقه 2","gender":"پسر","city":"ملكان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5685,"national_rank":2530,"quota_rank":818,"quota_region":"منطقه 2","gender":"پسر","city":"فرخ شهر","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5840,"national_rank":2539,"quota_rank":820,"quota_region":"منطقه 2","gender":"پسر","city":"ساري","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6390,"national_rank":2544,"quota_rank":822,"quota_region":"منطقه 2","gender":"پسر","city":"بجنورد","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":7109,"national_rank":2565,"quota_rank":832,"quota_region":"منطقه 2","gender":"پسر","city":"اهواز","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":5901,"national_rank":2584,"quota_rank":839,"quota_region":"منطقه 2","gender":"دختر","city":"ملاير","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6274,"national_rank":2584,"quota_rank":839,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5772,"national_rank":2590,"quota_rank":843,"quota_region":"منطقه 2","gender":"پسر","city":"سبزوار","accepted_raw":"مهندسي پزشکي"}
+{"kanoon_score":5553,"national_rank":2613,"quota_rank":849,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6284,"national_rank":2632,"quota_rank":852,"quota_region":"منطقه 2","gender":"پسر","city":"ساري","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5746,"national_rank":2647,"quota_rank":858,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5676,"national_rank":2658,"quota_rank":860,"quota_region":"منطقه 2","gender":"پسر","city":"چالوس","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6037,"national_rank":2666,"quota_rank":861,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5530,"national_rank":2698,"quota_rank":869,"quota_region":"منطقه 2","gender":"دختر","city":"گرگان","accepted_raw":"مهندسي پزشکي"}
+{"kanoon_score":6016,"national_rank":2704,"quota_rank":870,"quota_region":"منطقه 2","gender":"پسر","city":"بيرجند","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5727,"national_rank":2707,"quota_rank":872,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":5538,"national_rank":2717,"quota_rank":876,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"حسابداري"}
+{"kanoon_score":5763,"national_rank":2717,"quota_rank":876,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5757,"national_rank":2721,"quota_rank":880,"quota_region":"منطقه 2","gender":"پسر","city":"رودهن","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":5363,"national_rank":2725,"quota_rank":881,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5721,"national_rank":2729,"quota_rank":882,"quota_region":"منطقه 2","gender":"پسر","city":"خميني شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6153,"national_rank":2737,"quota_rank":883,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6191,"national_rank":2742,"quota_rank":885,"quota_region":"منطقه 2","gender":"پسر","city":"بندپي","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":6043,"national_rank":2748,"quota_rank":887,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":5415,"national_rank":2752,"quota_rank":890,"quota_region":"منطقه 2","gender":"دختر","city":"بيرجند","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":6035,"national_rank":2759,"quota_rank":893,"quota_region":"منطقه 2","gender":"پسر","city":"زنجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5700,"national_rank":2774,"quota_rank":897,"quota_region":"منطقه 2","gender":"پسر","city":"گرمسار","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5245,"national_rank":2782,"quota_rank":902,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5607,"national_rank":2807,"quota_rank":907,"quota_region":"منطقه 2","gender":"دختر","city":"شاهرود","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5682,"national_rank":2807,"quota_rank":907,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5631,"national_rank":2809,"quota_rank":909,"quota_region":"منطقه 2","gender":"دختر","city":"ساري","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6190,"national_rank":2889,"quota_rank":935,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5919,"national_rank":2893,"quota_rank":937,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":6398,"national_rank":2901,"quota_rank":941,"quota_region":"منطقه 2","gender":"پسر","city":"اميركلا","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":5805,"national_rank":2921,"quota_rank":947,"quota_region":"منطقه 2","gender":"پسر","city":"بهبهان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6142,"national_rank":2947,"quota_rank":950,"quota_region":"منطقه 2","gender":"پسر","city":"جغتاي","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5581,"national_rank":2955,"quota_rank":955,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5340,"national_rank":2982,"quota_rank":960,"quota_region":"منطقه 2","gender":"دختر","city":"قزوين","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":5579,"national_rank":3000,"quota_rank":968,"quota_region":"منطقه 2","gender":"دختر","city":"كرمان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5648,"national_rank":3015,"quota_rank":973,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":6274,"national_rank":3025,"quota_rank":978,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":6035,"national_rank":3036,"quota_rank":981,"quota_region":"منطقه 2","gender":"پسر","city":"سيرجان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5461,"national_rank":3054,"quota_rank":987,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5895,"national_rank":3054,"quota_rank":987,"quota_region":"منطقه 2","gender":"پسر","city":"بابل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5844,"national_rank":3061,"quota_rank":990,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5728,"national_rank":3086,"quota_rank":997,"quota_region":"منطقه 2","gender":"پسر","city":"تهران","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5293,"national_rank":3123,"quota_rank":1012,"quota_region":"منطقه 2","gender":"دختر","city":"قم","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":5994,"national_rank":3143,"quota_rank":1019,"quota_region":"منطقه 2","gender":"پسر","city":"تويسركان","accepted_raw":"مهندسي پزشکي"}
+{"kanoon_score":5901,"national_rank":3153,"quota_rank":1023,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5432,"national_rank":3175,"quota_rank":1030,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5740,"national_rank":3175,"quota_rank":1030,"quota_region":"منطقه 2","gender":"دختر","city":"محلات","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5462,"national_rank":3197,"quota_rank":1039,"quota_region":"منطقه 2","gender":"پسر","city":"ملاير","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6262,"national_rank":3202,"quota_rank":1043,"quota_region":"منطقه 2","gender":"پسر","city":"لاهيجان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":6418,"national_rank":3242,"quota_rank":1056,"quota_region":"منطقه 2","gender":"دختر","city":"فرديس","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5567,"national_rank":3246,"quota_rank":1058,"quota_region":"منطقه 2","gender":"دختر","city":"كمال آباد/كمال شهر","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6537,"national_rank":3261,"quota_rank":1063,"quota_region":"منطقه 2","gender":"پسر","city":"كرمانشاه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6055,"national_rank":3266,"quota_rank":1065,"quota_region":"منطقه 2","gender":"پسر","city":"نمين","accepted_raw":"مهندسي نفت"}
+{"kanoon_score":5565,"national_rank":3277,"quota_rank":1069,"quota_region":"منطقه 2","gender":"پسر","city":"زنجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5482,"national_rank":3281,"quota_rank":1072,"quota_region":"منطقه 2","gender":"پسر","city":"زرين شهر","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5952,"national_rank":3320,"quota_rank":1085,"quota_region":"منطقه 2","gender":"پسر","city":"بابل","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5340,"national_rank":3326,"quota_rank":1087,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5396,"national_rank":3336,"quota_rank":1090,"quota_region":"منطقه 2","gender":"دختر","city":"كرمان","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":6010,"national_rank":3348,"quota_rank":1093,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4980,"national_rank":3354,"quota_rank":1095,"quota_region":"منطقه 2","gender":"دختر","city":"رشت","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5527,"national_rank":3439,"quota_rank":1129,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6263,"national_rank":3439,"quota_rank":1129,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5893,"national_rank":3453,"quota_rank":1132,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5670,"national_rank":3498,"quota_rank":1144,"quota_region":"منطقه 2","gender":"پسر","city":"ساري","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":5522,"national_rank":3505,"quota_rank":1147,"quota_region":"منطقه 2","gender":"پسر","city":"گرگان","accepted_raw":"مهندسي نفت"}
+{"kanoon_score":4904,"national_rank":3527,"quota_rank":1153,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5436,"national_rank":3558,"quota_rank":1168,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي دريا"}
+{"kanoon_score":5363,"national_rank":3602,"quota_rank":1185,"quota_region":"منطقه 2","gender":"دختر","city":"بابل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6291,"national_rank":3657,"quota_rank":1202,"quota_region":"منطقه 2","gender":"پسر","city":"جويبار","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5442,"national_rank":3687,"quota_rank":1210,"quota_region":"منطقه 2","gender":"دختر","city":"ساوه","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5619,"national_rank":3687,"quota_rank":1210,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":6257,"national_rank":3733,"quota_rank":1227,"quota_region":"منطقه 2","gender":"پسر","city":"گلپايگان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5099,"national_rank":3755,"quota_rank":1238,"quota_region":"منطقه 2","gender":"دختر","city":"نجف آباد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5347,"national_rank":3773,"quota_rank":1246,"quota_region":"منطقه 2","gender":"پسر","city":"اهواز","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5878,"national_rank":3806,"quota_rank":1252,"quota_region":"منطقه 2","gender":"پسر","city":"اهواز","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5605,"national_rank":3868,"quota_rank":1272,"quota_region":"منطقه 2","gender":"پسر","city":"مامونيه / زرنديه","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5225,"national_rank":3925,"quota_rank":1288,"quota_region":"منطقه 2","gender":"پسر","city":"كمال آباد/كمال شهر","accepted_raw":"مهندسي پزشکي"}
+{"kanoon_score":6021,"national_rank":3933,"quota_rank":1290,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5303,"national_rank":3938,"quota_rank":1292,"quota_region":"منطقه 2","gender":"دختر","city":"اردبيل","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5264,"national_rank":3941,"quota_rank":1295,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6410,"national_rank":3950,"quota_rank":1298,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5505,"national_rank":3999,"quota_rank":1316,"quota_region":"منطقه 2","gender":"پسر","city":"تهران","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5249,"national_rank":4036,"quota_rank":1326,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5573,"national_rank":4052,"quota_rank":1331,"quota_region":"منطقه 2","gender":"دختر","city":"سبزوار","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5575,"national_rank":4083,"quota_rank":1342,"quota_region":"منطقه 2","gender":"پسر","city":"كاشمر","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5407,"national_rank":4101,"quota_rank":1350,"quota_region":"منطقه 2","gender":"پسر","city":"كرمانشاه","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5453,"national_rank":4111,"quota_rank":1353,"quota_region":"منطقه 2","gender":"پسر","city":"رفسنجان","accepted_raw":"فيزيک"}
+{"kanoon_score":5209,"national_rank":4115,"quota_rank":1355,"quota_region":"منطقه 2","gender":"دختر","city":"ساري","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5581,"national_rank":4149,"quota_rank":1368,"quota_region":"منطقه 2","gender":"پسر","city":"اردبيل","accepted_raw":"مهندسي نفت"}
+{"kanoon_score":5537,"national_rank":4182,"quota_rank":1376,"quota_region":"منطقه 2","gender":"پسر","city":"لامرد","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5755,"national_rank":4266,"quota_rank":1403,"quota_region":"منطقه 2","gender":"پسر","city":"رفسنجان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5204,"national_rank":4309,"quota_rank":1421,"quota_region":"منطقه 2","gender":"دختر","city":"چالوس","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5769,"national_rank":4309,"quota_rank":1421,"quota_region":"منطقه 2","gender":"پسر","city":"كمال آباد/كمال شهر","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":5388,"national_rank":4320,"quota_rank":1425,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5020,"national_rank":4331,"quota_rank":1429,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5709,"national_rank":4346,"quota_rank":1435,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5966,"national_rank":4360,"quota_rank":1439,"quota_region":"منطقه 2","gender":"دختر","city":"يزد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5193,"national_rank":4421,"quota_rank":1455,"quota_region":"منطقه 2","gender":"دختر","city":"سيرجان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5671,"national_rank":4425,"quota_rank":1456,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5474,"national_rank":4442,"quota_rank":1462,"quota_region":"منطقه 2","gender":"پسر","city":"فومن","accepted_raw":"فيزيک"}
+{"kanoon_score":5683,"national_rank":4445,"quota_rank":1465,"quota_region":"منطقه 2","gender":"دختر","city":"اهواز","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5296,"national_rank":4499,"quota_rank":1480,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5267,"national_rank":4536,"quota_rank":1489,"quota_region":"منطقه 2","gender":"دختر","city":"بابل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5463,"national_rank":4551,"quota_rank":1495,"quota_region":"منطقه 2","gender":"پسر","city":"چمستان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6079,"national_rank":4557,"quota_rank":1498,"quota_region":"منطقه 2","gender":"پسر","city":"رودهن","accepted_raw":"مهندسي نفت"}
+{"kanoon_score":4863,"national_rank":4571,"quota_rank":1501,"quota_region":"منطقه 2","gender":"پسر","city":"بجنورد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5663,"national_rank":4658,"quota_rank":1525,"quota_region":"منطقه 2","gender":"پسر","city":"قزوين","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5839,"national_rank":4669,"quota_rank":1532,"quota_region":"منطقه 2","gender":"دختر","city":"شاهرود","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5480,"national_rank":4742,"quota_rank":1552,"quota_region":"منطقه 2","gender":"دختر","city":"قم","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5437,"national_rank":4748,"quota_rank":1556,"quota_region":"منطقه 2","gender":"پسر","city":"خميني شهر","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5207,"national_rank":4773,"quota_rank":1562,"quota_region":"منطقه 2","gender":"پسر","city":"گناباد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5564,"national_rank":4784,"quota_rank":1568,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5676,"national_rank":4815,"quota_rank":1583,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي نفت"}
+{"kanoon_score":5013,"national_rank":4841,"quota_rank":1593,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6986,"national_rank":4848,"quota_rank":1595,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":4753,"national_rank":4936,"quota_rank":1621,"quota_region":"منطقه 2","gender":"پسر","city":"دزفول","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5394,"national_rank":4940,"quota_rank":1624,"quota_region":"منطقه 2","gender":"دختر","city":"اهواز","accepted_raw":"مهندسي پليمر"}
+{"kanoon_score":5249,"national_rank":4962,"quota_rank":1634,"quota_region":"منطقه 2","gender":"دختر","city":"سيرجان","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":5474,"national_rank":4993,"quota_rank":1645,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5129,"national_rank":5055,"quota_rank":1668,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5767,"national_rank":5088,"quota_rank":1679,"quota_region":"منطقه 2","gender":"دختر","city":"بروجرد","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5141,"national_rank":5146,"quota_rank":1696,"quota_region":"منطقه 2","gender":"دختر","city":"كرمانشاه","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5034,"national_rank":5279,"quota_rank":1736,"quota_region":"منطقه 2","gender":"دختر","city":"شهرجديد پرند","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5736,"national_rank":5279,"quota_rank":1736,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5798,"national_rank":5293,"quota_rank":1743,"quota_region":"منطقه 2","gender":"پسر","city":"بهنمير","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4837,"national_rank":5298,"quota_rank":1746,"quota_region":"منطقه 2","gender":"دختر","city":"نجف آباد","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5389,"national_rank":5306,"quota_rank":1749,"quota_region":"منطقه 2","gender":"دختر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5241,"national_rank":5320,"quota_rank":1754,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5407,"national_rank":5391,"quota_rank":1781,"quota_region":"منطقه 2","gender":"پسر","city":"چمستان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5290,"national_rank":5407,"quota_rank":1788,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5453,"national_rank":5407,"quota_rank":1788,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":4984,"national_rank":5450,"quota_rank":1805,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5582,"national_rank":5493,"quota_rank":1821,"quota_region":"منطقه 2","gender":"دختر","city":"تربت حيدريه","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5428,"national_rank":5551,"quota_rank":1843,"quota_region":"منطقه 2","gender":"پسر","city":"محلات","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5233,"national_rank":5559,"quota_rank":1845,"quota_region":"منطقه 2","gender":"دختر","city":"سيرجان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5023,"national_rank":5592,"quota_rank":1857,"quota_region":"منطقه 2","gender":"پسر","city":"خوانسار","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5887,"national_rank":5592,"quota_rank":1857,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5122,"national_rank":5662,"quota_rank":1883,"quota_region":"منطقه 2","gender":"پسر","city":"يزد","accepted_raw":"مهندسي انرژي"}
+{"kanoon_score":5397,"national_rank":5662,"quota_rank":1883,"quota_region":"منطقه 2","gender":"پسر","city":"سيرجان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5406,"national_rank":5722,"quota_rank":1905,"quota_region":"منطقه 2","gender":"پسر","city":"زنجان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5687,"national_rank":5781,"quota_rank":1923,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5138,"national_rank":5796,"quota_rank":1931,"quota_region":"منطقه 2","gender":"دختر","city":"كاشمر","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5049,"national_rank":5818,"quota_rank":1939,"quota_region":"منطقه 2","gender":"پسر","city":"دزفول","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5377,"national_rank":5837,"quota_rank":1947,"quota_region":"منطقه 2","gender":"پسر","city":"لاهيجان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5046,"national_rank":5869,"quota_rank":1959,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5203,"national_rank":5869,"quota_rank":1959,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5369,"national_rank":5953,"quota_rank":1990,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5506,"national_rank":5966,"quota_rank":1997,"quota_region":"منطقه 2","gender":"پسر","city":"گناباد","accepted_raw":"مهندسي دريا"}
+{"kanoon_score":5321,"national_rank":6001,"quota_rank":2008,"quota_region":"منطقه 2","gender":"پسر","city":"نائين","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6130,"national_rank":6054,"quota_rank":2025,"quota_region":"منطقه 2","gender":"پسر","city":"ملاير","accepted_raw":"مهندسي پليمر"}
+{"kanoon_score":5695,"national_rank":6074,"quota_rank":2031,"quota_region":"منطقه 2","gender":"پسر","city":"خميني شهر","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5190,"national_rank":6122,"quota_rank":2052,"quota_region":"منطقه 2","gender":"پسر","city":"اردبيل","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5235,"national_rank":6132,"quota_rank":2054,"quota_region":"منطقه 2","gender":"دختر","city":"ساري","accepted_raw":"آموزش ابتدايي"}
+{"kanoon_score":5681,"national_rank":6248,"quota_rank":2099,"quota_region":"منطقه 2","gender":"پسر","city":"بهشهر","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5224,"national_rank":6300,"quota_rank":2120,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي پليمر"}
+{"kanoon_score":5170,"national_rank":6333,"quota_rank":2132,"quota_region":"منطقه 2","gender":"پسر","city":"شهرضا","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5604,"national_rank":6610,"quota_rank":2231,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي نفت"}
+{"kanoon_score":5646,"national_rank":6663,"quota_rank":2254,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5169,"national_rank":6671,"quota_rank":2259,"quota_region":"منطقه 2","gender":"پسر","city":"شهرضا","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":6009,"national_rank":6679,"quota_rank":2261,"quota_region":"منطقه 2","gender":"پسر","city":"ساوه","accepted_raw":"مهندسي برق"}
+{"kanoon_score":6400,"national_rank":6725,"quota_rank":2275,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5665,"national_rank":6752,"quota_rank":2284,"quota_region":"منطقه 2","gender":"دختر","city":"جويبار","accepted_raw":"فيزيک"}
+{"kanoon_score":5548,"national_rank":6877,"quota_rank":2316,"quota_region":"منطقه 2","gender":"پسر","city":"شهرضا","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":4975,"national_rank":6902,"quota_rank":2323,"quota_region":"منطقه 2","gender":"پسر","city":"باغستان","accepted_raw":"مهندسي شهرسازي"}
+{"kanoon_score":5183,"national_rank":6977,"quota_rank":2348,"quota_region":"منطقه 2","gender":"پسر","city":"بابل","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4735,"national_rank":6997,"quota_rank":2355,"quota_region":"منطقه 2","gender":"پسر","city":"بابلسر","accepted_raw":"مهندسي معدن"}
+{"kanoon_score":5823,"national_rank":7004,"quota_rank":2358,"quota_region":"منطقه 2","gender":"پسر","city":"ملاير","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5557,"national_rank":7020,"quota_rank":2364,"quota_region":"منطقه 2","gender":"پسر","city":"چالوس","accepted_raw":"مهندسي شهرسازي"}
+{"kanoon_score":5565,"national_rank":7088,"quota_rank":2388,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5323,"national_rank":7122,"quota_rank":2401,"quota_region":"منطقه 2","gender":"دختر","city":"همدان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5099,"national_rank":7181,"quota_rank":2426,"quota_region":"منطقه 2","gender":"پسر","city":"لاهيجان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4962,"national_rank":7234,"quota_rank":2443,"quota_region":"منطقه 2","gender":"دختر","city":"دامغان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5410,"national_rank":7257,"quota_rank":2454,"quota_region":"منطقه 2","gender":"دختر","city":"كاشان","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5346,"national_rank":7317,"quota_rank":2480,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5739,"national_rank":7407,"quota_rank":2506,"quota_region":"منطقه 2","gender":"پسر","city":"گناباد","accepted_raw":"دکتراي پيوسته فيزيک"}
+{"kanoon_score":5282,"national_rank":7450,"quota_rank":2520,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5591,"national_rank":7552,"quota_rank":2558,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5147,"national_rank":7658,"quota_rank":2590,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":4692,"national_rank":7696,"quota_rank":2609,"quota_region":"منطقه 2","gender":"دختر","city":"بابل","accepted_raw":"آموزش ابتدايي"}
+{"kanoon_score":4726,"national_rank":7774,"quota_rank":2634,"quota_region":"منطقه 2","gender":"دختر","city":"كيان","accepted_raw":"مهندسي نساجي"}
+{"kanoon_score":4755,"national_rank":7799,"quota_rank":2644,"quota_region":"منطقه 2","gender":"پسر","city":"گناباد","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":6146,"national_rank":7861,"quota_rank":2674,"quota_region":"منطقه 2","gender":"پسر","city":"ساري","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5087,"national_rank":7866,"quota_rank":2675,"quota_region":"منطقه 2","gender":"پسر","city":"لامرد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4762,"national_rank":7984,"quota_rank":2718,"quota_region":"منطقه 2","gender":"دختر","city":"گناباد","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5045,"national_rank":7984,"quota_rank":2718,"quota_region":"منطقه 2","gender":"دختر","city":"گناباد","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":4735,"national_rank":8011,"quota_rank":2730,"quota_region":"منطقه 2","gender":"دختر","city":"كرمانشاه","accepted_raw":"آموزش فيزيك"}
+{"kanoon_score":5586,"national_rank":8021,"quota_rank":2735,"quota_region":"منطقه 2","gender":"پسر","city":"رفسنجان","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":4941,"national_rank":8064,"quota_rank":2754,"quota_region":"منطقه 2","gender":"دختر","city":"قزوين","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5417,"national_rank":8070,"quota_rank":2756,"quota_region":"منطقه 2","gender":"پسر","city":"بابلسر","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5070,"national_rank":8142,"quota_rank":2782,"quota_region":"منطقه 2","gender":"پسر","city":"بوشهر","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5297,"national_rank":8208,"quota_rank":2804,"quota_region":"منطقه 2","gender":"پسر","city":"تربت حيدريه","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5060,"national_rank":8220,"quota_rank":2809,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5659,"national_rank":8356,"quota_rank":2846,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي نساجي"}
+{"kanoon_score":5976,"national_rank":8430,"quota_rank":2876,"quota_region":"منطقه 2","gender":"پسر","city":"محلات","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4877,"national_rank":8460,"quota_rank":2887,"quota_region":"منطقه 2","gender":"پسر","city":"شهرضا","accepted_raw":"آموزش فيزيك"}
+{"kanoon_score":4964,"national_rank":8535,"quota_rank":2912,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5506,"national_rank":8555,"quota_rank":2919,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5065,"national_rank":8555,"quota_rank":2921,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4439,"national_rank":8789,"quota_rank":3012,"quota_region":"منطقه 2","gender":"دختر","city":"شهركرد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5351,"national_rank":8944,"quota_rank":3076,"quota_region":"منطقه 2","gender":"پسر","city":"تربت حيدريه","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4993,"national_rank":9005,"quota_rank":3098,"quota_region":"منطقه 2","gender":"پسر","city":"لاهيجان","accepted_raw":"مهندسي نقشه برداري"}
+{"kanoon_score":5349,"national_rank":9060,"quota_rank":3119,"quota_region":"منطقه 2","gender":"پسر","city":"ميبد","accepted_raw":"مهندسي پليمر"}
+{"kanoon_score":5008,"national_rank":9179,"quota_rank":3164,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي پزشکي"}
+{"kanoon_score":5046,"national_rank":9192,"quota_rank":3168,"quota_region":"منطقه 2","gender":"دختر","city":"كاشمر","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5711,"national_rank":1028,"quota_rank":3171,"quota_region":"منطقه 2","gender":"پسر","city":"نور","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5482,"national_rank":9268,"quota_rank":3196,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5925,"national_rank":9327,"quota_rank":3220,"quota_region":"منطقه 2","gender":"دختر","city":"قم","accepted_raw":"مهندسي معدن"}
+{"kanoon_score":5555,"national_rank":9397,"quota_rank":3244,"quota_region":"منطقه 2","gender":"پسر","city":"اردبيل","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5155,"national_rank":9430,"quota_rank":3256,"quota_region":"منطقه 2","gender":"پسر","city":"رفسنجان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5874,"national_rank":9463,"quota_rank":3272,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"فيزيک"}
+{"kanoon_score":5058,"national_rank":9596,"quota_rank":3318,"quota_region":"منطقه 2","gender":"دختر","city":"رشت","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5108,"national_rank":9724,"quota_rank":3367,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4535,"national_rank":9780,"quota_rank":3388,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5629,"national_rank":9930,"quota_rank":3448,"quota_region":"منطقه 2","gender":"دختر","city":"بجنورد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4622,"national_rank":10082,"quota_rank":3507,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي هوا فضا"}
+{"kanoon_score":5522,"national_rank":10111,"quota_rank":3519,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":6428,"national_rank":10182,"quota_rank":3543,"quota_region":"منطقه 2","gender":"پسر","city":"دهگلان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5215,"national_rank":10294,"quota_rank":3589,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":4712,"national_rank":10350,"quota_rank":3604,"quota_region":"منطقه 2","gender":"دختر","city":"نجف آباد","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":4979,"national_rank":10406,"quota_rank":3622,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5281,"national_rank":10406,"quota_rank":3622,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":5053,"national_rank":10873,"quota_rank":3801,"quota_region":"منطقه 2","gender":"پسر","city":"نيشابور","accepted_raw":"آموزش فيزيك"}
+{"kanoon_score":5383,"national_rank":10917,"quota_rank":3815,"quota_region":"منطقه 2","gender":"دختر","city":"اردبيل","accepted_raw":"آموزش ابتدايي"}
+{"kanoon_score":5244,"national_rank":10999,"quota_rank":3855,"quota_region":"منطقه 2","gender":"دختر","city":"شهريار","accepted_raw":"حسابداري"}
+{"kanoon_score":5690,"national_rank":11033,"quota_rank":3872,"quota_region":"منطقه 2","gender":"دختر","city":"شاهرود","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5327,"national_rank":11132,"quota_rank":3908,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5308,"national_rank":11149,"quota_rank":3915,"quota_region":"منطقه 2","gender":"دختر","city":"كاشمر","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5015,"national_rank":11197,"quota_rank":3939,"quota_region":"منطقه 2","gender":"دختر","city":"لاهيجان","accepted_raw":"مهندسي نفت"}
+{"kanoon_score":5123,"national_rank":11329,"quota_rank":3986,"quota_region":"منطقه 2","gender":"دختر","city":"لاهيجان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5104,"national_rank":11633,"quota_rank":4087,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":4802,"national_rank":11643,"quota_rank":4091,"quota_region":"منطقه 2","gender":"پسر","city":"شهرضا","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4928,"national_rank":11653,"quota_rank":4095,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي معدن"}
+{"kanoon_score":5256,"national_rank":11673,"quota_rank":4104,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"فيزيک"}
+{"kanoon_score":4964,"national_rank":11756,"quota_rank":4134,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"فيزيک"}
+{"kanoon_score":4964,"national_rank":11794,"quota_rank":4149,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":6164,"national_rank":11980,"quota_rank":4218,"quota_region":"منطقه 2","gender":"دختر","city":"اسدآباد","accepted_raw":"مهندسي معدن"}
+{"kanoon_score":5272,"national_rank":12105,"quota_rank":4266,"quota_region":"منطقه 2","gender":"پسر","city":"زنجان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5435,"national_rank":12167,"quota_rank":4285,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5855,"national_rank":12274,"quota_rank":4319,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":4822,"national_rank":12289,"quota_rank":4324,"quota_region":"منطقه 2","gender":"دختر","city":"شهريار","accepted_raw":"مهندسي حمل و نقل ريلي"}
+{"kanoon_score":5150,"national_rank":12370,"quota_rank":4360,"quota_region":"منطقه 2","gender":"دختر","city":"محلات","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4866,"national_rank":12636,"quota_rank":4474,"quota_region":"منطقه 2","gender":"پسر","city":"اهواز","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5644,"national_rank":12662,"quota_rank":4488,"quota_region":"منطقه 2","gender":"دختر","city":"رشت","accepted_raw":"علوم کامپيوتر"}
+{"kanoon_score":5416,"national_rank":12744,"quota_rank":4517,"quota_region":"منطقه 2","gender":"پسر","city":"بابل","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4972,"national_rank":12850,"quota_rank":4559,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4795,"national_rank":12887,"quota_rank":4573,"quota_region":"منطقه 2","gender":"پسر","city":"شهرضا","accepted_raw":"مهندسي نفت"}
+{"kanoon_score":5274,"national_rank":12966,"quota_rank":4605,"quota_region":"منطقه 2","gender":"پسر","city":"باغستان","accepted_raw":"مهندسي الکترونيک هواپيمايي"}
+{"kanoon_score":5045,"national_rank":13414,"quota_rank":4769,"quota_region":"منطقه 2","gender":"پسر","city":"اهواز","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":5253,"national_rank":13560,"quota_rank":4816,"quota_region":"منطقه 2","gender":"پسر","city":"همدان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4460,"national_rank":13599,"quota_rank":4831,"quota_region":"منطقه 2","gender":"پسر","city":"سيرجان","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":4966,"national_rank":13618,"quota_rank":4840,"quota_region":"منطقه 2","gender":"پسر","city":"كرمانشاه","accepted_raw":"آموزش ابتدايي"}
+{"kanoon_score":4831,"national_rank":13662,"quota_rank":4866,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5154,"national_rank":13681,"quota_rank":4878,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5028,"national_rank":13803,"quota_rank":4928,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5426,"national_rank":13880,"quota_rank":4951,"quota_region":"منطقه 2","gender":"دختر","city":"سنندج","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":4702,"national_rank":13925,"quota_rank":4963,"quota_region":"منطقه 2","gender":"دختر","city":"كلاچاي","accepted_raw":"فيزيک"}
+{"kanoon_score":4607,"national_rank":14212,"quota_rank":5078,"quota_region":"منطقه 2","gender":"دختر","city":"لامرد","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5259,"national_rank":14502,"quota_rank":5194,"quota_region":"منطقه 2","gender":"پسر","city":"قم","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5382,"national_rank":14561,"quota_rank":5220,"quota_region":"منطقه 2","gender":"پسر","city":"كرج","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4458,"national_rank":14599,"quota_rank":5234,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4716,"national_rank":15128,"quota_rank":5437,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5806,"national_rank":15312,"quota_rank":5508,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"فيزيک"}
+{"kanoon_score":4665,"national_rank":15553,"quota_rank":5604,"quota_region":"منطقه 2","gender":"پسر","city":"باغستان","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":4857,"national_rank":15979,"quota_rank":5761,"quota_region":"منطقه 2","gender":"پسر","city":"خوانسار","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4468,"national_rank":16051,"quota_rank":5791,"quota_region":"منطقه 2","gender":"پسر","city":"خرم آباد","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":4778,"national_rank":16317,"quota_rank":5904,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4654,"national_rank":16588,"quota_rank":6005,"quota_region":"منطقه 2","gender":"پسر","city":"بناب","accepted_raw":"آموزش فيزيك"}
+{"kanoon_score":4612,"national_rank":16602,"quota_rank":6013,"quota_region":"منطقه 2","gender":"دختر","city":"ملاير","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4707,"national_rank":17010,"quota_rank":6190,"quota_region":"منطقه 2","gender":"پسر","city":"شهرضا","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4997,"national_rank":17176,"quota_rank":6262,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5065,"national_rank":17235,"quota_rank":6288,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5078,"national_rank":17415,"quota_rank":6354,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4544,"national_rank":17456,"quota_rank":6372,"quota_region":"منطقه 2","gender":"دختر","city":"زرين شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4560,"national_rank":17456,"quota_rank":6372,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"آموزش فيزيك"}
+{"kanoon_score":4961,"national_rank":17531,"quota_rank":6397,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5784,"national_rank":2178,"quota_rank":6440,"quota_region":"منطقه 2","gender":"پسر","city":"نور","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":4882,"national_rank":17934,"quota_rank":6559,"quota_region":"منطقه 2","gender":"دختر","city":"لامرد","accepted_raw":"آموزش ابتدايي"}
+{"kanoon_score":5323,"national_rank":18984,"quota_rank":6978,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي حرفه اي معماري"}
+{"kanoon_score":4844,"national_rank":19144,"quota_rank":7025,"quota_region":"منطقه 2","gender":"دختر","city":"اراك","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6637,"national_rank":19637,"quota_rank":7225,"quota_region":"منطقه 2","gender":"دختر","city":"گرگان","accepted_raw":"مهندسي حرفه اي کامپيوتر"}
+{"kanoon_score":4753,"national_rank":19808,"quota_rank":7291,"quota_region":"منطقه 2","gender":"پسر","city":"رشت","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4807,"national_rank":20084,"quota_rank":7387,"quota_region":"منطقه 2","gender":"دختر","city":"بابلسر","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":4767,"national_rank":20139,"quota_rank":7414,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4455,"national_rank":20156,"quota_rank":7423,"quota_region":"منطقه 2","gender":"پسر","city":"چمستان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4736,"national_rank":20184,"quota_rank":7437,"quota_region":"منطقه 2","gender":"دختر","city":"لاهيجان","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6246,"national_rank":20428,"quota_rank":7551,"quota_region":"منطقه 2","gender":"دختر","city":"نيشابور","accepted_raw":"آموزش ابتدايي"}
+{"kanoon_score":4653,"national_rank":20729,"quota_rank":7666,"quota_region":"منطقه 2","gender":"پسر","city":"بجنورد","accepted_raw":"مهندسي ساخت وتوليد"}
+{"kanoon_score":4528,"national_rank":20805,"quota_rank":7697,"quota_region":"منطقه 2","gender":"پسر","city":"ملاير","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4684,"national_rank":21071,"quota_rank":7811,"quota_region":"منطقه 2","gender":"پسر","city":"بجنورد","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":5275,"national_rank":21402,"quota_rank":7940,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4499,"national_rank":21480,"quota_rank":7971,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4304,"national_rank":41421,"quota_rank":7972,"quota_region":"منطقه 2","gender":"پسر","city":"مشهد","accepted_raw":"مهندسي ايمني(بازرسي فني)"}
+{"kanoon_score":4379,"national_rank":21633,"quota_rank":8027,"quota_region":"منطقه 2","gender":"دختر","city":"نجف آباد","accepted_raw":"اقتصاد"}
+{"kanoon_score":4510,"national_rank":21837,"quota_rank":8108,"quota_region":"منطقه 2","gender":"پسر","city":"دامغان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5341,"national_rank":21837,"quota_rank":8108,"quota_region":"منطقه 2","gender":"دختر","city":"بابل","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5299,"national_rank":22026,"quota_rank":8192,"quota_region":"منطقه 2","gender":"پسر","city":"كرمان","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":4709,"national_rank":22054,"quota_rank":8207,"quota_region":"منطقه 2","gender":"دختر","city":"آباده","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":4865,"national_rank":22311,"quota_rank":8310,"quota_region":"منطقه 2","gender":"دختر","city":"سنندج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4640,"national_rank":22613,"quota_rank":8422,"quota_region":"منطقه 2","gender":"دختر","city":"محلات","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4644,"national_rank":22648,"quota_rank":8436,"quota_region":"منطقه 2","gender":"پسر","city":"بيرجند","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":4518,"national_rank":22709,"quota_rank":8473,"quota_region":"منطقه 2","gender":"دختر","city":"نجف آباد","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5198,"national_rank":22750,"quota_rank":8494,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":4859,"national_rank":22857,"quota_rank":8547,"quota_region":"منطقه 2","gender":"پسر","city":"بابل","accepted_raw":"مهندسي نقشه برداري"}
+{"kanoon_score":5020,"national_rank":23094,"quota_rank":8653,"quota_region":"منطقه 2","gender":"پسر","city":"آمل","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5062,"national_rank":23229,"quota_rank":8699,"quota_region":"منطقه 2","gender":"دختر","city":"مراغه","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4635,"national_rank":23357,"quota_rank":8755,"quota_region":"منطقه 2","gender":"دختر","city":"دزفول","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":5433,"national_rank":23501,"quota_rank":8821,"quota_region":"منطقه 2","gender":"دختر","city":"دليجان","accepted_raw":"آموزش رياضي"}
+{"kanoon_score":6422,"national_rank":23580,"quota_rank":8856,"quota_region":"منطقه 2","gender":"پسر","city":"بهبهان","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":4367,"national_rank":24185,"quota_rank":9094,"quota_region":"منطقه 2","gender":"پسر","city":"محلات","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5010,"national_rank":24641,"quota_rank":9271,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5003,"national_rank":25398,"quota_rank":9384,"quota_region":"منطقه 2","gender":"پسر","city":"سمنان","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4519,"national_rank":24972,"quota_rank":9395,"quota_region":"منطقه 2","gender":"دختر","city":"قوچان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4412,"national_rank":25101,"quota_rank":9451,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"آموزش ابتدايي"}
+{"kanoon_score":4688,"national_rank":25232,"quota_rank":9505,"quota_region":"منطقه 2","gender":"دختر","city":"اردكان","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":4675,"national_rank":25282,"quota_rank":9528,"quota_region":"منطقه 2","gender":"دختر","city":"نجف آباد","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":6207,"national_rank":25740,"quota_rank":9717,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4412,"national_rank":26009,"quota_rank":9826,"quota_region":"منطقه 2","gender":"دختر","city":"اسلام‌شهر","accepted_raw":"مديريت صنعتي"}
+{"kanoon_score":4684,"national_rank":28333,"quota_rank":10761,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4461,"national_rank":28629,"quota_rank":10873,"quota_region":"منطقه 2","gender":"دختر","city":"باغستان","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5020,"national_rank":28915,"quota_rank":10982,"quota_region":"منطقه 2","gender":"دختر","city":"لنگرود","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":5268,"national_rank":29314,"quota_rank":11145,"quota_region":"منطقه 2","gender":"پسر","city":"اردكان","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4450,"national_rank":30376,"quota_rank":11551,"quota_region":"منطقه 2","gender":"دختر","city":"كرج","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":4765,"national_rank":31569,"quota_rank":12016,"quota_region":"منطقه 2","gender":"پسر","city":"شهرضا","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":4407,"national_rank":32001,"quota_rank":12201,"quota_region":"منطقه 2","gender":"دختر","city":"بجنورد","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4907,"national_rank":32502,"quota_rank":12400,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":5544,"national_rank":32751,"quota_rank":12502,"quota_region":"منطقه 2","gender":"دختر","city":"باغستان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4207,"national_rank":33399,"quota_rank":12752,"quota_region":"منطقه 2","gender":"پسر","city":"باغستان","accepted_raw":"فيزيک"}
+{"kanoon_score":5676,"national_rank":37555,"quota_rank":14407,"quota_region":"منطقه 2","gender":"پسر","city":"آمل","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4497,"national_rank":38764,"quota_rank":14867,"quota_region":"منطقه 2","gender":"دختر","city":"چالوس","accepted_raw":"مهندسي معدن"}
+{"kanoon_score":5091,"national_rank":39610,"quota_rank":15201,"quota_region":"منطقه 2","gender":"دختر","city":"شهريار","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":4547,"national_rank":40815,"quota_rank":15676,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4258,"national_rank":41061,"quota_rank":15775,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5294,"national_rank":41170,"quota_rank":15817,"quota_region":"منطقه 2","gender":"پسر","city":"شهريار","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":5650,"national_rank":41466,"quota_rank":15929,"quota_region":"منطقه 2","gender":"دختر","city":"زنجان","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4638,"national_rank":41869,"quota_rank":16092,"quota_region":"منطقه 2","gender":"پسر","city":"بناب","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4549,"national_rank":42308,"quota_rank":16292,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":5271,"national_rank":42353,"quota_rank":16313,"quota_region":"منطقه 2","gender":"دختر","city":"سنندج","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":4916,"national_rank":42518,"quota_rank":16383,"quota_region":"منطقه 2","gender":"پسر","city":"املش","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4356,"national_rank":42588,"quota_rank":16413,"quota_region":"منطقه 2","gender":"دختر","city":"كمال آباد/كمال شهر","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4418,"national_rank":28947,"quota_rank":17989,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"مهندسي کامپيوتر"}
+{"kanoon_score":4471,"national_rank":46847,"quota_rank":18043,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"مهندسي مکانيک"}
+{"kanoon_score":5403,"national_rank":49628,"quota_rank":18142,"quota_region":"منطقه 2","gender":"پسر","city":"سنندج","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5028,"national_rank":47234,"quota_rank":18320,"quota_region":"منطقه 2","gender":"دختر","city":"اردبيل","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":4700,"national_rank":48000,"quota_rank":18649,"quota_region":"منطقه 2","gender":"پسر","city":"بناب","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":4201,"national_rank":48233,"quota_rank":18758,"quota_region":"منطقه 2","gender":"دختر","city":"زرين شهر","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":4274,"national_rank":48641,"quota_rank":18918,"quota_region":"منطقه 2","gender":"دختر","city":"نجف آباد","accepted_raw":"مهندسي ساخت وتوليد"}
+{"kanoon_score":4242,"national_rank":49310,"quota_rank":19195,"quota_region":"منطقه 2","gender":"دختر","city":"رشت","accepted_raw":"مهندسي معماري"}
+{"kanoon_score":4379,"national_rank":50082,"quota_rank":19496,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5038,"national_rank":50528,"quota_rank":19670,"quota_region":"منطقه 2","gender":"دختر","city":"نيشابور","accepted_raw":"مهندسي حرفه اي کامپيوتر"}
+{"kanoon_score":6225,"national_rank":51397,"quota_rank":20053,"quota_region":"منطقه 2","gender":"دختر","city":"اهواز","accepted_raw":"رياضيات و کاربردها"}
+{"kanoon_score":4257,"national_rank":54138,"quota_rank":21063,"quota_region":"منطقه 2","gender":"پسر","city":"ملاير","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4521,"national_rank":55169,"quota_rank":21453,"quota_region":"منطقه 2","gender":"پسر","city":"اراك","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4675,"national_rank":55771,"quota_rank":21683,"quota_region":"منطقه 2","gender":"دختر","city":"سمنان","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4845,"national_rank":56707,"quota_rank":22040,"quota_region":"منطقه 2","gender":"دختر","city":"سنندج","accepted_raw":"مهندسي شيمي"}
+{"kanoon_score":6179,"national_rank":57427,"quota_rank":22336,"quota_region":"منطقه 2","gender":"پسر","city":"اسلام‌شهر","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":5417,"national_rank":59594,"quota_rank":23161,"quota_region":"منطقه 2","gender":"دختر","city":"سنندج","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":4315,"national_rank":61099,"quota_rank":23793,"quota_region":"منطقه 2","gender":"پسر","city":"بابل","accepted_raw":"مهندسي صنايع"}
+{"kanoon_score":5026,"national_rank":61728,"quota_rank":24041,"quota_region":"منطقه 2","gender":"پسر","city":"ملاير","accepted_raw":"مهندسي برق"}
+{"kanoon_score":5111,"national_rank":64561,"quota_rank":25180,"quota_region":"منطقه 2","gender":"پسر","city":"نجف آباد","accepted_raw":"مهندسي مواد و متالورژي"}
+{"kanoon_score":4511,"national_rank":67285,"quota_rank":26263,"quota_region":"منطقه 2","gender":"دختر","city":"مرند","accepted_raw":"مهندسي عمران"}
+{"kanoon_score":4397,"national_rank":68560,"quota_rank":26790,"quota_region":"منطقه 2","gender":"دختر","city":"سيرجان","accepted_raw":"مهندسي نقشه برداري"}
+{"kanoon_score":5475,"national_rank":77505,"quota_rank":30478,"quota_region":"منطقه 2","gender":"پسر","city":"بيرجند","accepted_raw":"مهندسي برق"}
+{"kanoon_score":4221,"national_rank":54458,"quota_rank":31177,"quota_region":"منطقه 2","gender":"دختر","city":"سنندج","accepted_raw":"مهندسي شهرسازي"}
+{"kanoon_score":4641,"national_rank":84201,"quota_rank":33211,"quota_region":"منطقه 2","gender":"پسر","city":"دزفول","accepted_raw":"مهندسي حرفه اي معماري"}

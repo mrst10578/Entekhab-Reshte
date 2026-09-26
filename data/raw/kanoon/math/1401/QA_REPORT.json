@@ -1,0 +1,166 @@
+{
+  "schema_version": "loprax-sampling-qa-report-v1",
+  "note": "Representative sampling QA, not a full independent audit.",
+  "source_page": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "endpoint": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+  "samples_per_region": 5,
+  "samples": [
+    {
+      "region": 1,
+      "label": "low",
+      "query_rank": 1,
+      "status": 200,
+      "endpoint_rows": 78,
+      "stored_rows_present": 78,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 1,
+      "label": "low-mid",
+      "query_rank": 10066,
+      "status": 200,
+      "endpoint_rows": 105,
+      "stored_rows_present": 105,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 1,
+      "label": "mid",
+      "query_rank": 20133,
+      "status": 200,
+      "endpoint_rows": 61,
+      "stored_rows_present": 61,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 1,
+      "label": "high",
+      "query_rank": 30200,
+      "status": 200,
+      "endpoint_rows": 15,
+      "stored_rows_present": 15,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 1,
+      "label": "near-tail",
+      "query_rank": 40267,
+      "status": 200,
+      "endpoint_rows": 1,
+      "stored_rows_present": 1,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 2,
+      "label": "low",
+      "query_rank": 1,
+      "status": 200,
+      "endpoint_rows": 144,
+      "stored_rows_present": 144,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 2,
+      "label": "low-mid",
+      "query_rank": 13866,
+      "status": 200,
+      "endpoint_rows": 305,
+      "stored_rows_present": 305,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 2,
+      "label": "mid",
+      "query_rank": 27732,
+      "status": 200,
+      "endpoint_rows": 142,
+      "stored_rows_present": 142,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 2,
+      "label": "high",
+      "query_rank": 41598,
+      "status": 200,
+      "endpoint_rows": 6,
+      "stored_rows_present": 6,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 2,
+      "label": "near-tail",
+      "query_rank": 55465,
+      "status": 200,
+      "endpoint_rows": 1,
+      "stored_rows_present": 1,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 3,
+      "label": "low",
+      "query_rank": 1,
+      "status": 200,
+      "endpoint_rows": 122,
+      "stored_rows_present": 122,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 3,
+      "label": "low-mid",
+      "query_rank": 8693,
+      "status": 200,
+      "endpoint_rows": 141,
+      "stored_rows_present": 141,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 3,
+      "label": "mid",
+      "query_rank": 17387,
+      "status": 200,
+      "endpoint_rows": 130,
+      "stored_rows_present": 130,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 3,
+      "label": "high",
+      "query_rank": 26081,
+      "status": 200,
+      "endpoint_rows": 17,
+      "stored_rows_present": 17,
+      "unmatched_rows": 0,
+      "result": "pass"
+    },
+    {
+      "region": 3,
+      "label": "near-tail",
+      "query_rank": 34775,
+      "status": 200,
+      "endpoint_rows": 1,
+      "stored_rows_present": 1,
+      "unmatched_rows": 0,
+      "result": "pass"
+    }
+  ],
+  "all_samples_pass": true,
+  "gap_probe_status": {
+    "bands_probed": 123,
+    "total_probe_requests": 369,
+    "non_200_or_parse_failures": 0,
+    "rows_found_inside_probed_bands": 0
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "schema_version": "ranklab.kanoon.qa.v1",
+  "dataset": "kanoon_math_1404",
+  "scope": {
+    "exam_group": "mathematics / ریاضی",
+    "dept": 1,
+    "year": 1404,
+    "year_code": 104,
+    "regions": [
+      1,
+      2,
+      3
+    ]
+  },
+  "source_urls": [
+    "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors"
+  ],
+  "qa_type": "sampling QA only, not a full independent audit",
+  "checks": {
+    "jsonl_parseable": true,
+    "canonical_fields_preserved": [
+      "kanoon_score",
+      "national_rank",
+      "quota_rank",
+      "quota_region",
+      "gender",
+      "city",
+      "accepted_raw"
+    ],
+    "exact_dedupe_applied": true,
+    "deterministic_sort_applied": true,
+    "representative_queries": {
+      "1": [
+        {
+          "label": "low",
+          "query_rank": 1,
+          "returned_rows": 64,
+          "unique_rows_in_query": 64,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "low-mid",
+          "query_rank": 3449,
+          "returned_rows": 18,
+          "unique_rows_in_query": 18,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "mid",
+          "query_rank": 13083,
+          "returned_rows": 17,
+          "unique_rows_in_query": 17,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "high",
+          "query_rank": 25492,
+          "returned_rows": 10,
+          "unique_rows_in_query": 10,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "near-tail",
+          "query_rank": 33929,
+          "returned_rows": 2,
+          "unique_rows_in_query": 2,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        }
+      ],
+      "2": [
+        {
+          "label": "low",
+          "query_rank": 1,
+          "returned_rows": 99,
+          "unique_rows_in_query": 99,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "low-mid",
+          "query_rank": 3793,
+          "returned_rows": 26,
+          "unique_rows_in_query": 26,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "mid",
+          "query_rank": 14391,
+          "returned_rows": 17,
+          "unique_rows_in_query": 17,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "high",
+          "query_rank": 28041,
+          "returned_rows": 14,
+          "unique_rows_in_query": 14,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "near-tail",
+          "query_rank": 37321,
+          "returned_rows": 1,
+          "unique_rows_in_query": 1,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        }
+      ],
+      "3": [
+        {
+          "label": "low",
+          "query_rank": 1,
+          "returned_rows": 89,
+          "unique_rows_in_query": 89,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "low-mid",
+          "query_rank": 2143,
+          "returned_rows": 27,
+          "unique_rows_in_query": 27,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "mid",
+          "query_rank": 8125,
+          "returned_rows": 28,
+          "unique_rows_in_query": 28,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "high",
+          "query_rank": 15830,
+          "returned_rows": 10,
+          "unique_rows_in_query": 10,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "near-tail",
+          "query_rank": 21069,
+          "returned_rows": 1,
+          "unique_rows_in_query": 1,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        }
+      ]
+    }
+  },
+  "results": {
+    "1": {
+      "all_representative_queries_returned_rows": true,
+      "all_unique_query_rows_in_aggregate": true,
+      "queries": [
+        {
+          "label": "low",
+          "query_rank": 1,
+          "returned_rows": 64,
+          "unique_rows_in_query": 64,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "low-mid",
+          "query_rank": 3449,
+          "returned_rows": 18,
+          "unique_rows_in_query": 18,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "mid",
+          "query_rank": 13083,
+          "returned_rows": 17,
+          "unique_rows_in_query": 17,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "high",
+          "query_rank": 25492,
+          "returned_rows": 10,
+          "unique_rows_in_query": 10,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "near-tail",
+          "query_rank": 33929,
+          "returned_rows": 2,
+          "unique_rows_in_query": 2,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        }
+      ]
+    },
+    "2": {
+      "all_representative_queries_returned_rows": true,
+      "all_unique_query_rows_in_aggregate": true,
+      "queries": [
+        {
+          "label": "low",
+          "query_rank": 1,
+          "returned_rows": 99,
+          "unique_rows_in_query": 99,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "low-mid",
+          "query_rank": 3793,
+          "returned_rows": 26,
+          "unique_rows_in_query": 26,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "mid",
+          "query_rank": 14391,
+          "returned_rows": 17,
+          "unique_rows_in_query": 17,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "high",
+          "query_rank": 28041,
+          "returned_rows": 14,
+          "unique_rows_in_query": 14,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "near-tail",
+          "query_rank": 37321,
+          "returned_rows": 1,
+          "unique_rows_in_query": 1,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        }
+      ]
+    },
+    "3": {
+      "all_representative_queries_returned_rows": true,
+      "all_unique_query_rows_in_aggregate": true,
+      "queries": [
+        {
+          "label": "low",
+          "query_rank": 1,
+          "returned_rows": 89,
+          "unique_rows_in_query": 89,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "low-mid",
+          "query_rank": 2143,
+          "returned_rows": 27,
+          "unique_rows_in_query": 27,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "mid",
+          "query_rank": 8125,
+          "returned_rows": 28,
+          "unique_rows_in_query": 28,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "high",
+          "query_rank": 15830,
+          "returned_rows": 10,
+          "unique_rows_in_query": 10,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        },
+        {
+          "label": "near-tail",
+          "query_rank": 21069,
+          "returned_rows": 1,
+          "unique_rows_in_query": 1,
+          "all_unique_query_rows_in_aggregate": true,
+          "sampling_qa_only": true,
+          "note": "Representative query check, not a full independent audit."
+        }
+      ]
+    }
+  }
+}

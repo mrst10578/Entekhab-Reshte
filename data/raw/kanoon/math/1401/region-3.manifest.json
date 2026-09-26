@@ -1,0 +1,430 @@
+{
+  "schema_version": "loprax-kanoon-raw-v1",
+  "dataset": "kanoon/math/1401",
+  "region": 3,
+  "source_page": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "endpoint": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+  "workflow": "LoPRax RankLab adaptive overlapping quota-rank sweep via the public rendered page POST behavior",
+  "filters": {
+    "exam_group": "mathematics / ریاضی",
+    "dept": 1,
+    "year": 1401,
+    "year_code": 101,
+    "region": 3,
+    "request_type": 3
+  },
+  "canonical_fields": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "exact_dedupe_key": "JSON.stringify(canonical_fields_in_field_order)",
+  "sort_order": [
+    "national_rank asc",
+    "quota_rank asc",
+    "kanoon_score desc",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "raw_observed_rows_from_sweep": 7989,
+  "supplemental_rows_from_gap_probes": 4900,
+  "supplemental_rows_from_sampling_qa": 411,
+  "unique_rows_after_exact_dedupe": 2279,
+  "national_rank_range": {
+    "min": 24,
+    "max": 113848
+  },
+  "quota_rank_range": {
+    "min": 1,
+    "max": 31275
+  },
+  "sweep_query_count": 127,
+  "sweep_failures": [],
+  "last_nonzero_query_rank": 34775,
+  "tail_zero_probes": [
+    34875,
+    34975
+  ],
+  "tail_completion_requirement": "two higher query ranks returning zero rows",
+  "confirmed_source_empty_bands": [
+    {
+      "quota_rank_exclusive": [
+        15971,
+        16082
+      ],
+      "missing_quota_ranks": 110,
+      "probe_query_ranks": [
+        15999,
+        16027,
+        16055
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        17871,
+        18005
+      ],
+      "missing_quota_ranks": 133,
+      "probe_query_ranks": [
+        17905,
+        17938,
+        17972
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        18019,
+        18146
+      ],
+      "missing_quota_ranks": 126,
+      "probe_query_ranks": [
+        18051,
+        18083,
+        18115
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        18722,
+        18875
+      ],
+      "missing_quota_ranks": 152,
+      "probe_query_ranks": [
+        18761,
+        18799,
+        18837
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        19704,
+        19856
+      ],
+      "missing_quota_ranks": 151,
+      "probe_query_ranks": [
+        19742,
+        19780,
+        19818
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        20379,
+        20509
+      ],
+      "missing_quota_ranks": 129,
+      "probe_query_ranks": [
+        20412,
+        20444,
+        20477
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        20564,
+        20667
+      ],
+      "missing_quota_ranks": 102,
+      "probe_query_ranks": [
+        20590,
+        20616,
+        20642
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        20811,
+        21484
+      ],
+      "missing_quota_ranks": 672,
+      "probe_query_ranks": [
+        20980,
+        21148,
+        21316
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        21521,
+        21645
+      ],
+      "missing_quota_ranks": 123,
+      "probe_query_ranks": [
+        21552,
+        21583,
+        21614
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        21773,
+        21937
+      ],
+      "missing_quota_ranks": 163,
+      "probe_query_ranks": [
+        21814,
+        21855,
+        21896
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        21937,
+        22072
+      ],
+      "missing_quota_ranks": 134,
+      "probe_query_ranks": [
+        21971,
+        22005,
+        22039
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        22225,
+        22343
+      ],
+      "missing_quota_ranks": 117,
+      "probe_query_ranks": [
+        22255,
+        22284,
+        22314
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        22418,
+        22665
+      ],
+      "missing_quota_ranks": 246,
+      "probe_query_ranks": [
+        22480,
+        22542,
+        22604
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        22665,
+        22892
+      ],
+      "missing_quota_ranks": 226,
+      "probe_query_ranks": [
+        22722,
+        22779,
+        22836
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        23102,
+        23260
+      ],
+      "missing_quota_ranks": 157,
+      "probe_query_ranks": [
+        23142,
+        23181,
+        23221
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        23260,
+        23494
+      ],
+      "missing_quota_ranks": 233,
+      "probe_query_ranks": [
+        23319,
+        23377,
+        23436
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        23494,
+        23671
+      ],
+      "missing_quota_ranks": 176,
+      "probe_query_ranks": [
+        23539,
+        23583,
+        23627
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        23671,
+        23774
+      ],
+      "missing_quota_ranks": 102,
+      "probe_query_ranks": [
+        23697,
+        23723,
+        23749
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        23774,
+        23925
+      ],
+      "missing_quota_ranks": 150,
+      "probe_query_ranks": [
+        23812,
+        23850,
+        23888
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        23925,
+        24283
+      ],
+      "missing_quota_ranks": 357,
+      "probe_query_ranks": [
+        24015,
+        24104,
+        24194
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        24283,
+        24467
+      ],
+      "missing_quota_ranks": 183,
+      "probe_query_ranks": [
+        24329,
+        24375,
+        24421
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        24507,
+        24683
+      ],
+      "missing_quota_ranks": 175,
+      "probe_query_ranks": [
+        24551,
+        24595,
+        24639
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        24692,
+        24867
+      ],
+      "missing_quota_ranks": 174,
+      "probe_query_ranks": [
+        24736,
+        24780,
+        24824
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        24916,
+        25057
+      ],
+      "missing_quota_ranks": 140,
+      "probe_query_ranks": [
+        24952,
+        24987,
+        25022
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        25148,
+        25271
+      ],
+      "missing_quota_ranks": 122,
+      "probe_query_ranks": [
+        25179,
+        25210,
+        25241
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        25271,
+        26190
+      ],
+      "missing_quota_ranks": 918,
+      "probe_query_ranks": [
+        25501,
+        25731,
+        25961
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        26190,
+        27075
+      ],
+      "missing_quota_ranks": 884,
+      "probe_query_ranks": [
+        26412,
+        26633,
+        26854
+      ],
+      "probe_count": 3
+    },
+    {
+      "quota_rank_exclusive": [
+        27075,
+        31275
+      ],
+      "missing_quota_ranks": 4199,
+      "probe_query_ranks": [
+        28125,
+        29175,
+        30225
+      ],
+      "probe_count": 3
+    }
+  ],
+  "extraction_gap_bands": [],
+  "gap_probe_threshold_missing_quota_ranks": 100,
+  "row_fingerprint_algorithm": "sha256(UTF-8 JSON.stringify(canonical fields in field order))",
+  "row_fingerprint_sha256": "444c1f024ee3e2a43813352073723e25da27854c1c9838a863c553c88839c287",
+  "jsonl_sha256": "914ca1b185c9718fc05af5afd2b0028b563a3486621f947773f6adc415afd0d2",
+  "jsonl_bytes": 578090,
+  "tsv_sha256": "96337f12b37842ad19f5e3e44a569ecfcfdef650f7e8dbbad0867a1246a5277e",
+  "tsv_bytes": 350266,
+  "data_file": "data/raw/kanoon/math/1401/region-3.jsonl"
+}

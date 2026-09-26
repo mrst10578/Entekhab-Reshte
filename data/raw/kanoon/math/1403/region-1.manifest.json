@@ -1,0 +1,88 @@
+{
+  "schema": "loprax.ranklab.raw.v1",
+  "dataset": "kanoon.math.1403",
+  "region": 1,
+  "source": {
+    "rendered_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+    "parameters": {
+      "dept": "1",
+      "year": "103",
+      "type": "3",
+      "sahmieh": "1|2|3",
+      "rank": "adaptive"
+    },
+    "access": "public rendered page and same-origin POST behavior; no CAPTCHA, anti-bot, or access-control bypass"
+  },
+  "fields": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "encoding": "UTF-8",
+  "format": "JSONL",
+  "ordering": [
+    "national_rank",
+    "quota_rank",
+    "kanoon_score",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "exact_dedupe_key": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "row_count": 406,
+  "raw_rows_returned": 1917,
+  "national_rank_range": [
+    1,
+    107937
+  ],
+  "quota_rank_range": [
+    1,
+    37207
+  ],
+  "jsonl_bytes": 88966,
+  "jsonl_sha256": "be43791a2a9d82b64a473c6f9b9a5225abdba2a32efa613fe48f9524501c0a08",
+  "row_fingerprint_sha256": "da1a98f17abb8c0f164e94fa68546b6bf7045c91fef863a5c080d60d3e9e908b",
+  "row_key_fingerprint_sha256": "0142bfe072f78752de72c28a7796acf4353734d3445dfb2163bac2e1bf1bd640",
+  "query_log_fingerprint_sha256": "1ee2154a3867276453a96c93487c1903d53a34734ba79d87047b3994cdf32a40",
+  "extraction": {
+    "query_count": 149,
+    "nonempty_query_count": 137,
+    "empty_query_count": 12,
+    "raw_rows_returned": 1917,
+    "query_rank_range": [
+      1,
+      58002
+    ],
+    "empty_query_ranks": [
+      41500,
+      42000,
+      42500,
+      43280,
+      43280,
+      45444,
+      45444,
+      47717,
+      50103,
+      52609,
+      55240,
+      58002
+    ],
+    "http_statuses": [
+      200
+    ],
+    "errors": []
+  }
+}

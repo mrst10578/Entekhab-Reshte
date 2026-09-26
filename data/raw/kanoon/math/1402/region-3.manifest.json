@@ -1,0 +1,164 @@
+{
+  "schema_version": "loprax-ranklab/1",
+  "dataset_id": "kanoon-math-1402-region-3",
+  "source": {
+    "url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+    "page_behavior": "public rendered page ShowSuperiors same-origin POST",
+    "access_control_bypass": false
+  },
+  "query": {
+    "dept": 1,
+    "dept_label": "mathematics / ریاضی",
+    "sahmieh": 3,
+    "quota_region": "منطقه 3",
+    "year": 102,
+    "year_label": "1402",
+    "type": 3,
+    "reshte": null,
+    "univercity": null
+  },
+  "retrieval": {
+    "retrieved_at_utc": "2026-09-26T08:39:16Z",
+    "method": "adaptive overlapping rank sweep via public POST endpoint",
+    "window_behavior": "empirically observed rank window radius is max(100, 10% of query rank)",
+    "sweep_stride": "adaptive: 150/125/100/75 based on returned row count; maximum step 150",
+    "tail_rule": "two higher query ranks returned valid zero-row source responses beyond the final observed quota rank",
+    "captcha_or_antibot_block": false
+  },
+  "canonical_fields": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "sort_order": [
+    "quota_rank",
+    "national_rank",
+    "kanoon_score",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "data": {
+    "path": "data/raw/kanoon/math/1402/region-3.jsonl",
+    "format": "JSONL",
+    "row_count": 409,
+    "exact_dedupe": true,
+    "sha256": "9d76d5602b6a873dc86889a1899f36f081fda3aa9d6f02d9be00c589c3daee10",
+    "byte_size": 71145,
+    "row_key_fingerprint": "ca245a998937bf290626dc2e7fce164a7370a878f545d96917109de764c4038c"
+  },
+  "sweep_evidence": {
+    "region": 3,
+    "row_count": 409,
+    "quota_rank_range": {
+      "min": 1,
+      "max": 29279
+    },
+    "national_rank_range": {
+      "min": 5,
+      "max": 449959
+    },
+    "distinct_quota_rank_count": 389,
+    "query_count": 381,
+    "nonempty_query_count": 379,
+    "source_empty_query_count": 2,
+    "extraction_gap_count": 0,
+    "max_query_step": 150,
+    "tail_zero_probes": [
+      {
+        "query_rank": 32626,
+        "status": 200,
+        "response_bytes": 1347,
+        "row_count": 0,
+        "lower_window_bound_estimate": 29363.4,
+        "confirmed_above_max_quota_rank": true
+      },
+      {
+        "query_rank": 32701,
+        "status": 200,
+        "response_bytes": 1347,
+        "row_count": 0,
+        "lower_window_bound_estimate": 29430.9,
+        "confirmed_above_max_quota_rank": true
+      }
+    ],
+    "input_query_fingerprint": "991395bd7624a18172a84825393d0a0276ffda9b5e72974a8e405519fe6ddcd3",
+    "coverage_assertions": {
+      "starts_at_rank_1": true,
+      "maximum_query_step_le_150": true,
+      "public_window_overlap_preserved": true,
+      "tail_two_zero_rule_satisfied": true
+    },
+    "raw_input_row_count": 409,
+    "exact_dedupe_count": 409
+  },
+  "confirmed_source_empty_bands": [
+    {
+      "from_quota_rank": 24232,
+      "to_quota_rank": 29279,
+      "missing_rank_count": 5046,
+      "width": 5046,
+      "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+      "probe_count": 3,
+      "probe_ranks": [
+        24500,
+        26600,
+        29100
+      ],
+      "probe_inside_band_row_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "from_quota_rank": 19360,
+      "to_quota_rank": 21770,
+      "missing_rank_count": 2409,
+      "width": 2409,
+      "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+      "probe_count": 3,
+      "probe_ranks": [
+        19500,
+        20550,
+        21600
+      ],
+      "probe_inside_band_row_counts": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "from_quota_rank": 16815,
+      "to_quota_rank": 18880,
+      "missing_rank_count": 2064,
+      "width": 2064,
+      "confirmation": "full_sweep_plus_three_targeted_overlapping_probes",
+      "probe_count": 3,
+      "probe_ranks": [
+        17000,
+        17850,
+        18750
+      ],
+      "probe_inside_band_row_counts": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "validation": {
+    "jsonl_parsed": true,
+    "canonical_field_order_valid": true,
+    "exact_counts_valid": true,
+    "sort_order_valid": true,
+    "hash_valid": true
+  }
+}
