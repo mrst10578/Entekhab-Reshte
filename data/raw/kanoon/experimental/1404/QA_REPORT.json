@@ -1,0 +1,162 @@
+{
+  "dataset": "kanoon experimental admissions",
+  "year": 1404,
+  "sampling_only": true,
+  "independent_full_audit": false,
+  "sample_design": "five source queries per region: low, low-mid, mid, high, near-tail",
+  "sample_queries": [
+    {
+      "region": 1,
+      "query_rank": 1,
+      "row_count": 108,
+      "returned_min_quota_rank": 2,
+      "returned_max_quota_rank": 200,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 1,
+      "query_rank": 1000,
+      "row_count": 36,
+      "returned_min_quota_rank": 905,
+      "returned_max_quota_rank": 1098,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 1,
+      "query_rank": 10000,
+      "row_count": 25,
+      "returned_min_quota_rank": 9075,
+      "returned_max_quota_rank": 10785,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 1,
+      "query_rank": 30000,
+      "row_count": 10,
+      "returned_min_quota_rank": 27019,
+      "returned_max_quota_rank": 30290,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 1,
+      "query_rank": 45000,
+      "row_count": 3,
+      "returned_min_quota_rank": 43068,
+      "returned_max_quota_rank": 46149,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 2,
+      "query_rank": 1,
+      "row_count": 140,
+      "returned_min_quota_rank": 1,
+      "returned_max_quota_rank": 198,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 2,
+      "query_rank": 2000,
+      "row_count": 110,
+      "returned_min_quota_rank": 1803,
+      "returned_max_quota_rank": 2200,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 2,
+      "query_rank": 20000,
+      "row_count": 49,
+      "returned_min_quota_rank": 18104,
+      "returned_max_quota_rank": 21939,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 2,
+      "query_rank": 60000,
+      "row_count": 4,
+      "returned_min_quota_rank": 54356,
+      "returned_max_quota_rank": 59170,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 2,
+      "query_rank": 90000,
+      "row_count": 1,
+      "returned_min_quota_rank": 90983,
+      "returned_max_quota_rank": 90983,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 3,
+      "query_rank": 1,
+      "row_count": 134,
+      "returned_min_quota_rank": 1,
+      "returned_max_quota_rank": 199,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 3,
+      "query_rank": 2000,
+      "row_count": 84,
+      "returned_min_quota_rank": 1801,
+      "returned_max_quota_rank": 2194,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 3,
+      "query_rank": 20000,
+      "row_count": 38,
+      "returned_min_quota_rank": 18103,
+      "returned_max_quota_rank": 21944,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 3,
+      "query_rank": 60000,
+      "row_count": 10,
+      "returned_min_quota_rank": 55195,
+      "returned_max_quota_rank": 65429,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    },
+    {
+      "region": 3,
+      "query_rank": 89000,
+      "row_count": 1,
+      "returned_min_quota_rank": 89774,
+      "returned_max_quota_rank": 89774,
+      "http_status": 200,
+      "blocked": false,
+      "parsed_seven_field_samples": true
+    }
+  ],
+  "result": "PASS",
+  "source_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "endpoint_url": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors"
+}
