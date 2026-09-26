@@ -1,0 +1,71 @@
+{
+  "source": "kanoon",
+  "source_url": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "source_year": 1403,
+  "exam_group": "experimental",
+  "quota_region": "منطقه 3",
+  "records": 1586,
+  "min_quota_rank": 1,
+  "max_quota_rank": 164973,
+  "sha256": "b9c7a9fca251773be5c77f3a3c6f85125c774361d3f2884f1f7aeb941263132c",
+  "extraction_method": "browser-use-adaptive-rank-sweep",
+  "source_recheck_passed": true,
+  "qa_status": "PASS_REPRESENTATIVE_QA_ONLY",
+  "known_empty_bands": [
+    [
+      40570,
+      41833
+    ],
+    [
+      45422,
+      48488
+    ],
+    [
+      48798,
+      51603
+    ],
+    [
+      51605,
+      59667
+    ],
+    [
+      59669,
+      66671
+    ],
+    [
+      66673,
+      72322
+    ],
+    [
+      72324,
+      78420
+    ],
+    [
+      78422,
+      102523
+    ],
+    [
+      102525,
+      108809
+    ],
+    [
+      108811,
+      136998
+    ],
+    [
+      137000,
+      164972
+    ]
+  ],
+  "unresolved_source_gaps": false,
+  "source_tsv": "outputs/experimental-1403-region-3.tsv",
+  "source_tsv_sha256": "ac6fcbe06f634192df0a7743d727f3b9873d737c79024f13bae0b7704d60a612",
+  "sort_order": [
+    "quota_rank asc",
+    "national_rank asc",
+    "accepted_raw asc",
+    "city asc",
+    "gender asc",
+    "kanoon_score asc"
+  ]
+}
