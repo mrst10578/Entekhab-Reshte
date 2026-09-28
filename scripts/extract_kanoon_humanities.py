@@ -193,6 +193,8 @@ def extract(year: int, region: int, outdir: Path):
             break
 
     rows = sorted_rows()
+    if failures:
+        raise RuntimeError(f"Unrecovered request failures for humanities {year} region {region}: {failures[:5]}")
     if not rows:
         raise RuntimeError(f"No rows parsed for humanities {year} region {region}; failures={failures[:3]}")
 
