@@ -3,8 +3,12 @@ import argparse, hashlib, json, os, re, sys, time
 from pathlib import Path
 from typing import Dict, List, Tuple
 
-import requests
-from bs4 import BeautifulSoup
+try:
+    import requests
+    from bs4 import BeautifulSoup
+except ModuleNotFoundError:
+    requests = None
+    BeautifulSoup = None
 
 PAGE = "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3"
 ENDPOINT = "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors"
