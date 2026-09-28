@@ -1,0 +1,75 @@
+{
+  "schema_version": "loprax-stage-summary-v1",
+  "dataset": "Kanoon HUMANITIES / انسانی admissions, year 1401",
+  "source_urls": {
+    "rendered_page": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_endpoint": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors"
+  },
+  "workflow": "LoPRax RankLab fixed 100-rank overlapping sweep + gap probes via public POST behavior",
+  "combined_total": 8163,
+  "region_manifests": {
+    "1": "data/raw/kanoon/humanities/1401/region-1.manifest.json",
+    "2": "data/raw/kanoon/humanities/1401/region-2.manifest.json",
+    "3": "data/raw/kanoon/humanities/1401/region-3.manifest.json"
+  },
+  "regions": {
+    "1": {
+      "count": 814,
+      "national_rank_range": {
+        "min": 2,
+        "max": 266031
+      },
+      "quota_rank_range": {
+        "min": 1,
+        "max": 35025
+      },
+      "sweep_query_count": 708,
+      "last_nonzero_query_rank": 38900,
+      "tail_zero_probes": [
+        55000,
+        55100
+      ],
+      "confirmed_source_empty_bands": [],
+      "extraction_gap_bands": []
+    },
+    "2": {
+      "count": 3015,
+      "national_rank_range": {
+        "min": 1,
+        "max": 323383
+      },
+      "quota_rank_range": {
+        "min": 1,
+        "max": 96345
+      },
+      "sweep_query_count": 1423,
+      "last_nonzero_query_rank": 107100,
+      "tail_zero_probes": [
+        116300,
+        116400
+      ],
+      "confirmed_source_empty_bands": [],
+      "extraction_gap_bands": []
+    },
+    "3": {
+      "count": 4334,
+      "national_rank_range": {
+        "min": 18,
+        "max": 289769
+      },
+      "quota_rank_range": {
+        "min": 1,
+        "max": 165242
+      },
+      "sweep_query_count": 2331,
+      "last_nonzero_query_rank": 183600,
+      "tail_zero_probes": [
+        185500,
+        185600
+      ],
+      "confirmed_source_empty_bands": [],
+      "extraction_gap_bands": []
+    }
+  },
+  "qa_report": "data/raw/kanoon/humanities/1401/QA_REPORT.json"
+}

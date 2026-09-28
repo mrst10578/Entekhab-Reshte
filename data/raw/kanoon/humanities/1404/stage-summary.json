@@ -1,0 +1,75 @@
+{
+  "schema_version": "loprax-stage-summary-v1",
+  "dataset": "Kanoon HUMANITIES / انسانی admissions, year 1404",
+  "source_urls": {
+    "rendered_page": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_endpoint": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors"
+  },
+  "workflow": "LoPRax RankLab fixed 100-rank overlapping sweep + gap probes via public POST behavior",
+  "combined_total": 1619,
+  "region_manifests": {
+    "1": "data/raw/kanoon/humanities/1404/region-1.manifest.json",
+    "2": "data/raw/kanoon/humanities/1404/region-2.manifest.json",
+    "3": "data/raw/kanoon/humanities/1404/region-3.manifest.json"
+  },
+  "regions": {
+    "1": {
+      "count": 233,
+      "national_rank_range": {
+        "min": 1,
+        "max": 163857
+      },
+      "quota_rank_range": {
+        "min": 1,
+        "max": 22663
+      },
+      "sweep_query_count": 536,
+      "last_nonzero_query_rank": 25200,
+      "tail_zero_probes": [
+        42600,
+        42700
+      ],
+      "confirmed_source_empty_bands": [],
+      "extraction_gap_bands": []
+    },
+    "2": {
+      "count": 739,
+      "national_rank_range": {
+        "min": 4,
+        "max": 96811
+      },
+      "quota_rank_range": {
+        "min": 3,
+        "max": 30058
+      },
+      "sweep_query_count": 673,
+      "last_nonzero_query_rank": 33400,
+      "tail_zero_probes": [
+        50000,
+        50100
+      ],
+      "confirmed_source_empty_bands": [],
+      "extraction_gap_bands": []
+    },
+    "3": {
+      "count": 647,
+      "national_rank_range": {
+        "min": 12,
+        "max": 171099
+      },
+      "quota_rank_range": {
+        "min": 1,
+        "max": 95668
+      },
+      "sweep_query_count": 1506,
+      "last_nonzero_query_rank": 106300,
+      "tail_zero_probes": [
+        115600,
+        115700
+      ],
+      "confirmed_source_empty_bands": [],
+      "extraction_gap_bands": []
+    }
+  },
+  "qa_report": "data/raw/kanoon/humanities/1404/QA_REPORT.json"
+}

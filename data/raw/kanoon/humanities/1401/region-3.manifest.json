@@ -1,0 +1,56 @@
+{
+  "schema_version": "loprax-kanoon-raw-v1",
+  "dataset": "kanoon/humanities/1401",
+  "region": 3,
+  "source_page": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+  "endpoint": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors",
+  "workflow": "LoPRax RankLab fixed 100-rank overlapping sweep + gap probes via public POST behavior",
+  "filters": {
+    "exam_group": "humanities / انسانی",
+    "dept": 3,
+    "year": 1401,
+    "year_code": 101,
+    "region": 3,
+    "request_type": 3
+  },
+  "canonical_fields": [
+    "kanoon_score",
+    "national_rank",
+    "quota_rank",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "exact_dedupe_key": "JSON.stringify(canonical_fields_in_field_order)",
+  "sort_order": [
+    "national_rank asc",
+    "quota_rank asc",
+    "kanoon_score desc",
+    "quota_region",
+    "gender",
+    "city",
+    "accepted_raw"
+  ],
+  "unique_rows_after_exact_dedupe": 4334,
+  "national_rank_range": {
+    "min": 18,
+    "max": 289769
+  },
+  "quota_rank_range": {
+    "min": 1,
+    "max": 165242
+  },
+  "sweep_query_count": 2331,
+  "sweep_failures": [],
+  "last_nonzero_query_rank": 183600,
+  "tail_zero_probes": [
+    185500,
+    185600
+  ],
+  "confirmed_source_empty_bands": [],
+  "gap_probe_threshold_missing_quota_ranks": 100,
+  "jsonl_sha256": "0c75a32b65c92a3af13938abdcb2e096ab9a851ef32af5bfcac55b4fa6504c09",
+  "jsonl_bytes": 1250030,
+  "data_file": "data/raw/kanoon/humanities/1401/region-3.jsonl"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "loprax-stage-summary-v1",
+  "dataset": "Kanoon HUMANITIES / انسانی admissions, year 1402",
+  "source_urls": {
+    "rendered_page": "https://www.kanoon.ir/Public/SuperiorsRankBased?type=3",
+    "post_endpoint": "https://www.kanoon.ir/Public/SuperiorsRankBasedShowSuperiors"
+  },
+  "workflow": "LoPRax RankLab fixed 100-rank overlapping sweep + gap probes via public POST behavior",
+  "combined_total": 2672,
+  "region_manifests": {
+    "1": "data/raw/kanoon/humanities/1402/region-1.manifest.json",
+    "2": "data/raw/kanoon/humanities/1402/region-2.manifest.json",
+    "3": "data/raw/kanoon/humanities/1402/region-3.manifest.json"
+  },
+  "regions": {
+    "1": {
+      "count": 250,
+      "national_rank_range": {
+        "min": 3,
+        "max": 115785
+      },
+      "quota_rank_range": {
+        "min": 2,
+        "max": 15625
+      },
+      "sweep_query_count": 418,
+      "last_nonzero_query_rank": 17400,
+      "tail_zero_probes": [
+        35600,
+        35700
+      ],
+      "confirmed_source_empty_bands": [
+        {
+          "quota_rank_exclusive": [
+            9553,
+            15625
+          ],
+          "missing_quota_ranks": 6071,
+          "probe_query_ranks": [
+            11071,
+            12589,
+            14107
+          ],
+          "probe_count": 3
+        }
+      ],
+      "extraction_gap_bands": []
+    },
+    "2": {
+      "count": 1035,
+      "national_rank_range": {
+        "min": 13,
+        "max": 223386
+      },
+      "quota_rank_range": {
+        "min": 5,
+        "max": 50293
+      },
+      "sweep_query_count": 866,
+      "last_nonzero_query_rank": 55800,
+      "tail_zero_probes": [
+        70200,
+        70300
+      ],
+      "confirmed_source_empty_bands": [],
+      "extraction_gap_bands": []
+    },
+    "3": {
+      "count": 1387,
+      "national_rank_range": {
+        "min": 1,
+        "max": 190381
+      },
+      "quota_rank_range": {
+        "min": 1,
+        "max": 72219
+      },
+      "sweep_query_count": 1224,
+      "last_nonzero_query_rank": 80300,
+      "tail_zero_probes": [
+        92200,
+        92300
+      ],
+      "confirmed_source_empty_bands": [],
+      "extraction_gap_bands": []
+    }
+  },
+  "qa_report": "data/raw/kanoon/humanities/1402/QA_REPORT.json"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "loprax-qa-v1",
+  "dataset": "kanoon/humanities/1401",
+  "status": "PASS",
+  "combined_total": 8163,
+  "regions": {
+    "1": 814,
+    "2": 3015,
+    "3": 4334
+  },
+  "sweep_failures": [],
+  "checks": {
+    "jsonl_parse": true,
+    "exact_dedupe": true,
+    "sorted": true,
+    "region_labels": true,
+    "tail_probed": true,
+    "large_gaps_probed": true,
+    "source_type": 3
+  }
+}
