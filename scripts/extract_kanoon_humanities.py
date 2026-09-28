@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 import argparse, hashlib, json, os, re, sys, time
 from pathlib import Path
 from typing import Dict, List, Tuple
