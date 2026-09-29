@@ -1,0 +1,55 @@
+name: Full repository snapshot backup
+
+on:
+  push:
+    branches:
+      - backup/full-snapshot-20260929
+    paths:
+      - ".github/workflows/full-snapshot-backup.yml"
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: backup/full-snapshot-20260929
+          fetch-depth: 1
+      - name: Build snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p backup_snapshot
+          rsync -a --exclude '.git/' --exclude 'backup_snapshot/' ./ backup_snapshot/
+          python - <<'PY'
+          import json, hashlib, os
+          from pathlib import Path
+          root=Path("backup_snapshot")
+          files=[]
+          for p in sorted(root.rglob("*")):
+              if not p.is_file():
+                  continue
+              rel=p.relative_to(root).as_posix()
+              h=hashlib.sha256()
+              with p.open("rb") as f:
+                  for chunk in iter(lambda:f.read(1024*1024),b""):
+                      h.update(chunk)
+              files.append({"path":rel,"size":p.stat().st_size,"sha256":h.hexdigest()})
+          manifest={
+              "backup_date":"2026-09-29",
+              "repository":"mrst10578/Entekhab-Reshte",
+              "branch":"backup/full-snapshot-20260929",
+              "file_count":len(files),
+              "total_bytes":sum(x["size"] for x in files),
+              "files":files,
+          }
+          (root/"BACKUP_MANIFEST.json").write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding="utf-8")
+          (root/"BACKUP_SHA256SUMS.txt").write_text("\n".join(f'{x["sha256"]}  {x["path"]}' for x in files)+"\n",encoding="utf-8")
+          print(json.dumps({k:manifest[k] for k in ["repository","branch","file_count","total_bytes"]},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Entekhabreshte-primary-full-backup-2026-09-29
+          path: backup_snapshot/
+          if-no-files-found: error
+          retention-days: 7
