@@ -1,1 +1,1 @@
-year,major,university,campus,province,program_type,program_type_raw,capacity,gender,intake,admission_conditions,source_id,source_page,notes
+year,major,university,campus,province,program_type,program_type_raw,admission_category,capacity,gender,intake,admission_conditions,source_id,source_page,base_source_id,base_source_page,notes

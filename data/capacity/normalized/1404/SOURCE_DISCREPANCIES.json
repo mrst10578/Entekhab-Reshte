@@ -1,0 +1,92 @@
+[
+  {
+    "code": "37325",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "ظرفیت پذیرش از «6» به «5» تغییر یافت. نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 10,
+    "resolution": "use explicit final intake from amendment"
+  },
+  {
+    "code": "36939",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 14,
+    "resolution": "use explicit final intake from amendment"
+  },
+  {
+    "code": "37071",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "ظرفیت پذیرش از «5» به «20» تغییر یافت. نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 14,
+    "resolution": "use explicit final intake from amendment"
+  },
+  {
+    "code": "37177",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "ظرفیت پذیرش از «7» به «5» تغییر یافت. نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 15,
+    "resolution": "use explicit final intake from amendment"
+  },
+  {
+    "code": "37178",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "ظرفیت پذیرش از «11» به «5» تغییر یافت. نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 15,
+    "resolution": "use explicit final intake from amendment"
+  },
+  {
+    "code": "37180",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "ظرفیت پذیرش از «4» به «5» تغییر یافت. نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 15,
+    "resolution": "use explicit final intake from amendment"
+  },
+  {
+    "code": "37208",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 17,
+    "resolution": "use explicit final intake from amendment"
+  },
+  {
+    "code": "36983",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 21,
+    "resolution": "use explicit final intake from amendment"
+  },
+  {
+    "code": "37254",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "ظرفیت پذیرش از «6» به «5» تغییر یافت. نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 22,
+    "resolution": "use explicit final intake from amendment"
+  },
+  {
+    "code": "37284",
+    "type": "previous_intake_disagrees",
+    "booklet_intake": "second",
+    "amendment": "ظرفیت پذیرش از «22» به «5» تغییر یافت. نیمسال پذیرش از «اوّل» به «دوم» تغییر یافت.",
+    "source_id": "1404-correction-7",
+    "source_page": 24,
+    "resolution": "use explicit final intake from amendment"
+  }
+]

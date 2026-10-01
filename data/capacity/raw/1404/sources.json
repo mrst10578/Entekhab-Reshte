@@ -1,0 +1,100 @@
+{
+  "archive_file": "Download.zip",
+  "library_file_id": "libfile_b480d2d1cdc0819190de3ef33f72835b",
+  "archive_members": [
+    {
+      "original_name": "تحربی1404.pdf",
+      "bytes": 21778521,
+      "archive_member": "1404.zip!تحربی1404.pdf",
+      "selected_for_review": true
+    },
+    {
+      "original_name": "ریاضی1404.pdf",
+      "bytes": 18726837,
+      "archive_member": "1404.zip!ریاضی1404.pdf",
+      "selected_for_review": false
+    },
+    {
+      "original_name": "انسانی1404.pdf",
+      "bytes": 17231515,
+      "archive_member": "1404.zip!انسانی1404.pdf",
+      "selected_for_review": false
+    },
+    {
+      "original_name": "پیوست ها.pdf",
+      "bytes": 5007912,
+      "archive_member": "1404.zip!پیوست ها.pdf",
+      "selected_for_review": true
+    },
+    {
+      "original_name": "اصلاحیه ریاضی.pdf",
+      "bytes": 4716600,
+      "archive_member": "1404.zip!اصلاحیه ریاضی.pdf",
+      "selected_for_review": true
+    },
+    {
+      "original_name": "اصلاحیه انسانی.pdf",
+      "bytes": 2110875,
+      "archive_member": "1404.zip!اصلاحیه انسانی.pdf",
+      "selected_for_review": true
+    },
+    {
+      "original_name": "اصلاحیه تجربی.pdf",
+      "bytes": 3739523,
+      "archive_member": "1404.zip!اصلاحیه تجربی.pdf",
+      "selected_for_review": true
+    }
+  ],
+  "sources": [
+    {
+      "year": 1404,
+      "original": "تحربی1404.pdf",
+      "path": "capacity-work/1404/booklet-1.pdf",
+      "kind": "booklet",
+      "pages": 406,
+      "sha256": "b2a9394e737a38eabdb4ea70dc7001e7f03adf3b4f5ee43db1bc8cd87a4c88d0",
+      "text_chars": 1344964,
+      "source_id": "1404-booklet"
+    },
+    {
+      "year": 1404,
+      "original": "پیوست ها.pdf",
+      "path": "capacity-work/1404/appendix-4.pdf",
+      "kind": "appendix",
+      "pages": 70,
+      "sha256": "77480d1c8308f94003cd66ca7659cea56a04005854da918fc8a2374cd58165ec",
+      "text_chars": 260159,
+      "source_id": "1404-appendix-4"
+    },
+    {
+      "year": 1404,
+      "original": "اصلاحیه ریاضی.pdf",
+      "path": "capacity-work/1404/correction-5.pdf",
+      "kind": "correction",
+      "pages": 19,
+      "sha256": "6e9837a314077e6518de7b4f43c521a9822518e816c4dd2894937ee8f8c2c490",
+      "text_chars": 61508,
+      "source_id": "1404-correction-5"
+    },
+    {
+      "year": 1404,
+      "original": "اصلاحیه انسانی.pdf",
+      "path": "capacity-work/1404/correction-6.pdf",
+      "kind": "correction",
+      "pages": 19,
+      "sha256": "33119eaab6ae7fdf6601d5a7cb79968eb71b26be302dc5da2fb136f92119182c",
+      "text_chars": 59058,
+      "source_id": "1404-correction-6"
+    },
+    {
+      "year": 1404,
+      "original": "اصلاحیه تجربی.pdf",
+      "path": "capacity-work/1404/correction-7.pdf",
+      "kind": "correction",
+      "pages": 50,
+      "sha256": "cdb07f1f391c0e67946f78ec50133bcdcc785999839f3b45574fab2f7fdf82b9",
+      "text_chars": 170648,
+      "source_id": "1404-correction-7"
+    }
+  ]
+}

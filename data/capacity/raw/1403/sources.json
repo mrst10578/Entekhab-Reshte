@@ -1,0 +1,68 @@
+{
+  "archive_file": "Download.zip",
+  "library_file_id": "libfile_b480d2d1cdc0819190de3ef33f72835b",
+  "archive_members": [
+    {
+      "original_name": "تجربی1403.pdf",
+      "bytes": 12339411,
+      "archive_member": "1403.zip!تجربی1403.pdf",
+      "selected_for_review": true
+    },
+    {
+      "original_name": "ریاضی1403.pdf",
+      "bytes": 10928121,
+      "archive_member": "1403.zip!ریاضی1403.pdf",
+      "selected_for_review": false
+    },
+    {
+      "original_name": "انسانی1403.pdf",
+      "bytes": 10221762,
+      "archive_member": "1403.zip!انسانی1403.pdf",
+      "selected_for_review": false
+    },
+    {
+      "original_name": "پیوست ها.pdf",
+      "bytes": 1448394,
+      "archive_member": "1403.zip!پیوست ها.pdf",
+      "selected_for_review": true
+    },
+    {
+      "original_name": "اصلاحیه.pdf",
+      "bytes": 1312481,
+      "archive_member": "1403.zip!اصلاحیه.pdf",
+      "selected_for_review": true
+    }
+  ],
+  "sources": [
+    {
+      "year": 1403,
+      "original": "تجربی1403.pdf",
+      "path": "capacity-work/1403/booklet-1.pdf",
+      "kind": "booklet",
+      "pages": 415,
+      "sha256": "459a9ed2f054b3cb1db4b1831fdeaf4c8abde2a59da366b0fd815c9f26777f3b",
+      "text_chars": 1394382,
+      "source_id": "1403-booklet"
+    },
+    {
+      "year": 1403,
+      "original": "پیوست ها.pdf",
+      "path": "capacity-work/1403/appendix-4.pdf",
+      "kind": "appendix",
+      "pages": 56,
+      "sha256": "ac4d9c6b3740cd22afbc0e76a9a74f8d1b6bdbf3cac7f20cf63f3ea641fef8db",
+      "text_chars": 251578,
+      "source_id": "1403-appendix-4"
+    },
+    {
+      "year": 1403,
+      "original": "اصلاحیه.pdf",
+      "path": "capacity-work/1403/correction-5.pdf",
+      "kind": "correction",
+      "pages": 42,
+      "sha256": "49a4bc518030d590faa4f0fa8f8210d0de18a1184a931e2d2c4d9b29918b2541",
+      "text_chars": 134635,
+      "source_id": "1403-correction-5"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "archive_file": "Download.zip",
+  "library_file_id": "libfile_b480d2d1cdc0819190de3ef33f72835b",
+  "archive_members": [
+    {
+      "original_name": "1402تجربی.pdf",
+      "bytes": 11853855,
+      "archive_member": "1402.zip!1402تجربی.pdf",
+      "selected_for_review": true
+    },
+    {
+      "original_name": "1402ریاضی.pdf",
+      "bytes": 11025818,
+      "archive_member": "1402.zip!1402ریاضی.pdf",
+      "selected_for_review": false
+    },
+    {
+      "original_name": "1402انسانی.pdf",
+      "bytes": 11972748,
+      "archive_member": "1402.zip!1402انسانی.pdf",
+      "selected_for_review": false
+    },
+    {
+      "original_name": "اصلاحیه1.pdf",
+      "bytes": 212486,
+      "archive_member": "1402.zip!اصلاحیه1.pdf",
+      "selected_for_review": true
+    },
+    {
+      "original_name": "اصلاحیه2.pdf",
+      "bytes": 446242,
+      "archive_member": "1402.zip!اصلاحیه2.pdf",
+      "selected_for_review": true
+    }
+  ],
+  "sources": [
+    {
+      "year": 1402,
+      "original": "1402تجربی.pdf",
+      "path": "capacity-work/1402/booklet-1.pdf",
+      "kind": "booklet",
+      "pages": 467,
+      "sha256": "c3adc817b1bc8b4aae50e79502ff189fb2c63c1f445c9a00b2a1fbfe9f3d541f",
+      "text_chars": 1826044,
+      "source_id": "1402-booklet"
+    },
+    {
+      "year": 1402,
+      "original": "اصلاحیه1.pdf",
+      "path": "capacity-work/1402/correction-4.pdf",
+      "kind": "correction",
+      "pages": 6,
+      "sha256": "e7fde09d5efc040014faaba0e425cc07415227ca5fc8601714cd3c5c7780adb6",
+      "text_chars": 12120,
+      "source_id": "1402-correction-4"
+    },
+    {
+      "year": 1402,
+      "original": "اصلاحیه2.pdf",
+      "path": "capacity-work/1402/correction-5.pdf",
+      "kind": "correction",
+      "pages": 24,
+      "sha256": "253e3d75938d95114b1ad1cbfeebda2e305fd8edf6bea425d1a940e2b703cb6e",
+      "text_chars": 84615,
+      "source_id": "1402-correction-5"
+    }
+  ]
+}

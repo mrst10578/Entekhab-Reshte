@@ -1,0 +1,22 @@
+{
+  "base_rows": 747,
+  "added_rows": 0,
+  "deleted_rows": 0,
+  "amendment_events": 1,
+  "final_rows": 747,
+  "university_summary_rows": 480,
+  "capacities": {
+    "پزشکی": 12803,
+    "دندانپزشکی": 2362,
+    "داروسازی": 1285,
+    "فیزیوتراپی": 392
+  },
+  "total_capacity": 16842,
+  "all_amendment_codes_matched": true,
+  "all_declared_before_capacities_matched": true,
+  "all_explicit_gender_totals_matched": true,
+  "aggregate_totals_matched": true,
+  "unresolved_capacity_rows": 0,
+  "source_intake_discrepancies": 0,
+  "period_not_explicit_rows": 311
+}

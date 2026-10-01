@@ -1,0 +1,108 @@
+{
+  "status": "extracted_from_supplied_files",
+  "years": [
+    {
+      "year": 1401,
+      "base_rows": 961,
+      "added_rows": 0,
+      "deleted_rows": 3,
+      "amendment_events": 8,
+      "final_rows": 958,
+      "university_summary_rows": 358,
+      "capacities": {
+        "پزشکی": 9012,
+        "دندانپزشکی": 1860,
+        "داروسازی": 1372,
+        "فیزیوتراپی": 376
+      },
+      "total_capacity": 12620,
+      "all_amendment_codes_matched": true,
+      "all_declared_before_capacities_matched": true,
+      "all_explicit_gender_totals_matched": true,
+      "aggregate_totals_matched": true,
+      "unresolved_capacity_rows": 0,
+      "source_intake_discrepancies": 0,
+      "period_not_explicit_rows": 577
+    },
+    {
+      "year": 1402,
+      "base_rows": 633,
+      "added_rows": 1,
+      "deleted_rows": 3,
+      "amendment_events": 14,
+      "final_rows": 631,
+      "university_summary_rows": 418,
+      "capacities": {
+        "پزشکی": 11101,
+        "دندانپزشکی": 2060,
+        "داروسازی": 1271,
+        "فیزیوتراپی": 387
+      },
+      "total_capacity": 14819,
+      "all_amendment_codes_matched": true,
+      "all_declared_before_capacities_matched": true,
+      "all_explicit_gender_totals_matched": true,
+      "aggregate_totals_matched": true,
+      "unresolved_capacity_rows": 0,
+      "source_intake_discrepancies": 0,
+      "period_not_explicit_rows": 255
+    },
+    {
+      "year": 1403,
+      "base_rows": 747,
+      "added_rows": 0,
+      "deleted_rows": 0,
+      "amendment_events": 1,
+      "final_rows": 747,
+      "university_summary_rows": 480,
+      "capacities": {
+        "پزشکی": 12803,
+        "دندانپزشکی": 2362,
+        "داروسازی": 1285,
+        "فیزیوتراپی": 392
+      },
+      "total_capacity": 16842,
+      "all_amendment_codes_matched": true,
+      "all_declared_before_capacities_matched": true,
+      "all_explicit_gender_totals_matched": true,
+      "aggregate_totals_matched": true,
+      "unresolved_capacity_rows": 0,
+      "source_intake_discrepancies": 0,
+      "period_not_explicit_rows": 311
+    },
+    {
+      "year": 1404,
+      "base_rows": 1048,
+      "added_rows": 131,
+      "deleted_rows": 125,
+      "amendment_events": 785,
+      "final_rows": 1054,
+      "university_summary_rows": 460,
+      "capacities": {
+        "پزشکی": 14437,
+        "دندانپزشکی": 2507,
+        "داروسازی": 1322,
+        "فیزیوتراپی": 377
+      },
+      "total_capacity": 18643,
+      "all_amendment_codes_matched": true,
+      "all_declared_before_capacities_matched": true,
+      "all_explicit_gender_totals_matched": true,
+      "aggregate_totals_matched": true,
+      "unresolved_capacity_rows": 0,
+      "source_intake_discrepancies": 10,
+      "period_not_explicit_rows": 567
+    }
+  ],
+  "original_archive": {
+    "file_name": "Download.zip",
+    "library_file_id": "libfile_b480d2d1cdc0819190de3ef33f72835b",
+    "sha256": "f514dc47e062750e399a4d1b687f6c6e686d60e02211bfaf9479e9e86ac4c1da"
+  },
+  "scope": [
+    "پزشکی",
+    "دندانپزشکی",
+    "داروسازی",
+    "فیزیوتراپی"
+  ]
+}
