@@ -1,19 +1,17 @@
 # Gozine2 642 merge report
 
-The recovered public Gozine2 report-card dataset has been merged into the yearly rank/admission tables while preserving the existing seven-column schema.
+Existing main records are preserved byte-for-field; only genuinely new recovered Gozine2 records are added.
 
-| Year | Existing | Source | Matched | Added | Final |
+| Year | Main before | Source | Matched | Added | Final |
 |---:|---:|---:|---:|---:|---:|
-| 1397 | 5810 | 165 | 165 | 0 | 5810 |
-| 1398 | 6459 | 306 | 306 | 0 | 6459 |
-| 1399 | 6635 | 91 | 91 | 0 | 6635 |
-| 1400 | 6369 | 52 | 52 | 0 | 6369 |
-| 1402 | 28 | 28 | 28 | 0 | 28 |
+| 1397 | 5669 | 165 | 24 | 141 | 5810 |
+| 1398 | 6178 | 306 | 25 | 281 | 6459 |
+| 1399 | 6561 | 91 | 17 | 74 | 6635 |
+| 1400 | 6322 | 52 | 5 | 47 | 6369 |
+| 1402 | 0 | 28 | 0 | 28 | 28 |
 
-Source rows: **642**
-Matched existing: **642**
-New rows added: **0**
-Existing rows enriched with national rank: **0**
-Existing rows enriched with quota: **0**
+Total source rows: **642**
+Matched existing: **71**
+New rows added: **571**
 
-No existing row was deliberately deleted. Full Gozine2 provenance and admission type remain under data/raw/gozine2/.
+No pre-existing main record is removed or text-normalized by this final merge. Full Gozine2 provenance and admission type remain under data/raw/gozine2/.
