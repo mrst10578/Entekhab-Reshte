@@ -43,3 +43,13 @@ Current image-pack extraction:
 - 316 expanded outcome rows
 
 Image text is preserved as a source transcription rather than silently normalizing ambiguous multi-choice rejection cells. Group phrases such as "کل ...", "همه ..." or multiple universities in one cell remain grouped for later normalization/audit.
+
+
+## Help Pack
+
+The 14 supplied Help Pack slides were visually extracted and linked to rank outcomes.
+
+- 1404: medicine, medicine 5%/25%, dentistry, pharmacy, physiotherapy, veterinary medicine, nursing, operating room/anesthesia, nutrition/radiology
+- 1403: nutrition/radiology
+- Extracted rows are also collected in `data/raw/sajad/help-pack/extracted-outcomes.csv`.
+- Grouped rejection phrases from the source image are preserved verbatim when splitting them into individual universities would require guessing.
