@@ -1,0 +1,26 @@
+{
+  "year": 1403,
+  "quota": "ایثارگران ۵ درصد",
+  "status": "provisional",
+  "source": "ردیف‌های قرمز «اطلاعات سال قبل» از جدول‌های سهمیه ۵٪ کنکور ۱۴۰۴",
+  "source_rows": 518,
+  "unique_records": 517,
+  "groups": {
+    "experimental": {
+      "source_rows": 199,
+      "unique_records": 198,
+      "exact_duplicates_removed": 1
+    },
+    "humanities": {
+      "source_rows": 294,
+      "unique_records": 294,
+      "exact_duplicates_removed": 0
+    },
+    "math": {
+      "source_rows": 25,
+      "unique_records": 25,
+      "exact_duplicates_removed": 0
+    }
+  },
+  "note": "این داده‌ها عمداً در مسیر provisional نگه‌داری شده‌اند تا در صورت تصمیم کاربر به‌سادگی قابل حذف/برگشت باشند."
+}
