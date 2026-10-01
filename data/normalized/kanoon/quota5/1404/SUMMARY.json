@@ -1,0 +1,21 @@
+{
+  "year": 1404,
+  "quota": "ایثارگران ۵ درصد",
+  "source_rule": "فقط رتبه‌های مشکی ۱۴۰۴ وارد شده‌اند؛ رتبه‌های قرمز سال قبل حذف شده‌اند.",
+  "admission_type_rule": "نوع پذیرش فقط در صورت ذکر صریح در منبع ثبت شده؛ در غیر این صورت «ذکر نشده». روزانه استنباط نشده است.",
+  "groups": {
+    "experimental": {
+      "records": 232,
+      "red_previous_year_excluded": 199
+    },
+    "humanities": {
+      "records": 116,
+      "red_previous_year_excluded": 294
+    },
+    "math": {
+      "records": 71,
+      "red_previous_year_excluded": 25
+    }
+  },
+  "total_records": 419
+}
