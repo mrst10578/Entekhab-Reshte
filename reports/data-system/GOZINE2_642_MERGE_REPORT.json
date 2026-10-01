@@ -1,0 +1,71 @@
+{
+  "source": "Gozine2 public historical report-card archive",
+  "years": {
+    "1397": {
+      "existing_before": 5669,
+      "gozine2_source_rows": 165,
+      "matched_existing": 24,
+      "added_new": 141,
+      "enriched_national_rank": 0,
+      "enriched_quota": 0,
+      "ambiguous_loose_matches_not_forced": 1,
+      "final_rows": 5810
+    },
+    "1398": {
+      "existing_before": 6178,
+      "gozine2_source_rows": 306,
+      "matched_existing": 25,
+      "added_new": 281,
+      "enriched_national_rank": 0,
+      "enriched_quota": 0,
+      "ambiguous_loose_matches_not_forced": 0,
+      "final_rows": 6459
+    },
+    "1399": {
+      "existing_before": 6561,
+      "gozine2_source_rows": 91,
+      "matched_existing": 17,
+      "added_new": 74,
+      "enriched_national_rank": 0,
+      "enriched_quota": 0,
+      "ambiguous_loose_matches_not_forced": 0,
+      "final_rows": 6635
+    },
+    "1400": {
+      "existing_before": 6322,
+      "gozine2_source_rows": 52,
+      "matched_existing": 5,
+      "added_new": 47,
+      "enriched_national_rank": 0,
+      "enriched_quota": 0,
+      "ambiguous_loose_matches_not_forced": 0,
+      "final_rows": 6369
+    },
+    "1402": {
+      "existing_before": 0,
+      "gozine2_source_rows": 28,
+      "matched_existing": 0,
+      "added_new": 28,
+      "enriched_national_rank": 0,
+      "enriched_quota": 0,
+      "ambiguous_loose_matches_not_forced": 0,
+      "final_rows": 28
+    }
+  },
+  "totals": {
+    "existing_before": 24730,
+    "gozine2_source_rows": 642,
+    "matched_existing": 71,
+    "added_new": 571,
+    "enriched_national_rank": 0,
+    "enriched_quota": 0,
+    "ambiguous_loose_matches_not_forced": 1,
+    "final_rows": 25301
+  },
+  "notes": [
+    "Target rank_admissions schema is preserved at seven columns.",
+    "Admission type and full Telegram provenance remain in data/raw/gozine2/<year>/admissions.csv.",
+    "Existing records are never deleted by this merge.",
+    "A matching source row may only fill a blank national rank or blank quota."
+  ]
+}
