@@ -9,13 +9,14 @@ This source is stored independently from Kanoon data. No Kanoon files are overwr
 - 1401: 43 admission-source records (3 with quota/region rank explicitly present in Telegram text; 40 preserved with blank rank because the rank is not written in the message text)
 - 1402: 174 usable admission records
 - 1403: 203 usable admission records
-- 1404: 146 usable admission records
+- 1404: 147 usable admission records
 
-Total source records: 566.
+Total source records: 567.
 
 Each year contains:
 - `admissions.csv`: normalized admission records
 - `source-audit.csv`: provenance/audit data with Telegram message identifiers and raw admission labels
+- `rank-outcomes.csv`: paired accepted/rejected outcomes for candidates where the source explicitly reports failed choices. Rows sharing the same `شناسه داوطلب` belong to one candidate; the accepted row is followed by one or more `عدم قبولی` rows.
 
 Fields in admissions:
 `سال, گروه آزمایشی, رتبه کشوری, رتبه در سهمیه, سهمیه, رشته قبولی, دانشگاه قبولی, نوع دوره قبولی`
