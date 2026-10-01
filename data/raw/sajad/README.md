@@ -26,3 +26,20 @@ Notes:
 - For 1401, many Telegram captions identify quota/region and admission but leave the numeric rank inside the image; these records are retained with blank rank rather than discarded or inferred.
 - Missing course type is preserved as `نامشخص` rather than inferred.
 - This dataset is a separate source and should be deduplicated carefully before any future merge with Kanoon or other sources.
+
+
+## Help-pack image extraction
+
+The 14 "کمک‌یار انتخاب رشته" image slides supplied from the Sajjad channel have been transcribed separately under `data/raw/sajad/help-pack/`.
+
+- `image-rank-outcomes.csv`: expanded outcome rows. Each candidate has a `قبولی` row and an `عدم قبولی` row tied to the same candidate ID, rank, quota and score.
+- `candidates-with-rejections.csv`: one row per candidate with accepted and rejected choices side by side.
+- `index.csv`: Telegram message/slide inventory and extraction status.
+
+Current image-pack extraction:
+- 158 candidates with an explicit rejected choice
+- 145 candidates from 1404
+- 13 candidates from 1403
+- 316 expanded outcome rows
+
+Image text is preserved as a source transcription rather than silently normalizing ambiguous multi-choice rejection cells. Group phrases such as "کل ...", "همه ..." or multiple universities in one cell remain grouped for later normalization/audit.
