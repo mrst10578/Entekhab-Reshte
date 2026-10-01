@@ -2,10 +2,10 @@
   "experimental": {
     "group": "تجربی",
     "source_red_rows": 199,
-    "parsed_rows": 198,
-    "unique_records": 197,
+    "parsed_rows": 199,
+    "unique_records": 198,
     "duplicates_removed": 1,
-    "unmatched_rows": 1
+    "unmatched_rows": 0
   },
   "humanities": {
     "group": "انسانی",
@@ -24,7 +24,7 @@
     "unmatched_rows": 0
   },
   "total_source_red_rows": 518,
-  "total_unique_records": 516,
+  "total_unique_records": 517,
   "status": "provisional",
   "source_note": "فقط ردیف‌های قرمز «اطلاعات سال قبل» از فایل‌های سهمیه ۵٪ کنکور ۱۴۰۴. با دیتای قطعی ۱۴۰۴ ادغام نشده و در مسیر جدا نگه‌داری می‌شود.",
   "year_interpretation": "با توجه به عنوان جدول کنکور ۱۴۰۴، اطلاعات سال قبل به‌صورت ۱۴۰۳ برچسب خورده است."
