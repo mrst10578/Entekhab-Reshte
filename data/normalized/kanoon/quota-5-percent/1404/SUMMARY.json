@@ -1,0 +1,43 @@
+{
+  "year": 1404,
+  "quota": "ایثارگران ۵ درصد",
+  "schema": [
+    "سال",
+    "گروه آزمایشی",
+    "سهمیه",
+    "رتبه در سهمیه",
+    "رشته قبولی",
+    "دانشگاه",
+    "نوع پذیرش",
+    "شرح خام قبولی",
+    "صفحه منبع",
+    "ردیف منبع"
+  ],
+  "extraction_rule": {
+    "current_year": "فقط رتبه‌های مشکی PDF وارد شده‌اند",
+    "skipped": "رتبه‌های قرمز که طبق راهنمای PDF اطلاعات سال قبل هستند حذف شده‌اند",
+    "admission_type": "فقط برچسب‌های صریح منبع ثبت شده‌اند",
+    "unspecified": "ذکر نشده یعنی منبع نوع خاصی را صریح ننوشته و روزانه استنباط نشده است"
+  },
+  "counts": {
+    "experimental": {
+      "included_1404": 232,
+      "skipped_previous_year_red": 199
+    },
+    "humanities": {
+      "included_1404": 116,
+      "skipped_previous_year_red": 294
+    },
+    "math": {
+      "included_1404": 71,
+      "skipped_previous_year_red": 25
+    },
+    "total_included_1404": 419,
+    "total_skipped_previous_year_red": 518
+  },
+  "source_files": [
+    "Daftarche_KOnkor1405_EXP_sahmie5.pdf",
+    "Daftarche_KOnkor1405_Human_sahmie5.pdf",
+    "Daftarche_KOnkor1405_Math_sahmie5.pdf"
+  ]
+}
