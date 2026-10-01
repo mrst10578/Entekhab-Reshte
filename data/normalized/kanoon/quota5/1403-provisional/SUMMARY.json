@@ -1,31 +1,29 @@
 {
-  "experimental": {
-    "group": "تجربی",
-    "source_red_rows": 199,
-    "parsed_rows": 199,
-    "unique_records": 198,
-    "duplicates_removed": 1,
-    "unmatched_rows": 0
-  },
-  "humanities": {
-    "group": "انسانی",
-    "source_red_rows": 294,
-    "parsed_rows": 294,
-    "unique_records": 294,
-    "duplicates_removed": 0,
-    "unmatched_rows": 0
-  },
-  "math": {
-    "group": "ریاضی",
-    "source_red_rows": 25,
-    "parsed_rows": 25,
-    "unique_records": 25,
-    "duplicates_removed": 0,
-    "unmatched_rows": 0
+  "year": 1403,
+  "quota": "ایثارگران ۵ درصد",
+  "status": "provisional",
+  "source": "ردیف‌های قرمز «اطلاعات سال قبل» در فایل‌های سهمیه ۵٪ کنکور ۱۴۰۴ کانون",
+  "source_rule": "فقط داده‌های قرمز سال قبل استخراج شده‌اند و با داده‌های قطعی ۱۴۰۴ ادغام نشده‌اند.",
+  "groups": {
+    "experimental": {
+      "source_red_rows": 199,
+      "unique_records": 198
+    },
+    "humanities": {
+      "source_red_rows": 294,
+      "unique_records": 294
+    },
+    "math": {
+      "source_red_rows": 25,
+      "unique_records": 25
+    }
   },
   "total_source_red_rows": 518,
   "total_unique_records": 517,
-  "status": "provisional",
-  "source_note": "فقط ردیف‌های قرمز «اطلاعات سال قبل» از فایل‌های سهمیه ۵٪ کنکور ۱۴۰۴. با دیتای قطعی ۱۴۰۴ ادغام نشده و در مسیر جدا نگه‌داری می‌شود.",
-  "year_interpretation": "با توجه به عنوان جدول کنکور ۱۴۰۴، اطلاعات سال قبل به‌صورت ۱۴۰۳ برچسب خورده است."
+  "schema": [
+    "رتبه در سهمیه",
+    "رشته قبولی",
+    "دانشگاه",
+    "نوع پذیرش"
+  ]
 }
