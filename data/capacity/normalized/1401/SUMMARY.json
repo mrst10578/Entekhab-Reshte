@@ -1,22 +1,25 @@
 {
-  "base_rows": 961,
+  "base_rows": 1518,
   "added_rows": 0,
   "deleted_rows": 3,
-  "amendment_events": 8,
-  "final_rows": 958,
-  "university_summary_rows": 358,
+  "amendment_events": 9,
+  "final_rows": 1515,
+  "university_summary_rows": 744,
   "capacities": {
     "پزشکی": 9012,
     "دندانپزشکی": 1860,
     "داروسازی": 1372,
-    "فیزیوتراپی": 376
+    "فیزیوتراپی": 376,
+    "پرستاری": 5671,
+    "اتاق عمل": 1366,
+    "هوشبری": 1185
   },
-  "total_capacity": 12620,
-  "all_amendment_codes_matched": true,
+  "total_capacity": 20842,
+  "all_amendment_codes_matched": false,
   "all_declared_before_capacities_matched": true,
   "all_explicit_gender_totals_matched": true,
   "aggregate_totals_matched": true,
-  "unresolved_capacity_rows": 0,
+  "unresolved_capacity_rows": 1,
   "source_intake_discrepancies": 0,
-  "period_not_explicit_rows": 577
+  "period_not_explicit_rows": 712
 }

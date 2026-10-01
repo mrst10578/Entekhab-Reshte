@@ -3,95 +3,107 @@
   "years": [
     {
       "year": 1401,
-      "base_rows": 961,
+      "base_rows": 1518,
       "added_rows": 0,
       "deleted_rows": 3,
-      "amendment_events": 8,
-      "final_rows": 958,
-      "university_summary_rows": 358,
+      "amendment_events": 9,
+      "final_rows": 1515,
+      "university_summary_rows": 744,
       "capacities": {
         "پزشکی": 9012,
         "دندانپزشکی": 1860,
         "داروسازی": 1372,
-        "فیزیوتراپی": 376
+        "فیزیوتراپی": 376,
+        "پرستاری": 5671,
+        "اتاق عمل": 1366,
+        "هوشبری": 1185
       },
-      "total_capacity": 12620,
-      "all_amendment_codes_matched": true,
+      "total_capacity": 20842,
+      "all_amendment_codes_matched": false,
       "all_declared_before_capacities_matched": true,
       "all_explicit_gender_totals_matched": true,
       "aggregate_totals_matched": true,
-      "unresolved_capacity_rows": 0,
+      "unresolved_capacity_rows": 1,
       "source_intake_discrepancies": 0,
-      "period_not_explicit_rows": 577
+      "period_not_explicit_rows": 712
     },
     {
       "year": 1402,
-      "base_rows": 633,
-      "added_rows": 1,
+      "base_rows": 1103,
+      "added_rows": 3,
       "deleted_rows": 3,
-      "amendment_events": 14,
-      "final_rows": 631,
-      "university_summary_rows": 418,
+      "amendment_events": 18,
+      "final_rows": 1103,
+      "university_summary_rows": 812,
       "capacities": {
         "پزشکی": 11101,
         "دندانپزشکی": 2060,
         "داروسازی": 1271,
-        "فیزیوتراپی": 387
+        "فیزیوتراپی": 387,
+        "پرستاری": 6033,
+        "اتاق عمل": 1510,
+        "هوشبری": 1226
       },
-      "total_capacity": 14819,
+      "total_capacity": 23588,
       "all_amendment_codes_matched": true,
       "all_declared_before_capacities_matched": true,
       "all_explicit_gender_totals_matched": true,
       "aggregate_totals_matched": true,
       "unresolved_capacity_rows": 0,
       "source_intake_discrepancies": 0,
-      "period_not_explicit_rows": 255
+      "period_not_explicit_rows": 274
     },
     {
       "year": 1403,
-      "base_rows": 747,
+      "base_rows": 1543,
       "added_rows": 0,
       "deleted_rows": 0,
       "amendment_events": 1,
-      "final_rows": 747,
-      "university_summary_rows": 480,
+      "final_rows": 1543,
+      "university_summary_rows": 1195,
       "capacities": {
         "پزشکی": 12803,
         "دندانپزشکی": 2362,
         "داروسازی": 1285,
-        "فیزیوتراپی": 392
+        "فیزیوتراپی": 392,
+        "پرستاری": 6518,
+        "اتاق عمل": 1709,
+        "هوشبری": 1437
       },
-      "total_capacity": 16842,
+      "total_capacity": 26506,
       "all_amendment_codes_matched": true,
       "all_declared_before_capacities_matched": true,
       "all_explicit_gender_totals_matched": true,
       "aggregate_totals_matched": true,
       "unresolved_capacity_rows": 0,
       "source_intake_discrepancies": 0,
-      "period_not_explicit_rows": 311
+      "period_not_explicit_rows": 316
     },
     {
       "year": 1404,
-      "base_rows": 1048,
-      "added_rows": 131,
+      "base_rows": 1856,
+      "added_rows": 138,
       "deleted_rows": 125,
-      "amendment_events": 785,
-      "final_rows": 1054,
-      "university_summary_rows": 460,
+      "amendment_events": 792,
+      "final_rows": 1869,
+      "university_summary_rows": 1178,
       "capacities": {
         "پزشکی": 14437,
         "دندانپزشکی": 2507,
         "داروسازی": 1322,
-        "فیزیوتراپی": 377
+        "فیزیوتراپی": 377,
+        "پرستاری": 6749,
+        "اتاق عمل": 1632,
+        "هوشبری": 1435
       },
-      "total_capacity": 18643,
+      "total_capacity": 28459,
       "all_amendment_codes_matched": true,
       "all_declared_before_capacities_matched": true,
       "all_explicit_gender_totals_matched": true,
       "aggregate_totals_matched": true,
       "unresolved_capacity_rows": 0,
       "source_intake_discrepancies": 10,
-      "period_not_explicit_rows": 567
+      "period_not_explicit_rows": 572
     }
   ],
   "original_archive": {
@@ -103,6 +115,9 @@
     "پزشکی",
     "دندانپزشکی",
     "داروسازی",
-    "فیزیوتراپی"
+    "فیزیوتراپی",
+    "پرستاری",
+    "اتاق عمل",
+    "هوشبری"
   ]
 }

@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "code": "32276",
+    "type": "amendment_identity_conflict",
+    "amendment_major": "پرستاری",
+    "amendment_university": "دانشگاه علوم پزشکی ایرانشهر- پردیس پزشکی چابهار",
+    "amendment_capacity": 6,
+    "booklet_major": "کاردانی فوریت های پزشکی پیش بیمارستانی",
+    "booklet_university": "دانشکده علوم پزشکی شوشتر",
+    "booklet_source_page": 75,
+    "source_id": "1401-correction-4",
+    "source_page": 1,
+    "resolution": "unresolved; amendment excluded from final capacity totals"
+  }
+]

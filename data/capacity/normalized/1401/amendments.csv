@@ -1,4 +1,5 @@
 code,major,action,before_capacity,after_capacity,source_id,source_page,change
+32276,پرستاری,unresolved_identity,,,1401-correction-4,1,ظرفیت 6 نفر(3 نفر زن و 3 نفر مرد) تغییر کرد
 32455,دندانپزشکی,capacity,27,54,1401-correction-4,2,افزایش ظرفیت: از 27 نفر به 54 نفر
 32456,دندانپزشکی,delete,27,0,1401-correction-4,2,رشته محل حذف شد
 32479,دندانپزشکی,capacity,7,15,1401-correction-4,2,افزایش ظرفیت: از 7 نفر به 15 نفر
