@@ -1,63 +1,47 @@
 {
-  "source": "Gozine2 public historical report-card archive",
+  "source_rows": 642,
+  "matched_existing": 71,
+  "added_new": 571,
   "years": {
     "1397": {
-      "existing_before": 5810,
-      "gozine2_source_rows": 165,
-      "matched_existing": 165,
-      "added_new": 0,
-      "enriched_national_rank": 0,
-      "enriched_quota": 0,
-      "ambiguous_loose_matches_not_forced": 0,
+      "main_before": 5669,
+      "source_rows": 165,
+      "matched_existing": 24,
+      "added_new": 141,
+      "ambiguous_loose_not_forced": 1,
       "final_rows": 5810
     },
     "1398": {
-      "existing_before": 6459,
-      "gozine2_source_rows": 306,
-      "matched_existing": 306,
-      "added_new": 0,
-      "enriched_national_rank": 0,
-      "enriched_quota": 0,
-      "ambiguous_loose_matches_not_forced": 0,
+      "main_before": 6178,
+      "source_rows": 306,
+      "matched_existing": 25,
+      "added_new": 281,
+      "ambiguous_loose_not_forced": 0,
       "final_rows": 6459
     },
     "1399": {
-      "existing_before": 6635,
-      "gozine2_source_rows": 91,
-      "matched_existing": 91,
-      "added_new": 0,
-      "enriched_national_rank": 0,
-      "enriched_quota": 0,
-      "ambiguous_loose_matches_not_forced": 0,
+      "main_before": 6561,
+      "source_rows": 91,
+      "matched_existing": 17,
+      "added_new": 74,
+      "ambiguous_loose_not_forced": 0,
       "final_rows": 6635
     },
     "1400": {
-      "existing_before": 6369,
-      "gozine2_source_rows": 52,
-      "matched_existing": 52,
-      "added_new": 0,
-      "enriched_national_rank": 0,
-      "enriched_quota": 0,
-      "ambiguous_loose_matches_not_forced": 0,
+      "main_before": 6322,
+      "source_rows": 52,
+      "matched_existing": 5,
+      "added_new": 47,
+      "ambiguous_loose_not_forced": 0,
       "final_rows": 6369
     },
     "1402": {
-      "existing_before": 28,
-      "gozine2_source_rows": 28,
-      "matched_existing": 28,
-      "added_new": 0,
-      "enriched_national_rank": 0,
-      "enriched_quota": 0,
-      "ambiguous_loose_matches_not_forced": 0,
+      "main_before": 0,
+      "source_rows": 28,
+      "matched_existing": 0,
+      "added_new": 28,
+      "ambiguous_loose_not_forced": 0,
       "final_rows": 28
     }
-  },
-  "totals": {
-    "source": 642,
-    "matched": 642,
-    "added": 0,
-    "enriched_country": 0,
-    "enriched_quota": 0,
-    "final": 25301
   }
 }
