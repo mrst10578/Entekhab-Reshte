@@ -1,0 +1,7 @@
+L2eCpvHXknf+nPx1PnnWPaFIfFsbK6lL+VyrqhRfhwLmcq/qWcFUfaWn8cFvfyWt48nJuG8qw41lp5Iy9KIGfq+1pt1UEeLosTrVg8K/sW7eaxyqpxluJeQZlpnEdqy5Xh/04prjQMeVF8V75vVfS5O/U7LYmpmaiIKXmoJSULvq+1hDROI5rSKMkmahVA0G/WP03CMs3G7pfJs+m/RejjLXPVQDmA/UYzbY3W0mSPM+gKAzGwhtmMZHuwzjPhQRurZ/5XkecdtMrjANh59P23wmPgdfJI8DPyGHTyiLxn5xF1BfPheh7R5v2IgPdm+pF0nRl4CDwjkZ1xIACvSGSwnkhsITII7A1JgrdCJHmCSOy/BpHA77/ezeqTLiKbJzPjGd013sy6NlBVHaa7vudXL4aNx5dmsYYGA+O6M+GhAakpnG48v9giIGAPEGCy4v/feaujAGyPAptCXGy6eloKUzqheywccS7UzygVfJhklnYEPrT1I0TVMdoiqAbdhI/aubLxpoeqEq5nvLc81gOwCwY+wO2MRksfWjFi+6GCETYjXmMjGB3PbawTXWNXDcJJXMZRwbdblNv+il1KdzQiYKbMcgS4egREILAdoU5ZmKcxzVhrMhR8T+exfZ4yrqvG68QOTez9LuwQrgGPLflXLfm/+e8ctZfhYxM+6YKPUFNV5YDfFmxVj09P5cD6eGCANxkFgXWEQBBsMn/42LaZELLJm+cj2+YA9ZdajOax0aRunKe7SaTKKtT0hprPOk1efcVSlTn2JU9Em8JaZ14BS6rmRlhW7As+2pnf2o1Kw+tNe38BuLfhPAEPAAA=',
+}
+for rel,data in payloads.items():
+    p=root/rel
+    p.parent.mkdir(parents=True,exist_ok=True)
+    p.write_bytes(gzip.decompress(base64.b64decode(data)))
+    print('wrote',rel)
