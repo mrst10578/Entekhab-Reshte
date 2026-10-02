@@ -1,0 +1,85 @@
+{
+  "status": "extracted_from_supplied_files",
+  "scope": [
+    "مامایی",
+    "فوریت‌های پزشکی پیش‌بیمارستانی"
+  ],
+  "emergency_title_normalization": {
+    "canonical": "فوریت‌های پزشکی پیش‌بیمارستانی",
+    "matched_source_titles": [
+      "فوریت های پزشکی پیش بیمارستانی",
+      "کاردانی فوریت های پزشکی پیش بیمارستانی",
+      "کارشناسی فوریت های پزشکی پیش بیمارستانی"
+    ],
+    "note": "عنوان دقیق منبع در ستون source_title نگهداری شده است."
+  },
+  "years": [
+    {
+      "year": 1401,
+      "rows": 120,
+      "capacities": {
+        "مامایی": 860,
+        "فوریت‌های پزشکی پیش‌بیمارستانی": 868
+      },
+      "total_capacity": 1728
+    },
+    {
+      "year": 1402,
+      "rows": 149,
+      "capacities": {
+        "مامایی": 910,
+        "فوریت‌های پزشکی پیش‌بیمارستانی": 1336
+      },
+      "total_capacity": 2246,
+      "applied_correction": {
+        "code": "39513",
+        "capacity": 20,
+        "source_id": "1402-correction-5",
+        "source_page": 3
+      }
+    },
+    {
+      "year": 1403,
+      "rows": 261,
+      "capacities": {
+        "مامایی": 1008,
+        "فوریت‌های پزشکی پیش‌بیمارستانی": 1424
+      },
+      "total_capacity": 2432
+    },
+    {
+      "year": 1404,
+      "rows": 280,
+      "capacities": {
+        "مامایی": 1249,
+        "فوریت‌های پزشکی پیش‌بیمارستانی": 1716
+      },
+      "total_capacity": 2965
+    }
+  ],
+  "totals": {
+    "rows": 810,
+    "capacities": {
+      "مامایی": 4027,
+      "فوریت‌های پزشکی پیش‌بیمارستانی": 5344
+    },
+    "total_capacity": 9371
+  },
+  "audit": {
+    "duplicate_year_code_rows": 0,
+    "zero_or_negative_capacity_rows": 0,
+    "empty_university_rows": 0,
+    "empty_province_rows": 0,
+    "empty_intake_rows": 0,
+    "program_type_counts": {
+      "روزانه": 631,
+      "شهریه‌پرداز": 179
+    },
+    "admission_category_counts": {
+      "عادی": 394,
+      "بورسیه / شرایط خاص": 225,
+      "سهمیه بهیاران": 191
+    }
+  },
+  "storage": "Per-year files: data/capacity/normalized/<year>/capacities-maternity-emergency.csv"
+}
