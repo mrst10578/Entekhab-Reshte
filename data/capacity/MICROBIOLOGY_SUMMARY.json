@@ -1,0 +1,54 @@
+{
+  "status": "final_after_supplied_corrections",
+  "source_group": "علوم تجربی",
+  "scope": "nationwide across source-listed institution/program types",
+  "major": "میکروبیولوژی",
+  "years": {
+    "1401": {
+      "rows": 47,
+      "capacity": 1824
+    },
+    "1402": {
+      "rows": 49,
+      "capacity": 1726
+    },
+    "1403": {
+      "rows": 46,
+      "capacity": 1692
+    },
+    "1404": {
+      "rows": 50,
+      "capacity": 1844
+    },
+    "total": {
+      "rows": 192,
+      "capacity": 7086
+    }
+  },
+  "corrections": {
+    "1401": "No directly applicable microbiology correction found in supplied correction PDFs.",
+    "1402": [
+      "Deleted code 15489 (Zand Shiraz).",
+      "Added scholarship codes 39478 and 39479 at University of Isfahan.",
+      "Code 18270 capacity reduced 60→20."
+    ],
+    "1403": "No directly applicable microbiology correction found in supplied correction PDF.",
+    "1404": [
+      "Added code 19467, Zand Shiraz, capacity 30, records-only."
+    ]
+  },
+  "audit": {
+    "duplicate_year_code_rows": 0,
+    "bad_capacity_rows": 0,
+    "empty_university_rows": 0,
+    "empty_province_rows": 0,
+    "empty_intake_rows": 0,
+    "wrong_major_leaks": 0,
+    "source_omits_gender_or_intake_rows": 10
+  },
+  "notes": [
+    "Special deprived/disaster/service-obligation rows are preserved as admission_category=تعهد خدمت.",
+    "Six scholarship/special-condition microbiology rows are preserved separately from ordinary admission.",
+    "Five 1401 and five 1402 late Payame Noor microbiology rows come from compact tables that do not state gender/intake; those fields are explicitly marked در جدول ذکر نشده instead of being inferred."
+  ]
+}

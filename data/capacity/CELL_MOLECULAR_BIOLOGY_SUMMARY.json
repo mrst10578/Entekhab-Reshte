@@ -1,0 +1,57 @@
+{
+  "status": "final_after_supplied_corrections",
+  "source_group": "علوم تجربی",
+  "scope": "nationwide across source-listed institution/program types",
+  "major": "زیست‌شناسی سلولی و مولکولی",
+  "years": {
+    "1401": {
+      "rows": 83,
+      "capacity": 2464
+    },
+    "1402": {
+      "rows": 83,
+      "capacity": 2289
+    },
+    "1403": {
+      "rows": 193,
+      "capacity": 5427
+    },
+    "1404": {
+      "rows": 194,
+      "capacity": 5600
+    },
+    "total": {
+      "rows": 553,
+      "capacity": 15780
+    }
+  },
+  "corrections": {
+    "1401": [
+      "Added code 19550, Payame Noor Khuzestan - Khorramshahr, capacity 40."
+    ],
+    "1402": [
+      "Deleted code 15487 (Zand Shiraz).",
+      "Added code 39518, University of Birjand, evening, capacity 10.",
+      "Added code 19641, Roozbehan Sari, capacity 20."
+    ],
+    "1403": [
+      "Added code 19620, Payame Noor West Azerbaijan - Oshnavieh, capacity 30."
+    ],
+    "1404": [
+      "Added 12 rows: one Roozbehan Sari row (15 seats) plus 11 Payame Noor rows (30 seats each)."
+    ]
+  },
+  "audit": {
+    "duplicate_year_code_rows": 0,
+    "bad_capacity_rows": 0,
+    "empty_university_rows": 0,
+    "empty_province_rows": 0,
+    "empty_intake_rows": 0,
+    "wrong_major_leaks": 0,
+    "source_omits_gender_or_intake_rows": 10
+  },
+  "notes": [
+    "Special deprived/disaster/service-obligation rows are preserved as admission_category=تعهد خدمت.",
+    "The exact source title is retained in notes while the canonical major is زیست‌شناسی سلولی و مولکولی."
+  ]
+}
