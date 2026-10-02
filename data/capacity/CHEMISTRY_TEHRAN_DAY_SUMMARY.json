@@ -1,0 +1,62 @@
+{
+  "status": "extracted_from_supplied_experimental_booklets",
+  "scope": {
+    "majors": ["شیمی محض", "شیمی کاربردی"],
+    "province": "تهران",
+    "program_type": "روزانه",
+    "source_group": "تجربی",
+    "excluded": ["دانشگاه آزاد", "پیام نور", "غیرانتفاعی", "نوبت دوم", "پردیس", "استان‌های خارج از تهران"]
+  },
+  "years": {
+    "1401": {
+      "rows": 8,
+      "capacity_by_major": {"شیمی محض": 88, "شیمی کاربردی": 88},
+      "total_capacity": 176,
+      "special_day_rows": 0
+    },
+    "1402": {
+      "rows": 15,
+      "capacity_by_major": {"شیمی محض": 105, "شیمی کاربردی": 101},
+      "total_capacity": 206,
+      "special_day_rows": 7,
+      "special_day_type": "بورسیه / شرایط خاص"
+    },
+    "1403": {
+      "rows": 15,
+      "capacity_by_major": {"شیمی محض": 107, "شیمی کاربردی": 112},
+      "total_capacity": 219,
+      "special_day_rows": 7,
+      "special_day_type": "بورسیه / شرایط خاص"
+    },
+    "1404": {
+      "rows": 8,
+      "capacity_by_major": {"شیمی محض": 76, "شیمی کاربردی": 71},
+      "total_capacity": 147,
+      "special_day_rows": 0
+    }
+  },
+  "totals": {
+    "rows": 46,
+    "capacity_by_major": {"شیمی محض": 376, "شیمی کاربردی": 372},
+    "total_capacity": 748
+  },
+  "universities": [
+    "دانشگاه الزهرا (س) (ویژه خواهران)",
+    "دانشگاه تهران",
+    "دانشگاه شهید بهشتی",
+    "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+    "دانشگاه صنعتی شریف"
+  ],
+  "audit": {
+    "duplicate_year_code_rows": 0,
+    "bad_required_rows": 0,
+    "non_tehran_rows": 0,
+    "non_day_rows": 0,
+    "free_payamnoor_nonprofit_rows": 0
+  },
+  "notes": [
+    "این خروجی عمداً فقط مسیر گروه آزمایشی تجربی را پوشش می‌دهد.",
+    "ردیف‌های روزانه بورس دانش در 1402 و 1403 حذف نشده‌اند و با admission_category جدا مشخص شده‌اند.",
+    "دانشگاه خوارزمی در این چهار سال برای این دو رشته، در مسیر تجربی و فیلتر روزانه استان تهران، ردیف قابل استفاده‌ای نداشت."
+  ]
+}
