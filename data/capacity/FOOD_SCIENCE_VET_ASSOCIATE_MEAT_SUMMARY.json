@@ -1,0 +1,169 @@
+{
+  "status": "filtered_corrected_verified",
+  "scope": {
+    "years": [
+      "1401",
+      "1402",
+      "1403",
+      "1404"
+    ],
+    "source_group": "تجربی",
+    "majors": [
+      "علوم و صنایع غذایی / علوم و مهندسی صنایع غذایی",
+      "کاردانی دامپزشکی",
+      "بهداشت و بازرسی گوشت"
+    ],
+    "excluded": [
+      "پیام نور",
+      "غیرانتفاعی"
+    ]
+  },
+  "years": {
+    "1401": {
+      "rows": 77,
+      "capacity": 1215,
+      "by_major": {
+        "علوم و صنایع غذایی / علوم و مهندسی صنایع غذایی": {
+          "rows": 64,
+          "capacity": 925
+        },
+        "کاردانی دامپزشکی": {
+          "rows": 9,
+          "capacity": 241
+        },
+        "بهداشت و بازرسی گوشت": {
+          "rows": 4,
+          "capacity": 49
+        }
+      }
+    },
+    "1402": {
+      "rows": 91,
+      "capacity": 1266,
+      "by_major": {
+        "علوم و صنایع غذایی / علوم و مهندسی صنایع غذایی": {
+          "rows": 80,
+          "capacity": 974
+        },
+        "کاردانی دامپزشکی": {
+          "rows": 8,
+          "capacity": 230
+        },
+        "بهداشت و بازرسی گوشت": {
+          "rows": 3,
+          "capacity": 62
+        }
+      }
+    },
+    "1403": {
+      "rows": 77,
+      "capacity": 1310,
+      "by_major": {
+        "علوم و صنایع غذایی / علوم و مهندسی صنایع غذایی": {
+          "rows": 67,
+          "capacity": 1031
+        },
+        "کاردانی دامپزشکی": {
+          "rows": 7,
+          "capacity": 211
+        },
+        "بهداشت و بازرسی گوشت": {
+          "rows": 3,
+          "capacity": 68
+        }
+      }
+    },
+    "1404": {
+      "rows": 88,
+      "capacity": 1278,
+      "by_major": {
+        "علوم و صنایع غذایی / علوم و مهندسی صنایع غذایی": {
+          "rows": 77,
+          "capacity": 1046
+        },
+        "کاردانی دامپزشکی": {
+          "rows": 7,
+          "capacity": 165
+        },
+        "بهداشت و بازرسی گوشت": {
+          "rows": 4,
+          "capacity": 67
+        }
+      }
+    }
+  },
+  "totals": {
+    "rows": 333,
+    "capacity": 5069,
+    "by_major": {
+      "علوم و صنایع غذایی / علوم و مهندسی صنایع غذایی": {
+        "rows": 288,
+        "capacity": 3976
+      },
+      "کاردانی دامپزشکی": {
+        "rows": 31,
+        "capacity": 847
+      },
+      "بهداشت و بازرسی گوشت": {
+        "rows": 14,
+        "capacity": 246
+      }
+    },
+    "excluded_payame_noor_nonprofit": {
+      "rows": 162,
+      "capacity": 2347
+    }
+  },
+  "corrections": [
+    {
+      "year": 1401,
+      "code": "19614",
+      "action": "new_row_excluded",
+      "reason": "غیرانتفاعی",
+      "source_id": "1401-correction-6",
+      "source_page": 1
+    },
+    {
+      "year": 1402,
+      "code": "13721",
+      "action": "capacity_update",
+      "from": 20,
+      "to": 30,
+      "source_id": "1402-correction-5",
+      "source_page": 22
+    },
+    {
+      "year": 1404,
+      "code": "19069",
+      "action": "new_row_excluded",
+      "reason": "پیام نور",
+      "source_id": "1404-correction-7",
+      "source_page": 33
+    }
+  ],
+  "excluded_rows": {
+    "1401": {
+      "rows": 18,
+      "capacity": 414
+    },
+    "1402": {
+      "rows": 17,
+      "capacity": 321
+    },
+    "1403": {
+      "rows": 64,
+      "capacity": 777
+    },
+    "1404": {
+      "rows": 63,
+      "capacity": 835
+    }
+  },
+  "audit": {
+    "duplicate_year_code_rows": 0,
+    "bad_required_rows": 0,
+    "payame_noor_rows": 0,
+    "nonprofit_rows": 0,
+    "wrong_major_rows": 0
+  }
+}
