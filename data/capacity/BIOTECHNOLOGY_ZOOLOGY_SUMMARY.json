@@ -1,0 +1,95 @@
+{
+  "status": "extracted_from_supplied_archive",
+  "scope": [
+    "زیست‌فناوری",
+    "زیست‌شناسی جانوری"
+  ],
+  "years": {
+    "1401": {
+      "rows": 102,
+      "by_major": {
+        "زیست‌شناسی جانوری": {
+          "rows": 50,
+          "capacity": 1113
+        },
+        "زیست‌فناوری": {
+          "rows": 52,
+          "capacity": 1780
+        }
+      },
+      "total_capacity": 2893
+    },
+    "1402": {
+      "rows": 112,
+      "by_major": {
+        "زیست‌شناسی جانوری": {
+          "rows": 58,
+          "capacity": 1168
+        },
+        "زیست‌فناوری": {
+          "rows": 54,
+          "capacity": 1765
+        }
+      },
+      "total_capacity": 2933
+    },
+    "1403": {
+      "rows": 115,
+      "by_major": {
+        "زیست‌شناسی جانوری": {
+          "rows": 58,
+          "capacity": 1135
+        },
+        "زیست‌فناوری": {
+          "rows": 57,
+          "capacity": 1929
+        }
+      },
+      "total_capacity": 3064
+    },
+    "1404": {
+      "rows": 112,
+      "by_major": {
+        "زیست‌شناسی جانوری": {
+          "rows": 55,
+          "capacity": 1068
+        },
+        "زیست‌فناوری": {
+          "rows": 57,
+          "capacity": 1919
+        }
+      },
+      "total_capacity": 2987
+    }
+  },
+  "totals": {
+    "rows": 441,
+    "by_major": {
+      "زیست‌فناوری": {
+        "rows": 220,
+        "capacity": 7393
+      },
+      "زیست‌شناسی جانوری": {
+        "rows": 221,
+        "capacity": 4484
+      }
+    },
+    "total_capacity": 11877
+  },
+  "corrections": {
+    "1401": "No directly applicable target-major amendments found in supplied correction PDFs.",
+    "1402": {
+      "deleted_code": "15488",
+      "deleted": "زیست فناوری، موسسه غیرانتفاعی زند شیراز، ظرفیت 60",
+      "added_code": "39502",
+      "added": "زیست فناوری، دانشگاه اصفهان، روزانه، ظرفیت 1، بورس صنعتی شرکت بهیار صنعت سپاهان"
+    },
+    "1403": "No directly applicable target-major amendments found in supplied correction PDF.",
+    "1404": "No directly applicable target-major amendments found in supplied experimental correction PDF."
+  },
+  "audit": {
+    "duplicate_year_code_rows": 0,
+    "bad_required_rows": 0,
+    "bad_rows": []
+  }
+}
