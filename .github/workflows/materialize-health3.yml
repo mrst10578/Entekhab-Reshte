@@ -1,0 +1,32 @@
+name: Materialize public environmental occupational health capacity files
+
+on:
+  push:
+    paths:
+      - "scripts/materialize_health3.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Materialize files
+        run: python scripts/materialize_health3.py
+      - name: Commit generated capacity files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/capacity/normalized/*/capacities-public-environmental-occupational-health.csv data/capacity/PUBLIC_ENV_OCCUPATIONAL_HEALTH_SUMMARY.json data/capacity/PUBLIC_ENV_OCCUPATIONAL_HEALTH_REPORT.md
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git commit -m "Add public environmental and occupational health capacities for 1401-1404"
+          git push
