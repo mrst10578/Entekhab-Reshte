@@ -1,0 +1,42 @@
+name: Materialize biology science capacity files
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Reassemble materializer
+        run: |
+          cat scripts/.bio_materialize_part1 scripts/.bio_materialize_part2 scripts/.bio_materialize_part3 scripts/.bio_materialize_part4 > scripts/materialize_bio_science.py
+      - name: Materialize outputs
+        run: python scripts/materialize_bio_science.py
+      - name: Commit generated biology files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/capacity/normalized/1401/capacities-microbiology.csv
+          git add data/capacity/normalized/1401/capacities-cell-molecular-biology.csv
+          git add data/capacity/normalized/1402/capacities-microbiology.csv
+          git add data/capacity/normalized/1402/capacities-cell-molecular-biology.csv
+          git add data/capacity/normalized/1403/capacities-microbiology.csv
+          git add data/capacity/normalized/1403/capacities-cell-molecular-biology.csv
+          git add data/capacity/normalized/1404/capacities-microbiology.csv
+          git add data/capacity/normalized/1404/capacities-cell-molecular-biology.csv
+          git add data/capacity/MICROBIOLOGY_REPORT.md data/capacity/MICROBIOLOGY_SUMMARY.json
+          git add data/capacity/CELL_MOLECULAR_BIOLOGY_REPORT.md data/capacity/CELL_MOLECULAR_BIOLOGY_SUMMARY.json
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git commit -m "Add microbiology and cell molecular biology capacities"
+          git push
