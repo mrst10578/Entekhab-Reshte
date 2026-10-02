@@ -1,0 +1,115 @@
+{
+  "status": "extracted_from_supplied_archive",
+  "scope": [
+    "تکنولوژی پرتودرمانی",
+    "ساخت پروتزهای دندانی"
+  ],
+  "normalization": {
+    "تکنولوژی پرتودرمانی": [
+      "تکنولوژی پرتو درمانی",
+      "تکنولوژی پرتودرمانی"
+    ],
+    "ساخت پروتزهای دندانی": [
+      "ساخت پروتزهای دندانی"
+    ],
+    "excluded": [
+      "تکنولوژی پرتوشناسی",
+      "ارتوز و پروتز (اعضای مصنوعی و وسایل کمکی)",
+      "ساخت پروتزهای دندانی با ارتوز و پروتز ادغام نشده است"
+    ]
+  },
+  "years": {
+    "1401": {
+      "rows": 17,
+      "rows_by_major": {
+        "تکنولوژی پرتودرمانی": 11,
+        "ساخت پروتزهای دندانی": 6
+      },
+      "capacity_by_major": {
+        "تکنولوژی پرتودرمانی": 155,
+        "ساخت پروتزهای دندانی": 76
+      },
+      "total_capacity": 231,
+      "unique_codes": 17,
+      "bad_rows": 0
+    },
+    "1402": {
+      "rows": 18,
+      "rows_by_major": {
+        "تکنولوژی پرتودرمانی": 12,
+        "ساخت پروتزهای دندانی": 6
+      },
+      "capacity_by_major": {
+        "تکنولوژی پرتودرمانی": 155,
+        "ساخت پروتزهای دندانی": 76
+      },
+      "total_capacity": 231,
+      "unique_codes": 18,
+      "bad_rows": 0
+    },
+    "1403": {
+      "rows": 21,
+      "rows_by_major": {
+        "تکنولوژی پرتودرمانی": 12,
+        "ساخت پروتزهای دندانی": 9
+      },
+      "capacity_by_major": {
+        "تکنولوژی پرتودرمانی": 160,
+        "ساخت پروتزهای دندانی": 80
+      },
+      "total_capacity": 240,
+      "unique_codes": 21,
+      "bad_rows": 0
+    },
+    "1404": {
+      "rows": 17,
+      "rows_by_major": {
+        "تکنولوژی پرتودرمانی": 12,
+        "ساخت پروتزهای دندانی": 5
+      },
+      "capacity_by_major": {
+        "تکنولوژی پرتودرمانی": 160,
+        "ساخت پروتزهای دندانی": 51
+      },
+      "total_capacity": 211,
+      "unique_codes": 17,
+      "bad_rows": 0
+    }
+  },
+  "totals": {
+    "rows": 73,
+    "rows_by_major": {
+      "تکنولوژی پرتودرمانی": 47,
+      "ساخت پروتزهای دندانی": 26
+    },
+    "capacity_by_major": {
+      "تکنولوژی پرتودرمانی": 630,
+      "ساخت پروتزهای دندانی": 283
+    },
+    "total_capacity": 913
+  },
+  "amendments": {
+    "1401": "No directly applicable amendment found for the target codes/titles in supplied correction PDFs.",
+    "1402": "No directly applicable amendment found for the target codes/titles in supplied correction PDFs.",
+    "1403": "No directly applicable amendment found for the target codes/titles in supplied correction PDF.",
+    "1404": "No directly applicable amendment found for the target codes/titles in supplied experimental correction PDF."
+  },
+  "special_rows": [
+    "1401 code 36718: ساخت پروتزهای دندانی، دانشگاه علوم پزشکی اصفهان، ظرفیت 4 نفر، مخصوص داوطلبان بومی استان هرمزگان با تعهد خدمت سه برابر طول دوره تحصیل در دانشکده دندانپزشکی بندرعباس."
+  ],
+  "visual_verification": [
+    "1401 main booklet page 65: code 31863 تکنولوژی پرتودرمانی ظرفیت 20 and code 31865 ساخت پروتزهای دندانی ظرفیت 20; code 31895/31897 also visible for Shahid Beheshti.",
+    "1401 main booklet page 205: code 36718 ساخت پروتزهای دندانی دانشگاه علوم پزشکی اصفهان ظرفیت 4 with Hormozgan-local service condition.",
+    "1404 main booklet page 60: code 32342 تکنولوژی پرتودرمانی ظرفیت 15 and code 32344 ساخت پروتزهای دندانی ظرفیت 10."
+  ],
+  "audit": {
+    "duplicate_year_code_rows": 0,
+    "empty_university_rows": 0,
+    "empty_province_rows": 0,
+    "empty_intake_rows": 0,
+    "nonpositive_capacity_rows": 0,
+    "numeric_gender_capacity_mismatch_rows": 0,
+    "excluded_major_leak_rows": 0
+  },
+  "storage": "data/capacity/normalized/<year>/capacities-radiotherapy-dental-prosthesis.csv"
+}
