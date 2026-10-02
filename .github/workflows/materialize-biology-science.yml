@@ -2,6 +2,9 @@ name: Materialize biology science capacity files
 
 on:
   push:
+    paths:
+      - "scripts/.bio_small_*"
+      - ".github/workflows/materialize-biology-science.yml"
   workflow_dispatch:
 
 permissions:
@@ -17,7 +20,12 @@ jobs:
           python-version: "3.x"
       - name: Reassemble materializer
         run: |
-          cat scripts/.bio_materialize_part1 scripts/.bio_materialize_part2 scripts/.bio_materialize_part3 scripts/.bio_materialize_part4 > scripts/materialize_bio_science.py
+          cat scripts/.bio_small_1 scripts/.bio_small_2 scripts/.bio_small_3 scripts/.bio_small_4 scripts/.bio_small_5 scripts/.bio_small_6 scripts/.bio_small_7 scripts/.bio_small_8 > scripts/materialize_bio_science.py
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("scripts/materialize_bio_science.py")
+          assert len(p.read_text()) == 35541, len(p.read_text())
+          PY
       - name: Materialize outputs
         run: python scripts/materialize_bio_science.py
       - name: Commit generated biology files
