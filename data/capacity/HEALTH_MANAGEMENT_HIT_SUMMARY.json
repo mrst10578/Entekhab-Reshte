@@ -1,0 +1,114 @@
+{
+  "status": "extracted_from_supplied_archive",
+  "scope": [
+    "مدیریت خدمات بهداشتی درمانی",
+    "فناوری اطلاعات سلامت"
+  ],
+  "years": {
+    "1401": {
+      "rows": 82,
+      "rows_by_major": {
+        "فناوری اطلاعات سلامت": 63,
+        "مدیریت خدمات بهداشتی درمانی": 19
+      },
+      "capacity_by_major": {
+        "فناوری اطلاعات سلامت": 614,
+        "مدیریت خدمات بهداشتی درمانی": 240
+      },
+      "total_capacity": 854,
+      "unique_codes": 82,
+      "bad_rows": 0,
+      "gender_mismatch_rows": 0
+    },
+    "1402": {
+      "rows": 63,
+      "rows_by_major": {
+        "فناوری اطلاعات سلامت": 43,
+        "مدیریت خدمات بهداشتی درمانی": 20
+      },
+      "capacity_by_major": {
+        "فناوری اطلاعات سلامت": 656,
+        "مدیریت خدمات بهداشتی درمانی": 291
+      },
+      "total_capacity": 947,
+      "unique_codes": 63,
+      "bad_rows": 0,
+      "gender_mismatch_rows": 0
+    },
+    "1403": {
+      "rows": 73,
+      "rows_by_major": {
+        "فناوری اطلاعات سلامت": 49,
+        "مدیریت خدمات بهداشتی درمانی": 24
+      },
+      "capacity_by_major": {
+        "فناوری اطلاعات سلامت": 870,
+        "مدیریت خدمات بهداشتی درمانی": 398
+      },
+      "total_capacity": 1268,
+      "unique_codes": 73,
+      "bad_rows": 0,
+      "gender_mismatch_rows": 0
+    },
+    "1404": {
+      "rows": 75,
+      "rows_by_major": {
+        "فناوری اطلاعات سلامت": 51,
+        "مدیریت خدمات بهداشتی درمانی": 24
+      },
+      "capacity_by_major": {
+        "فناوری اطلاعات سلامت": 980,
+        "مدیریت خدمات بهداشتی درمانی": 418
+      },
+      "total_capacity": 1398,
+      "unique_codes": 75,
+      "bad_rows": 0,
+      "gender_mismatch_rows": 0
+    }
+  },
+  "totals": {
+    "rows": 293,
+    "rows_by_major": {
+      "فناوری اطلاعات سلامت": 206,
+      "مدیریت خدمات بهداشتی درمانی": 87
+    },
+    "capacity_by_major": {
+      "فناوری اطلاعات سلامت": 3120,
+      "مدیریت خدمات بهداشتی درمانی": 1347
+    },
+    "total_capacity": 4467
+  },
+  "amendments": {
+    "1401": [],
+    "1402": [
+      "31911 فناوری اطلاعات سلامت دانشگاه علوم پزشکی ارتش: شرط حداقل نمره علمی 6000 اضافه شد؛ ظرفیت 15 نفر بدون تغییر."
+    ],
+    "1403": [],
+    "1404": []
+  },
+  "audit": {
+    "duplicate_year_code_rows": 0,
+    "empty_university_rows": 0,
+    "empty_province_rows": 0,
+    "empty_intake_rows": 0,
+    "nonpositive_capacity_rows": 0,
+    "gender_capacity_mismatch_rows": 0,
+    "correction_31911_applied": true
+  },
+  "normalization": {
+    "فناوری اطلاعات سلامت": [
+      "فناوری اطلاعات سلامت",
+      "OCR variants such as فناوری اطالعات سالمت"
+    ],
+    "مدیریت خدمات بهداشتی درمانی": [
+      "مدیریت خدمات بهداشتی درمانی",
+      "مدیریت خدمات بهداشتی و درمانی if present"
+    ],
+    "excluded": [
+      "فناوری اطلاعات و ارتباطات",
+      "مدیریت اطلاعات و ارتباطات",
+      "رشته‌های عمومی مدیریت خارج از حوزه سلامت"
+    ]
+  },
+  "storage": "data/capacity/normalized/<year>/capacities-health-management-hit.csv"
+}
