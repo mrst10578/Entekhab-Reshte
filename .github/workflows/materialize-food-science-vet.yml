@@ -3,7 +3,7 @@ name: Materialize food science veterinary capacity files
 on:
   push:
     paths:
-      - "scripts/materialize-food-science-vet.py"
+      - "scripts/.foodvet_part*"
       - ".github/workflows/materialize-food-science-vet.yml"
   workflow_dispatch:
 
@@ -18,8 +18,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+      - name: Reassemble exact materializer
+        run: |
+          cat scripts/.foodvet_part00 scripts/.foodvet_part01 scripts/.foodvet_part02 scripts/.foodvet_part03 scripts/.foodvet_part04 scripts/.foodvet_part05 > scripts/materialize-food-science-vet-exact.py
+          test "$(wc -c < scripts/materialize-food-science-vet-exact.py)" -eq 16013
+          python -m py_compile scripts/materialize-food-science-vet-exact.py
       - name: Materialize outputs
-        run: python scripts/materialize-food-science-vet.py
+        run: python scripts/materialize-food-science-vet-exact.py
       - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
