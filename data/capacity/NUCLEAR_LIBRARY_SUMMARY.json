@@ -1,0 +1,85 @@
+{
+  "status": "extracted_from_supplied_archive",
+  "scope": [
+    "تکنولوژی پزشکی هسته‌ای",
+    "کتابداری و اطلاع‌رسانی پزشکی"
+  ],
+  "years": {
+    "1401": {
+      "rows": 12,
+      "rows_by_major": {
+        "تکنولوژی پزشکی هسته‌ای": 3,
+        "کتابداری و اطلاع‌رسانی پزشکی": 9
+      },
+      "capacity_by_major": {
+        "تکنولوژی پزشکی هسته‌ای": 47,
+        "کتابداری و اطلاع‌رسانی پزشکی": 151
+      },
+      "total_capacity": 198
+    },
+    "1402": {
+      "rows": 12,
+      "rows_by_major": {
+        "تکنولوژی پزشکی هسته‌ای": 3,
+        "کتابداری و اطلاع‌رسانی پزشکی": 9
+      },
+      "capacity_by_major": {
+        "تکنولوژی پزشکی هسته‌ای": 47,
+        "کتابداری و اطلاع‌رسانی پزشکی": 178
+      },
+      "total_capacity": 225
+    },
+    "1403": {
+      "rows": 15,
+      "rows_by_major": {
+        "تکنولوژی پزشکی هسته‌ای": 3,
+        "کتابداری و اطلاع‌رسانی پزشکی": 12
+      },
+      "capacity_by_major": {
+        "تکنولوژی پزشکی هسته‌ای": 50,
+        "کتابداری و اطلاع‌رسانی پزشکی": 213
+      },
+      "total_capacity": 263
+    },
+    "1404": {
+      "rows": 13,
+      "rows_by_major": {
+        "تکنولوژی پزشکی هسته‌ای": 3,
+        "کتابداری و اطلاع‌رسانی پزشکی": 10
+      },
+      "capacity_by_major": {
+        "تکنولوژی پزشکی هسته‌ای": 41,
+        "کتابداری و اطلاع‌رسانی پزشکی": 210
+      },
+      "total_capacity": 251
+    }
+  },
+  "totals": {
+    "rows": 52,
+    "rows_by_major": {
+      "تکنولوژی پزشکی هسته‌ای": 12,
+      "کتابداری و اطلاع‌رسانی پزشکی": 40
+    },
+    "capacity_by_major": {
+      "تکنولوژی پزشکی هسته‌ای": 185,
+      "کتابداری و اطلاع‌رسانی پزشکی": 752
+    },
+    "total_capacity": 937
+  },
+  "amendments": {
+    "1401": "No directly applicable target-major amendments found in supplied correction PDFs.",
+    "1402": "No directly applicable target-major amendments found in supplied correction PDFs.",
+    "1403": "No directly applicable target-major amendments found in supplied correction PDFs.",
+    "1404": "No directly applicable target-major amendments found in supplied correction PDFs."
+  },
+  "audit": {
+    "duplicate_year_code_rows": 0,
+    "bad_required_rows": 0,
+    "numeric_gender_capacity_mismatch_rows": 0
+  },
+  "notes": [
+    "کدرشته 37829 سال 1403 کتابداری و اطلاع‌رسانی پزشکی دانشگاه علوم پزشکی زاهدان، ظرفیت 3 نفر، سهمیه مناطق درگیر بلایای طبیعی، به صورت تعهد خدمت/پذیرش ویژه نگهداری شده است.",
+    "کدرشته‌های 14475 و 15891 سال 1404 کتابداری و اطلاع‌رسانی پزشکی به روش صرفاً با سوابق تحصیلی پذیرش دارند و این موضوع در notes حفظ شده است.",
+    "عنوان تکنولوژی پزشکی هسته ای به عنوان استاندارد تکنولوژی پزشکی هسته‌ای نرمال شده است."
+  ]
+}
