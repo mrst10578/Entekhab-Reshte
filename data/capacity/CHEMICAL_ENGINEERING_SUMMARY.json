@@ -1,0 +1,87 @@
+{
+  "major": "مهندسی شیمی",
+  "scope": "گروه ریاضی، سال‌های ۱۴۰۱ تا ۱۴۰۴؛ بدون پیام نور و غیرانتفاعی",
+  "by_year": {
+    "1401": {
+      "rows": 109,
+      "unique_source_codes": 106,
+      "capacity": 2938,
+      "excluded_nonprofit_source_rows": 18,
+      "excluded_payame_noor_source_rows": 23
+    },
+    "1402": {
+      "rows": 183,
+      "unique_source_codes": 174,
+      "capacity": 3069,
+      "excluded_nonprofit_source_rows": 13,
+      "excluded_payame_noor_source_rows": 23
+    },
+    "1403": {
+      "rows": 129,
+      "unique_source_codes": 122,
+      "capacity": 3093,
+      "excluded_nonprofit_source_rows": 10,
+      "excluded_payame_noor_source_rows": 23
+    },
+    "1404": {
+      "rows": 127,
+      "unique_source_codes": 122,
+      "capacity": 3108,
+      "excluded_nonprofit_source_rows": 10,
+      "excluded_payame_noor_source_rows": 23
+    }
+  },
+  "total": {
+    "rows": 548,
+    "unique_source_codes": 524,
+    "capacity": 12208,
+    "excluded_nonprofit_source_rows": 51,
+    "excluded_payame_noor_source_rows": 92
+  },
+  "qa": [
+    {
+      "year": 1401,
+      "rows": 109,
+      "capacity": 2938,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    {
+      "year": 1402,
+      "rows": 183,
+      "capacity": 3069,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    {
+      "year": 1403,
+      "rows": 129,
+      "capacity": 3093,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    {
+      "year": 1404,
+      "rows": 127,
+      "capacity": 3108,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    }
+  ]
+}
