@@ -1,0 +1,73 @@
+{
+  "status": "final_after_supplied_corrections",
+  "source_group": "علوم ریاضی و فنی",
+  "scope": "nationwide; Payame Noor and non-profit institutions excluded",
+  "major": "مهندسی کامپیوتر",
+  "years": {
+    "1401": {
+      "rows": 260,
+      "unique_source_codes": 255,
+      "capacity": 5330,
+      "excluded_nonprofit_source_rows": 163,
+      "excluded_payame_noor_source_rows": 211
+    },
+    "1402": {
+      "rows": 393,
+      "unique_source_codes": 383,
+      "capacity": 5733,
+      "excluded_nonprofit_source_rows": 148,
+      "excluded_payame_noor_source_rows": 210
+    },
+    "1403": {
+      "rows": 322,
+      "unique_source_codes": 311,
+      "capacity": 5461,
+      "excluded_nonprofit_source_rows": 136,
+      "excluded_payame_noor_source_rows": 213
+    },
+    "1404": {
+      "rows": 217,
+      "unique_source_codes": 210,
+      "capacity": 5252,
+      "excluded_nonprofit_source_rows": 134,
+      "excluded_payame_noor_source_rows": 191
+    }
+  },
+  "total": {
+    "rows": 1192,
+    "unique_source_codes": 1159,
+    "capacity": 21776,
+    "excluded_nonprofit_source_rows": 581,
+    "excluded_payame_noor_source_rows": 825
+  },
+  "corrections": {
+    "1401": [
+      "No public/non-Payame-Noor computer-engineering correction in the supplied correction files."
+    ],
+    "1402": [
+      "Added codes 39488 and 39489 at University of Isfahan, 39505 at University of Kashan, and 39530 at Yazd University.",
+      "Code 38258 (Isfahan University of Technology, Saipa scholarship): capacity changed from 15 (13 male, 2 female) to 20 (18 male, 2 female).",
+      "Code 38265 (University of Tehran, Saipa scholarship): capacity changed from 40 (36 male, 4 female) to 20 (18 male, 2 female).",
+      "Code 38290 (Iran University of Science and Technology, Saipa scholarship): rank condition updated to national rank up to 3000."
+    ],
+    "1403": [
+      "Computer-engineering hits in the supplied correction file were Payame Noor and therefore excluded by project rule."
+    ],
+    "1404": [
+      "Codes 31210 and 31213 (University of Guilan, East Guilan Faculty of Engineering) changed from male-only to both women and men."
+    ]
+  },
+  "audit": {
+    "forbidden_payame_noor_or_nonprofit_in_final_rows": 0,
+    "duplicate_output_rows": 0,
+    "nonpositive_capacity_rows": 0,
+    "empty_university_rows": 0,
+    "empty_province_rows": 0,
+    "source_traceability_rows": 1192
+  },
+  "notes": [
+    "Only the exact major title مهندسی کامپیوتر is included; علوم کامپیوتر and مهندسی حرفه‌ای کامپیوتر are excluded.",
+    "Explicit male/female capacity splits are preserved as separate normalized rows.",
+    "When a special table does not explicitly state a program type, program_type is set to در جدول ذکر نشده and program_type_raw is left empty."
+  ]
+}
