@@ -12,7 +12,7 @@
       "original_name": "1402ریاضی.pdf",
       "bytes": 11025818,
       "archive_member": "1402.zip!1402ریاضی.pdf",
-      "selected_for_review": false
+      "selected_for_review": true
     },
     {
       "original_name": "1402انسانی.pdf",
@@ -63,6 +63,16 @@
       "sha256": "253e3d75938d95114b1ad1cbfeebda2e305fd8edf6bea425d1a940e2b703cb6e",
       "text_chars": 84615,
       "source_id": "1402-correction-5"
+    },
+    {
+      "year": 1402,
+      "original": "1402ریاضی.pdf",
+      "path": "capacity-work/1402/math-booklet.pdf",
+      "kind": "booklet",
+      "pages": 426,
+      "sha256": "f2ff50d2a5504efe687ba644668d6113a13e019efc0b04e7b88dfaecf0f44ec2",
+      "text_chars": 3494762,
+      "source_id": "1402-math-booklet"
     }
   ]
 }
