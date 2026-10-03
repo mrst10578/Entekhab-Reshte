@@ -1,0 +1,78 @@
+{
+  "major": "مهندسی معماری",
+  "years": {
+    "1401": {
+      "rows": 127,
+      "unique_source_codes": 119,
+      "capacity": 1643,
+      "excluded_nonprofit_source_rows": 142,
+      "excluded_payame_noor_source_rows": 51,
+      "qa": {
+        "forbidden_rows": 0,
+        "wrong_major_rows": 0,
+        "empty_university_rows": 0,
+        "empty_province_rows": 0,
+        "nonpositive_capacity_rows": 0,
+        "exact_duplicate_rows": 0
+      }
+    },
+    "1402": {
+      "rows": 132,
+      "unique_source_codes": 123,
+      "capacity": 1663,
+      "excluded_nonprofit_source_rows": 126,
+      "excluded_payame_noor_source_rows": 50,
+      "qa": {
+        "forbidden_rows": 0,
+        "wrong_major_rows": 0,
+        "empty_university_rows": 0,
+        "empty_province_rows": 0,
+        "nonpositive_capacity_rows": 0,
+        "exact_duplicate_rows": 0
+      }
+    },
+    "1403": {
+      "rows": 139,
+      "unique_source_codes": 130,
+      "capacity": 1724,
+      "excluded_nonprofit_source_rows": 118,
+      "excluded_payame_noor_source_rows": 51,
+      "qa": {
+        "forbidden_rows": 0,
+        "wrong_major_rows": 0,
+        "empty_university_rows": 0,
+        "empty_province_rows": 0,
+        "nonpositive_capacity_rows": 0,
+        "exact_duplicate_rows": 0
+      }
+    },
+    "1404": {
+      "rows": 92,
+      "unique_source_codes": 83,
+      "capacity": 1682,
+      "excluded_nonprofit_source_rows": 116,
+      "excluded_payame_noor_source_rows": 50,
+      "qa": {
+        "forbidden_rows": 0,
+        "wrong_major_rows": 0,
+        "empty_university_rows": 0,
+        "empty_province_rows": 0,
+        "nonpositive_capacity_rows": 0,
+        "exact_duplicate_rows": 0
+      }
+    }
+  },
+  "total": {
+    "rows": 490,
+    "unique_source_codes": 455,
+    "capacity": 6712,
+    "excluded_nonprofit_source_rows": 502,
+    "excluded_payame_noor_source_rows": 202
+  },
+  "scope_notes": [
+    "فقط عنوان مهندسی معماری استخراج شده و رشته‌های نزدیک یا عناوین مستقل معماری با نام دیگر ادغام نشده‌اند.",
+    "پیام نور و مؤسسات/دانشگاه‌های غیرانتفاعی از خروجی نهایی حذف شده‌اند.",
+    "تفکیک صریح ظرفیت زن/مرد در منبع به ردیف‌های مستقل حفظ شده است.",
+    "اصلاحیه عمومی قابل تطبیق ۱۴۰۴ اعمال شده است؛ اصلاحیه‌های معماری ۱۴۰۲ و ۱۴۰۳ فقط غیرانتفاعی/پیام نور بودند و وارد خروجی نشدند."
+  ]
+}
