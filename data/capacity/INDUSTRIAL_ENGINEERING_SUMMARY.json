@@ -1,0 +1,79 @@
+{
+  "major": "مهندسی صنایع",
+  "years": {
+    "1401": {
+      "rows": 112,
+      "unique_source_codes": 106,
+      "capacity": 2651,
+      "excluded_nonprofit_source_rows": 82,
+      "excluded_payame_noor_source_rows": 106,
+      "qa": {
+        "forbidden_rows": 0,
+        "wrong_major_rows": 0,
+        "empty_university_rows": 0,
+        "empty_province_rows": 0,
+        "nonpositive_capacity_rows": 0,
+        "exact_duplicate_rows": 0
+      }
+    },
+    "1402": {
+      "rows": 215,
+      "unique_source_codes": 205,
+      "capacity": 2899,
+      "excluded_nonprofit_source_rows": 73,
+      "excluded_payame_noor_source_rows": 133,
+      "qa": {
+        "forbidden_rows": 0,
+        "wrong_major_rows": 0,
+        "empty_university_rows": 0,
+        "empty_province_rows": 0,
+        "nonpositive_capacity_rows": 0,
+        "exact_duplicate_rows": 0
+      }
+    },
+    "1403": {
+      "rows": 132,
+      "unique_source_codes": 125,
+      "capacity": 2836,
+      "excluded_nonprofit_source_rows": 72,
+      "excluded_payame_noor_source_rows": 107,
+      "qa": {
+        "forbidden_rows": 0,
+        "wrong_major_rows": 0,
+        "empty_university_rows": 0,
+        "empty_province_rows": 0,
+        "nonpositive_capacity_rows": 0,
+        "exact_duplicate_rows": 0
+      }
+    },
+    "1404": {
+      "rows": 131,
+      "unique_source_codes": 124,
+      "capacity": 2825,
+      "excluded_nonprofit_source_rows": 68,
+      "excluded_payame_noor_source_rows": 98,
+      "qa": {
+        "forbidden_rows": 0,
+        "wrong_major_rows": 0,
+        "empty_university_rows": 0,
+        "empty_province_rows": 0,
+        "nonpositive_capacity_rows": 0,
+        "exact_duplicate_rows": 0
+      }
+    }
+  },
+  "total": {
+    "rows": 590,
+    "unique_source_codes": 560,
+    "capacity": 11211,
+    "excluded_nonprofit_source_rows": 295,
+    "excluded_payame_noor_source_rows": 444
+  },
+  "scope_notes": [
+    "عنوان «مهندسی صنایع و سیستم ها» در سال‌های جدید زیر عنوان استاندارد مهندسی صنایع نرمال شده و عنوان دقیق منبع در notes حفظ شده است؛ رشته‌های مستقلی مانند صنایع غذایی و صنایع مبلمان وارد نشده‌اند.",
+    "پیام نور و مؤسسات/دانشگاه‌های غیرانتفاعی از خروجی نهایی حذف شده‌اند.",
+    "تفکیک صریح ظرفیت زن/مرد در منبع به ردیف‌های مستقل حفظ شده است.",
+    "اصلاحیه‌های عمومی قابل تطبیق ۱۴۰۲ و ۱۴۰۴ اعمال شده‌اند.",
+    "کدرشته‌محل 38236 سال ۱۴۰۲ به دلیل شکست خط PDF با ظرفیت 2 از خود دفترچه ترمیم شده است."
+  ]
+}
