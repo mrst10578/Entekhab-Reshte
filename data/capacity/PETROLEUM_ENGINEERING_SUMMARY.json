@@ -1,0 +1,87 @@
+{
+  "major": "مهندسی نفت",
+  "scope": "گروه ریاضی، سال‌های ۱۴۰۱ تا ۱۴۰۴؛ بدون پیام نور و غیرانتفاعی",
+  "by_year": {
+    "1401": {
+      "rows": 40,
+      "unique_source_codes": 39,
+      "capacity": 685,
+      "excluded_nonprofit_source_rows": 6,
+      "excluded_payame_noor_source_rows": 11
+    },
+    "1402": {
+      "rows": 48,
+      "unique_source_codes": 48,
+      "capacity": 739,
+      "excluded_nonprofit_source_rows": 5,
+      "excluded_payame_noor_source_rows": 11
+    },
+    "1403": {
+      "rows": 36,
+      "unique_source_codes": 36,
+      "capacity": 765,
+      "excluded_nonprofit_source_rows": 6,
+      "excluded_payame_noor_source_rows": 11
+    },
+    "1404": {
+      "rows": 39,
+      "unique_source_codes": 38,
+      "capacity": 758,
+      "excluded_nonprofit_source_rows": 6,
+      "excluded_payame_noor_source_rows": 11
+    }
+  },
+  "total": {
+    "rows": 163,
+    "unique_source_codes": 161,
+    "capacity": 2947,
+    "excluded_nonprofit_source_rows": 23,
+    "excluded_payame_noor_source_rows": 44
+  },
+  "qa": [
+    {
+      "year": 1401,
+      "rows": 40,
+      "capacity": 685,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    {
+      "year": 1402,
+      "rows": 48,
+      "capacity": 739,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    {
+      "year": 1403,
+      "rows": 36,
+      "capacity": 765,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    {
+      "year": 1404,
+      "rows": 39,
+      "capacity": 758,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    }
+  ]
+}
