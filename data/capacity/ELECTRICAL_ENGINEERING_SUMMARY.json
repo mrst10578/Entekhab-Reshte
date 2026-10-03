@@ -1,0 +1,77 @@
+{
+  "status": "final_after_supplied_corrections",
+  "source_group": "علوم ریاضی و فنی",
+  "scope": "nationwide; Payame Noor and nonprofit institutions excluded by project rule",
+  "major": "مهندسی برق",
+  "years": {
+    "1401": {
+      "rows": 255,
+      "unique_source_codes": 254,
+      "capacity": 6575,
+      "excluded_nonprofit_source_rows": 108,
+      "excluded_payame_noor_source_rows": 33
+    },
+    "1402": {
+      "rows": 441,
+      "unique_source_codes": 430,
+      "capacity": 6875,
+      "excluded_nonprofit_source_rows": 96,
+      "excluded_payame_noor_source_rows": 33
+    },
+    "1403": {
+      "rows": 307,
+      "unique_source_codes": 300,
+      "capacity": 6666,
+      "excluded_nonprofit_source_rows": 88,
+      "excluded_payame_noor_source_rows": 33
+    },
+    "1404": {
+      "rows": 200,
+      "unique_source_codes": 196,
+      "capacity": 6505,
+      "excluded_nonprofit_source_rows": 88,
+      "excluded_payame_noor_source_rows": 33
+    }
+  },
+  "total": {
+    "rows": 1203,
+    "unique_source_codes": 1180,
+    "capacity": 26621,
+    "excluded_nonprofit_source_rows": 380,
+    "excluded_payame_noor_source_rows": 132
+  },
+  "corrections": {
+    "1401": [
+      "کدرشته‌محل 30344 دانشگاه تهران: ظرفیت از 100 به 120 نفر افزایش یافت."
+    ],
+    "1402": [
+      "رشته‌محل‌های جدید بورسیه صنعتی/سایپا: 39483 دانشگاه اصفهان، 39503 دانشگاه کاشان، 39528 دانشگاه یزد و 39524 دانشگاه صنعتی نوشیروانی بابل اضافه شدند.",
+      "کدرشته‌محل 38260 دانشگاه کاشان: 15 نفر (13 مرد، 2 زن) به 20 نفر (18 مرد، 2 زن) اصلاح شد.",
+      "کدرشته‌محل 38262 دانشگاه تهران: 40 نفر (36 مرد، 4 زن) به 20 نفر (18 مرد، 2 زن) اصلاح شد.",
+      "کدرشته‌محل 38268 دانشگاه شهید بهشتی: 25 نفر (22 مرد، 3 زن) به 30 نفر (27 مرد، 3 زن) اصلاح شد.",
+      "کدرشته‌محل 38287 دانشگاه علم و صنعت ایران: شرط حداکثر رتبه کشوری به 3000 اصلاح شد.",
+      "کدرشته‌محل 38300 دانشگاه بین‌المللی امام خمینی: 15 نفر (13 مرد، 2 زن) به 20 نفر (18 مرد، 2 زن) اصلاح شد.",
+      "کدرشته‌محل 38374 دانشگاه اصفهان: ظرفیت از 1 به 2 نفر افزایش یافت.",
+      "اصلاحات/رشته‌محل‌های غیرانتفاعی 15479، 19623، 19631 و 11503 طبق قاعده پروژه وارد خروجی نهایی نشدند."
+    ],
+    "1403": [
+      "در اصلاحیه ارسالی تغییر مستقیم قابل اعمال برای مهندسی برق پیدا نشد."
+    ],
+    "1404": [
+      "در اصلاحیه ریاضی ارسالی تغییر مستقیم قابل اعمال برای مهندسی برق پیدا نشد."
+    ]
+  },
+  "audit": {
+    "forbidden_payame_noor_or_nonprofit_rows": 0,
+    "bad_capacity_rows": 0,
+    "empty_university_rows": 0,
+    "empty_province_rows": 0,
+    "wrong_major_leaks": 0,
+    "missing_in_scope_source_codes": 0
+  },
+  "notes": [
+    "Gender-specific source capacities are split only when the source gives explicit male/female seat counts.",
+    "Special deprived-area, disaster-quota and teacher-service rows are retained and labeled separately.",
+    "Source code, source document and source page are retained for traceability."
+  ]
+}
