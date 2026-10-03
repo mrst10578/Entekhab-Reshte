@@ -459,3 +459,15 @@
 
 پیام نور و مؤسسات/دانشگاه‌های غیرانتفاعی وارد خروجی نشده‌اند. اصلاحیه ۱۴۰۲ برای دو رشته‌محل بورسیه صنعتی مهندسی پزشکی دانشگاه اصفهان اعمال شده است. [گزارش استخراج](../BIOMEDICAL_TEXTILE_REPORT.md) و [خلاصه ماشینی](../BIOMEDICAL_TEXTILE_SUMMARY.json) قابل مراجعه‌اند.
 
+## مهندسی ساخت و تولید و مهندسی شهرسازی
+
+| سال | مهندسی ساخت و تولید | مهندسی شهرسازی | جمع ردیف | جمع ظرفیت |
+| --- | ---: | ---: | ---: | ---: |
+| ۱۴۰۱ | [داده](1401/capacities-manufacturing-engineering.csv) | [داده](1401/capacities-urban-planning-engineering.csv) | ۷۶ | ۱۳۵۹ |
+| ۱۴۰۲ | [داده](1402/capacities-manufacturing-engineering.csv) | [داده](1402/capacities-urban-planning-engineering.csv) | ۹۹ | ۱۴۸۵ |
+| ۱۴۰۳ | [داده](1403/capacities-manufacturing-engineering.csv) | [داده](1403/capacities-urban-planning-engineering.csv) | ۸۹ | ۱۵۲۸ |
+| ۱۴۰۴ | [داده](1404/capacities-manufacturing-engineering.csv) | [داده](1404/capacities-urban-planning-engineering.csv) | ۸۵ | ۱۵۰۸ |
+| **جمع** |  |  | **۳۴۹** | **۵۸۸۰** |
+
+پیام نور و مؤسسات/دانشگاه‌های غیرانتفاعی وارد خروجی نشده‌اند. اصلاح محل تحصیل کدرشته ۳۰۵۰۶ سال ۱۴۰۱ و ترمیم کدرشته ۳۷۷۴۸ سال ۱۴۰۳ از روی جدول منبع اعمال شده‌اند. [گزارش استخراج](../MANUFACTURING_URBAN_REPORT.md) و [خلاصه ماشینی](../MANUFACTURING_URBAN_SUMMARY.json) قابل مراجعه‌اند.
+
