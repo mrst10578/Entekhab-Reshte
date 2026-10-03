@@ -447,3 +447,15 @@
 
 فیزیک مهندسی، آموزش فیزیک و دکتری پیوسته فیزیک وارد این خروجی نشده‌اند. پیام نور و غیرانتفاعی در هیچ‌یک از پنج فایل بالا وارد نشده‌اند.
 
+## مهندسی پزشکی و مهندسی نساجی
+
+| سال | مهندسی پزشکی | مهندسی نساجی | جمع ردیف | جمع ظرفیت |
+| --- | ---: | ---: | ---: | ---: |
+| ۱۴۰۱ | [داده](1401/capacities-biomedical-engineering.csv) | [داده](1401/capacities-textile-engineering.csv) | ۴۹ | ۱۲۸۸ |
+| ۱۴۰۲ | [داده](1402/capacities-biomedical-engineering.csv) | [داده](1402/capacities-textile-engineering.csv) | ۵۷ | ۱۳۸۲ |
+| ۱۴۰۳ | [داده](1403/capacities-biomedical-engineering.csv) | [داده](1403/capacities-textile-engineering.csv) | ۵۳ | ۱۵۰۰ |
+| ۱۴۰۴ | [داده](1404/capacities-biomedical-engineering.csv) | [داده](1404/capacities-textile-engineering.csv) | ۵۳ | ۱۵۳۲ |
+| **جمع** |  |  | **۲۱۲** | **۵۷۰۲** |
+
+پیام نور و مؤسسات/دانشگاه‌های غیرانتفاعی وارد خروجی نشده‌اند. اصلاحیه ۱۴۰۲ برای دو رشته‌محل بورسیه صنعتی مهندسی پزشکی دانشگاه اصفهان اعمال شده است. [گزارش استخراج](../BIOMEDICAL_TEXTILE_REPORT.md) و [خلاصه ماشینی](../BIOMEDICAL_TEXTILE_SUMMARY.json) قابل مراجعه‌اند.
+
