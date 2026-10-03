@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "years": [
+      1401,
+      1402,
+      1403,
+      1404
+    ],
+    "excludes": [
+      "پیام نور",
+      "غیرانتفاعی"
+    ]
+  },
+  "majors": {
+    "marine-ship-engineering": {
+      "label": "مهندسی دریا / کشتی",
+      "rows": 96,
+      "unique_source_codes": 96,
+      "capacity": 2070
+    },
+    "computer-science": {
+      "label": "علوم کامپیوتر",
+      "rows": 389,
+      "unique_source_codes": 389,
+      "capacity": 8742
+    },
+    "mathematics": {
+      "label": "ریاضیات و کاربردها / ریاضی محض",
+      "rows": 482,
+      "unique_source_codes": 482,
+      "capacity": 12857
+    },
+    "statistics": {
+      "label": "آمار",
+      "rows": 337,
+      "unique_source_codes": 337,
+      "capacity": 7664
+    },
+    "physics": {
+      "label": "فیزیک",
+      "rows": 394,
+      "unique_source_codes": 394,
+      "capacity": 10732
+    }
+  },
+  "by_year": {
+    "1401": {
+      "marine-ship-engineering": {
+        "rows": 15,
+        "unique_source_codes": 15,
+        "capacity": 482
+      },
+      "computer-science": {
+        "rows": 88,
+        "unique_source_codes": 88,
+        "capacity": 2148
+      },
+      "mathematics": {
+        "rows": 107,
+        "unique_source_codes": 107,
+        "capacity": 3287
+      },
+      "statistics": {
+        "rows": 75,
+        "unique_source_codes": 75,
+        "capacity": 1926
+      },
+      "physics": {
+        "rows": 85,
+        "unique_source_codes": 85,
+        "capacity": 2787
+      }
+    },
+    "1402": {
+      "marine-ship-engineering": {
+        "rows": 21,
+        "unique_source_codes": 21,
+        "capacity": 470
+      },
+      "computer-science": {
+        "rows": 96,
+        "unique_source_codes": 96,
+        "capacity": 2144
+      },
+      "mathematics": {
+        "rows": 130,
+        "unique_source_codes": 130,
+        "capacity": 3258
+      },
+      "statistics": {
+        "rows": 91,
+        "unique_source_codes": 91,
+        "capacity": 1925
+      },
+      "physics": {
+        "rows": 108,
+        "unique_source_codes": 108,
+        "capacity": 2715
+      }
+    },
+    "1403": {
+      "marine-ship-engineering": {
+        "rows": 31,
+        "unique_source_codes": 31,
+        "capacity": 542
+      },
+      "computer-science": {
+        "rows": 100,
+        "unique_source_codes": 100,
+        "capacity": 2209
+      },
+      "mathematics": {
+        "rows": 131,
+        "unique_source_codes": 131,
+        "capacity": 3202
+      },
+      "statistics": {
+        "rows": 91,
+        "unique_source_codes": 91,
+        "capacity": 1925
+      },
+      "physics": {
+        "rows": 109,
+        "unique_source_codes": 109,
+        "capacity": 2721
+      }
+    },
+    "1404": {
+      "marine-ship-engineering": {
+        "rows": 29,
+        "unique_source_codes": 29,
+        "capacity": 576
+      },
+      "computer-science": {
+        "rows": 105,
+        "unique_source_codes": 105,
+        "capacity": 2241
+      },
+      "mathematics": {
+        "rows": 114,
+        "unique_source_codes": 114,
+        "capacity": 3110
+      },
+      "statistics": {
+        "rows": 80,
+        "unique_source_codes": 80,
+        "capacity": 1888
+      },
+      "physics": {
+        "rows": 92,
+        "unique_source_codes": 92,
+        "capacity": 2509
+      }
+    }
+  },
+  "total": {
+    "rows": 1698,
+    "unique_source_codes": 1698,
+    "capacity": 42065
+  }
+}
