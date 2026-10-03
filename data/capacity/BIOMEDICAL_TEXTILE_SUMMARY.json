@@ -1,0 +1,71 @@
+{
+  "dataset": "biomedical_textile_math",
+  "majors": [
+    "مهندسی پزشکی",
+    "مهندسی نساجی"
+  ],
+  "scope": "دفترچه گروه ریاضی کل کشور؛ پیام نور و غیرانتفاعی حذف شده‌اند",
+  "years": {
+    "1401": {
+      "rows": 49,
+      "unique_source_codes": 47,
+      "capacity": 1288,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    "1402": {
+      "rows": 57,
+      "unique_source_codes": 54,
+      "capacity": 1382,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    "1403": {
+      "rows": 53,
+      "unique_source_codes": 51,
+      "capacity": 1500,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    "1404": {
+      "rows": 53,
+      "unique_source_codes": 52,
+      "capacity": 1532,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    }
+  },
+  "totals_by_major": {
+    "مهندسی پزشکی": {
+      "rows": 143,
+      "unique_source_codes": 138,
+      "capacity": 3705
+    },
+    "مهندسی نساجی": {
+      "rows": 69,
+      "unique_source_codes": 66,
+      "capacity": 1997
+    }
+  },
+  "total": {
+    "rows": 212,
+    "unique_source_codes": 204,
+    "capacity": 5702
+  }
+}
