@@ -1,0 +1,59 @@
+{
+  "dataset": "chemistry_math_full_country",
+  "majors": [
+    "شیمی محض",
+    "شیمی کاربردی"
+  ],
+  "scope": "دفترچه گروه ریاضی کل کشور؛ پیام نور و غیرانتفاعی حذف شده‌اند",
+  "years": {
+    "1401": {
+      "rows": 140,
+      "unique_source_codes": 139,
+      "capacity": 1713,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    "1402": {
+      "rows": 157,
+      "unique_source_codes": 156,
+      "capacity": 1721,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    "1403": {
+      "rows": 168,
+      "unique_source_codes": 166,
+      "capacity": 1674,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    },
+    "1404": {
+      "rows": 152,
+      "unique_source_codes": 151,
+      "capacity": 1786,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0
+    }
+  },
+  "total": {
+    "rows": 617,
+    "unique_source_codes": 612,
+    "capacity": 6894
+  }
+}
