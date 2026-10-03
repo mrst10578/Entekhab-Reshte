@@ -1,0 +1,75 @@
+{
+  "dataset": "manufacturing_urban_math",
+  "majors": [
+    "مهندسی ساخت و تولید",
+    "مهندسی شهرسازی"
+  ],
+  "scope": "دفترچه گروه ریاضی کل کشور؛ پیام نور و غیرانتفاعی حذف شده‌اند",
+  "years": {
+    "1401": {
+      "rows": 76,
+      "unique_source_codes": 74,
+      "capacity": 1359,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0,
+      "untraceable": 0
+    },
+    "1402": {
+      "rows": 99,
+      "unique_source_codes": 95,
+      "capacity": 1485,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0,
+      "untraceable": 0
+    },
+    "1403": {
+      "rows": 89,
+      "unique_source_codes": 86,
+      "capacity": 1528,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0,
+      "untraceable": 0
+    },
+    "1404": {
+      "rows": 85,
+      "unique_source_codes": 83,
+      "capacity": 1508,
+      "forbidden": 0,
+      "wrong_major": 0,
+      "empty_university": 0,
+      "empty_province": 0,
+      "nonpositive": 0,
+      "exact_duplicates": 0,
+      "untraceable": 0
+    }
+  },
+  "totals_by_major": {
+    "مهندسی ساخت و تولید": {
+      "rows": 122,
+      "unique_source_codes": 122,
+      "capacity": 2141
+    },
+    "مهندسی شهرسازی": {
+      "rows": 227,
+      "unique_source_codes": 216,
+      "capacity": 3739
+    }
+  },
+  "total": {
+    "rows": 349,
+    "unique_source_codes": 338,
+    "capacity": 5880
+  }
+}
