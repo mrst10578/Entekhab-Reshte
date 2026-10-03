@@ -1,0 +1,88 @@
+{
+  "major": "مهندسی مکانیک",
+  "group": "علوم ریاضی و فنی",
+  "years": [
+    1401,
+    1402,
+    1403,
+    1404
+  ],
+  "rules": {
+    "exclude_payame_noor": true,
+    "exclude_nonprofit": true,
+    "exact_major_only": true,
+    "excluded_related_titles": [
+      "مهندسی مکانیک بیوسیستم",
+      "مهندسی مکانیک خودرو"
+    ]
+  },
+  "by_year": {
+    "1401": {
+      "rows": 255,
+      "unique_source_codes": 252,
+      "capacity": 5353
+    },
+    "1402": {
+      "rows": 413,
+      "unique_source_codes": 399,
+      "capacity": 7702
+    },
+    "1403": {
+      "rows": 283,
+      "unique_source_codes": 279,
+      "capacity": 5321
+    },
+    "1404": {
+      "rows": 188,
+      "unique_source_codes": 185,
+      "capacity": 5189
+    }
+  },
+  "total": {
+    "rows": 1139,
+    "unique_source_codes": 1115,
+    "capacity": 23565,
+    "excluded_nonprofit_source_rows": 237,
+    "excluded_payame_noor_source_rows": 124
+  },
+  "corrections": {
+    "1401": "no directly applicable mechanical-engineering correction found in supplied archive",
+    "1402": {
+      "new_codes": [
+        "39494",
+        "39506",
+        "39532"
+      ],
+      "capacity_or_gender_updates": [
+        "38259",
+        "38261",
+        "38266",
+        "38271",
+        "38293",
+        "38302",
+        "38376",
+        "38404"
+      ],
+      "condition_updates": [
+        "38285",
+        "38291"
+      ],
+      "excluded_nonprofit_correction_codes": [
+        "15485",
+        "19627",
+        "19643",
+        "11509"
+      ]
+    },
+    "1403": "no directly applicable mechanical-engineering correction found in supplied archive",
+    "1404": "no directly applicable mechanical-engineering correction found in supplied archive"
+  },
+  "qa": {
+    "forbidden_final_rows": 0,
+    "wrong_major_rows": 0,
+    "empty_university_rows": 0,
+    "empty_province_rows": 0,
+    "nonpositive_capacity_rows": 0,
+    "exact_duplicate_rows": 0
+  }
+}
