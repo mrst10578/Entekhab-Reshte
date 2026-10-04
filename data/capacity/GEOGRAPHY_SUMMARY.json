@@ -1,0 +1,137 @@
+{
+  "majors": [
+    "جغرافیا"
+  ],
+  "years": {
+    "1401": {
+      "rows": 62,
+      "capacity": 1725
+    },
+    "1402": {
+      "rows": 71,
+      "capacity": 1649
+    },
+    "1403": {
+      "rows": 67,
+      "capacity": 1563
+    },
+    "1404": {
+      "rows": 61,
+      "capacity": 1520
+    }
+  },
+  "by_major": {
+    "جغرافیا": [
+      {
+        "year": 1401,
+        "rows": 62,
+        "capacity": 1725,
+        "payam_noor_excluded_codes": 31,
+        "nonprofit_excluded_codes": 5,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 3,
+        "status": "extracted"
+      },
+      {
+        "year": 1402,
+        "rows": 71,
+        "capacity": 1649,
+        "payam_noor_excluded_codes": 29,
+        "nonprofit_excluded_codes": 5,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted"
+      },
+      {
+        "year": 1403,
+        "rows": 67,
+        "capacity": 1563,
+        "payam_noor_excluded_codes": 62,
+        "nonprofit_excluded_codes": 6,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 1,
+        "status": "extracted"
+      },
+      {
+        "year": 1404,
+        "rows": 61,
+        "capacity": 1520,
+        "payam_noor_excluded_codes": 62,
+        "nonprofit_excluded_codes": 6,
+        "amendment_code_operations": 1,
+        "applied_amendments": [
+          {
+            "code": "34722",
+            "operation": "capacity",
+            "source_id": "1404-humanities-correction-series3",
+            "source_page": 8
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [
+          {
+            "year": 1404,
+            "codes": [
+              "34722"
+            ],
+            "major": "جغرافیا",
+            "operation": "capacity",
+            "before": {
+              "capacity": 25
+            },
+            "after": {
+              "capacity": 35
+            },
+            "source_id": "1404-humanities-correction-series3",
+            "source_page": 8,
+            "group_applicability": "علوم انسانی",
+            "source_declared_before_capacity": 30,
+            "base_observed_before_capacity": 25,
+            "evidence_raw_text": "کد 34722، جغرافیا: ظرفیت از 30 به 35 نفر؛ جدول گروه علوم انسانی، بازبینی تصویری PDF",
+            "before_discrepancy_resolution": "Latest explicit after-capacity supersedes earlier value; discrepancy is retained, not silently overwritten."
+          }
+        ],
+        "unresolved": [],
+        "missing_province_rows": 1,
+        "status": "extracted"
+      }
+    ]
+  },
+  "rows": 261,
+  "capacity": 6457,
+  "amendment_code_operations": 1,
+  "excluded_payam_noor_codes": 184,
+  "excluded_nonprofit_codes": 22,
+  "unresolved": [],
+  "before_capacity_discrepancies_resolved_by_latest_explicit_after": [
+    {
+      "year": 1404,
+      "codes": [
+        "34722"
+      ],
+      "major": "جغرافیا",
+      "operation": "capacity",
+      "before": {
+        "capacity": 25
+      },
+      "after": {
+        "capacity": 35
+      },
+      "source_id": "1404-humanities-correction-series3",
+      "source_page": 8,
+      "group_applicability": "علوم انسانی",
+      "source_declared_before_capacity": 30,
+      "base_observed_before_capacity": 25,
+      "evidence_raw_text": "کد 34722، جغرافیا: ظرفیت از 30 به 35 نفر؛ جدول گروه علوم انسانی، بازبینی تصویری PDF",
+      "before_discrepancy_resolution": "Latest explicit after-capacity supersedes earlier value; discrepancy is retained, not silently overwritten."
+    }
+  ]
+}

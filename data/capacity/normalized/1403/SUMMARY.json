@@ -28,9 +28,9 @@
   "legacy_scope_note": "Existing top-level values describe the original ten health majors only. dataset describes every source CSV exactly once.",
   "dataset": {
     "year": 1403,
-    "rows": 8391,
-    "capacity": 126260,
-    "university_summary_rows": 5889,
+    "rows": 8697,
+    "capacity": 131617,
+    "university_summary_rows": 6174,
     "input_files": [
       {
         "path": "capacities-accounting.csv",
@@ -138,9 +138,19 @@
         "capacity": 1310
       },
       {
+        "path": "capacities-geography.csv",
+        "rows": 67,
+        "capacity": 1563
+      },
+      {
         "path": "capacities-health-management-hit.csv",
         "rows": 73,
         "capacity": 1268
+      },
+      {
+        "path": "capacities-history.csv",
+        "rows": 54,
+        "capacity": 946
       },
       {
         "path": "capacities-industrial-engineering.csv",
@@ -151,6 +161,11 @@
         "path": "capacities-industrial-management.csv",
         "rows": 51,
         "capacity": 649
+      },
+      {
+        "path": "capacities-knowledge-information-science.csv",
+        "rows": 32,
+        "capacity": 505
       },
       {
         "path": "capacities-lab-occupational-therapy.csv",
@@ -216,6 +231,11 @@
         "path": "capacities-orthotics-veterinary.csv",
         "rows": 66,
         "capacity": 808
+      },
+      {
+        "path": "capacities-persian-language-literature.csv",
+        "rows": 108,
+        "capacity": 1909
       },
       {
         "path": "capacities-petroleum-engineering.csv",
@@ -298,6 +318,11 @@
         "capacity": 495
       },
       {
+        "path": "capacities-tourism.csv",
+        "rows": 45,
+        "capacity": 434
+      },
+      {
         "path": "capacities-urban-planning-engineering.csv",
         "rows": 58,
         "capacity": 927
@@ -309,8 +334,8 @@
       }
     ],
     "export": "capacities-all.csv",
-    "humanities_rows": 2535,
-    "humanities_capacity": 20118,
+    "humanities_rows": 2841,
+    "humanities_capacity": 25475,
     "humanities_qa": {
       "duplicate_joint_keys": 0,
       "forbidden_universities": 0,
