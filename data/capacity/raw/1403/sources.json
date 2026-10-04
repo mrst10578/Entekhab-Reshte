@@ -18,7 +18,7 @@
       "original_name": "انسانی1403.pdf",
       "bytes": 10221762,
       "archive_member": "1403.zip!انسانی1403.pdf",
-      "selected_for_review": false
+      "selected_for_review": true
     },
     {
       "original_name": "پیوست ها.pdf",
@@ -73,6 +73,65 @@
       "sha256": "ef8906ab33eaae0f0cd97ec284d4ed3defcef070516d9fa5bd4961255d64324c",
       "text_chars": 2825886,
       "source_id": "1403-math-booklet"
+    },
+    {
+      "year": 1403,
+      "source_id": "1403-humanities-booklet",
+      "original": "انسانی1403.pdf",
+      "archive_member": "1403.zip!انسانی1403.pdf",
+      "kind": "booklet",
+      "pages": 316,
+      "bytes": 10221762,
+      "sha256": "8ab634f91abd9c946edbfb889c3a9dddf724d4da6cc424d9eeb2e6e8543ab2e9",
+      "page_numbering": "PDF pages, 1-based"
+    },
+    {
+      "year": 1403,
+      "source_id": "1403-humanities-teacher-booklet",
+      "path": "teacher-extra/1403/booklet-iranmoshavere.pdf",
+      "original": "booklet-iranmoshavere.pdf",
+      "mirror_url": "https://iranmoshavere.com/wp-content/uploads/2023/12/Farhangian-University-field-selection-booklet-1403.pdf",
+      "retrieved_url": "https://iranmoshavere.com/wp-content/uploads/2023/12/Farhangian-University-field-selection-booklet-1403.pdf",
+      "original_pdf_url": "https://www8.sanjesh.org/download/1403/notefarhangiancs1403.pdf",
+      "official_announcement_url": "https://www.sanjesh.org/fa-IR/sanjesh/4936/news/view/14591/11336/Staging",
+      "issuer": "سازمان ملی سنجش و ارزشیابی نظام آموزش کشور",
+      "official_issued_document": true,
+      "issue_date": "1403/03/07",
+      "pages": 514,
+      "bytes": 8813352,
+      "sha256": "808f84a706b2b54882f7873ec7ae30b3077206d55382332d96edd27b213d9fd0",
+      "humanities_target_page_range": [
+        196,
+        473
+      ],
+      "printed_page_offset": -1,
+      "text_path": "teacher-extra/1403/booklet-iranmoshavere.txt",
+      "retrieved_at": "2026-10-04",
+      "verification": "Official publisher and admission year visible on cover, headers and preface; source distributed verbatim as public mirror. Sanjesh original PDF unavailable (403) for1403; original PDF URL not established for other documents."
+    },
+    {
+      "year": 1403,
+      "source_id": "1403-humanities-teacher-correction",
+      "path": "teacher-extra/1403/amendment.pdf",
+      "original": "amendment.pdf",
+      "mirror_url": "https://iranmoshavere.com/wp-content/uploads/2024/06/File-of-corrections-of-Farhangian-University-field-selection-booklet.pdf",
+      "retrieved_url": "https://iranmoshavere.com/wp-content/uploads/2024/06/File-of-corrections-of-Farhangian-University-field-selection-booklet.pdf",
+      "original_pdf_url": null,
+      "official_announcement_url": null,
+      "issuer": "سازمان ملی سنجش و ارزشیابی نظام آموزش کشور",
+      "official_issued_document": true,
+      "issue_date": "1403/03/12",
+      "pages": 2,
+      "bytes": 225915,
+      "sha256": "799781fc95143c92de0d20534376eb25d1d128a1889ddce16c7ae0e3bb9764c8",
+      "humanities_target_page_range": [
+        1,
+        2
+      ],
+      "printed_page_offset": 0,
+      "text_path": "teacher-extra/1403/amendment.txt",
+      "retrieved_at": "2026-10-04",
+      "verification": "Official publisher and admission year visible on cover, headers and preface; source distributed verbatim as public mirror. Sanjesh original PDF unavailable (403) for1403; original PDF URL not established for other documents."
     }
   ]
 }

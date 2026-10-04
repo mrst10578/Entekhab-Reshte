@@ -18,7 +18,7 @@
       "original_name": "1401 انسانی.pdf",
       "bytes": 13896031,
       "archive_member": "1401.zip!1401 انسانی.pdf",
-      "selected_for_review": false
+      "selected_for_review": true
     },
     {
       "original_name": "اصلاحیه1.pdf",
@@ -89,6 +89,17 @@
       "sha256": "4fc9da801e1bdf948d82ea90f0a4ec4f85a195fc7032d0966c1381f33ca8d8d1",
       "text_chars": 3038716,
       "source_id": "1401-math-booklet"
+    },
+    {
+      "year": 1401,
+      "source_id": "1401-humanities-booklet",
+      "original": "1401 انسانی.pdf",
+      "archive_member": "1401.zip!1401 انسانی.pdf",
+      "kind": "booklet",
+      "pages": 362,
+      "bytes": 13896031,
+      "sha256": "2cc5237fab8d040a322a5c24f84d45a2a4de231d4edbacb8a017573b3bc95b00",
+      "page_numbering": "PDF pages, 1-based"
     }
   ]
 }

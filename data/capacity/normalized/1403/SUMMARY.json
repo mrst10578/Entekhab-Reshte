@@ -24,5 +24,250 @@
   "aggregate_totals_matched": true,
   "unresolved_capacity_rows": 0,
   "source_intake_discrepancies": 0,
-  "period_not_explicit_rows": 316
+  "period_not_explicit_rows": 316,
+  "legacy_scope_note": "Existing top-level values describe the original ten health majors only. dataset describes every source CSV exactly once.",
+  "dataset": {
+    "year": 1403,
+    "rows": 7527,
+    "capacity": 115998,
+    "university_summary_rows": 5220,
+    "input_files": [
+      {
+        "path": "capacities-aerospace-engineering.csv",
+        "rows": 24,
+        "capacity": 501
+      },
+      {
+        "path": "capacities-architecture-engineering.csv",
+        "rows": 139,
+        "capacity": 1724
+      },
+      {
+        "path": "capacities-biomedical-engineering.csv",
+        "rows": 35,
+        "capacity": 1005
+      },
+      {
+        "path": "capacities-biotechnology-zoology.csv",
+        "rows": 115,
+        "capacity": 3064
+      },
+      {
+        "path": "capacities-cell-molecular-biology.csv",
+        "rows": 193,
+        "capacity": 5427
+      },
+      {
+        "path": "capacities-chemical-engineering.csv",
+        "rows": 129,
+        "capacity": 3093
+      },
+      {
+        "path": "capacities-chemistry-math.csv",
+        "rows": 168,
+        "capacity": 1674
+      },
+      {
+        "path": "capacities-chemistry-tehran-day.csv",
+        "rows": 15,
+        "capacity": 219
+      },
+      {
+        "path": "capacities-civil-engineering.csv",
+        "rows": 243,
+        "capacity": 4864
+      },
+      {
+        "path": "capacities-computer-engineering.csv",
+        "rows": 322,
+        "capacity": 5461
+      },
+      {
+        "path": "capacities-computer-science.csv",
+        "rows": 100,
+        "capacity": 2209
+      },
+      {
+        "path": "capacities-counseling.csv",
+        "rows": 46,
+        "capacity": 899
+      },
+      {
+        "path": "capacities-educational-sciences.csv",
+        "rows": 62,
+        "capacity": 1461
+      },
+      {
+        "path": "capacities-electrical-engineering.csv",
+        "rows": 307,
+        "capacity": 6666
+      },
+      {
+        "path": "capacities-elementary-education.csv",
+        "rows": 1351,
+        "capacity": 3454
+      },
+      {
+        "path": "capacities-energy-engineering.csv",
+        "rows": 45,
+        "capacity": 711
+      },
+      {
+        "path": "capacities-food-science-vet-associate-meat-inspection.csv",
+        "rows": 77,
+        "capacity": 1310
+      },
+      {
+        "path": "capacities-health-management-hit.csv",
+        "rows": 73,
+        "capacity": 1268
+      },
+      {
+        "path": "capacities-industrial-engineering.csv",
+        "rows": 132,
+        "capacity": 2836
+      },
+      {
+        "path": "capacities-lab-occupational-therapy.csv",
+        "rows": 159,
+        "capacity": 1827
+      },
+      {
+        "path": "capacities-law.csv",
+        "rows": 109,
+        "capacity": 2703
+      },
+      {
+        "path": "capacities-manufacturing-engineering.csv",
+        "rows": 31,
+        "capacity": 601
+      },
+      {
+        "path": "capacities-marine-ship-engineering.csv",
+        "rows": 31,
+        "capacity": 542
+      },
+      {
+        "path": "capacities-materials-metallurgy-engineering.csv",
+        "rows": 86,
+        "capacity": 2430
+      },
+      {
+        "path": "capacities-maternity-emergency.csv",
+        "rows": 261,
+        "capacity": 2432
+      },
+      {
+        "path": "capacities-mathematics.csv",
+        "rows": 131,
+        "capacity": 3202
+      },
+      {
+        "path": "capacities-mechanical-engineering.csv",
+        "rows": 283,
+        "capacity": 5321
+      },
+      {
+        "path": "capacities-microbiology.csv",
+        "rows": 46,
+        "capacity": 1692
+      },
+      {
+        "path": "capacities-mining-engineering.csv",
+        "rows": 59,
+        "capacity": 1363
+      },
+      {
+        "path": "capacities-nuclear-medicine-library.csv",
+        "rows": 15,
+        "capacity": 263
+      },
+      {
+        "path": "capacities-nutrition-radiology.csv",
+        "rows": 144,
+        "capacity": 1835
+      },
+      {
+        "path": "capacities-orthotics-veterinary.csv",
+        "rows": 66,
+        "capacity": 808
+      },
+      {
+        "path": "capacities-petroleum-engineering.csv",
+        "rows": 36,
+        "capacity": 765
+      },
+      {
+        "path": "capacities-physics.csv",
+        "rows": 109,
+        "capacity": 2721
+      },
+      {
+        "path": "capacities-plant-food-vetlab.csv",
+        "rows": 85,
+        "capacity": 1674
+      },
+      {
+        "path": "capacities-polymer-engineering.csv",
+        "rows": 44,
+        "capacity": 805
+      },
+      {
+        "path": "capacities-psychology.csv",
+        "rows": 103,
+        "capacity": 1339
+      },
+      {
+        "path": "capacities-public-environmental-occupational-health.csv",
+        "rows": 301,
+        "capacity": 4171
+      },
+      {
+        "path": "capacities-radiotherapy-dental-prosthesis.csv",
+        "rows": 21,
+        "capacity": 240
+      },
+      {
+        "path": "capacities-railway-engineering.csv",
+        "rows": 18,
+        "capacity": 131
+      },
+      {
+        "path": "capacities-statistics.csv",
+        "rows": 91,
+        "capacity": 1925
+      },
+      {
+        "path": "capacities-survey-geomatics-engineering.csv",
+        "rows": 47,
+        "capacity": 851
+      },
+      {
+        "path": "capacities-textile-engineering.csv",
+        "rows": 18,
+        "capacity": 495
+      },
+      {
+        "path": "capacities-urban-planning-engineering.csv",
+        "rows": 58,
+        "capacity": 927
+      },
+      {
+        "path": "capacities.csv",
+        "rows": 1599,
+        "capacity": 27089
+      }
+    ],
+    "export": "capacities-all.csv",
+    "humanities_rows": 1671,
+    "humanities_capacity": 9856,
+    "humanities_qa": {
+      "duplicate_joint_keys": 0,
+      "forbidden_universities": 0,
+      "invalid_capacities": 0,
+      "invalid_years": 0,
+      "untraceable_source_pages": 0,
+      "aggregate_totals_matched": true
+    }
+  }
 }

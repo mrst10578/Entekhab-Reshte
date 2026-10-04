@@ -18,7 +18,7 @@
       "original_name": "انسانی1404.pdf",
       "bytes": 17231515,
       "archive_member": "1404.zip!انسانی1404.pdf",
-      "selected_for_review": false
+      "selected_for_review": true
     },
     {
       "original_name": "پیوست ها.pdf",
@@ -105,6 +105,101 @@
       "sha256": "547bb8deb105476e8854ba88be81aaaa228c0644fb8f889c20bf7d4f4324a866",
       "text_chars": 2474870,
       "source_id": "1404-math-booklet"
+    },
+    {
+      "year": 1404,
+      "source_id": "1404-humanities-booklet",
+      "original": "انسانی1404.pdf",
+      "archive_member": "1404.zip!انسانی1404.pdf",
+      "kind": "booklet",
+      "pages": 296,
+      "bytes": 17231515,
+      "sha256": "8da376ba6b5e81cd050e46fac534323de5a9ffbd1df2220323f88a2088f3fef5",
+      "page_numbering": "PDF pages, 1-based"
+    },
+    {
+      "year": 1404,
+      "source_id": "1404-humanities-teacher-booklet",
+      "path": "teacher-extra/1404/booklet.pdf",
+      "original": "booklet.pdf",
+      "mirror_url": "https://iranmoshavere.com/wp-content/uploads/2024/06/Farhangian-University-course-selection-booklet-1404.pdf",
+      "retrieved_url": "https://iranmoshavere.com/wp-content/uploads/2024/06/Farhangian-University-course-selection-booklet-1404.pdf",
+      "original_pdf_url": null,
+      "official_announcement_url": "https://sanjesh.org/fa-IR/sanjesh/4936/news/view/14591/11985/Staging",
+      "issuer": "سازمان سنجش آموزش کشور",
+      "official_issued_document": true,
+      "issue_date": "1404/03/13",
+      "pages": 494,
+      "bytes": 23597147,
+      "sha256": "714ec02ec9c2db787f9f78f2d17e8146da5b5ad0e6c3ad33b0b3d203e51526c1",
+      "humanities_target_page_range": [
+        261,
+        449
+      ],
+      "printed_page_offset": -1,
+      "text_path": "teacher-extra/1404/booklet.txt",
+      "retrieved_at": "2026-10-04",
+      "verification": "Official publisher and admission year visible on cover, headers and preface; source distributed verbatim as public mirror. Sanjesh original PDF unavailable (403) for1403; original PDF URL not established for other documents."
+    },
+    {
+      "year": 1404,
+      "source_id": "1404-humanities-teacher-correction",
+      "path": "teacher-extra/1404/amendment.pdf",
+      "original": "amendment.pdf",
+      "mirror_url": "https://iranestekhdam.ir/storage/medias/2025-06-11/1749618969_%D9%81%D8%A7%DB%8C%D9%84-%D8%B1%D8%B4%D8%AA%D9%87-%D9%85%D8%AD%D9%84-%D9%87%D8%A7%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%88-%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%D8%A7%D8%AA-%D8%AF%D9%81%D8%AA%D8%B1%DA%86%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%B1%D8%B4%D8%AA%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88-%D9%85%D8%B9%D9%84%D9%85-%D8%AF%D8%B1-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-1404.3.20%D9%81%D8%B1%D9%87%D9%86%DA%AF%DB%8C%D8%A7%D9%86-1404.pdf",
+      "retrieved_url": "https://iranestekhdam.ir/storage/medias/2025-06-11/1749618969_%D9%81%D8%A7%DB%8C%D9%84-%D8%B1%D8%B4%D8%AA%D9%87-%D9%85%D8%AD%D9%84-%D9%87%D8%A7%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%88-%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%D8%A7%D8%AA-%D8%AF%D9%81%D8%AA%D8%B1%DA%86%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%B1%D8%B4%D8%AA%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88-%D9%85%D8%B9%D9%84%D9%85-%D8%AF%D8%B1-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-1404.3.20%D9%81%D8%B1%D9%87%D9%86%DA%AF%DB%8C%D8%A7%D9%86-1404.pdf",
+      "original_pdf_url": null,
+      "official_announcement_url": null,
+      "issuer": "سازمان سنجش آموزش کشور",
+      "official_issued_document": true,
+      "issue_date": "1404/03/20",
+      "pages": 8,
+      "bytes": 677507,
+      "sha256": "ecf40c311eb8151eea8e5cffdf3094f02a0f6c2137dbb98ba7e41708c874c4da",
+      "humanities_target_page_range": [
+        3,
+        8
+      ],
+      "printed_page_offset": 0,
+      "text_path": "teacher-extra/1404/amendment.txt",
+      "retrieved_at": "2026-10-04",
+      "verification": "Official publisher and admission year visible on cover, headers and preface; source distributed verbatim as public mirror. Sanjesh original PDF unavailable (403) for1403; original PDF URL not established for other documents."
+    },
+    {
+      "year": 1404,
+      "source_id": "1404-humanities-correction-series2",
+      "original": "1404-series2.pdf",
+      "kind": "correction",
+      "pages": 7,
+      "bytes": 896126,
+      "sha256": "895a646bfc26f6097968cfce1d2a111d87fd8ab7fabdd14cc85a7c0abc4205a2",
+      "retrieved_url": "https://iranmoshavere.com/wp-content/uploads/2025/09/Second-series-of-amendments-to-the-field-selection-and-registration-booklet-without-entrance-exam-1404.pdf",
+      "issue_date": "1404/06/16",
+      "publisher": "سازمان سنجش",
+      "delivery": "Public mirror of issued document; year/date/section headers visually verified. Direct original download not byte-verified.",
+      "page_numbering": "PDF pages, 1-based",
+      "humanities_pages": [
+        4
+      ]
+    },
+    {
+      "year": 1404,
+      "source_id": "1404-humanities-correction-series3",
+      "original": "1404-series3.pdf",
+      "kind": "correction",
+      "pages": 11,
+      "bytes": 158387,
+      "sha256": "7f547f13a8bb313704827a80e35f0f93c80e5bacc5fcb089283be3c3f0b158d6",
+      "retrieved_url": "https://irantahsil.org/wp-content/uploads/2025/09/پیوست-اطلاعیه-سری-سوم.pdf",
+      "issue_date": "1404/06/23",
+      "publisher": "سازمان سنجش",
+      "delivery": "Public mirror of issued document; year/date/section headers visually verified. Direct original download not byte-verified.",
+      "page_numbering": "PDF pages, 1-based",
+      "humanities_pages": [
+        7,
+        8,
+        9
+      ]
     }
   ]
 }

@@ -1,0 +1,118 @@
+{
+  "majors": [
+    "حقوق"
+  ],
+  "years": {
+    "1401": {
+      "rows": 96,
+      "capacity": 2579
+    },
+    "1402": {
+      "rows": 97,
+      "capacity": 2417
+    },
+    "1403": {
+      "rows": 109,
+      "capacity": 2703
+    },
+    "1404": {
+      "rows": 117,
+      "capacity": 2931
+    }
+  },
+  "by_major": {
+    "حقوق": [
+      {
+        "year": 1401,
+        "rows": 96,
+        "capacity": 2579,
+        "payam_noor_excluded_codes": 186,
+        "nonprofit_excluded_codes": 95,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 7,
+        "status": "extracted"
+      },
+      {
+        "year": 1402,
+        "rows": 97,
+        "capacity": 2417,
+        "payam_noor_excluded_codes": 163,
+        "nonprofit_excluded_codes": 93,
+        "amendment_code_operations": 2,
+        "applied_amendments": [
+          {
+            "code": "39529",
+            "operation": "add",
+            "source_id": "1402-correction-5",
+            "source_page": 5
+          },
+          {
+            "code": "39102",
+            "operation": "capacity",
+            "source_id": "1402-correction-5",
+            "source_page": 7
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 1,
+        "status": "extracted"
+      },
+      {
+        "year": 1403,
+        "rows": 109,
+        "capacity": 2703,
+        "payam_noor_excluded_codes": 352,
+        "nonprofit_excluded_codes": 96,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 2,
+        "status": "extracted"
+      },
+      {
+        "year": 1404,
+        "rows": 117,
+        "capacity": 2931,
+        "payam_noor_excluded_codes": 337,
+        "nonprofit_excluded_codes": 102,
+        "amendment_code_operations": 3,
+        "applied_amendments": [
+          {
+            "code": "34685",
+            "operation": "capacity",
+            "source_id": "1404-humanities-correction-series3",
+            "source_page": 7
+          },
+          {
+            "code": "34949",
+            "operation": "capacity",
+            "source_id": "1404-humanities-correction-series3",
+            "source_page": 8
+          },
+          {
+            "code": "34723",
+            "operation": "capacity",
+            "source_id": "1404-humanities-correction-series3",
+            "source_page": 8
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 3,
+        "status": "extracted"
+      }
+    ]
+  },
+  "rows": 419,
+  "capacity": 10630,
+  "amendment_code_operations": 5,
+  "excluded_payam_noor_codes": 1038,
+  "excluded_nonprofit_codes": 386,
+  "unresolved": [],
+  "before_capacity_discrepancies_resolved_by_latest_explicit_after": []
+}
