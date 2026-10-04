@@ -1,6 +1,72 @@
 [
   {
     "year": 1402,
+    "major": "اقتصاد",
+    "code": "35368",
+    "source_page": 63,
+    "reason": "gender total differs from semester total",
+    "raw": {
+      "year": 1402,
+      "major": "اقتصاد",
+      "title": "اقتصاد",
+      "code": "35368",
+      "university": "دانشگاه فردوسی مشهد",
+      "province": "خراسان رضوی",
+      "page": 63,
+      "cells": [
+        "",
+        "4",
+        "4",
+        "-",
+        "6",
+        "اقتصاد",
+        "35368",
+        "نوبت دوم",
+        "با آزمو ن"
+      ],
+      "code_index": 6,
+      "bbox": [
+        292.79998779296875,
+        304.97998046875
+      ],
+      "source_id": "1402-humanities-booklet"
+    }
+  },
+  {
+    "year": 1402,
+    "major": "اقتصاد",
+    "code": "35532",
+    "source_page": 81,
+    "reason": "gender total differs from semester total",
+    "raw": {
+      "year": 1402,
+      "major": "اقتصاد",
+      "title": "اقتصاد",
+      "code": "35532",
+      "university": "دانشگاه قم",
+      "province": "قم",
+      "page": 81,
+      "cells": [
+        "",
+        "10",
+        "10",
+        "-",
+        "14",
+        "اقتصاد",
+        "35532",
+        "روزانه",
+        "با آزمون"
+      ],
+      "code_index": 6,
+      "bbox": [
+        337.55999755859375,
+        349.7400207519531
+      ],
+      "source_id": "1402-humanities-booklet"
+    }
+  },
+  {
+    "year": 1402,
     "major": "روان‌شناسی",
     "code": "35329",
     "source_id": "1402-humanities-booklet",

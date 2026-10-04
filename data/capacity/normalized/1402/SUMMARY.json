@@ -28,10 +28,15 @@
   "legacy_scope_note": "Existing top-level values describe the original ten health majors only. dataset describes every source CSV exactly once.",
   "dataset": {
     "year": 1402,
-    "rows": 7062,
-    "capacity": 112128,
-    "university_summary_rows": 4577,
+    "rows": 7639,
+    "capacity": 117613,
+    "university_summary_rows": 4997,
     "input_files": [
+      {
+        "path": "capacities-accounting.csv",
+        "rows": 282,
+        "capacity": 2624
+      },
       {
         "path": "capacities-aerospace-engineering.csv",
         "rows": 27,
@@ -51,6 +56,11 @@
         "path": "capacities-biotechnology-zoology.csv",
         "rows": 112,
         "capacity": 2933
+      },
+      {
+        "path": "capacities-business-management.csv",
+        "rows": 118,
+        "capacity": 976
       },
       {
         "path": "capacities-cell-molecular-biology.csv",
@@ -93,6 +103,11 @@
         "capacity": 791
       },
       {
+        "path": "capacities-economics.csv",
+        "rows": 74,
+        "capacity": 718
+      },
+      {
         "path": "capacities-educational-sciences.csv",
         "rows": 66,
         "capacity": 1217
@@ -113,6 +128,11 @@
         "capacity": 503
       },
       {
+        "path": "capacities-financial-management.csv",
+        "rows": 22,
+        "capacity": 281
+      },
+      {
         "path": "capacities-food-science-vet-associate-meat-inspection.csv",
         "rows": 91,
         "capacity": 1266
@@ -126,6 +146,11 @@
         "path": "capacities-industrial-engineering.csv",
         "rows": 215,
         "capacity": 2899
+      },
+      {
+        "path": "capacities-industrial-management.csv",
+        "rows": 52,
+        "capacity": 601
       },
       {
         "path": "capacities-lab-occupational-therapy.csv",
@@ -223,6 +248,11 @@
         "capacity": 3662
       },
       {
+        "path": "capacities-public-management.csv",
+        "rows": 29,
+        "capacity": 285
+      },
+      {
         "path": "capacities-radiotherapy-dental-prosthesis.csv",
         "rows": 18,
         "capacity": 231
@@ -259,8 +289,8 @@
       }
     ],
     "export": "capacities-all.csv",
-    "humanities_rows": 1449,
-    "humanities_capacity": 11234,
+    "humanities_rows": 2026,
+    "humanities_capacity": 16719,
     "humanities_qa": {
       "duplicate_joint_keys": 0,
       "forbidden_universities": 0,

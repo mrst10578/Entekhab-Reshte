@@ -1,0 +1,105 @@
+{
+  "majors": [
+    "مدیریت دولتی"
+  ],
+  "years": {
+    "1401": {
+      "rows": 29,
+      "capacity": 285
+    },
+    "1402": {
+      "rows": 29,
+      "capacity": 285
+    },
+    "1403": {
+      "rows": 28,
+      "capacity": 310
+    },
+    "1404": {
+      "rows": 26,
+      "capacity": 272
+    }
+  },
+  "by_major": {
+    "مدیریت دولتی": [
+      {
+        "year": 1401,
+        "rows": 29,
+        "capacity": 285,
+        "payam_noor_excluded_codes": 125,
+        "nonprofit_excluded_codes": 33,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 3,
+        "status": "extracted"
+      },
+      {
+        "year": 1402,
+        "rows": 29,
+        "capacity": 285,
+        "payam_noor_excluded_codes": 118,
+        "nonprofit_excluded_codes": 31,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted"
+      },
+      {
+        "year": 1403,
+        "rows": 28,
+        "capacity": 310,
+        "payam_noor_excluded_codes": 248,
+        "nonprofit_excluded_codes": 30,
+        "amendment_code_operations": 3,
+        "applied_amendments": [
+          {
+            "code": "38054",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 20
+          },
+          {
+            "code": "38112",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 20
+          },
+          {
+            "code": "38113",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted"
+      },
+      {
+        "year": 1404,
+        "rows": 26,
+        "capacity": 272,
+        "payam_noor_excluded_codes": 245,
+        "nonprofit_excluded_codes": 34,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted"
+      }
+    ]
+  },
+  "rows": 112,
+  "capacity": 1152,
+  "amendment_code_operations": 3,
+  "excluded_payam_noor_codes": 736,
+  "excluded_nonprofit_codes": 128,
+  "unresolved": [],
+  "before_capacity_discrepancies_resolved_by_latest_explicit_after": []
+}

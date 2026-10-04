@@ -1,0 +1,240 @@
+{
+  "majors": [
+    "اقتصاد"
+  ],
+  "years": {
+    "1401": {
+      "rows": 81,
+      "capacity": 1428
+    },
+    "1402": {
+      "rows": 74,
+      "capacity": 718
+    },
+    "1403": {
+      "rows": 88,
+      "capacity": 747
+    },
+    "1404": {
+      "rows": 85,
+      "capacity": 710
+    }
+  },
+  "by_major": {
+    "اقتصاد": [
+      {
+        "year": 1401,
+        "rows": 81,
+        "capacity": 1428,
+        "payam_noor_excluded_codes": 48,
+        "nonprofit_excluded_codes": 16,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 7,
+        "status": "extracted"
+      },
+      {
+        "year": 1402,
+        "rows": 74,
+        "capacity": 718,
+        "payam_noor_excluded_codes": 57,
+        "nonprofit_excluded_codes": 17,
+        "amendment_code_operations": 1,
+        "applied_amendments": [
+          {
+            "code": "13556",
+            "operation": "intake",
+            "source_id": "1402-correction-5",
+            "source_page": 22
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [
+          {
+            "year": 1402,
+            "major": "اقتصاد",
+            "code": "35368",
+            "source_page": 63,
+            "reason": "gender total differs from semester total",
+            "raw": {
+              "year": 1402,
+              "major": "اقتصاد",
+              "title": "اقتصاد",
+              "code": "35368",
+              "university": "دانشگاه فردوسی مشهد",
+              "province": "خراسان رضوی",
+              "page": 63,
+              "cells": [
+                "",
+                "4",
+                "4",
+                "-",
+                "6",
+                "اقتصاد",
+                "35368",
+                "نوبت دوم",
+                "با آزمو ن"
+              ],
+              "code_index": 6,
+              "bbox": [
+                292.79998779296875,
+                304.97998046875
+              ],
+              "source_id": "1402-humanities-booklet"
+            }
+          },
+          {
+            "year": 1402,
+            "major": "اقتصاد",
+            "code": "35532",
+            "source_page": 81,
+            "reason": "gender total differs from semester total",
+            "raw": {
+              "year": 1402,
+              "major": "اقتصاد",
+              "title": "اقتصاد",
+              "code": "35532",
+              "university": "دانشگاه قم",
+              "province": "قم",
+              "page": 81,
+              "cells": [
+                "",
+                "10",
+                "10",
+                "-",
+                "14",
+                "اقتصاد",
+                "35532",
+                "روزانه",
+                "با آزمون"
+              ],
+              "code_index": 6,
+              "bbox": [
+                337.55999755859375,
+                349.7400207519531
+              ],
+              "source_id": "1402-humanities-booklet"
+            }
+          }
+        ],
+        "missing_province_rows": 1,
+        "status": "extracted_with_quarantined_ambiguities"
+      },
+      {
+        "year": 1403,
+        "rows": 88,
+        "capacity": 747,
+        "payam_noor_excluded_codes": 103,
+        "nonprofit_excluded_codes": 15,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted"
+      },
+      {
+        "year": 1404,
+        "rows": 85,
+        "capacity": 710,
+        "payam_noor_excluded_codes": 103,
+        "nonprofit_excluded_codes": 15,
+        "amendment_code_operations": 2,
+        "applied_amendments": [
+          {
+            "code": "36173",
+            "operation": "capacity",
+            "source_id": "1404-humanities-correction-series3",
+            "source_page": 8
+          },
+          {
+            "code": "36212",
+            "operation": "capacity",
+            "source_id": "1404-humanities-correction-series3",
+            "source_page": 8
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 3,
+        "status": "extracted"
+      }
+    ]
+  },
+  "rows": 328,
+  "capacity": 3603,
+  "amendment_code_operations": 3,
+  "excluded_payam_noor_codes": 311,
+  "excluded_nonprofit_codes": 63,
+  "unresolved": [
+    {
+      "year": 1402,
+      "major": "اقتصاد",
+      "code": "35368",
+      "source_page": 63,
+      "reason": "gender total differs from semester total",
+      "raw": {
+        "year": 1402,
+        "major": "اقتصاد",
+        "title": "اقتصاد",
+        "code": "35368",
+        "university": "دانشگاه فردوسی مشهد",
+        "province": "خراسان رضوی",
+        "page": 63,
+        "cells": [
+          "",
+          "4",
+          "4",
+          "-",
+          "6",
+          "اقتصاد",
+          "35368",
+          "نوبت دوم",
+          "با آزمو ن"
+        ],
+        "code_index": 6,
+        "bbox": [
+          292.79998779296875,
+          304.97998046875
+        ],
+        "source_id": "1402-humanities-booklet"
+      }
+    },
+    {
+      "year": 1402,
+      "major": "اقتصاد",
+      "code": "35532",
+      "source_page": 81,
+      "reason": "gender total differs from semester total",
+      "raw": {
+        "year": 1402,
+        "major": "اقتصاد",
+        "title": "اقتصاد",
+        "code": "35532",
+        "university": "دانشگاه قم",
+        "province": "قم",
+        "page": 81,
+        "cells": [
+          "",
+          "10",
+          "10",
+          "-",
+          "14",
+          "اقتصاد",
+          "35532",
+          "روزانه",
+          "با آزمون"
+        ],
+        "code_index": 6,
+        "bbox": [
+          337.55999755859375,
+          349.7400207519531
+        ],
+        "source_id": "1402-humanities-booklet"
+      }
+    }
+  ],
+  "before_capacity_discrepancies_resolved_by_latest_explicit_after": []
+}

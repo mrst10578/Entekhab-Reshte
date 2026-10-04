@@ -1,0 +1,222 @@
+{
+  "majors": [
+    "حسابداری"
+  ],
+  "years": {
+    "1401": {
+      "rows": 221,
+      "capacity": 2470
+    },
+    "1402": {
+      "rows": 282,
+      "capacity": 2624
+    },
+    "1403": {
+      "rows": 247,
+      "capacity": 2666
+    },
+    "1404": {
+      "rows": 250,
+      "capacity": 2660
+    }
+  },
+  "by_major": {
+    "حسابداری": [
+      {
+        "year": 1401,
+        "rows": 221,
+        "capacity": 2470,
+        "payam_noor_excluded_codes": 189,
+        "nonprofit_excluded_codes": 174,
+        "amendment_code_operations": 1,
+        "applied_amendments": [
+          {
+            "code": "35982",
+            "operation": "conditions",
+            "source_id": "1401-correction-4",
+            "source_page": 11
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 7,
+        "status": "extracted"
+      },
+      {
+        "year": 1402,
+        "rows": 282,
+        "capacity": 2624,
+        "payam_noor_excluded_codes": 175,
+        "nonprofit_excluded_codes": 160,
+        "amendment_code_operations": 3,
+        "applied_amendments": [
+          {
+            "code": "39526",
+            "operation": "add",
+            "source_id": "1402-correction-5",
+            "source_page": 4
+          },
+          {
+            "code": "39497",
+            "operation": "add",
+            "source_id": "1402-correction-5",
+            "source_page": 4
+          },
+          {
+            "code": "39533",
+            "operation": "add",
+            "source_id": "1402-correction-5",
+            "source_page": 5
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 1,
+        "status": "extracted"
+      },
+      {
+        "year": 1403,
+        "rows": 247,
+        "capacity": 2666,
+        "payam_noor_excluded_codes": 353,
+        "nonprofit_excluded_codes": 151,
+        "amendment_code_operations": 16,
+        "applied_amendments": [
+          {
+            "code": "36018",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 19
+          },
+          {
+            "code": "36286",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 19
+          },
+          {
+            "code": "36599",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 20
+          },
+          {
+            "code": "38049",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 20
+          },
+          {
+            "code": "38050",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 20
+          },
+          {
+            "code": "38105",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 20
+          },
+          {
+            "code": "38106",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 20
+          },
+          {
+            "code": "38117",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          },
+          {
+            "code": "36088",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          },
+          {
+            "code": "36089",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          },
+          {
+            "code": "36559",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          },
+          {
+            "code": "36583",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          },
+          {
+            "code": "36321",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          },
+          {
+            "code": "36322",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          },
+          {
+            "code": "36555",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          },
+          {
+            "code": "36556",
+            "operation": "capacity",
+            "source_id": "1403-correction-5",
+            "source_page": 21
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 3,
+        "status": "extracted"
+      },
+      {
+        "year": 1404,
+        "rows": 250,
+        "capacity": 2660,
+        "payam_noor_excluded_codes": 337,
+        "nonprofit_excluded_codes": 148,
+        "amendment_code_operations": 2,
+        "applied_amendments": [
+          {
+            "code": "36346",
+            "operation": "delete",
+            "source_id": "1404-humanities-correction-series2",
+            "source_page": 4
+          },
+          {
+            "code": "36796",
+            "operation": "capacity",
+            "source_id": "1404-humanities-correction-series3",
+            "source_page": 7
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 7,
+        "status": "extracted"
+      }
+    ]
+  },
+  "rows": 1000,
+  "capacity": 10420,
+  "amendment_code_operations": 22,
+  "excluded_payam_noor_codes": 1054,
+  "excluded_nonprofit_codes": 633,
+  "unresolved": [],
+  "before_capacity_discrepancies_resolved_by_latest_explicit_after": []
+}
