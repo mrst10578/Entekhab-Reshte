@@ -1,0 +1,100 @@
+{
+  "majors": [
+    "جامعه‌شناسی"
+  ],
+  "years": {
+    "1401": {
+      "rows": 65,
+      "capacity": 1365
+    },
+    "1402": {
+      "rows": 73,
+      "capacity": 1279
+    },
+    "1403": {
+      "rows": 72,
+      "capacity": 1259
+    },
+    "1404": {
+      "rows": 63,
+      "capacity": 1143
+    }
+  },
+  "by_major": {
+    "جامعه‌شناسی": [
+      {
+        "year": 1401,
+        "rows": 65,
+        "capacity": 1365,
+        "payam_noor_excluded_codes": 69,
+        "nonprofit_excluded_codes": 3,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 4,
+        "status": "extracted"
+      },
+      {
+        "year": 1402,
+        "rows": 73,
+        "capacity": 1279,
+        "payam_noor_excluded_codes": 60,
+        "nonprofit_excluded_codes": 3,
+        "amendment_code_operations": 1,
+        "applied_amendments": [
+          {
+            "code": "33773",
+            "operation": "capacity",
+            "source_id": "1402-correction-5",
+            "source_page": 7
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted"
+      },
+      {
+        "year": 1403,
+        "rows": 72,
+        "capacity": 1259,
+        "payam_noor_excluded_codes": 128,
+        "nonprofit_excluded_codes": 3,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 1,
+        "status": "extracted"
+      },
+      {
+        "year": 1404,
+        "rows": 63,
+        "capacity": 1143,
+        "payam_noor_excluded_codes": 125,
+        "nonprofit_excluded_codes": 5,
+        "amendment_code_operations": 1,
+        "applied_amendments": [
+          {
+            "code": "34683",
+            "operation": "capacity",
+            "source_id": "1404-humanities-correction-series3",
+            "source_page": 7
+          }
+        ],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 1,
+        "status": "extracted"
+      }
+    ]
+  },
+  "rows": 273,
+  "capacity": 5046,
+  "amendment_code_operations": 2,
+  "excluded_payam_noor_codes": 382,
+  "excluded_nonprofit_codes": 14,
+  "unresolved": [],
+  "before_capacity_discrepancies_resolved_by_latest_explicit_after": []
+}

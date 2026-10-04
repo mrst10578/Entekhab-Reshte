@@ -28,9 +28,9 @@
   "legacy_scope_note": "Existing top-level values describe the original ten health majors only. dataset describes every source CSV exactly once.",
   "dataset": {
     "year": 1401,
-    "rows": 7234,
-    "capacity": 117028,
-    "university_summary_rows": 4488,
+    "rows": 7553,
+    "capacity": 121478,
+    "university_summary_rows": 4695,
     "input_files": [
       {
         "path": "capacities-accounting.csv",
@@ -233,6 +233,11 @@
         "capacity": 1793
       },
       {
+        "path": "capacities-political-science.csv",
+        "rows": 54,
+        "capacity": 1153
+      },
+      {
         "path": "capacities-polymer-engineering.csv",
         "rows": 31,
         "capacity": 592
@@ -263,6 +268,21 @@
         "capacity": 171
       },
       {
+        "path": "capacities-social-work.csv",
+        "rows": 15,
+        "capacity": 210
+      },
+      {
+        "path": "capacities-sociology.csv",
+        "rows": 65,
+        "capacity": 1365
+      },
+      {
+        "path": "capacities-sport-sciences.csv",
+        "rows": 185,
+        "capacity": 1722
+      },
+      {
         "path": "capacities-statistics.csv",
         "rows": 75,
         "capacity": 1926
@@ -289,8 +309,8 @@
       }
     ],
     "export": "capacities-all.csv",
-    "humanities_rows": 2150,
-    "humanities_capacity": 22742,
+    "humanities_rows": 2469,
+    "humanities_capacity": 27192,
     "humanities_qa": {
       "duplicate_joint_keys": 0,
       "forbidden_universities": 0,
