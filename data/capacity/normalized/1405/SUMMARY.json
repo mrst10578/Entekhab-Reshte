@@ -1,8 +1,8 @@
 {
   "year": 1405,
-  "status": "partial_1405_experimental_and_math",
-  "rows": 5903,
-  "capacity": 108972,
+  "status": "complete_supported_groups_1405",
+  "rows": 8416,
+  "capacity": 132198,
   "groups": {
     "experimental": {
       "rows": 3900,
@@ -13,13 +13,18 @@
       "capacity": 52310
     },
     "humanities": {
-      "status": "not_imported_yet"
+      "rows": 2513,
+      "capacity": 23226
     }
   },
   "majors": {
     "آمار": {
       "rows": 68,
       "capacity": 1791
+    },
+    "آموزش ابتدایی": {
+      "rows": 1197,
+      "capacity": 2000
     },
     "اتاق عمل": {
       "rows": 210,
@@ -28,6 +33,10 @@
     "ارتوز و پروتز (اعضای مصنوعی و وسایل کمکی)": {
       "rows": 13,
       "capacity": 100
+    },
+    "اقتصاد": {
+      "rows": 77,
+      "capacity": 670
     },
     "بهداشت عمومی": {
       "rows": 164,
@@ -45,6 +54,10 @@
       "rows": 12,
       "capacity": 118
     },
+    "تاریخ": {
+      "rows": 47,
+      "capacity": 885
+    },
     "تکنولوژی پرتودرمانی": {
       "rows": 13,
       "capacity": 147
@@ -56,6 +69,22 @@
     "تکنولوژی پزشکی هسته‌ای": {
       "rows": 4,
       "capacity": 40
+    },
+    "جامعه‌شناسی": {
+      "rows": 55,
+      "capacity": 1173
+    },
+    "جغرافیا": {
+      "rows": 58,
+      "capacity": 1492
+    },
+    "حسابداری": {
+      "rows": 207,
+      "capacity": 2578
+    },
+    "حقوق": {
+      "rows": 105,
+      "capacity": 2881
     },
     "داروسازی": {
       "rows": 80,
@@ -69,9 +98,17 @@
       "rows": 51,
       "capacity": 700
     },
+    "روان‌شناسی": {
+      "rows": 89,
+      "capacity": 1235
+    },
     "ریاضیات و کاربردها / ریاضی محض": {
       "rows": 96,
       "capacity": 2928
+    },
+    "زبان و ادبیات فارسی": {
+      "rows": 82,
+      "capacity": 1931
     },
     "زیست‌شناسی جانوری": {
       "rows": 44,
@@ -105,6 +142,10 @@
       "rows": 165,
       "capacity": 2670
     },
+    "علم اطلاعات و دانش‌شناسی": {
+      "rows": 31,
+      "capacity": 533
+    },
     "علوم آزمایشگاهی": {
       "rows": 159,
       "capacity": 1952
@@ -113,13 +154,25 @@
       "rows": 21,
       "capacity": 329
     },
+    "علوم تربیتی": {
+      "rows": 61,
+      "capacity": 1378
+    },
     "علوم تغذیه": {
       "rows": 72,
       "capacity": 911
     },
+    "علوم سیاسی": {
+      "rows": 46,
+      "capacity": 1050
+    },
     "علوم و صنایع غذایی / علوم و مهندسی صنایع غذایی": {
       "rows": 88,
       "capacity": 1132
+    },
+    "علوم ورزشی": {
+      "rows": 153,
+      "capacity": 1649
     },
     "علوم کامپیوتر": {
       "rows": 91,
@@ -145,9 +198,33 @@
       "rows": 116,
       "capacity": 1566
     },
+    "مددکاری اجتماعی": {
+      "rows": 24,
+      "capacity": 233
+    },
+    "مدیریت بازرگانی": {
+      "rows": 87,
+      "capacity": 1077
+    },
     "مدیریت خدمات بهداشتی درمانی": {
       "rows": 33,
       "capacity": 395
+    },
+    "مدیریت دولتی": {
+      "rows": 30,
+      "capacity": 274
+    },
+    "مدیریت صنعتی": {
+      "rows": 52,
+      "capacity": 565
+    },
+    "مدیریت مالی": {
+      "rows": 28,
+      "capacity": 356
+    },
+    "مشاوره": {
+      "rows": 45,
+      "capacity": 850
     },
     "مهندسی انرژی": {
       "rows": 34,
@@ -265,10 +342,14 @@
       "rows": 15,
       "capacity": 230
     },
+    "گردشگری": {
+      "rows": 39,
+      "capacity": 416
+    },
     "گفتاردرمانی": {
       "rows": 26,
       "capacity": 247
     }
   },
-  "notes": "1405 currently covers experimental and math. Humanities is not imported yet. Payam Noor and nonprofit rows are intentionally excluded from the math extraction."
+  "notes": "1405 covers all experimental, math and humanities major families supported by the capacity explorer."
 }

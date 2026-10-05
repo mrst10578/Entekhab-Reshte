@@ -37,6 +37,10 @@
     "1404": {
       "rows": 2771,
       "capacity": 25334
+    },
+    "1405": {
+      "rows": 2513,
+      "capacity": 23226
     }
   },
   "by_major": {
@@ -124,6 +128,19 @@
         "unresolved": [],
         "missing_province_rows": 3,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 105,
+        "capacity": 2881,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "روان‌شناسی": [
@@ -398,6 +415,19 @@
         ],
         "missing_province_rows": 6,
         "status": "extracted_with_quarantined_ambiguities"
+      },
+      {
+        "year": 1405,
+        "rows": 89,
+        "capacity": 1235,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "مشاوره": [
@@ -472,6 +502,19 @@
         "unresolved": [],
         "missing_province_rows": 1,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 45,
+        "capacity": 850,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "علوم تربیتی": [
@@ -545,6 +588,19 @@
         "unresolved": [],
         "missing_province_rows": 2,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 61,
+        "capacity": 1378,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "آموزش ابتدایی": [
@@ -1227,6 +1283,19 @@
         "unresolved": [],
         "missing_province_rows": 0,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 1197,
+        "capacity": 2000,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "حسابداری": [
@@ -1417,6 +1486,19 @@
         "unresolved": [],
         "missing_province_rows": 7,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 207,
+        "capacity": 2578,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "اقتصاد": [
@@ -1558,6 +1640,19 @@
         "unresolved": [],
         "missing_province_rows": 3,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 77,
+        "capacity": 670,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "مدیریت بازرگانی": [
@@ -1691,6 +1786,19 @@
         "unresolved": [],
         "missing_province_rows": 5,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 87,
+        "capacity": 1077,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "مدیریت دولتی": [
@@ -1764,6 +1872,19 @@
         "unresolved": [],
         "missing_province_rows": 0,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 30,
+        "capacity": 274,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "مدیریت صنعتی": [
@@ -1844,6 +1965,19 @@
         "unresolved": [],
         "missing_province_rows": 2,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 52,
+        "capacity": 565,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "مدیریت مالی": [
@@ -1912,6 +2046,19 @@
         "unresolved": [],
         "missing_province_rows": 0,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 28,
+        "capacity": 356,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "علوم سیاسی": [
@@ -1985,6 +2132,19 @@
         "unresolved": [],
         "missing_province_rows": 2,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 46,
+        "capacity": 1050,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "جامعه‌شناسی": [
@@ -2053,6 +2213,19 @@
         "unresolved": [],
         "missing_province_rows": 1,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 55,
+        "capacity": 1173,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "مددکاری اجتماعی": [
@@ -2107,6 +2280,19 @@
         "unresolved": [],
         "missing_province_rows": 0,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 24,
+        "capacity": 233,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "علوم ورزشی": [
@@ -2236,6 +2422,19 @@
         "unresolved": [],
         "missing_province_rows": 4,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 153,
+        "capacity": 1649,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "زبان و ادبیات فارسی": [
@@ -2297,6 +2496,19 @@
         "unresolved": [],
         "missing_province_rows": 2,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 82,
+        "capacity": 1931,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "جغرافیا": [
@@ -2380,6 +2592,19 @@
         "unresolved": [],
         "missing_province_rows": 1,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 58,
+        "capacity": 1492,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "تاریخ": [
@@ -2434,6 +2659,19 @@
         "unresolved": [],
         "missing_province_rows": 0,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 47,
+        "capacity": 885,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "گردشگری": [
@@ -2502,6 +2740,19 @@
         "unresolved": [],
         "missing_province_rows": 1,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 39,
+        "capacity": 416,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ],
     "علم اطلاعات و دانش‌شناسی": [
@@ -2582,6 +2833,19 @@
         "unresolved": [],
         "missing_province_rows": 0,
         "status": "extracted"
+      },
+      {
+        "year": 1405,
+        "rows": 31,
+        "capacity": 533,
+        "payam_noor_excluded_codes": null,
+        "nonprofit_excluded_codes": null,
+        "amendment_code_operations": 0,
+        "applied_amendments": [],
+        "before_capacity_discrepancies_resolved_by_latest_explicit_after": [],
+        "unresolved": [],
+        "missing_province_rows": 0,
+        "status": "extracted_from_1405_booklet"
       }
     ]
   },

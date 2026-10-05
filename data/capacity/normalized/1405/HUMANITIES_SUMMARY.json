@@ -1,0 +1,127 @@
+{
+  "year": 1405,
+  "group": "humanities",
+  "rows": 2513,
+  "capacity": 23226,
+  "unique_course_location_codes": 2513,
+  "major_families": 20,
+  "majors": {
+    "آموزش ابتدایی": {
+      "rows": 1197,
+      "capacity": 2000,
+      "codes": 1197
+    },
+    "اقتصاد": {
+      "rows": 77,
+      "capacity": 670,
+      "codes": 77
+    },
+    "تاریخ": {
+      "rows": 47,
+      "capacity": 885,
+      "codes": 47
+    },
+    "جامعه‌شناسی": {
+      "rows": 55,
+      "capacity": 1173,
+      "codes": 55
+    },
+    "جغرافیا": {
+      "rows": 58,
+      "capacity": 1492,
+      "codes": 58
+    },
+    "حسابداری": {
+      "rows": 207,
+      "capacity": 2578,
+      "codes": 207
+    },
+    "حقوق": {
+      "rows": 105,
+      "capacity": 2881,
+      "codes": 105
+    },
+    "روان‌شناسی": {
+      "rows": 89,
+      "capacity": 1235,
+      "codes": 89
+    },
+    "زبان و ادبیات فارسی": {
+      "rows": 82,
+      "capacity": 1931,
+      "codes": 82
+    },
+    "علم اطلاعات و دانش‌شناسی": {
+      "rows": 31,
+      "capacity": 533,
+      "codes": 31
+    },
+    "علوم تربیتی": {
+      "rows": 61,
+      "capacity": 1378,
+      "codes": 61
+    },
+    "علوم سیاسی": {
+      "rows": 46,
+      "capacity": 1050,
+      "codes": 46
+    },
+    "علوم ورزشی": {
+      "rows": 153,
+      "capacity": 1649,
+      "codes": 153
+    },
+    "مددکاری اجتماعی": {
+      "rows": 24,
+      "capacity": 233,
+      "codes": 24
+    },
+    "مدیریت بازرگانی": {
+      "rows": 87,
+      "capacity": 1077,
+      "codes": 87
+    },
+    "مدیریت دولتی": {
+      "rows": 30,
+      "capacity": 274,
+      "codes": 30
+    },
+    "مدیریت صنعتی": {
+      "rows": 52,
+      "capacity": 565,
+      "codes": 52
+    },
+    "مدیریت مالی": {
+      "rows": 28,
+      "capacity": 356,
+      "codes": 28
+    },
+    "مشاوره": {
+      "rows": 45,
+      "capacity": 850,
+      "codes": 45
+    },
+    "گردشگری": {
+      "rows": 39,
+      "capacity": 416,
+      "codes": 39
+    }
+  },
+  "program_types": {
+    "در جدول ذکر نشده": 1385,
+    "روزانه": 768,
+    "نوبت دوم": 347,
+    "پردیس خودگردان": 10,
+    "مجازی": 3
+  },
+  "sources": {
+    "1405-humanities-teacher-booklet": 1201,
+    "1405-humanities-booklet": 1312
+  },
+  "excluded_ambiguous_nongovernmental_rows": 2,
+  "excluded_by_major": {
+    "روان‌شناسی": 1,
+    "حقوق": 1
+  },
+  "parser_rejections": {}
+}

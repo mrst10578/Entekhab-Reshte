@@ -38,5 +38,24 @@
         "غیرانتفاعی"
       ]
     }
+  },
+  "humanities": {
+    "source_id": "1405-humanities-booklet",
+    "teacher_source_id": "1405-humanities-teacher-booklet",
+    "original_name": "Ensani.pdf",
+    "source_repository_path": "data/raw/sanjesh/humanities/1405/Ensani.pdf",
+    "pages": 582,
+    "sha256": "dc53d8c1f61bfd2f9fcb6d8d1cf97ea134c46aa140e0ed7129c3a9f50b5b2d06",
+    "qa": {
+      "rows": 2513,
+      "unique_course_location_codes": 2513,
+      "major_families": 20,
+      "total_capacity": 23226,
+      "excluded": [
+        "پیام نور",
+        "غیرانتفاعی",
+        "غیردولتی"
+      ]
+    }
   }
 }
