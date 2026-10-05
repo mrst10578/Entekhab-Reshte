@@ -1,0 +1,1232 @@
+{
+  "rows": 2513,
+  "unique_codes": 2513,
+  "duplicate_codes": [],
+  "independent_exact_target_codes": 2533,
+  "extra_vs_independent": [],
+  "missing_vs_independent": [
+    {
+      "code": "10050",
+      "major": "تاریخ",
+      "page": 44,
+      "line": "مرد دارای خوابگاه ملکی زن - 35 10050تاریخ و تمدن ملل اسالمی روزانه صرفا با سوابق تحصیلی"
+    },
+    {
+      "code": "12407",
+      "major": "تاریخ",
+      "page": 64,
+      "line": "مرد زن - 40 12407تاریخ اسالم صرفا با سوابق تحصیلی روزانه -غیردولتی"
+    },
+    {
+      "code": "12408",
+      "major": "حقوق",
+      "page": 64,
+      "line": "مرد زن - 30 12408حقوق صرفا با سوابق تحصیلی روزانه -غیردولتی"
+    },
+    {
+      "code": "12862",
+      "major": "تاریخ",
+      "page": 69,
+      "line": "مرد زن - 28 12862تاریخ و تمدن ملل اسالمی روزانه صرفا با سوابق تحصیلی"
+    },
+    {
+      "code": "12866",
+      "major": "تاریخ",
+      "page": 70,
+      "line": "مرد زن - 1 12866تاریخ و تمدن ملل اسالمی نوبت دوم صرفا با سوابق تحصیلی"
+    },
+    {
+      "code": "12925",
+      "major": "تاریخ",
+      "page": 72,
+      "line": "مرد خوابگاه ملکی با ظرفیت محدود زن - 15 12925تاریخ اسالم روزانه صرفا با سوابق تحصیلی"
+    },
+    {
+      "code": "12927",
+      "major": "تاریخ",
+      "page": 72,
+      "line": "مرد خوابگاه ملکی با ظرفیت محدود زن - 1 12927تاریخ اسالم نوبت دوم صرفا با سوابق تحصیلی"
+    },
+    {
+      "code": "18761",
+      "major": "تاریخ",
+      "page": 128,
+      "line": "مرد دارای خوابگاه استیجاری زن - 25 18761تاریخ و تمدن ملل اسالمی روزانه صرفا با سوابق تحصیلی"
+    },
+    {
+      "code": "18980",
+      "major": "تاریخ",
+      "page": 132,
+      "line": "مرد زن - 33 18980تاریخ اسالم روزانه صرفا با سوابق تحصیلی"
+    },
+    {
+      "code": "34447",
+      "major": "تاریخ",
+      "page": 49,
+      "line": "مرد زن - 30 34447تاریخ و تمدن ملل اسالمی روزانه با آزمون"
+    },
+    {
+      "code": "34545",
+      "major": "تاریخ",
+      "page": 56,
+      "line": "- زن - 25 34545تاریخ و تمدن ملل اسالمی روزانه با آزمون"
+    },
+    {
+      "code": "34560",
+      "major": "تاریخ",
+      "page": 57,
+      "line": "فاقد خوابگاه - زن - 10 34560تاریخ و تمدن ملل اسالمی نوبت دوم با آزمون"
+    },
+    {
+      "code": "34591",
+      "major": "تاریخ",
+      "page": 58,
+      "line": "مرد تحصیل دانشکده الهیات و معارف زن - 25 34591تاریخ و تمدن ملل اسالمی روزانه با آزمون"
+    },
+    {
+      "code": "34708",
+      "major": "تاریخ",
+      "page": 70,
+      "line": "مرد محدودیت در ارائه خوابگاه زن - 24 34708تاریخ و تمدن ملل اسالمی روزانه با آزمون"
+    },
+    {
+      "code": "34722",
+      "major": "تاریخ",
+      "page": 71,
+      "line": "مرد فاقد خوابگاه زن - 4 34722تاریخ و تمدن ملل اسالمی نوبت دوم با آزمون"
+    },
+    {
+      "code": "34764",
+      "major": "تاریخ",
+      "page": 80,
+      "line": "مرد زن - 38 34764تاریخ و تمدن ملل اسالمی روزانه با آزمون"
+    },
+    {
+      "code": "34827",
+      "major": "تاریخ",
+      "page": 95,
+      "line": "مرد زن - 35 34827تاریخ و تمدن ملل اسالمی روزانه با آزمون"
+    },
+    {
+      "code": "34840",
+      "major": "تاریخ",
+      "page": 95,
+      "line": "مرد زن - 5 34840تاریخ و تمدن ملل اسالمی نوبت دوم با آزمون"
+    },
+    {
+      "code": "36091",
+      "major": "روان‌شناسی",
+      "page": 64,
+      "line": "- زن - 36 36091روانشناسی روزانه -غیردولتی با آزمون"
+    },
+    {
+      "code": "36370",
+      "major": "تاریخ",
+      "page": 106,
+      "line": "مرد زن - 21 36370تاریخ اسالم روزانه با آزمون"
+    }
+  ],
+  "digit_only_admission_conditions_count": 603,
+  "digit_only_admission_conditions_sample": [
+    {
+      "code": "35800",
+      "major": "اقتصاد",
+      "university": "دانشگاه تبریز",
+      "campus": "",
+      "province": "آذربایجان شرقی",
+      "program_type": "روزانه",
+      "capacity": "21",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "21",
+      "source_page": "42",
+      "source_lines": [
+        {
+          "page": 42,
+          "line": "مرد زن - 21 35800اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "35832",
+      "major": "اقتصاد",
+      "university": "دانشگاه ارومیه",
+      "campus": "",
+      "province": "آذربایجان غربی",
+      "program_type": "روزانه",
+      "capacity": "13",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "13",
+      "source_page": "46",
+      "source_lines": [
+        {
+          "page": 46,
+          "line": "مرد زن - 13 35832اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "35840",
+      "major": "اقتصاد",
+      "university": "دانشگاه ارومیه",
+      "campus": "",
+      "province": "آذربایجان غربی",
+      "program_type": "نوبت دوم",
+      "capacity": "2",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "2",
+      "source_page": "46",
+      "source_lines": [
+        {
+          "page": 46,
+          "line": "مرد زن - 2 35840اقتصاد نوبت دوم با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "35855",
+      "major": "اقتصاد",
+      "university": "دانشگاه محقق اردبیلی -اردبیل",
+      "campus": "",
+      "province": "اردبیل",
+      "program_type": "روزانه",
+      "capacity": "9",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "9",
+      "source_page": "49",
+      "source_lines": [
+        {
+          "page": 49,
+          "line": "مرد زن - 9 35855اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "35862",
+      "major": "اقتصاد",
+      "university": "دانشگاه محقق اردبیلی -اردبیل",
+      "campus": "",
+      "province": "اردبیل",
+      "program_type": "نوبت دوم",
+      "capacity": "3",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "3",
+      "source_page": "49",
+      "source_lines": [
+        {
+          "page": 49,
+          "line": "مرد زن - 3 35862اقتصاد نوبت دوم با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "35941",
+      "major": "اقتصاد",
+      "university": "دانشگاه ایالم",
+      "campus": "",
+      "province": "ایلام",
+      "program_type": "روزانه",
+      "capacity": "10",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "10",
+      "source_page": "55",
+      "source_lines": [
+        {
+          "page": 55,
+          "line": "مرد زن - 10 35941اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "35948",
+      "major": "اقتصاد",
+      "university": "دانشگاه خلیج فارس -بوشهر",
+      "campus": "",
+      "province": "بوشهر",
+      "program_type": "روزانه",
+      "capacity": "12",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "12",
+      "source_page": "56",
+      "source_lines": [
+        {
+          "page": 56,
+          "line": "مرد زن - 12 35948اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "35967",
+      "major": "اقتصاد",
+      "university": "دانشگاه الزهرا (س) (ویژه خواهران) – تهران",
+      "campus": "",
+      "province": "تهران",
+      "program_type": "روزانه",
+      "capacity": "11",
+      "gender": "زن",
+      "intake": "نیمسال اول",
+      "admission_conditions": "11",
+      "source_page": "56",
+      "source_lines": [
+        {
+          "page": 56,
+          "line": "- زن - 11 35967اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "35985",
+      "major": "اقتصاد",
+      "university": "دانشگاه تهران",
+      "campus": "",
+      "province": "تهران",
+      "program_type": "روزانه",
+      "capacity": "21",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "21",
+      "source_page": "58",
+      "source_lines": [
+        {
+          "page": 58,
+          "line": "مرد زن - 21 35985اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36035",
+      "major": "اقتصاد",
+      "university": "دانشگاه صنعتی شریف – تهران",
+      "campus": "",
+      "province": "تهران",
+      "program_type": "روزانه",
+      "capacity": "7",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "7",
+      "source_page": "63",
+      "source_lines": [
+        {
+          "page": 63,
+          "line": "مرد زن - 7 36035اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36106",
+      "major": "اقتصاد",
+      "university": "دانشگاه بیرجند",
+      "campus": "",
+      "province": "خراسان جنوبی",
+      "program_type": "روزانه",
+      "capacity": "15",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "15",
+      "source_page": "66",
+      "source_lines": [
+        {
+          "page": 66,
+          "line": "مرد زن - 15 36106اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "12698",
+      "major": "اقتصاد",
+      "university": "دانشگاه بیرجند",
+      "campus": "",
+      "province": "خراسان جنوبی",
+      "program_type": "نوبت دوم",
+      "capacity": "5",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "5",
+      "source_page": "67",
+      "source_lines": [
+        {
+          "page": 67,
+          "line": "مرد زن - 5 12698اقتصاد نوبت دوم صرفا با سوابق تحصیلی"
+        }
+      ]
+    },
+    {
+      "code": "36115",
+      "major": "اقتصاد",
+      "university": "دانشگاه حکیم سبزواری -سبزوار",
+      "campus": "",
+      "province": "خراسان رضوی",
+      "program_type": "روزانه",
+      "capacity": "10",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "10",
+      "source_page": "69",
+      "source_lines": [
+        {
+          "page": 69,
+          "line": "مرد زن - 10 36115اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "12865",
+      "major": "اقتصاد",
+      "university": "دانشگاه حکیم سبزواری -سبزوار",
+      "campus": "",
+      "province": "خراسان رضوی",
+      "program_type": "نوبت دوم",
+      "capacity": "2",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "2",
+      "source_page": "70",
+      "source_lines": [
+        {
+          "page": 70,
+          "line": "مرد زن - 2 12865اقتصاد نوبت دوم صرفا با سوابق تحصیلی"
+        }
+      ]
+    },
+    {
+      "code": "36172",
+      "major": "اقتصاد",
+      "university": "دانشگاه شهید چمران اهواز",
+      "campus": "",
+      "province": "خوزستان",
+      "program_type": "روزانه",
+      "capacity": "21",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "21",
+      "source_page": "79",
+      "source_lines": [
+        {
+          "page": 79,
+          "line": "مرد زن - 21 36172اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36184",
+      "major": "اقتصاد",
+      "university": "دانشگاه علوم و فنون دریایی خرمشهر",
+      "campus": "",
+      "province": "خوزستان",
+      "program_type": "روزانه",
+      "capacity": "13",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "13",
+      "source_page": "79",
+      "source_lines": [
+        {
+          "page": 79,
+          "line": "مرد زن - 13 36184اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36186",
+      "major": "اقتصاد",
+      "university": "دانشگاه زنجان",
+      "campus": "",
+      "province": "زنجان",
+      "program_type": "روزانه",
+      "capacity": "11",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "11",
+      "source_page": "81",
+      "source_lines": [
+        {
+          "page": 81,
+          "line": "مرد زن - 11 36186اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36198",
+      "major": "اقتصاد",
+      "university": "دانشگاه سمنان",
+      "campus": "",
+      "province": "سمنان",
+      "program_type": "روزانه",
+      "capacity": "12",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "12",
+      "source_page": "82",
+      "source_lines": [
+        {
+          "page": 82,
+          "line": "مرد زن - 12 36198اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36208",
+      "major": "اقتصاد",
+      "university": "دانشگاه سمنان",
+      "campus": "",
+      "province": "سمنان",
+      "program_type": "نوبت دوم",
+      "capacity": "3",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "3",
+      "source_page": "82",
+      "source_lines": [
+        {
+          "page": 82,
+          "line": "مرد زن - 3 36208اقتصاد نوبت دوم با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "14661",
+      "major": "اقتصاد",
+      "university": "دانشگاه سراوان",
+      "campus": "",
+      "province": "سیستان و بلوچستان",
+      "program_type": "روزانه",
+      "capacity": "27",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "27",
+      "source_page": "88",
+      "source_lines": [
+        {
+          "page": 88,
+          "line": "مرد زن - 27 14661اقتصاد روزانه صرفا با سوابق تحصیلی"
+        }
+      ]
+    },
+    {
+      "code": "14662",
+      "major": "اقتصاد",
+      "university": "دانشگاه سراوان",
+      "campus": "",
+      "province": "سیستان و بلوچستان",
+      "program_type": "نوبت دوم",
+      "capacity": "8",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "8",
+      "source_page": "88",
+      "source_lines": [
+        {
+          "page": 88,
+          "line": "مرد زن - 8 14662اقتصاد نوبت دوم صرفا با سوابق تحصیلی"
+        }
+      ]
+    },
+    {
+      "code": "36242",
+      "major": "اقتصاد",
+      "university": "دانشگاه سیستان و بلوچستان -زاهدان",
+      "campus": "",
+      "province": "سیستان و بلوچستان",
+      "program_type": "روزانه",
+      "capacity": "12",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "12",
+      "source_page": "88",
+      "source_lines": [
+        {
+          "page": 88,
+          "line": "مرد زن - 12 36242اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36449",
+      "major": "اقتصاد",
+      "university": "دانشگاه آیتاله العظمی بروجردی -بروجرد",
+      "campus": "",
+      "province": "لرستان",
+      "program_type": "روزانه",
+      "capacity": "9",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "9",
+      "source_page": "115",
+      "source_lines": [
+        {
+          "page": 115,
+          "line": "مرد زن - 9 36449اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36517",
+      "major": "اقتصاد",
+      "university": "دانشگاه اراک",
+      "campus": "",
+      "province": "مرکزی",
+      "program_type": "روزانه",
+      "capacity": "12",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "12",
+      "source_page": "123",
+      "source_lines": [
+        {
+          "page": 123,
+          "line": "مرد زن - 12 36517اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36525",
+      "major": "اقتصاد",
+      "university": "دانشگاه هرمزگان -بندرعباس",
+      "campus": "",
+      "province": "هرمزگان",
+      "program_type": "روزانه",
+      "capacity": "7",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "7",
+      "source_page": "124",
+      "source_lines": [
+        {
+          "page": 124,
+          "line": "مرد زن - 7 36525اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36534",
+      "major": "اقتصاد",
+      "university": "دانشگاه هرمزگان -بندرعباس",
+      "campus": "",
+      "province": "هرمزگان",
+      "program_type": "نوبت دوم",
+      "capacity": "1",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "1",
+      "source_page": "124",
+      "source_lines": [
+        {
+          "page": 124,
+          "line": "مرد زن - 1 36534اقتصاد نوبت دوم با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36540",
+      "major": "اقتصاد",
+      "university": "دانشگاه بوعلی سینا -همدان",
+      "campus": "",
+      "province": "همدان",
+      "program_type": "روزانه",
+      "capacity": "12",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "12",
+      "source_page": "126",
+      "source_lines": [
+        {
+          "page": 126,
+          "line": "مرد زن - 12 36540اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36333",
+      "major": "اقتصاد",
+      "university": "دانشگاه کردستان -سنندج",
+      "campus": "",
+      "province": "کردستان",
+      "program_type": "روزانه",
+      "capacity": "15",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "15",
+      "source_page": "98",
+      "source_lines": [
+        {
+          "page": 98,
+          "line": "مرد زن - 15 36333اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36369",
+      "major": "اقتصاد",
+      "university": "دانشگاه رازی -کرمانشاه",
+      "campus": "",
+      "province": "کرمانشاه",
+      "program_type": "روزانه",
+      "capacity": "25",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "25",
+      "source_page": "106",
+      "source_lines": [
+        {
+          "page": 106,
+          "line": "مرد زن - 25 36369اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36382",
+      "major": "اقتصاد",
+      "university": "دانشگاه یاسوج",
+      "campus": "",
+      "province": "کهگیلویه و بویراحمد",
+      "program_type": "روزانه",
+      "capacity": "9",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "9",
+      "source_page": "109",
+      "source_lines": [
+        {
+          "page": 109,
+          "line": "مرد زن - 9 36382اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36572",
+      "major": "اقتصاد",
+      "university": "دانشگاه میبد",
+      "campus": "",
+      "province": "یزد",
+      "program_type": "روزانه",
+      "capacity": "6",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "6",
+      "source_page": "131",
+      "source_lines": [
+        {
+          "page": 131,
+          "line": "مرد زن - 6 36572اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "36579",
+      "major": "اقتصاد",
+      "university": "دانشگاه یزد",
+      "campus": "",
+      "province": "یزد",
+      "program_type": "روزانه",
+      "capacity": "10",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "10",
+      "source_page": "132",
+      "source_lines": [
+        {
+          "page": 132,
+          "line": "مرد زن - 10 36579اقتصاد روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34402",
+      "major": "تاریخ",
+      "university": "دانشگاه تبریز",
+      "campus": "",
+      "province": "آذربایجان شرقی",
+      "program_type": "روزانه",
+      "capacity": "31",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "31",
+      "source_page": "42",
+      "source_lines": [
+        {
+          "page": 42,
+          "line": "مرد زن - 31 34402تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34434",
+      "major": "تاریخ",
+      "university": "دانشگاه ارومیه",
+      "campus": "",
+      "province": "آذربایجان غربی",
+      "program_type": "روزانه",
+      "capacity": "30",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "30",
+      "source_page": "46",
+      "source_lines": [
+        {
+          "page": 46,
+          "line": "مرد زن - 30 34434تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34446",
+      "major": "تاریخ",
+      "university": "دانشگاه محقق اردبیلی -اردبیل",
+      "campus": "",
+      "province": "اردبیل",
+      "program_type": "روزانه",
+      "capacity": "30",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "30",
+      "source_page": "49",
+      "source_lines": [
+        {
+          "page": 49,
+          "line": "مرد زن - 30 34446تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34457",
+      "major": "تاریخ",
+      "university": "دانشگاه محقق اردبیلی -اردبیل",
+      "campus": "",
+      "province": "اردبیل",
+      "program_type": "نوبت دوم",
+      "capacity": "10",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "10",
+      "source_page": "49",
+      "source_lines": [
+        {
+          "page": 49,
+          "line": "مرد زن - 10 34457تاریخ نوبت دوم با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34512",
+      "major": "تاریخ",
+      "university": "دانشگاه خوارزمی (محل تحصیل کرج)",
+      "campus": "",
+      "province": "البرز",
+      "program_type": "روزانه",
+      "capacity": "30",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "30",
+      "source_page": "53",
+      "source_lines": [
+        {
+          "page": 53,
+          "line": "مرد زن - 30 34512تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34533",
+      "major": "تاریخ",
+      "university": "دانشگاه ایالم",
+      "campus": "",
+      "province": "ایلام",
+      "program_type": "روزانه",
+      "capacity": "25",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "25",
+      "source_page": "55",
+      "source_lines": [
+        {
+          "page": 55,
+          "line": "مرد زن - 25 34533تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34539",
+      "major": "تاریخ",
+      "university": "دانشگاه خلیج فارس -بوشهر",
+      "campus": "",
+      "province": "بوشهر",
+      "program_type": "روزانه",
+      "capacity": "35",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "35",
+      "source_page": "56",
+      "source_lines": [
+        {
+          "page": 56,
+          "line": "مرد زن - 35 34539تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34544",
+      "major": "تاریخ",
+      "university": "دانشگاه الزهرا (س) (ویژه خواهران) – تهران",
+      "campus": "",
+      "province": "تهران",
+      "program_type": "روزانه",
+      "capacity": "20",
+      "gender": "زن",
+      "intake": "نیمسال اول",
+      "admission_conditions": "20",
+      "source_page": "56",
+      "source_lines": [
+        {
+          "page": 56,
+          "line": "- زن - 20 34544تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34574",
+      "major": "تاریخ",
+      "university": "دانشگاه تهران",
+      "campus": "",
+      "province": "تهران",
+      "program_type": "روزانه",
+      "capacity": "20",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "20",
+      "source_page": "57",
+      "source_lines": [
+        {
+          "page": 57,
+          "line": "مرد زن - 20 34574تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34671",
+      "major": "تاریخ",
+      "university": "دانشگاه بیرجند",
+      "campus": "",
+      "province": "خراسان جنوبی",
+      "program_type": "روزانه",
+      "capacity": "35",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "35",
+      "source_page": "66",
+      "source_lines": [
+        {
+          "page": 66,
+          "line": "مرد زن - 35 34671تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34680",
+      "major": "تاریخ",
+      "university": "دانشگاه بیرجند",
+      "campus": "",
+      "province": "خراسان جنوبی",
+      "program_type": "نوبت دوم",
+      "capacity": "5",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "5",
+      "source_page": "66",
+      "source_lines": [
+        {
+          "page": 66,
+          "line": "مرد زن - 5 34680تاریخ نوبت دوم با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34751",
+      "major": "تاریخ",
+      "university": "دانشگاه شهید چمران اهواز",
+      "campus": "",
+      "province": "خوزستان",
+      "program_type": "روزانه",
+      "capacity": "35",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "35",
+      "source_page": "79",
+      "source_lines": [
+        {
+          "page": 79,
+          "line": "مرد زن - 35 34751تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "14610",
+      "major": "تاریخ",
+      "university": "دانشگاه زابل",
+      "campus": "",
+      "province": "سیستان و بلوچستان",
+      "program_type": "روزانه",
+      "capacity": "35",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "35",
+      "source_page": "86",
+      "source_lines": [
+        {
+          "page": 86,
+          "line": "مرد زن - 35 14610تاریخ روزانه صرفا با سوابق تحصیلی"
+        }
+      ]
+    },
+    {
+      "code": "14613",
+      "major": "تاریخ",
+      "university": "دانشگاه زابل",
+      "campus": "",
+      "province": "سیستان و بلوچستان",
+      "program_type": "نوبت دوم",
+      "capacity": "10",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "10",
+      "source_page": "87",
+      "source_lines": [
+        {
+          "page": 87,
+          "line": "مرد زن - 10 14613تاریخ نوبت دوم صرفا با سوابق تحصیلی"
+        }
+      ]
+    },
+    {
+      "code": "34791",
+      "major": "تاریخ",
+      "university": "دانشگاه سیستان و بلوچستان -زاهدان",
+      "campus": "",
+      "province": "سیستان و بلوچستان",
+      "program_type": "روزانه",
+      "capacity": "30",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "30",
+      "source_page": "88",
+      "source_lines": [
+        {
+          "page": 88,
+          "line": "مرد زن - 30 34791تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34826",
+      "major": "تاریخ",
+      "university": "دانشگاه بینالمللی امام خمینی (ره ) -قزوین",
+      "campus": "",
+      "province": "قزوین",
+      "program_type": "روزانه",
+      "capacity": "35",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "35",
+      "source_page": "95",
+      "source_lines": [
+        {
+          "page": 95,
+          "line": "مرد زن - 35 34826تاریخ روزانه با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "34839",
+      "major": "تاریخ",
+      "university": "دانشگاه بینالمللی امام خمینی (ره ) -قزوین",
+      "campus": "",
+      "province": "قزوین",
+      "program_type": "نوبت دوم",
+      "capacity": "10",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "10",
+      "source_page": "95",
+      "source_lines": [
+        {
+          "page": 95,
+          "line": "مرد زن - 10 34839تاریخ نوبت دوم با آزمون"
+        }
+      ]
+    },
+    {
+      "code": "35004",
+      "major": "تاریخ",
+      "university": "دانشگاه اراک",
+      "campus": "",
+      "province": "مرکزی",
+      "program_type": "روزانه",
+      "capacity": "35",
+      "gender": "زن و مرد",
+      "intake": "نیمسال اول",
+      "admission_conditions": "35",
+      "source_page": "122",
+      "source_lines": [
+        {
+          "page": 122,
+          "line": "مرد زن - 35 35004تاریخ روزانه با آزمون"
+        }
+      ]
+    }
+  ],
+  "unbalanced_name_count": 16,
+  "unbalanced_name_sample": [
+    {
+      "code": "51006",
+      "field": "campus",
+      "value": "پردیس فاطمهالزهراء (س) اهواز (مرکز آموزش عالی حضرت خدیجه کبری (س)",
+      "major": "آموزش ابتدایی",
+      "page": "258"
+    },
+    {
+      "code": "51020",
+      "field": "campus",
+      "value": "پردیس فاطمهالزهراء (س) اهواز (مرکز آموزش عالی حضرت خدیجه کبری (س)",
+      "major": "آموزش ابتدایی",
+      "page": "259"
+    },
+    {
+      "code": "51021",
+      "field": "campus",
+      "value": "پردیس فاطمهالزهراء (س) اهواز (مرکز آموزش عالی حضرت خدیجه کبری (س)",
+      "major": "آموزش ابتدایی",
+      "page": "259"
+    },
+    {
+      "code": "51022",
+      "field": "campus",
+      "value": "پردیس فاطمهالزهراء (س) اهواز (مرکز آموزش عالی حضرت خدیجه کبری (س)",
+      "major": "آموزش ابتدایی",
+      "page": "259"
+    },
+    {
+      "code": "51023",
+      "field": "campus",
+      "value": "پردیس فاطمهالزهراء (س) اهواز (مرکز آموزش عالی حضرت خدیجه کبری (س)",
+      "major": "آموزش ابتدایی",
+      "page": "259"
+    },
+    {
+      "code": "51024",
+      "field": "campus",
+      "value": "پردیس فاطمهالزهراء (س) اهواز (مرکز آموزش عالی حضرت خدیجه کبری (س)",
+      "major": "آموزش ابتدایی",
+      "page": "259"
+    },
+    {
+      "code": "51025",
+      "field": "campus",
+      "value": "پردیس فاطمهالزهراء (س) اهواز (مرکز آموزش عالی حضرت خدیجه کبری (س)",
+      "major": "آموزش ابتدایی",
+      "page": "259"
+    },
+    {
+      "code": "51031",
+      "field": "campus",
+      "value": "پردیس حضرت رسول اکرم (ص) اهواز (مرکز آموزش عالی امام جعفرصادق (ع)",
+      "major": "آموزش ابتدایی",
+      "page": "259"
+    },
+    {
+      "code": "51033",
+      "field": "campus",
+      "value": "پردیس حضرت رسول اکرم (ص) اهواز (مرکز آموزش عالی امام جعفرصادق (ع)",
+      "major": "آموزش ابتدایی",
+      "page": "259"
+    },
+    {
+      "code": "51034",
+      "field": "campus",
+      "value": "پردیس حضرت رسول اکرم (ص) اهواز (مرکز آموزش عالی امام جعفرصادق (ع)",
+      "major": "آموزش ابتدایی",
+      "page": "259"
+    },
+    {
+      "code": "51042",
+      "field": "campus",
+      "value": "پردیس حضرت رسول اکرم (ص) اهواز (مرکز آموزش عالی امام جعفرصادق (ع)",
+      "major": "آموزش ابتدایی",
+      "page": "260"
+    },
+    {
+      "code": "51043",
+      "field": "campus",
+      "value": "پردیس حضرت رسول اکرم (ص) اهواز (مرکز آموزش عالی امام جعفرصادق (ع)",
+      "major": "آموزش ابتدایی",
+      "page": "260"
+    },
+    {
+      "code": "51044",
+      "field": "campus",
+      "value": "پردیس حضرت رسول اکرم (ص) اهواز (مرکز آموزش عالی امام جعفرصادق (ع)",
+      "major": "آموزش ابتدایی",
+      "page": "260"
+    },
+    {
+      "code": "51051",
+      "field": "campus",
+      "value": "پردیس حضرت رسول اکرم (ص) اهواز (مرکز آموزش عالی امام جعفرصادق (ع)",
+      "major": "آموزش ابتدایی",
+      "page": "260"
+    },
+    {
+      "code": "51053",
+      "field": "campus",
+      "value": "پردیس حضرت رسول اکرم (ص) اهواز (مرکز آموزش عالی امام جعفرصادق (ع)",
+      "major": "آموزش ابتدایی",
+      "page": "260"
+    },
+    {
+      "code": "51055",
+      "field": "campus",
+      "value": "پردیس حضرت رسول اکرم (ص) اهواز (مرکز آموزش عالی امام جعفرصادق (ع)",
+      "major": "آموزش ابتدایی",
+      "page": "260"
+    }
+  ],
+  "weird_university_count": 0,
+  "weird_university_sample": [],
+  "major_counts": {
+    "آموزش ابتدایی": 1197,
+    "اقتصاد": 77,
+    "تاریخ": 47,
+    "جامعه‌شناسی": 55,
+    "جغرافیا": 58,
+    "حسابداری": 207,
+    "حقوق": 105,
+    "روان‌شناسی": 89,
+    "زبان و ادبیات فارسی": 82,
+    "علم اطلاعات و دانش‌شناسی": 31,
+    "علوم تربیتی": 61,
+    "علوم سیاسی": 46,
+    "علوم ورزشی": 153,
+    "مددکاری اجتماعی": 24,
+    "مدیریت بازرگانی": 87,
+    "مدیریت دولتی": 30,
+    "مدیریت صنعتی": 52,
+    "مدیریت مالی": 28,
+    "مشاوره": 45,
+    "گردشگری": 39
+  },
+  "program_counts": {
+    "در جدول ذکر نشده": 1385,
+    "روزانه": 768,
+    "نوبت دوم": 347,
+    "پردیس خودگردان": 10,
+    "مجازی": 3
+  },
+  "source_counts": {
+    "1405-humanities-teacher-booklet": 1201,
+    "1405-humanities-booklet": 1312
+  }
+}
