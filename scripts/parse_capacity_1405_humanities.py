@@ -195,7 +195,9 @@ def parse_regular(pages):
 
             has_male, has_female = "مرد" in core, "زن" in core
             gender = "زن و مرد" if has_male and has_female else ("مرد" if has_male else ("زن" if has_female else "در جدول ذکر نشده"))
-            conditions = norm(core.replace("مرد", " ").replace("زن", " "))
+            conditions_core = re.sub(r"\\b(?:مرد|زن)\\b", " ", core)
+            conditions_core = re.sub(r"(?:^|\\s)(?:-|\\d+)\\s+(?:-|\\d+)\\s*$", " ", conditions_core)
+            conditions = norm(conditions_core)
             category = "شرایط خاص" if any(word in normalized_line + " " + current_university
                                            for word in ("تعهد", "بورس", "مصاحبه", "شرایط خاص", "مناطق محروم")) else "عادی"
 
@@ -235,6 +237,8 @@ def extract_campus(line):
                 cut = min(cut, found)
         campus = tail[:cut].strip(" -")
         if campus and len(campus) < 140:
+            while campus.count("(") > campus.count(")"):
+                campus += ")"
             return "دانشگاه فرهنگیان", campus
     return None
 
