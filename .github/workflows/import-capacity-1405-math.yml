@@ -64,7 +64,7 @@ jobs:
           all_path = norm / "capacities-all.csv"
 
           def read_csv(path):
-              with path.open(encoding="utf-8", newline="") as f:
+              with path.open(encoding="utf-8-sig", newline="") as f:
                   return list(csv.DictReader(f))
 
           exp = read_csv(exp_path)
