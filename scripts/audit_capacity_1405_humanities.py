@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# rerun marker after parser cleanup
+# rerun marker after numeric gender cleanup
 import csv, json, re, subprocess, tempfile
 from collections import Counter, defaultdict
 from pathlib import Path
