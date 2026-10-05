@@ -2,19 +2,24 @@
   "year": 1405,
   "group": "experimental",
   "source_id": "1405-booklet",
-  "original": "Tajrobi.pdf",
-  "pages": 664,
-  "sha256": "e9f6d83e0be75e62a5b240dfcbf66856ba0d9c575e762a04fbb610b545618756",
-  "repository_parts": [
-    {"path":"data/raw/sanjesh/experimental/1405/Tajrobi_part_1.pdf","sha256":"aa1e065f5434e0fbc2f56ef89b1d9439e4ad72a90a600fb395782f653fcca316"},
-    {"path":"data/raw/sanjesh/experimental/1405/Tajrobi_part_2.pdf","sha256":"338857c01260aee0b47be832d8e5ccf96b3eff4a0d550ef96ab3bd9be967bdac"}
+  "original_name": "Tajrobi.pdf",
+  "source_repository_paths": [
+    "data/raw/sanjesh/experimental/1405/Tajrobi_part_1.pdf",
+    "data/raw/sanjesh/experimental/1405/Tajrobi_part_2.pdf"
   ],
-  "extraction": {
+  "pages": 664,
+  "sha256_original": "e9f6d83e0be75e62a5b240dfcbf66856ba0d9c575e762a04fbb610b545618756",
+  "sha256_parts": {
+    "Tajrobi_part_1.pdf": "aa1e065f5434e0fbc2f56ef89b1d9439e4ad72a90a600fb395782f653fcca316",
+    "Tajrobi_part_2.pdf": "338857c01260aee0b47be832d8e5ccf96b3eff4a0d550ef96ab3bd9be967bdac"
+  },
+  "extraction_scope": "Only the 39 experimental-group major families already supported by the capacity explorer are normalized here.",
+  "qa": {
     "rows": 3900,
-    "capacity": 56662,
-    "major_families": 39,
-    "scope": "Existing experimental major families used by the Flow capacity explorer; unsupported booklet majors are not included in this supplemental export.",
-    "page_numbering": "PDF pages, 1-based",
-    "includes_medical_dental_1406_start_codes": true
+    "unique_course_location_codes": 3900,
+    "duplicate_course_location_codes": 0,
+    "missing_university": 0,
+    "missing_major": 0,
+    "total_capacity": 56662
   }
 }
