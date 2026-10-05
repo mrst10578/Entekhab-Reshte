@@ -1,0 +1,40 @@
+name: Fetch 1405 humanities booklet
+
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-humanities-1405.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download humanities booklet
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data/raw/sanjesh/humanities/1405
+          curl --fail --location --retry 4 --retry-delay 2 --connect-timeout 20 --max-time 300 \
+            -A "Mozilla/5.0" \
+            "https://dl.novinkonkor.com/daftarche_entekhab_reshte/1405/Ensani.pdf" \
+            -o data/raw/sanjesh/humanities/1405/Ensani.pdf
+
+          test -s data/raw/sanjesh/humanities/1405/Ensani.pdf
+          file data/raw/sanjesh/humanities/1405/Ensani.pdf
+          sha256sum data/raw/sanjesh/humanities/1405/Ensani.pdf | tee data/raw/sanjesh/humanities/1405/Ensani.sha256
+
+      - name: Commit booklet
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw/sanjesh/humanities/1405/Ensani.pdf data/raw/sanjesh/humanities/1405/Ensani.sha256
+          git diff --cached --quiet && exit 0
+          git commit -m "data: add 1405 humanities booklet"
+          git push
