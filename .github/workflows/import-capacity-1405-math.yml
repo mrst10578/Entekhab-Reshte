@@ -1,0 +1,223 @@
+name: Import 1405 math capacity
+
+on:
+  push:
+    paths:
+      - ".github/workflows/import-capacity-1405-math.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download and verify 1405 math booklet
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          mkdir -p data/raw/sanjesh/math/1405
+          urls=(
+            "https://dl.novinkonkor.com/daftarche_entekhab_reshte/1405/Riazi.pdf"
+            "https://www8.sanjesh.org/download/1405/sar/csnote/Riazi_v1.pdf"
+          )
+          ok=0
+          for url in "\${urls[@]}"; do
+            echo "Trying $url"
+            if curl --fail --location --retry 3 --retry-delay 2 --connect-timeout 20 --max-time 300 -A "Mozilla/5.0" "$url" -o /tmp/Riazi.pdf; then
+              if [ "$(sha256sum /tmp/Riazi.pdf | awk '{print $1}')" = "515003f7dc758a9c90807c0a2174604604dca93e85985f5831ef35ebc5e1e389" ]; then
+                ok=1
+                break
+              fi
+            fi
+          done
+          test "$ok" -eq 1
+          cp /tmp/Riazi.pdf data/raw/sanjesh/math/1405/Riazi.pdf
+          pdfinfo /tmp/Riazi.pdf | grep -E '^Pages:'
+
+      - name: Extract math capacity rows
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/parse_capacity_1405_math.py /tmp/Riazi.pdf \
+            --csv data/capacity/normalized/1405/capacities-math.csv \
+            --summary data/capacity/normalized/1405/MATH_SUMMARY.json \
+            --expect-rows 2003 --expect-capacity 52310
+
+      - name: Merge 1405 and refresh metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import csv, json, re
+          from collections import defaultdict
+          from pathlib import Path
+
+          base = Path("data/capacity")
+          norm = base / "normalized/1405"
+          exp_path = norm / "capacities-1405-experimental.csv"
+          math_path = norm / "capacities-math.csv"
+          all_path = norm / "capacities-all.csv"
+
+          def read_csv(path):
+              with path.open(encoding="utf-8", newline="") as f:
+                  return list(csv.DictReader(f))
+
+          exp = read_csv(exp_path)
+          math = read_csv(math_path)
+          rows = exp + math
+          if len(exp) != 3900 or len(math) != 2003 or len(rows) != 5903:
+              raise SystemExit(f"unexpected row counts exp={len(exp)} math={len(math)} total={len(rows)}")
+
+          def code(row):
+              m = re.search(r"کدرشته[\s\u200c]*محل منبع:\s*(\d+)", row.get("notes", ""))
+              if not m:
+                  raise SystemExit(f"missing code: {row}")
+              return m.group(1)
+
+          exp_codes = [code(row) for row in exp]
+          math_codes = [code(row) for row in math]
+          if len(set(exp_codes)) != len(exp_codes) or len(set(math_codes)) != len(math_codes):
+              raise SystemExit("duplicate course-location code inside a 1405 group")
+
+          rows.sort(key=lambda r: (r["major"], r["province"], r["university"], int(r["source_page"] or 0), code(r)))
+          header = list(rows[0])
+          with all_path.open("w", encoding="utf-8", newline="") as f:
+              w = csv.DictWriter(f, fieldnames=header, lineterminator="\n")
+              w.writeheader()
+              w.writerows(rows)
+
+          total_capacity = sum(int(r["capacity"]) for r in rows)
+          if total_capacity != 108972:
+              raise SystemExit(f"unexpected 1405 total capacity {total_capacity}")
+
+          majors = defaultdict(lambda: {"rows": 0, "capacity": 0})
+          for row in rows:
+              majors[row["major"]]["rows"] += 1
+              majors[row["major"]]["capacity"] += int(row["capacity"])
+          summary = {
+              "year": 1405,
+              "status": "partial_1405_experimental_and_math",
+              "rows": len(rows),
+              "capacity": total_capacity,
+              "groups": {
+                  "experimental": {"rows": len(exp), "capacity": sum(int(r["capacity"]) for r in exp)},
+                  "math": {"rows": len(math), "capacity": sum(int(r["capacity"]) for r in math)},
+                  "humanities": {"status": "not_imported_yet"}
+              },
+              "majors": dict(sorted(majors.items())),
+              "notes": "1405 currently covers experimental and math. Humanities is not imported yet. Payam Noor and nonprofit rows are intentionally excluded from the math extraction."
+          }
+          (norm / "SUMMARY.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          root_summary_path = base / "SUMMARY.json"
+          root_summary = json.loads(root_summary_path.read_text(encoding="utf-8"))
+          dataset = root_summary["dataset"]
+          dataset["years"]["1405"] = {
+              "year": 1405,
+              "rows": len(rows),
+              "capacity": total_capacity,
+              "input_files": [
+                  {"path": "capacities-1405-experimental.csv", "rows": len(exp), "capacity": sum(int(r["capacity"]) for r in exp)},
+                  {"path": "capacities-math.csv", "rows": len(math), "capacity": sum(int(r["capacity"]) for r in math)}
+              ],
+              "coverage": ["experimental", "math"],
+              "partial": True
+          }
+          dataset["rows"] = sum(int(item["rows"]) for item in dataset["years"].values())
+          dataset["capacity"] = sum(int(item["capacity"]) for item in dataset["years"].values())
+          root_summary_path.write_text(json.dumps(root_summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          sources = base / "raw/sources.csv"
+          text = sources.read_text(encoding="utf-8")
+          if not re.search(r"(?m)^1405-math-booklet,", text):
+              if not text.endswith("\n"):
+                  text += "\n"
+              text += "1405-math-booklet,1405,Riazi.pdf,booklet,دفترچه انتخاب رشته گروه علوم ریاضی و فنی ۱۴۰۵,515003f7dc758a9c90807c0a2174604604dca93e85985f5831ef35ebc5e1e389,,فایل در data/raw/sanjesh/math/1405/Riazi.pdf نگهداری می‌شود؛ پیام نور و غیرانتفاعی در استخراج ابزار وارد نشده‌اند.\n"
+              sources.write_text(text, encoding="utf-8")
+
+          raw_meta = base / "raw/1405/sources.json"
+          meta = json.loads(raw_meta.read_text(encoding="utf-8"))
+          meta["math"] = {
+              "source_id": "1405-math-booklet",
+              "original_name": "Riazi.pdf",
+              "source_repository_path": "data/raw/sanjesh/math/1405/Riazi.pdf",
+              "pages": 478,
+              "sha256": "515003f7dc758a9c90807c0a2174604604dca93e85985f5831ef35ebc5e1e389",
+              "qa": {
+                  "rows": len(math),
+                  "unique_course_location_codes": len(set(math_codes)),
+                  "major_families": len(set(r["major"] for r in math)),
+                  "total_capacity": sum(int(r["capacity"]) for r in math),
+                  "excluded": ["پیام نور", "غیرانتفاعی"]
+              }
+          }
+          raw_meta.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          report = json.loads((norm / "MATH_SUMMARY.json").read_text(encoding="utf-8"))
+          lines = [
+              "# گزارش استخراج ظرفیت ۱۴۰۵ - گروه ریاضی",
+              "",
+              f"- ردیف نهایی: **{report['rows']}**",
+              f"- ظرفیت ثبت‌شده: **{report['capacity']}**",
+              f"- کدرشته‌محل یکتا: **{report['unique_course_location_codes']}**",
+              f"- خانواده‌رشته: **{report['major_families']}**",
+              f"- حذف عمدی پیام‌نور/غیرانتفاعی: **{report['excluded_payam_noor_or_nonprofit_rows']} ردیف**",
+              "",
+              "منبع: data/raw/sanjesh/math/1405/Riazi.pdf.",
+              "",
+              "این داده فقط ۲۶ خانواده‌رشتهٔ ریاضیِ پشتیبانی‌شده در ابزار ظرفیت را پوشش می‌دهد."
+          ]
+          (norm / "MATH_EXTRACTION_REPORT.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+          readme = base / "README.md"
+          text = readme.read_text(encoding="utf-8")
+          text = text.replace("## مکمل ۱۴۰۵ گروه تجربی", "## مکمل ۱۴۰۵ گروه تجربی و ریاضی")
+          old = "گروه‌های ریاضی و انسانی ۱۴۰۵ هنوز وارد نشده‌اند. به همین دلیل SUMMARY.json.dataset و جدول «خروجی کلی فعلی» در ادامه همچنان آمار کامل چهار سال ۱۴۰۱ تا ۱۴۰۴ را نشان می‌دهند و مکمل ۱۴۰۵ عمداً با آن جمع نشده است."
+          new = "گروه ریاضی ۱۴۰۵ نیز از دفترچه رسمی استخراج شده و در normalized/1405/capacities-math.csv ثبت شده است. خروجی ۱۴۰۵ فعلاً گروه‌های تجربی و ریاضی را پوشش می‌دهد؛ گروه انسانی ۱۴۰۵ هنوز وارد نشده است. SUMMARY.json.dataset اکنون ۱۴۰۵ را به‌صورت پوشش جزئی با برچسب partial ثبت می‌کند."
+          text = text.replace(old, new)
+          if "۲۰۰۳ ردیف" not in text[:2500]:
+              marker = "دادهٔ سال ۱۴۰۵ گروه تجربی از دفترچهٔ ارسالی استخراج"
+              idx = text.find(marker)
+              if idx >= 0:
+                  para_end = text.find("\n\n", idx)
+                  insert = "\n\nدادهٔ گروه ریاضی ۱۴۰۵ نیز شامل **۲۰۰۳ ردیف**، **۲۶ خانواده‌رشته** و **۵۲۳۱۰ ظرفیت** است. طبق قاعده پروژه، ردیف‌های پیام‌نور و غیرانتفاعی در این استخراج وارد نشده‌اند."
+                  text = text[:para_end] + insert + text[para_end:]
+          readme.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Validate merged 1405
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import csv, json, re
+          from pathlib import Path
+          p=Path("data/capacity/normalized/1405/capacities-all.csv")
+          rows=list(csv.DictReader(p.open(encoding="utf-8")))
+          assert len(rows)==5903
+          assert sum(int(r["capacity"]) for r in rows)==108972
+          math=[r for r in rows if r["source_id"]=="1405-math-booklet"]
+          assert len(math)==2003
+          assert len({re.search(r"کدرشته[\s\u200c]*محل منبع:\s*(\d+)",r["notes"]).group(1) for r in math})==2003
+          assert len({r["major"] for r in math})==26
+          assert not any("پیام نور" in r["university"] or "غیرانتفاعی" in r["university"] or "غیر انتفاعی" in r["university"] for r in math)
+          print(json.dumps({"rows":len(rows),"capacity":sum(int(r["capacity"]) for r in rows),"math_rows":len(math)},ensure_ascii=False))
+          PY
+          git diff --check
+
+      - name: Commit 1405 math data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/capacity data/raw/sanjesh/math/1405/Riazi.pdf
+          git diff --cached --stat
+          git diff --cached --quiet && exit 0
+          git commit -m "data: add 1405 math capacity dataset"
+          git push
