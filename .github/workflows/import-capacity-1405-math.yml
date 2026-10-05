@@ -26,7 +26,7 @@ jobs:
             "https://www8.sanjesh.org/download/1405/sar/csnote/Riazi_v1.pdf"
           )
           ok=0
-          for url in "\${urls[@]}"; do
+          for url in "${urls[@]}"; do
             echo "Trying $url"
             if curl --fail --location --retry 3 --retry-delay 2 --connect-timeout 20 --max-time 300 -A "Mozilla/5.0" "$url" -o /tmp/Riazi.pdf; then
               if [ "$(sha256sum /tmp/Riazi.pdf | awk '{print $1}')" = "515003f7dc758a9c90807c0a2174604604dca93e85985f5831ef35ebc5e1e389" ]; then
