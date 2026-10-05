@@ -1,0 +1,54 @@
+name: Import 1405 humanities capacity
+
+on:
+  push:
+    paths:
+      - ".github/workflows/import-capacity-1405-humanities.yml"
+      - "scripts/parse_capacity_1405_humanities.py"
+      - "scripts/merge_capacity_1405_humanities.py"
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install PDF tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+
+      - name: Verify source PDF
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s data/raw/sanjesh/humanities/1405/Ensani.pdf
+          echo "dc53d8c1f61bfd2f9fcb6d8d1cf97ea134c46aa140e0ed7129c3a9f50b5b2d06  data/raw/sanjesh/humanities/1405/Ensani.pdf" | sha256sum -c -
+
+      - name: Extract humanities 1405
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/parse_capacity_1405_humanities.py             data/raw/sanjesh/humanities/1405/Ensani.pdf             --csv data/capacity/normalized/1405/capacities-humanities.csv             --summary data/capacity/normalized/1405/HUMANITIES_SUMMARY.json             --expect-rows 2513             --expect-capacity 23226
+
+      - name: Merge and validate 1405
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/merge_capacity_1405_humanities.py
+          git diff --check
+
+      - name: Commit humanities 1405
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/capacity
+          git diff --cached --stat
+          git diff --cached --quiet && exit 0
+          git commit -m "data: add 1405 humanities capacity dataset"
+          git push
