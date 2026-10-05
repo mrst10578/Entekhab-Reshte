@@ -212,9 +212,9 @@ def parse_regular(pages):
             else:
                 gender = "در جدول ذکر نشده"
 
-            conditions_core = re.sub(r"\\b(?:مرد|زن)\\b", " ", core)
-            tail_pattern = r"(?:^|\\s)(?:-|\\d+)" + r"(?:\\s+(?:-|\\d+))" * (capacity_tail_slots - 1) + r"\\s*$"
-            conditions_core = re.sub(tail_pattern, " ", conditions_core)
+            conditions_core = re.sub(r"\b(?:مرد|زن)\b", " ", core)
+            tail_pattern = r"(?:^|\s)(?:-|\d+)" + r"(?:\s+(?:-|\d+))" * (capacity_tail_slots - 1) + r"\s*$"
+            conditions_core = re.sub(r"\b(?:مرد|زن)\b", " ", core)
             conditions = norm(conditions_core)
             category = "شرایط خاص" if any(word in normalized_line + " " + current_university
                                            for word in ("تعهد", "بورس", "مصاحبه", "شرایط خاص", "مناطق محروم")) else "عادی"
