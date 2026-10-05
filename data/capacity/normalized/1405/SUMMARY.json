@@ -1,7 +1,26 @@
 {
-  "rows": 3900,
-  "capacity": 56662,
+  "year": 1405,
+  "status": "partial_1405_experimental_and_math",
+  "rows": 5903,
+  "capacity": 108972,
+  "groups": {
+    "experimental": {
+      "rows": 3900,
+      "capacity": 56662
+    },
+    "math": {
+      "rows": 2003,
+      "capacity": 52310
+    },
+    "humanities": {
+      "status": "not_imported_yet"
+    }
+  },
   "majors": {
+    "آمار": {
+      "rows": 68,
+      "capacity": 1791
+    },
     "اتاق عمل": {
       "rows": 210,
       "capacity": 1851
@@ -50,6 +69,10 @@
       "rows": 51,
       "capacity": 700
     },
+    "ریاضیات و کاربردها / ریاضی محض": {
+      "rows": 96,
+      "capacity": 2928
+    },
     "زیست‌شناسی جانوری": {
       "rows": 44,
       "capacity": 885
@@ -75,12 +98,12 @@
       "capacity": 163
     },
     "شیمی محض": {
-      "rows": 70,
-      "capacity": 1543
+      "rows": 133,
+      "capacity": 2574
     },
     "شیمی کاربردی": {
-      "rows": 86,
-      "capacity": 1759
+      "rows": 165,
+      "capacity": 2670
     },
     "علوم آزمایشگاهی": {
       "rows": 159,
@@ -98,6 +121,10 @@
       "rows": 88,
       "capacity": 1132
     },
+    "علوم کامپیوتر": {
+      "rows": 91,
+      "capacity": 2145
+    },
     "فناوری اطلاعات سلامت": {
       "rows": 80,
       "capacity": 1141
@@ -110,6 +137,10 @@
       "rows": 35,
       "capacity": 416
     },
+    "فیزیک": {
+      "rows": 120,
+      "capacity": 3496
+    },
     "مامایی": {
       "rows": 116,
       "capacity": 1566
@@ -118,6 +149,14 @@
       "rows": 33,
       "capacity": 395
     },
+    "مهندسی انرژی": {
+      "rows": 34,
+      "capacity": 705
+    },
+    "مهندسی برق": {
+      "rows": 190,
+      "capacity": 6587
+    },
     "مهندسی بهداشت حرفه ای و ایمنی کار": {
       "rows": 104,
       "capacity": 1264
@@ -125,6 +164,78 @@
     "مهندسی بهداشت محیط": {
       "rows": 126,
       "capacity": 1950
+    },
+    "مهندسی دریا / کشتی": {
+      "rows": 21,
+      "capacity": 336
+    },
+    "مهندسی راه‌آهن": {
+      "rows": 9,
+      "capacity": 103
+    },
+    "مهندسی ساخت و تولید": {
+      "rows": 30,
+      "capacity": 622
+    },
+    "مهندسی شهرسازی": {
+      "rows": 48,
+      "capacity": 905
+    },
+    "مهندسی شیمی": {
+      "rows": 109,
+      "capacity": 2978
+    },
+    "مهندسی صنایع": {
+      "rows": 132,
+      "capacity": 2980
+    },
+    "مهندسی عمران": {
+      "rows": 158,
+      "capacity": 4697
+    },
+    "مهندسی معدن": {
+      "rows": 40,
+      "capacity": 1231
+    },
+    "مهندسی معماری": {
+      "rows": 79,
+      "capacity": 1590
+    },
+    "مهندسی مواد و متالورژی": {
+      "rows": 77,
+      "capacity": 2306
+    },
+    "مهندسی مکانیک": {
+      "rows": 175,
+      "capacity": 5229
+    },
+    "مهندسی نساجی": {
+      "rows": 14,
+      "capacity": 452
+    },
+    "مهندسی نفت": {
+      "rows": 41,
+      "capacity": 705
+    },
+    "مهندسی نقشه‌برداری / ژئوماتیک": {
+      "rows": 38,
+      "capacity": 813
+    },
+    "مهندسی هوافضا": {
+      "rows": 21,
+      "capacity": 510
+    },
+    "مهندسی پزشکی": {
+      "rows": 40,
+      "capacity": 1122
+    },
+    "مهندسی پلیمر": {
+      "rows": 48,
+      "capacity": 924
+    },
+    "مهندسی کامپیوتر": {
+      "rows": 182,
+      "capacity": 5213
     },
     "میکروبیولوژی": {
       "rows": 25,
@@ -158,5 +269,6 @@
       "rows": 26,
       "capacity": 247
     }
-  }
+  },
+  "notes": "1405 currently covers experimental and math. Humanities is not imported yet. Payam Noor and nonprofit rows are intentionally excluded from the math extraction."
 }

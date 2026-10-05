@@ -21,5 +21,22 @@
     "missing_university": 0,
     "missing_major": 0,
     "total_capacity": 56662
+  },
+  "math": {
+    "source_id": "1405-math-booklet",
+    "original_name": "Riazi.pdf",
+    "source_repository_path": "data/raw/sanjesh/math/1405/Riazi.pdf",
+    "pages": 478,
+    "sha256": "515003f7dc758a9c90807c0a2174604604dca93e85985f5831ef35ebc5e1e389",
+    "qa": {
+      "rows": 2003,
+      "unique_course_location_codes": 2003,
+      "major_families": 26,
+      "total_capacity": 52310,
+      "excluded": [
+        "پیام نور",
+        "غیرانتفاعی"
+      ]
+    }
   }
 }
