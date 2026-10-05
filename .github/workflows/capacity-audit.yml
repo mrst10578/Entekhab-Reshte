@@ -1,0 +1,24 @@
+name: Capacity parser regressions
+
+on:
+  push:
+    paths:
+      - 'scripts/parse_capacity_1405_experimental.py'
+      - 'tests/test_capacity_1405.py'
+      - 'data/capacity/normalized/1405/**'
+      - '.github/workflows/capacity-audit.yml'
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install PyMuPDF==1.26.4
+      - run: python -m unittest discover -s tests -v
