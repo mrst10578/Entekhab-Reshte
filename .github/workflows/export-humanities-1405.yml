@@ -1,0 +1,22 @@
+name: Export humanities 1405 PDF
+
+on:
+  push:
+    paths:
+      - ".github/workflows/export-humanities-1405.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload humanities PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ensani-1405
+          path: data/raw/sanjesh/humanities/1405/Ensani.pdf
+          compression-level: 0
+          retention-days: 1
