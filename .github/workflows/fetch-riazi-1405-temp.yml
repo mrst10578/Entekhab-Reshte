@@ -1,0 +1,44 @@
+name: Fetch Riazi 1405 temp
+
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-riazi-1405-temp.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download math selection guide
+        shell: bash
+        run: |
+          set -euo pipefail
+          urls=(
+            "https://dl.novinkonkor.com/daftarche_entekhab_reshte/1405/Riazi.pdf"
+            "https://www8.sanjesh.org/download/1405/sar/csnote/Riazi_v1.pdf"
+          )
+          ok=0
+          for url in "${urls[@]}"; do
+            echo "Trying: $url"
+            if curl --fail --location --retry 3 --retry-delay 2 --connect-timeout 20 --max-time 300 \
+              -A "Mozilla/5.0" "$url" -o /tmp/Riazi.pdf; then
+              if head -c 5 /tmp/Riazi.pdf | grep -q '%PDF-' && [ "$(stat -c%s /tmp/Riazi.pdf)" -gt 30000000 ]; then
+                ok=1
+                break
+              fi
+            fi
+          done
+          [ "$ok" -eq 1 ]
+          ls -lh /tmp/Riazi.pdf
+          sha256sum /tmp/Riazi.pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Riazi-1405
+          path: /tmp/Riazi.pdf
+          compression-level: 0
+          retention-days: 1
